@@ -46,4 +46,4 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-Sitemap: https://xpymik6-rgb.github.io/lideres-cripto/sitemap.xml
+Sitemap: https://liderescripto.com/sitemap.xml
