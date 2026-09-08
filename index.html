@@ -97,21 +97,34 @@ footer{padding:40px 0 60px;color:var(--suave);font-size:16px}
         "serviceUrl":"https://t.me/LideresCripto",
         "name":"Canal de Telegram"
       },
-      "offers":{
-        "@type":"Offer",
-        "price":"0",
-        "priceCurrency":"USD",
-        "availability":"https://schema.org/InStock",
-        "description":"Acceso gratuito al canal y al bot. No hay suscripción de pago."
-      }
+      "offers":[
+        {
+          "@type":"Offer",
+          "name":"Canal y bot",
+          "price":"0",
+          "priceCurrency":"USD",
+          "availability":"https://schema.org/InStock",
+          "description":"Acceso gratuito al canal de Telegram y al bot de consulta."
+        },
+        {
+          "@type":"Offer",
+          "name":"Pro",
+          "price":"9",
+          "priceCurrency":"USD",
+          "availability":"https://schema.org/InStock",
+          "description":"Señales al instante por privado, avisos de precio y fichas sin límite. Mensual, sin permanencia."
+        }
+      ]
     },
     {
       "@type":"FAQPage",
       "mainEntity":[
         {"@type":"Question","name":"¿Es gratis el canal Líderes Cripto?",
-         "acceptedAnswer":{"@type":"Answer","text":"Sí, el canal y el bot son gratis y no hay suscripción de pago. No vendemos cursos ni grupos VIP."}},
+         "acceptedAnswer":{"@type":"Answer","text":"El canal y el bot son gratis: radar tres veces al día, noticias, desbloqueos, señales y resultados semanales. Existe una opción de pago llamada Pro para quien quiere las señales al instante por privado."}},
+        {"@type":"Question","name":"¿Cuánto cuesta Pro y qué incluye?",
+         "acceptedAnswer":{"@type":"Answer","text":"9 dólares al mes sin permanencia. Incluye cada señal en el momento en que ocurre, avisos de precio personalizados y consultas de fichas sin límite. Se paga con Estrellas de Telegram o con USDT."}},
         {"@type":"Question","name":"¿Cómo ganan dinero si el canal es gratis?",
-         "acceptedAnswer":{"@type":"Answer","text":"Con el programa de referidos de las bolsas. Si abres tu cuenta con nuestro enlace, la bolsa nos comparte una parte de sus comisiones. A ti no te cuesta nada extra y el precio que pagas es el mismo."}},
+         "acceptedAnswer":{"@type":"Answer","text":"De dos formas: el programa de referidos de las bolsas, donde la bolsa comparte parte de sus comisiones sin costo extra para ti, y las suscripciones Pro de quien las quiera."}},
         {"@type":"Question","name":"¿De dónde salen los datos de las señales?",
          "acceptedAnswer":{"@type":"Answer","text":"De datos públicos: el ranking y las posiciones de Hyperliquid, el copytrading de OKX, el funding y el interés abierto de Binance y Bybit, y el flujo de liquidaciones de Bybit. No usamos rumores ni grupos privados."}},
         {"@type":"Question","name":"¿Qué es un acuerdo de líderes?",
@@ -152,6 +165,7 @@ footer{padding:40px 0 60px;color:var(--suave);font-size:16px}
       <div class="tarjeta"><h3>🔓 Desbloqueos</h3><p>Qué tokens liberan oferta en las próximas 36 horas y cuánto pesa eso frente a su capitalización.</p></div>
       <div class="tarjeta"><h3>🎯 Resultados del domingo</h3><p>Cuántas señales terminaron en positivo a las 24 horas, con la mejor y la peor de la semana y el enlace al aviso original.</p></div>
       <div class="tarjeta"><h3>🤖 Bot de consulta</h3><p>Escribe un ticker, por ejemplo BTC, y te devuelve precio, posiciones de los líderes, funding, interés abierto, desbloqueos y señales recientes.</p></div>
+      <div class="tarjeta"><h3>⚡ Pro, si lo quieres</h3><p>9 USD al mes: las señales al instante por privado en vez de esperar la edición, y avisos cuando tu moneda toca el precio que marcaste. El canal sigue gratis igual.</p></div>
     </div>
   </div>
 </section>
@@ -203,8 +217,9 @@ pagan por estar largo: $ONG -3.69% · $ACE -3.13%
   <div class="env">
     <h2>Preguntas que nos hacen</h2>
     <div class="faq">
-      <details open><summary>¿Es gratis?</summary><p>Sí. El canal y el bot son gratis y no hay suscripción de pago. No vendemos cursos ni grupos VIP.</p></details>
-      <details><summary>¿Y entonces cómo ganan dinero?</summary><p>Con el programa de referidos de las bolsas. Si abres tu cuenta con nuestro enlace, la bolsa nos comparte una parte de sus comisiones. A ti no te cuesta nada extra: pagas exactamente lo mismo que pagarías sin el enlace.</p></details>
+      <details open><summary>¿Es gratis?</summary><p>El canal y el bot son gratis, y así se quedan: radar tres veces al día, noticias, desbloqueos, señales y los resultados del domingo. Hay una opción de pago, Pro, para quien quiere las señales al instante por privado y avisos de precio. No vendemos cursos ni grupos VIP.</p></details>
+      <details><summary>¿Qué trae Pro y cuánto cuesta?</summary><p>9 dólares al mes, sin permanencia. Recibes cada señal en el momento en que ocurre y no en la edición siguiente, pones avisos para que el bot te escriba cuando tu moneda toque el precio que marcaste, y consultas fichas sin límite. Se paga con Estrellas de Telegram o con USDT. Escribe /pro al bot.</p></details>
+      <details><summary>¿Y entonces cómo ganan dinero?</summary><p>De dos formas, y las dos están a la vista. Con el programa de referidos de las bolsas: si abres tu cuenta con nuestro enlace, la bolsa nos comparte parte de sus comisiones y a ti no te cuesta nada extra. Y con las suscripciones Pro de quien las quiera.</p></details>
       <details><summary>¿De dónde salen los datos?</summary><p>De datos públicos: ranking y posiciones de Hyperliquid, copytrading de OKX, funding e interés abierto de Binance y Bybit, flujo de liquidaciones de Bybit y el calendario de desbloqueos.</p></details>
       <details><summary>¿Qué es un acuerdo de líderes?</summary><p>Es cuando tres o más de las cuentas grandes que seguimos entran en la misma moneda, del mismo lado, en menos de seis horas. No es opinión: es dinero real coincidiendo.</p></details>
       <details><summary>¿Sirve si opero en spot y sin apalancamiento?</summary><p>Sí. El funding y las liquidaciones te dicen dónde está el riesgo aunque tú no uses apalancamiento, y un desbloqueo grande afecta el precio en spot igual que en futuros.</p></details>
@@ -218,7 +233,7 @@ pagan por estar largo: $ONG -3.69% · $ACE -3.13%
 <section>
   <div class="env">
     <h2>Entra y míralo por una semana</h2>
-    <p>No hay registro, ni correo, ni pago. Si en una semana no te sirve, te sales.</p>
+    <p>El canal no pide registro, ni correo, ni pago. Si en una semana no te sirve, te sales. Y si quieres las señales al instante, ahí está Pro.</p>
     <a class="btn" style="background:var(--verde);color:#fff" href="https://t.me/LideresCripto">Entrar al canal</a>
     <a class="btn sec" style="color:var(--verde);border-color:var(--verde)" href="https://t.me/LideresCriptoBot_bot">Escribir al bot</a>
   </div>
