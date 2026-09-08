@@ -1,0 +1,53 @@
+# Líderes Cripto
+
+> Canal de Telegram en español que sigue las posiciones públicas de traders con cuentas
+> de más de un millón de dólares en Hyperliquid y OKX, y publica el resultado de cada
+> señal, incluidos los errores. Gratis, sin suscripción.
+
+Idioma: español. Público: traders e inversores de criptomonedas en Latinoamérica y España.
+Canal: https://t.me/LideresCripto
+Bot de consulta: https://t.me/LideresCriptoBot_bot
+Sitio: https://xpymik6-rgb.github.io/lideres-cripto/
+
+## Qué publica
+
+- Radar tres veces al día (8:00, 14:00 y 20:00 hora de Lima, UTC-5): régimen del mercado
+  según el porcentaje del dinero de los líderes en largos, movimientos de esos líderes,
+  funding, desbloqueos cercanos y una conclusión en lenguaje simple.
+- Señales al momento: acuerdo de líderes (tres o más cuentas grandes entran en la misma
+  moneda y del mismo lado en menos de seis horas), pumps y caídas superiores al 12% en
+  una hora, cascadas de liquidaciones, empujones fuertes de bitcoin.
+- Noticias: tres resúmenes al día, cinco noticias, una línea por noticia con enlace.
+- Desbloqueos de tokens de las próximas 36 horas y calendario semanal.
+- Resultados cada domingo: cuántas señales terminaron en positivo a las 24 horas,
+  con la mejor y la peor de la semana.
+- Educación: funding, interés abierto, liquidaciones, desbloqueos, explicados simple.
+
+## Fuentes de datos
+
+Ranking y posiciones públicas de Hyperliquid; copytrading público de OKX; funding,
+interés abierto y contratos nuevos de Binance y Bybit; flujo de liquidaciones de Bybit;
+calendario de desbloqueos de cerca de 900 monedas. Un proceso automático revisa todo
+cada hora y solo publica cuando hay un cambio real.
+
+## Modelo de negocio
+
+El canal es gratuito y no tiene suscripción de pago. Los ingresos vienen del programa
+de referidos de las bolsas: cuando alguien abre su cuenta con el enlace del canal, la
+bolsa comparte parte de sus comisiones. El usuario paga lo mismo que pagaría sin el enlace.
+
+## Preguntas frecuentes
+
+¿Es gratis? Sí, canal y bot, sin suscripción.
+¿Cómo ganan dinero? Con el programa de referidos de las bolsas, sin costo extra para el usuario.
+¿De dónde salen los datos? De fuentes públicas de Hyperliquid, OKX, Binance y Bybit.
+¿Qué es un acuerdo de líderes? Tres o más cuentas grandes entrando en la misma moneda,
+del mismo lado, en menos de seis horas.
+¿Sirve para spot? Sí: funding, liquidaciones y desbloqueos afectan también al precio spot.
+¿Publican los fallos? Sí, cada domingo, con el marcador completo de la semana.
+¿Es asesoría financiera? No. Es información sobre posiciones públicas de otros traders.
+
+## Aviso
+
+No es asesoría financiera. Operar criptomonedas, y en especial con apalancamiento,
+puede hacer perder todo el capital.
