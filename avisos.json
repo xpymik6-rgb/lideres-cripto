@@ -1,6 +1,15 @@
 {
- "actualizado": 1788981611.661832,
+ "actualizado": 1788988821.3217452,
  "avisos": [
+  {
+   "ts": 1788987678.7676034,
+   "tipo": "Señal",
+   "texto": "historia ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/55"
+  },
   {
    "ts": 1788980409.1787922,
    "tipo": "Edición del radar",
@@ -44,13 +53,6 @@
     "SOPH"
    ],
    "url": "https://t.me/LideresCripto/51"
-  },
-  {
-   "ts": 1788957009.0086892,
-   "tipo": "Noticias",
-   "texto": "noticias 09.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/50"
   }
  ]
 }
