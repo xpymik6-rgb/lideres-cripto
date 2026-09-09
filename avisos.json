@@ -1,6 +1,15 @@
 {
- "actualizado": 1788931220.9626577,
+ "actualizado": 1788949212.1667607,
  "avisos": [
+  {
+   "ts": 1788948367.0831318,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/47"
+  },
   {
    "ts": 1788930517.525552,
    "tipo": "Señal",
@@ -38,13 +47,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/35"
-  },
-  {
-   "ts": 1788914680.509029,
-   "tipo": "Guía",
-   "texto": "qué es el funding",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/32"
   }
  ]
 }
