@@ -106,7 +106,74 @@ async function escalera() {
   linea.style.top = pos(precio).toFixed(1) + "%";
   const px = document.getElementById("pxbtc");
   if (px) px.textContent = nfmt(precio);
+  ESCALA = {alto, bajo, coin};
   dibujaChispa(coin);
+  historiaDelDia(porMoneda, mids);
+}
+
+/* Прицел: перекрестие следует за курсором по лестнице и показывает цену
+   на этом уровне. В терминале это привычный инструмент, а не украшение. */
+let ESCALA = null;
+(function mira() {
+  const grada = document.getElementById("grada");
+  if (!grada) return;
+  const linea = document.createElement("div");
+  linea.className = "mira";
+  const et = document.createElement("span");
+  et.className = "mira-et num";
+  linea.appendChild(et);
+  grada.appendChild(linea);
+  const mover = (ev) => {
+    if (!ESCALA) return;
+    const r = grada.getBoundingClientRect();
+    const y = (ev.touches ? ev.touches[0].clientY : ev.clientY) - r.top;
+    if (y < 0 || y > r.height) { linea.style.opacity = 0; return; }
+    const k = y / r.height;
+    const valor = ESCALA.alto - (ESCALA.alto - ESCALA.bajo) * k;
+    linea.style.opacity = 1;
+    linea.style.top = y.toFixed(0) + "px";
+    et.textContent = nfmt(valor);
+  };
+  grada.addEventListener("mousemove", mover);
+  grada.addEventListener("touchmove", mover, {passive: true});
+  grada.addEventListener("mouseleave", () => linea.style.opacity = 0);
+})();
+
+/* Карточка «история дня»: самая громкая позиция рынка прямо сейчас.
+   Та же логика, что у поста в 16:00: крупный плюс, крупный минус
+   или подход к ликвидации. */
+function historiaDelDia(porMoneda, mids) {
+  const caja = document.getElementById("historia");
+  if (!caja) return;
+  let mejor = null;
+  for (const [coin, lista] of Object.entries(porMoneda)) {
+    const precio = parseFloat(mids[coin] || 0);
+    for (const p of lista) {
+      if (p.usd < 1e6) continue;
+      const cerca = precio && p.liq ? Math.abs(precio / p.liq - 1) : 1;
+      let peso = Math.abs(p.pnl), tipo = p.pnl >= 0 ? "gana" : "pierde";
+      if (cerca < 0.15) { peso *= 3; tipo = "liquidacion"; }
+      if (!mejor || peso > mejor.peso) mejor = {...p, peso, tipo, precio};
+    }
+  }
+  if (!mejor) { caja.classList.add("vacia"); return; }
+  caja.classList.remove("vacia");
+  const cab = mejor.tipo === "liquidacion"
+    ? `⚠️ ${mejor.apodo} roza la liquidación en ${mejor.coin}`
+    : (mejor.tipo === "gana"
+        ? `💰 ${mejor.apodo} gana ${dfmt(mejor.pnl)} en ${mejor.coin}`
+        : `🩸 ${mejor.apodo} pierde ${dfmt(Math.abs(mejor.pnl))} en ${mejor.coin}`);
+  caja.innerHTML =
+    `<div class="rot"><span>Historia del día</span><span class="vivo"><i class="pulso"></i>en vivo</span></div>
+     <div class="hist-cab">${cab}</div>
+     <dl class="hist">
+       <dt>Posición</dt><dd>${dfmt(mejor.usd)} en ${mejor.lado}</dd>
+       <dt>Entrada</dt><dd>${nfmt(mejor.entrada)}</dd>
+       <dt>Precio ahora</dt><dd>${nfmt(mejor.precio)}</dd>
+       <dt>Liquidación</dt><dd>${nfmt(mejor.liq)}</dd>
+       <dt>Sin cerrar</dt><dd style="color:${mejor.pnl >= 0 ? "var(--senal)" : "var(--corto)"}">${mejor.pnl >= 0 ? "+" : ""}${dfmt(mejor.pnl)}</dd>
+     </dl>
+     <a class="hist-link" href="https://app.hyperliquid.xyz/explorer/address/${mejor.addr}">Mira la posición tú mismo</a>`;
 }
 
 /* Обратный отсчёт до ближайшего выпуска: 8:00, 14:00 и 20:00 по Лиме */
@@ -172,6 +239,33 @@ async function cotiza() {
   } catch (e) {}
 }
 
+/* Лента последних постов канала. Файл кладёт наш сервер раз в час. */
+async function ultimosAvisos() {
+  const caja = document.getElementById("ultimos");
+  if (!caja) return;
+  try {
+    const r = await fetch("/avisos.json?t=" + Math.floor(Date.now() / 60000));
+    const j = await r.json();
+    if (!j.avisos || !j.avisos.length) throw 0;
+    const filas = j.avisos.map(a => {
+      const d = new Date(a.ts * 1000);
+      const cuando = d.toLocaleString("es-PE", {timeZone: "America/Lima", day: "2-digit",
+                                                month: "2-digit", hour: "2-digit", minute: "2-digit"});
+      const monedas = (a.monedas || []).slice(0, 3).map(c => c).join(" · ");
+      return `<li><span class="cuando">${cuando} Lima · ${a.tipo}</span>` +
+             `<a href="${a.url}">${a.texto || "ver en el canal"}</a>` +
+             (monedas ? ` <span style="color:var(--apagado)">${monedas}</span>` : "") + `</li>`;
+    }).join("");
+    caja.innerHTML = `<div class="rot"><span>Últimos avisos del canal</span>` +
+      `<a href="https://t.me/LideresCripto" style="font-size:11px">ver todo</a></div>` +
+      `<ul class="avisos">${filas}</ul>`;
+    caja.classList.remove("vacia");
+  } catch (e) {
+    caja.classList.add("vacia");   // нечего показать — блок прячется целиком
+  }
+}
+
 escalera(); setInterval(escalera, 30000);
+ultimosAvisos(); setInterval(ultimosAvisos, 120000);
 cuentaAtras(); setInterval(cuentaAtras, 1000);
 cotiza(); setInterval(cotiza, 20000);
