@@ -132,7 +132,7 @@ async function escalera() {
     const color = n.lado === "largo" ? "var(--senal)" : "var(--corto)";
     div.innerHTML = `<span class="et num">${nfmt(n.liq)}</span>` +
       `<span class="q"><i class="pt" style="background:${color};box-shadow:0 0 10px ${color}"></i>` +
-      `<a href="https://hypurrscan.io/address/${n.addr}" style="color:inherit">${n.apodo}</a>` +
+      `<a href="https://hypurrscan.io/address/${n.addr}#perps" style="color:inherit">${n.apodo}</a>` +
       ` · ${n.lado} ${dfmt(n.usd)}` +
       `<b class="pnl" style="color:${n.pnl >= 0 ? "var(--senal)" : "var(--corto)"}">${n.pnl >= 0 ? "+" : ""}${dfmt(n.pnl)}</b></span>`;
     grada.appendChild(div);
@@ -213,7 +213,7 @@ function historiaDelDia(porMoneda, mids) {
        <dt>Liquidación</dt><dd>${nfmt(mejor.liq)}</dd>
        <dt>Sin cerrar</dt><dd style="color:${mejor.pnl >= 0 ? "var(--senal)" : "var(--corto)"}">${mejor.pnl >= 0 ? "+" : ""}${dfmt(mejor.pnl)}</dd>
      </dl>
-     <a class="hist-link" href="https://hypurrscan.io/address/${mejor.addr}">Mira la posición tú mismo</a>`;
+     <a class="hist-link" href="https://hypurrscan.io/address/${mejor.addr}#perps">Mira la posición tú mismo</a>`;
 }
 
 /* Обратный отсчёт до ближайшего выпуска: 8:00, 14:00 и 20:00 по Лиме */
