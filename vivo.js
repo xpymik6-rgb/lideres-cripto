@@ -93,11 +93,12 @@ async function escalera() {
   /* Две цены ликвидации могут оказаться почти на одной высоте, и подписи налезают
      друг на друга. Разводим их сверху вниз с минимальным зазором: порядок уровней
      сохраняется, а цифра слева остаётся настоящей. */
+  /* Важно: сама линия уровня всегда стоит ровно на своей цене, иначе шкала врёт
+     и прицел показывает не то. Разъезжаются только подписи, а линия остаётся. */
   const ARRIBA = 3, ABAJO = 94;
-  const filas = niveles.map(n => ({liq: n.liq, y: pos(n.liq)}))
-                       .concat([{precioAhora: true, y: pos(precio)}])
+  const filas = niveles.map(n => ({liq: n.liq, y: pos(n.liq), real: pos(n.liq)}))
+                       .concat([{precioAhora: true, y: pos(precio), real: pos(precio)}])
                        .sort((a, b) => a.y - b.y);
-  // если строк много, зазор ужимаем, но не даём им слипнуться
   const HUECO = Math.min(9, (ABAJO - ARRIBA) / Math.max(1, filas.length - 1));
   filas[0].y = Math.max(ARRIBA, filas[0].y);
   for (let i = 1; i < filas.length; i++) {           // сверху вниз
@@ -107,14 +108,22 @@ async function escalera() {
   for (let i = filas.length - 2; i >= 0; i--) {      // и обратно снизу вверх
     filas[i].y = Math.min(filas[i].y, filas[i + 1].y - HUECO);
   }
-  const altura = {};
-  for (const f of filas) { if (f.precioAhora) altura.precio = f.y; else altura[f.liq] = f.y; }
+  const desvio = {};                                  // на сколько сдвинуть подпись
+  for (const f of filas) {
+    const d = f.y - f.real;
+    if (f.precioAhora) desvio.precio = d; else desvio[f.liq] = d;
+  }
+  const altoPx = grada.clientHeight || 308;
+  const mover = (el, pct) => {
+    if (!el || !pct) return;
+    el.style.transform = `translateY(${(pct / 100 * altoPx).toFixed(0)}px)`;
+  };
 
   for (const n of niveles) {
     const cerca = Math.abs(precio / n.liq - 1) < 0.03;
     const div = document.createElement("div");
     div.className = "nivel" + (cerca ? " cerca" : "");
-    div.style.top = altura[n.liq].toFixed(1) + "%";
+    div.style.top = pos(n.liq).toFixed(2) + "%";
     const color = n.lado === "largo" ? "var(--senal)" : "var(--corto)";
     div.innerHTML = `<span class="et num">${nfmt(n.liq)}</span>` +
       `<span class="q"><i class="pt" style="background:${color};box-shadow:0 0 10px ${color}"></i>` +
@@ -122,8 +131,12 @@ async function escalera() {
       ` · ${n.lado} ${dfmt(n.usd)}` +
       `<b class="pnl" style="color:${n.pnl >= 0 ? "var(--senal)" : "var(--corto)"}">${n.pnl >= 0 ? "+" : ""}${dfmt(n.pnl)}</b></span>`;
     grada.appendChild(div);
+    mover(div.querySelector(".et"), desvio[n.liq]);
+    mover(div.querySelector(".q"), desvio[n.liq]);
   }
-  linea.style.top = (altura.precio !== undefined ? altura.precio : pos(precio)).toFixed(1) + "%";
+  linea.style.top = pos(precio).toFixed(2) + "%";
+  mover(linea.querySelector(".et"), desvio.precio);
+  mover(linea.querySelector(".q"), desvio.precio);
   const px = document.getElementById("pxbtc");
   if (px) px.textContent = nfmt(precio);
   ESCALA = {alto, bajo, coin};
