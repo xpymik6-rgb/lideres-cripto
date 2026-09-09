@@ -90,11 +90,26 @@ async function escalera() {
   if (!grada || !linea) return;
   grada.querySelectorAll(".nivel:not(#lineaAhora)").forEach(e => e.remove());
 
+  /* Две цены ликвидации могут оказаться почти на одной высоте, и подписи налезают
+     друг на друга. Разводим их сверху вниз с минимальным зазором: порядок уровней
+     сохраняется, а цифра слева остаётся настоящей. */
+  const HUECO = 9;
+  const filas = niveles.map(n => ({liq: n.liq, y: pos(n.liq)}))
+                       .concat([{precioAhora: true, y: pos(precio)}])
+                       .sort((a, b) => a.y - b.y);
+  for (let i = 1; i < filas.length; i++) {
+    if (filas[i].y - filas[i - 1].y < HUECO) filas[i].y = filas[i - 1].y + HUECO;
+  }
+  const sobra = filas[filas.length - 1].y - 94;
+  if (sobra > 0) filas.forEach(f => f.y = Math.max(3, f.y - sobra));
+  const altura = {};
+  for (const f of filas) { if (f.precioAhora) altura.precio = f.y; else altura[f.liq] = f.y; }
+
   for (const n of niveles) {
     const cerca = Math.abs(precio / n.liq - 1) < 0.03;
     const div = document.createElement("div");
     div.className = "nivel" + (cerca ? " cerca" : "");
-    div.style.top = pos(n.liq).toFixed(1) + "%";
+    div.style.top = altura[n.liq].toFixed(1) + "%";
     const color = n.lado === "largo" ? "var(--senal)" : "var(--corto)";
     div.innerHTML = `<span class="et num">${nfmt(n.liq)}</span>` +
       `<span class="q"><i class="pt" style="background:${color};box-shadow:0 0 10px ${color}"></i>` +
@@ -103,7 +118,7 @@ async function escalera() {
       `<b class="pnl" style="color:${n.pnl >= 0 ? "var(--senal)" : "var(--corto)"}">${n.pnl >= 0 ? "+" : ""}${dfmt(n.pnl)}</b></span>`;
     grada.appendChild(div);
   }
-  linea.style.top = pos(precio).toFixed(1) + "%";
+  linea.style.top = (altura.precio !== undefined ? altura.precio : pos(precio)).toFixed(1) + "%";
   const px = document.getElementById("pxbtc");
   if (px) px.textContent = nfmt(precio);
   ESCALA = {alto, bajo, coin};
