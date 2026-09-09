@@ -136,7 +136,8 @@ let ESCALA = null;
   };
   grada.addEventListener("mousemove", mover);
   grada.addEventListener("touchmove", mover, {passive: true});
-  grada.addEventListener("mouseleave", () => linea.style.opacity = 0);
+  grada.addEventListener("mouseleave", () => { linea.style.opacity = 0; });
+  grada.style.cursor = "crosshair";
 })();
 
 /* Карточка «история дня»: самая громкая позиция рынка прямо сейчас.
