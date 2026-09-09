@@ -1,6 +1,28 @@
 {
- "actualizado": 1788956419.1079955,
+ "actualizado": 1788960013.3969102,
  "avisos": [
+  {
+   "ts": 1788958810.7070625,
+   "tipo": "Edición del radar",
+   "texto": "radar 09.09 08:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "ZEC",
+    "CHIP",
+    "AKE",
+    "USELESS",
+    "SOPH"
+   ],
+   "url": "https://t.me/LideresCripto/51"
+  },
+  {
+   "ts": 1788957009.0086892,
+   "tipo": "Noticias",
+   "texto": "noticias 09.09 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/50"
+  },
   {
    "ts": 1788954232.214384,
    "tipo": "Señal",
@@ -27,24 +49,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/46"
-  },
-  {
-   "ts": 1788930168.5898974,
-   "tipo": "Resultados",
-   "texto": "análisis BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/44"
-  },
-  {
-   "ts": 1788926029.6324944,
-   "tipo": "Señal",
-   "texto": "$29.0 M en USDC salen de Bybit",
-   "monedas": [
-    "USDC"
-   ],
-   "url": "https://t.me/LideresCripto/39"
   }
  ]
 }
