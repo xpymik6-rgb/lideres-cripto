@@ -81,9 +81,14 @@ async function escalera() {
 
   // шкала: от самого дальнего уровня сверху до самого дальнего снизу, цена внутри
   const niveles = lista.slice().sort((a, b) => b.liq - a.liq).slice(0, 6);
+  /* Шкала с полями сверху и снизу. Раньше крайние значения упирались в границу
+     и линия вставала не на свою цену: тогда прицел показывал одно, а линия стояла
+     в другом месте. Теперь всё помещается внутрь и обрезать нечего. */
+  const BORDE = 6;
   const todos = niveles.map(n => n.liq).concat([precio]);
-  const alto = Math.max(...todos) * 1.01, bajo = Math.min(...todos) * 0.99;
-  const pos = (v) => Math.min(93, Math.max(4, (alto - v) / (alto - bajo) * 100));
+  const alto = Math.max(...todos), bajo = Math.min(...todos);
+  const rango = (alto - bajo) || alto * 0.01;
+  const pos = (v) => BORDE + (alto - v) / rango * (100 - 2 * BORDE);
 
   const grada = document.getElementById("grada");
   const linea = document.getElementById("lineaAhora");
@@ -139,7 +144,7 @@ async function escalera() {
   mover(linea.querySelector(".q"), desvio.precio);
   const px = document.getElementById("pxbtc");
   if (px) px.textContent = nfmt(precio);
-  ESCALA = {alto, bajo, coin};
+  ESCALA = {alto, bajo, rango, borde: BORDE, coin};
   dibujaChispa(coin);
   historiaDelDia(porMoneda, mids);
 }
@@ -161,8 +166,9 @@ let ESCALA = null;
     const r = grada.getBoundingClientRect();
     const y = (ev.touches ? ev.touches[0].clientY : ev.clientY) - r.top;
     if (y < 0 || y > r.height) { linea.style.opacity = 0; return; }
-    const k = y / r.height;
-    const valor = ESCALA.alto - (ESCALA.alto - ESCALA.bajo) * k;
+    // обратная формула той же шкалы: что нарисовано, то прицел и показывает
+    const k = (y / r.height * 100 - ESCALA.borde) / (100 - 2 * ESCALA.borde);
+    const valor = ESCALA.alto - ESCALA.rango * k;
     linea.style.opacity = 1;
     linea.style.top = y.toFixed(0) + "px";
     et.textContent = nfmt(valor);
