@@ -166,6 +166,10 @@ h1 .g{background:linear-gradient(94deg,var(--senal),var(--frio));-webkit-backgro
 .pt.l{background:var(--senal);box-shadow:0 0 10px rgba(93,242,192,.75)}
 .pt.c{background:var(--corto);box-shadow:0 0 10px rgba(255,107,107,.7)}
 #lineaAhora{border-top:2px solid var(--texto);z-index:2;transition:top .8s cubic-bezier(.4,0,.2,1)}
+.nivel.cerca{border-top-style:solid;border-top-color:var(--calor);animation:peligro 1.8s infinite}
+.nivel.cerca .et{color:var(--calor)}
+@keyframes peligro{0%,100%{opacity:1}50%{opacity:.45}}
+.nivel .pnl{font-family:"IBM Plex Mono",monospace;font-size:12px;margin-left:8px}
 #lineaAhora .q{font-weight:600}
 #lineaAhora .et{color:var(--texto);font-weight:600}
 .chispa{position:absolute;inset:auto 0 0 0;height:66px;opacity:.42}
@@ -243,13 +247,9 @@ footer{padding:46px 0 76px;color:var(--apagado);font-size:14px;border-top:1px so
 
   <div class="hero">
     <div class="caja">
-      <div class="rot"><span>Escalera de liquidaciones · BTC</span><span class="vivo"><i class="pulso"></i>en vivo</span></div>
+      <div class="rot"><span>Escalera de liquidaciones · <b id="monedaEscalera">cargando</b></span><span class="vivo"><i class="pulso"></i>en vivo</span></div>
       <div class="grada" id="grada">
-        <div class="nivel" style="top:8%"><span class="et num">80.549</span><span class="q"><i class="pt c"></i>El Lobo sin miedo · corto $6.9 M</span></div>
-        <div class="nivel" style="top:27%"><span class="et num">78.900</span><span class="q"><i class="pt c"></i>El Cazador del este · corto $871 mil</span></div>
-        <div class="nivel" id="lineaAhora" style="top:48%"><span class="et num" id="pxbtc">78.215</span><span class="q">precio ahora</span></div>
-        <div class="nivel" style="top:71%"><span class="et num">74.980</span><span class="q"><i class="pt l"></i>La Roca de hierro · largo $12.4 M</span></div>
-        <div class="nivel" style="top:89%"><span class="et num">71.400</span><span class="q"><i class="pt l"></i>El Paciente del norte · largo $3.1 M</span></div>
+        <div class="nivel" id="lineaAhora" style="top:48%"><span class="et num" id="pxbtc">—</span><span class="q">precio ahora</span></div>
         <canvas class="chispa" id="chispa" width="900" height="140"></canvas>
       </div>
       <p class="pie">Cuando el precio toca uno de esos niveles, la bolsa cierra esa posición a la fuerza y esa venta empuja el precio todavía más. Son los únicos números que de verdad importan.</p>
@@ -262,8 +262,8 @@ footer{padding:46px 0 76px;color:var(--apagado);font-size:14px;border-top:1px so
         <div class="leyenda">monedas con posición abierta ahora</div>
       </div>
       <div class="mini">
-        <div class="c"><div class="v num" data-cuenta="70">0</div><div class="l">cuentas seguidas, todas de más de $1 M</div></div>
-        <div class="c"><div class="v num" data-cuenta="248" data-pre="$" data-post=" M">0</div><div class="l">capital vigilado ahora mismo</div></div>
+        <div class="c"><div class="v num" id="capital">—</div><div class="l">capital abierto de los líderes que seguimos, ahora</div></div>
+        <div class="c"><div class="v num" id="cuenta">—</div><div class="l">para la próxima edición del radar</div></div>
       </div>
     </div>
   </div>
@@ -431,72 +431,7 @@ function reloj(){
 }
 reloj(); setInterval(reloj,1000);
 
-/* ---- счётчики: один заход при загрузке, без повторов ---- */
-document.querySelectorAll("[data-cuenta]").forEach(el=>{
-  const fin=+el.dataset.cuenta, pre=el.dataset.pre||"", post=el.dataset.post||"";
-  if(lento){ el.textContent=pre+fin+post; return; }
-  let n=0, t0=null;
-  requestAnimationFrame(function p(t){
-    if(!t0) t0=t;
-    const k=Math.min(1,(t-t0)/1100), e=1-Math.pow(1-k,3);
-    el.textContent=pre+Math.round(fin*e)+post;
-    if(k<1) requestAnimationFrame(p);
-  });
-});
-
-/* ---- живые данные с биржи ---- */
-const PARES=[["BTC","BTCUSDT"],["ETH","ETHUSDT"],["SOL","SOLUSDT"],["ZEC","ZECUSDT"],
-             ["XRP","XRPUSDT"],["HYPE","HYPEUSDT"],["NEAR","NEARUSDT"]];
-const fmt=n=>n>=1000?n.toLocaleString("es-ES",{maximumFractionDigits:0})
-                    :n.toLocaleString("es-ES",{maximumFractionDigits:n>=1?2:4});
-let previo=null;
-async function cotiza(){
-  try{
-    const r=await fetch("https://api.bybit.com/v5/market/tickers?category=spot");
-    const j=await r.json(); const m={}; j.result.list.forEach(x=>m[x.symbol]=x);
-    const trozo=`<span class="vivo"><i class="pulso"></i>EN VIVO</span>`+PARES.map(([n,s])=>{
-      const t=m[s]; if(!t) return "";
-      const p=parseFloat(t.lastPrice), c=(p/parseFloat(t.prevPrice24h)-1)*100;
-      return `<span>${n} <b class="num">${fmt(p)}</b> <i class="num ${c>=0?"sube":"baja"}">${c>=0?"+":""}${c.toFixed(1)}%</i></span>`;
-    }).join("");
-    document.getElementById("cinta").innerHTML=trozo+trozo;
-    const btc=m["BTCUSDT"];
-    if(btc){
-      const p=parseFloat(btc.lastPrice);
-      const et=document.getElementById("pxbtc");
-      et.textContent=fmt(p);
-      // линия текущей цены двигается между уровнями ликвидации
-      const arriba=80549, abajo=71400;
-      const k=Math.min(.92,Math.max(.06,(arriba-p)/(arriba-abajo)));
-      document.getElementById("lineaAhora").style.top=(k*100).toFixed(1)+"%";
-      if(previo!==null && p!==previo){
-        et.style.color=p>previo?"var(--senal)":"var(--corto)";
-        setTimeout(()=>et.style.color="",700);
-      }
-      previo=p;
-    }
-  }catch(e){}
-}
-cotiza(); setInterval(cotiza,20000);
-
-/* ---- линия цены за 48 часов внизу лестницы ---- */
-(async function(){
-  const c=document.getElementById("chispa"); if(!c) return;
-  try{
-    const r=await fetch("https://api.bybit.com/v5/market/kline?category=spot&symbol=BTCUSDT&interval=60&limit=48");
-    const j=await r.json();
-    const ps=j.result.list.map(v=>parseFloat(v[4])).reverse();
-    const x=c.getContext("2d"), lo=Math.min(...ps), hi=Math.max(...ps);
-    const px=i=>i*(c.width/(ps.length-1)), py=v=>c.height-8-(c.height-16)*(v-lo)/((hi-lo)||1);
-    const gr=x.createLinearGradient(0,0,0,c.height);
-    gr.addColorStop(0,"rgba(93,242,192,.34)"); gr.addColorStop(1,"rgba(93,242,192,0)");
-    x.beginPath(); x.moveTo(0,c.height);
-    ps.forEach((v,i)=>x.lineTo(px(i),py(v)));
-    x.lineTo(c.width,c.height); x.closePath(); x.fillStyle=gr; x.fill();
-    x.beginPath(); ps.forEach((v,i)=>i?x.lineTo(px(i),py(v)):x.moveTo(px(i),py(v)));
-    x.strokeStyle="rgba(93,242,192,.85)"; x.lineWidth=2.5; x.stroke();
-  }catch(e){}
-})();
 </script>
+<script src="/vivo.js" defer></script>
 </body>
 </html>
