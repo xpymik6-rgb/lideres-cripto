@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Líderes Cripto · Radar</title>
+<meta name="description" content="Un radar sobre el dinero grande: qué compran y venden las cuentas más rentables de Hyperliquid y OKX, en español.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --fondo:#0a0d24;        /* глубокий индиго, а не чёрный */
+  --fondo2:#0f1433;
+  --linea:#232a55;
+  --texto:#f2efe6;        /* тёплый белый вместо чистого */
+  --tenue:#8f97c2;
+  --senal:#7ff2c3;        /* приглушённая морская пена */
+  --calor:#ffb45c;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fondo);color:var(--texto);
+  font:17px/1.6 Barlow,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.env{max-width:1120px;margin:0 auto;padding:0 24px}
+a{color:var(--senal)}
+h1,h2,.marca{font-family:Michroma,Barlow,sans-serif;font-weight:400;letter-spacing:.01em}
+
+/* герой с прибором */
+.hero{position:relative;min-height:88vh;display:flex;align-items:center;
+  background:radial-gradient(120% 80% at 78% 45%,#141a45 0%,var(--fondo) 62%)}
+.hero .env{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;width:100%}
+.marca{font-size:12px;letter-spacing:.34em;color:var(--senal);margin-bottom:34px}
+h1{font-size:clamp(26px,3.7vw,45px);line-height:1.28;margin:0 0 22px;max-width:16ch}
+.lead{font-size:19px;color:var(--tenue);max-width:46ch;margin:0 0 30px;font-weight:300}
+.btn{display:inline-block;padding:15px 30px;border-radius:40px;text-decoration:none;font-weight:600;
+  background:var(--senal);color:#04231a;margin:6px 12px 0 0}
+.btn.g{background:transparent;color:var(--texto);border:1px solid var(--linea)}
+#scope{width:100%;max-width:520px;aspect-ratio:1;display:block;margin:0 auto}
+.leyenda{text-align:center;color:var(--tenue);font-size:14px;margin-top:10px;font-family:"Barlow Condensed",sans-serif;letter-spacing:.06em}
+
+/* секции */
+section{padding:82px 0;border-top:1px solid var(--linea)}
+h2{font-size:clamp(20px,2.6vw,29px);margin:0 0 14px}
+.sub{color:var(--tenue);max-width:58ch;margin:0 0 34px;font-weight:300}
+.fila{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px}
+.item{position:relative;padding-left:26px}
+.item::before{content:"";position:absolute;left:0;top:9px;width:9px;height:9px;border-radius:50%;
+  background:var(--senal);box-shadow:0 0 0 5px rgba(127,242,195,.13)}
+.item h3{margin:0 0 6px;font-size:17px;font-weight:600}
+.item p{margin:0;color:var(--tenue);font-weight:300;font-size:15px}
+
+/* карточка позиции */
+.pos{background:linear-gradient(180deg,var(--fondo2),#0b1030);border:1px solid var(--linea);
+  border-radius:18px;padding:28px 30px;max-width:520px}
+.pos .cab{font-family:"Barlow Condensed",sans-serif;font-size:22px;letter-spacing:.04em;
+  color:var(--calor);margin-bottom:18px}
+.pos dl{display:grid;grid-template-columns:auto 1fr;gap:9px 20px;margin:0}
+.pos dt{color:var(--tenue);font-weight:300;font-size:15px}
+.pos dd{margin:0;text-align:right;font-variant-numeric:tabular-nums;font-weight:500}
+.pos .nota{margin:20px 0 0;color:var(--tenue);font-size:14px;font-weight:300}
+
+.cifras{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:32px;margin-top:8px}
+.cifra .n{font-family:Michroma,sans-serif;font-size:33px;line-height:1.1}
+.cifra .l{color:var(--tenue);font-size:14px;margin-top:10px;font-weight:300;max-width:24ch}
+footer{padding:52px 0 76px;color:var(--tenue);font-size:14px;border-top:1px solid var(--linea);font-weight:300}
+@media(max-width:900px){
+  .hero{min-height:auto;padding:52px 0 20px}
+  .hero .env{grid-template-columns:1fr}
+  #scope{max-width:340px;order:-1}
+}
+@media(prefers-reduced-motion:reduce){#scope{display:none}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="env">
+    <div>
+      <div class="marca">Líderes Cripto</div>
+      <h1>El dinero grande deja rastro</h1>
+      <p class="lead">Vigilamos las posiciones públicas de las cuentas más rentables de Hyperliquid y OKX. Cuando varias entran en la misma moneda a la vez, aparece en el radar y te llega al teléfono.</p>
+      <a class="btn" href="https://t.me/LideresCripto">Entrar al canal</a>
+      <a class="btn g" href="https://t.me/LideresCriptoBot_bot">Probar el bot</a>
+    </div>
+    <div>
+      <canvas id="scope" width="1040" height="1040" aria-label="Radar con las monedas que los líderes están comprando"></canvas>
+      <p class="leyenda">Monedas donde los líderes tienen posición abierta ahora</p>
+    </div>
+  </div>
+</div>
+
+<section class="env">
+  <h2>Qué ves y cuándo</h2>
+  <p class="sub">Tres ediciones al día. Avisos sueltos solo cuando hay que decidir algo, y nunca más de cuatro en seis horas.</p>
+  <div class="fila">
+    <div class="item"><h3>Acuerdo de líderes</h3><p>Tres o más cuentas grandes entran en la misma moneda, del mismo lado, en menos de seis horas.</p></div>
+    <div class="item"><h3>Ballenas on-chain</h3><p>Movimientos de más de dos millones entre bolsas y billeteras, con el enlace a la transacción.</p></div>
+    <div class="item"><h3>Nivel de liquidación</h3><p>El precio exacto donde a cada líder le cierran la posición a la fuerza.</p></div>
+    <div class="item"><h3>Desbloqueos</h3><p>Qué tokens sueltan oferta en las próximas 36 horas y cuánto pesa sobre el precio.</p></div>
+    <div class="item"><h3>Historia del día</h3><p>La posición más ruidosa del mercado, con nombre, entrada y resultado sin cerrar.</p></div>
+    <div class="item"><h3>Marcador del domingo</h3><p>Cuántas señales salieron bien y cuántas mal. Las dos cosas.</p></div>
+  </div>
+</section>
+
+<section class="env">
+  <h2>Así se lee una posición</h2>
+  <p class="sub">Cada billetera tiene un apodo fijo, siempre el mismo, para que puedas seguirle la pista de una semana a otra.</p>
+  <div class="pos">
+    <div class="cab">La Marea del este gana $10.1 M en $XRP</div>
+    <dl>
+      <dt>Posición</dt><dd>$49.7 M en largo · x10</dd>
+      <dt>Entrada</dt><dd>1.13</dd>
+      <dt>Precio ahora</dt><dd>1.42</dd>
+      <dt>Liquidación</dt><dd>1.02</dd>
+      <dt>Sin cerrar</dt><dd style="color:var(--senal)">+$10.1 M</dd>
+    </dl>
+    <p class="nota">Cuenta de $17.6 M · en el mes ganó $9.7 M. Mientras no cierre, la tendencia le da la razón. Cuando cierre, lo verás aquí.</p>
+  </div>
+</section>
+
+<section class="env">
+  <h2>Los fallos también se publican</h2>
+  <p class="sub">Guardamos cada señal con su precio, la revisamos a las 4 y a las 24 horas y sacamos el resultado el domingo, salga como salga. Es lo único que hace creíble a un canal de señales.</p>
+  <div class="cifras">
+    <div class="cifra"><div class="n">9/13</div><div class="l">señales en positivo, últimos siete días</div></div>
+    <div class="cifra"><div class="n" style="color:var(--senal)">+5.3%</div><div class="l">movimiento medio a las 24 horas</div></div>
+    <div class="cifra"><div class="n" style="color:#ff8080">−15%</div><div class="l">la peor de la semana, publicada igual</div></div>
+  </div>
+</section>
+
+<section class="env">
+  <h2>Gratis, y así seguirá</h2>
+  <p class="sub">El canal y el bot no cuestan nada. Vivimos del programa de referidos de las bolsas: abres cuenta con nuestro enlace, la bolsa comparte parte de su comisión y tú pagas lo mismo que pagarías sin él. Quien quiere los avisos al instante por privado tiene Pro, 9 USD al mes, sin permanencia.</p>
+  <a class="btn" href="https://t.me/LideresCripto">Entrar al canal</a>
+  <a class="btn g" href="https://t.me/LideresCriptoBot_bot">Escribir /pro al bot</a>
+</section>
+
+<footer class="env">
+  <p>No es asesoría financiera. Mostramos posiciones públicas de otros traders y datos de mercado. Operar cripto con apalancamiento puede hacerte perder todo tu capital.</p>
+  <p>Líderes Cripto · liderescripto.com</p>
+</footer>
+
+<script>
+// Радар: одна выверенная анимация на страницу, а не эффекты повсюду.
+const c=document.getElementById("scope"), x=c.getContext("2d");
+const R=c.width/2, CX=R, CY=R;
+const MON=[{t:"BTC",a:-0.5,r:.42},{t:"ETH",a:1.1,r:.62},{t:"ZEC",a:2.3,r:.75},
+           {t:"HYPE",a:3.4,r:.5},{t:"XRP",a:4.2,r:.82},{t:"NEAR",a:5.3,r:.68}];
+let ang=0, ultimo=0;
+const grados=v=>v*Math.PI/180;
+function marco(){
+  x.clearRect(0,0,c.width,c.height);
+  x.strokeStyle="#2b3468"; x.lineWidth=3;
+  [.32,.58,.84,1].forEach(k=>{x.beginPath();x.arc(CX,CY,R*k*.92,0,7);x.stroke();});
+  x.beginPath(); x.moveTo(CX,CY-R*.92); x.lineTo(CX,CY+R*.92);
+  x.moveTo(CX-R*.92,CY); x.lineTo(CX+R*.92,CY); x.stroke();
+  // сектор развёртки
+  const g=x.createConicGradient? null:null;
+  for(let i=0;i<58;i++){
+    const a0=ang-grados(i*1.15), a1=a0-grados(1.2), k=1-i/58;
+    x.beginPath(); x.moveTo(CX,CY); x.arc(CX,CY,R*.92,a1,a0); x.closePath();
+    x.fillStyle=`rgba(127,242,195,${0.14*k})`; x.fill();
+  }
+  x.strokeStyle="rgba(127,242,195,.85)"; x.lineWidth=4;
+  x.beginPath(); x.moveTo(CX,CY); x.lineTo(CX+R*.92*Math.cos(ang),CY+R*.92*Math.sin(ang)); x.stroke();
+  // отметки монет: загораются, когда луч проходит рядом
+  x.font="500 30px Barlow, sans-serif"; x.textBaseline="middle";
+  MON.forEach(m=>{
+    const px=CX+R*.92*m.r*Math.cos(m.a), py=CY+R*.92*m.r*Math.sin(m.a);
+    let d=Math.abs(((ang-m.a)%(2*Math.PI)+2*Math.PI)%(2*Math.PI));
+    const brillo=Math.max(0,1-Math.min(d,2*Math.PI-d)/1.15);
+    x.beginPath(); x.arc(px,py,9+brillo*5,0,7);
+    x.fillStyle=`rgba(127,242,195,${.35+.65*brillo})`; x.fill();
+    if(brillo>.05){
+      x.beginPath(); x.arc(px,py,20+brillo*16,0,7);
+      x.strokeStyle=`rgba(127,242,195,${.45*brillo})`; x.lineWidth=2; x.stroke();
+      x.fillStyle=`rgba(242,239,230,${.9*brillo})`; x.fillText(m.t,px+30,py);
+    }
+  });
+}
+function paso(t){
+  if(t-ultimo>28){ ang+=grados(1.1); ultimo=t; marco(); }
+  requestAnimationFrame(paso);
+}
+if(!window.matchMedia("(prefers-reduced-motion: reduce)").matches){ marco(); requestAnimationFrame(paso); }
+else { marco(); }
+</script>
+</body>
+</html>

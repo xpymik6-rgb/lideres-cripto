@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Líderes Cripto · Expediente</title>
+<meta name="description" content="Expediente abierto sobre las cuentas que mueven el mercado cripto. Quiénes son, cuánto ponen y dónde los liquidan. En español.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --papel:#12100e;        /* тёмный уголь с тёплым уклоном */
+  --papel2:#191612;
+  --tinta:#f5f0e6;        /* цвет бумаги для текста */
+  --gris:#9a9184;
+  --linea:#2d2822;
+  --sello:#e04a2f;        /* один сигнальный цвет: печать «дело открыто» */
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);
+  font:17px/1.62 Archivo,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.env{max-width:1040px;margin:0 auto;padding:0 26px}
+a{color:var(--tinta)}
+.mono{font-family:"Roboto Mono",ui-monospace,monospace}
+
+/* обложка дела */
+.tapa{padding:56px 0 62px;border-bottom:3px solid var(--tinta)}
+.cabecera{display:flex;justify-content:space-between;align-items:flex-start;
+  font-family:"Roboto Mono",monospace;font-size:12px;color:var(--gris);
+  letter-spacing:.08em;padding-bottom:34px}
+.sello{border:2px solid var(--sello);color:var(--sello);padding:5px 11px;
+  transform:rotate(-4deg);font-weight:500}
+h1{font-family:"Archivo Black",Archivo,sans-serif;font-size:clamp(40px,8.4vw,104px);
+  line-height:.92;margin:0 0 26px;letter-spacing:-.03em;text-transform:uppercase}
+.resumen{font-size:20px;max-width:54ch;color:var(--tinta);margin:0 0 12px}
+.resumen + .resumen{color:var(--gris);font-size:18px}
+.acciones{margin-top:34px}
+.btn{display:inline-block;background:var(--tinta);color:var(--papel);font-weight:600;
+  padding:15px 28px;text-decoration:none;margin:8px 12px 0 0}
+.btn.o{background:transparent;color:var(--tinta);border:2px solid var(--linea)}
+
+/* досье */
+section{padding:66px 0;border-bottom:1px solid var(--linea)}
+h2{font-family:"Archivo Black",sans-serif;font-size:clamp(24px,4vw,40px);
+  text-transform:uppercase;letter-spacing:-.02em;margin:0 0 12px;line-height:1}
+.intro{color:var(--gris);max-width:60ch;margin:0 0 34px}
+.ficha{border:1px solid var(--linea);background:var(--papel2);padding:26px 28px;margin-bottom:18px}
+.ficha .top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:16px}
+.ficha .alias{font-family:"Archivo Black",sans-serif;font-size:23px;text-transform:uppercase;letter-spacing:-.01em}
+.ficha .id{font-family:"Roboto Mono",monospace;font-size:12px;color:var(--gris);
+  border:1px solid var(--linea);padding:4px 9px}
+.datos{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:18px;
+  font-family:"Roboto Mono",monospace}
+.datos div span{display:block;font-size:11px;color:var(--gris);letter-spacing:.09em;margin-bottom:5px}
+.datos div b{font-size:19px;font-weight:500}
+.ficha .obs{margin:18px 0 0;color:var(--gris);font-size:15px;border-left:3px solid var(--sello);padding-left:14px}
+
+/* хронология */
+.crono{list-style:none;padding:0;margin:0}
+.crono li{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:16px 0;border-top:1px solid var(--linea)}
+.crono .cuando{font-family:"Roboto Mono",monospace;font-size:13px;color:var(--gris)}
+.crono b{font-weight:600}
+.ok{color:#6fd39b} .mal{color:#ff7a6b}
+
+.tabla{width:100%;border-collapse:collapse;font-family:"Roboto Mono",monospace}
+.tabla td{padding:14px 0;border-top:1px solid var(--linea);vertical-align:top}
+.tabla td:last-child{text-align:right;font-size:22px;font-weight:500}
+.tabla td:first-child{color:var(--gris);font-family:Archivo,sans-serif;font-size:15px}
+
+footer{padding:48px 0 76px;color:var(--gris);font-size:14px}
+@media(max-width:700px){
+  .crono li{grid-template-columns:1fr;gap:4px}
+  .cabecera{flex-direction:column;gap:14px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="tapa">
+  <div class="env">
+    <div class="cabecera">
+      <span>Expediente 001 · Cuentas que mueven el mercado · Hyperliquid + OKX</span>
+      <span class="sello">Abierto</span>
+    </div>
+    <h1>Quién está<br>del otro lado<br>de tu operación</h1>
+    <p class="resumen">Setenta cuentas con más de un millón de dólares, en positivo en el día, la semana y el mes. Sus posiciones son públicas. Nosotros las leemos todos los días y te contamos qué hacen, en español.</p>
+    <p class="resumen">No damos consejos. Damos el expediente: cuánto pusieron, a qué precio entraron y en qué nivel la bolsa les cierra la posición a la fuerza.</p>
+    <div class="acciones">
+      <a class="btn" href="https://t.me/LideresCripto">Abrir el canal</a>
+      <a class="btn o" href="https://t.me/LideresCriptoBot_bot">Consultar una moneda</a>
+    </div>
+  </div>
+</div>
+
+<section class="env">
+  <h2>Fichas del día</h2>
+  <p class="intro">Cada billetera lleva un apodo fijo, siempre el mismo, para que puedas seguirle la pista de una semana a otra. El identificador entre corchetes es su dirección real: los enlaces del canal la abren.</p>
+
+  <div class="ficha">
+    <div class="top"><div class="alias">La Marea del este</div><div class="id">0x31b1…1434 · Hyperliquid</div></div>
+    <div class="datos">
+      <div><span>POSICIÓN</span><b>$49.7 M</b></div>
+      <div><span>DIRECCIÓN</span><b>Largo x10</b></div>
+      <div><span>ENTRADA</span><b>1.13</b></div>
+      <div><span>LIQUIDACIÓN</span><b>1.02</b></div>
+      <div><span>SIN CERRAR</span><b class="ok">+$10.1 M</b></div>
+    </div>
+    <p class="obs">Cuenta de $17.6 M. En el mes lleva ganados $9.7 M. Sigue sin cerrar la posición en $XRP.</p>
+  </div>
+
+  <div class="ficha">
+    <div class="top"><div class="alias">El Lobo sin miedo</div><div class="id">0x396d…5899 · Hyperliquid</div></div>
+    <div class="datos">
+      <div><span>POSICIÓN</span><b>$6.9 M</b></div>
+      <div><span>DIRECCIÓN</span><b>Corto x10</b></div>
+      <div><span>ENTRADA</span><b>78.215</b></div>
+      <div><span>LIQUIDACIÓN</span><b>80.549</b></div>
+      <div><span>SIN CERRAR</span><b>−$21 mil</b></div>
+    </div>
+    <p class="obs">Entró en corto en $BTC junto con otras dos cuentas grandes en menos de seis horas. Eso es lo que llamamos acuerdo de líderes.</p>
+  </div>
+</section>
+
+<section class="env">
+  <h2>Lo que dijimos y lo que pasó</h2>
+  <p class="intro">Guardamos cada aviso con su precio y volvemos a él a las veinticuatro horas. Los fallos salen publicados igual que los aciertos, en el mismo sitio y con el mismo tamaño de letra.</p>
+  <ul class="crono">
+    <li><span class="cuando">dom 07 · 15:17</span><span><b>$IOST</b> subida fuerte en una hora <b class="ok">→ +14.1% a las 24 h</b></span></li>
+    <li><span class="cuando">dom 07 · 15:15</span><span><b>$AKE</b> subida fuerte en una hora <b class="ok">→ +11.5% a las 24 h</b></span></li>
+    <li><span class="cuando">dom 07 · 13:49</span><span><b>$SOPH</b> subida fuerte en una hora <b class="mal">→ −15.0% a las 24 h</b></span></li>
+    <li><span class="cuando">dom 07 · 13:05</span><span><b>$BTC</b> acuerdo de líderes <b>→ +0.8%, no se movió lo suficiente</b></span></li>
+  </ul>
+</section>
+
+<section class="env">
+  <h2>El marcador</h2>
+  <p class="intro">Siete días, solo las señales que de verdad salieron al canal.</p>
+  <table class="tabla">
+    <tr><td>Señales en positivo a las 24 horas</td><td>9 / 13</td></tr>
+    <tr><td>Movimiento medio</td><td class="ok">+5.3%</td></tr>
+    <tr><td>Peor señal de la semana</td><td class="mal">−15.0%</td></tr>
+    <tr><td>Cuentas bajo seguimiento</td><td>70</td></tr>
+  </table>
+</section>
+
+<section class="env">
+  <h2>Cuánto cuesta</h2>
+  <p class="intro">Nada. El canal y el bot son gratis y seguirán siéndolo. Vivimos del programa de referidos de las bolsas: si abres cuenta con nuestro enlace, la bolsa comparte parte de su comisión y tú pagas exactamente lo mismo que pagarías sin él. Quien quiere los avisos al instante por privado tiene Pro por 9 USD al mes, sin permanencia.</p>
+  <a class="btn" href="https://t.me/LideresCripto">Abrir el canal</a>
+  <a class="btn o" href="https://t.me/LideresCriptoBot_bot">Escribir /pro al bot</a>
+</section>
+
+<footer class="env">
+  <p>No es asesoría financiera. Publicamos posiciones públicas de otros traders y datos de mercado. Operar cripto con apalancamiento puede hacerte perder todo tu capital.</p>
+  <p>Líderes Cripto · liderescripto.com</p>
+</footer>
+
+</body>
+</html>

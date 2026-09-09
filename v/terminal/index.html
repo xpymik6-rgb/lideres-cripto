@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Líderes Cripto · Terminal</title>
+<meta name="description" content="Seguimos las posiciones públicas de las cuentas más grandes de Hyperliquid y OKX. Entrada, precio actual y nivel de liquidación, en español.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --tinta:#070b14;        /* фон: очень тёмный синий, не чёрный */
+  --panel:#0d1422;
+  --linea:#1b2740;
+  --texto:#e6edf6;
+  --apagado:#7f92ad;
+  --largo:#4bd6a0;        /* приглушённая мята вместо кислотного зелёного */
+  --corto:#ff6b6b;
+  --aviso:#f0b429;        /* янтарь для предупреждений */
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--tinta);color:var(--texto);
+  font:16px/1.55 "IBM Plex Sans",system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.num{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.env{max-width:1180px;margin:0 auto;padding:0 24px}
+a{color:var(--largo)}
+
+/* лента котировок */
+.cinta{border-bottom:1px solid var(--linea);background:#050810;overflow:hidden;white-space:nowrap}
+.cinta-int{display:inline-flex;gap:38px;padding:9px 24px;font-family:"IBM Plex Mono",monospace;font-size:13px}
+.cinta b{font-weight:600;color:var(--texto)}
+.cinta span{color:var(--apagado)}
+.sube{color:var(--largo)} .baja{color:var(--corto)}
+
+/* шапка */
+header{padding:64px 0 28px}
+.marca{display:flex;align-items:baseline;gap:12px;margin-bottom:44px}
+.marca .lg{font-weight:700;font-size:15px;letter-spacing:.14em;text-transform:uppercase}
+.marca .sub{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--apagado)}
+h1{font-size:clamp(34px,5.2vw,60px);line-height:1.04;font-weight:600;margin:0 0 20px;max-width:15ch;letter-spacing:-.02em}
+.entrada{color:var(--apagado);font-size:18px;max-width:56ch;margin:0 0 30px}
+
+/* герой: лестница ликвидаций */
+.escalera{display:grid;grid-template-columns:1fr 340px;gap:40px;align-items:start;
+  border:1px solid var(--linea);background:var(--panel);border-radius:4px;padding:22px 24px;margin-top:12px}
+.escalera h2{font-size:13px;letter-spacing:.1em;font-weight:600;margin:0 0 4px;color:var(--apagado);text-transform:uppercase}
+.escalera .pie{font-size:13px;color:var(--apagado);margin-top:14px}
+.grada{position:relative;height:290px;border-left:1px solid var(--linea);margin:18px 0 0 78px}
+.nivel{position:absolute;left:0;right:0;height:0;border-top:1px dashed #24344f}
+.nivel .et{position:absolute;left:-78px;top:-9px;width:70px;text-align:right;
+  font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--apagado)}
+.nivel .quien{position:absolute;left:14px;top:-12px;font-size:13px;display:flex;align-items:center;gap:8px}
+.punto{width:8px;height:8px;border-radius:50%;flex:none}
+.ahora{border-top:2px solid var(--texto)}
+.ahora .quien{font-weight:600}
+.tarj{border:1px solid var(--linea);border-radius:4px;padding:16px 18px;background:#0a1120}
+.tarj + .tarj{margin-top:12px}
+.tarj .t{font-size:13px;color:var(--apagado);margin-bottom:8px}
+.tarj .v{font-family:"IBM Plex Mono",monospace;font-size:26px;font-weight:500}
+.tarj .d{font-size:13px;color:var(--apagado);margin-top:4px}
+
+/* секции */
+section{padding:64px 0;border-top:1px solid var(--linea)}
+h2.sec{font-size:clamp(22px,3vw,30px);font-weight:600;margin:0 0 10px;letter-spacing:-.01em}
+.desc{color:var(--apagado);max-width:60ch;margin:0 0 28px}
+.rej{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:var(--linea);
+  border:1px solid var(--linea);border-radius:4px;overflow:hidden}
+.cel{background:var(--panel);padding:22px}
+.cel h3{margin:0 0 6px;font-size:16px;font-weight:600}
+.cel p{margin:0;color:var(--apagado);font-size:15px}
+.cel .k{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--largo);display:block;margin-bottom:10px}
+
+/* пример поста */
+.post{border:1px solid var(--linea);background:var(--panel);border-radius:4px;padding:20px 22px;
+  font-family:"IBM Plex Mono",monospace;font-size:14px;line-height:1.7;white-space:pre-wrap;overflow-x:auto}
+.post b{color:#fff;font-weight:600}
+
+/* итог */
+.marcador{display:flex;flex-wrap:wrap;gap:1px;background:var(--linea);border:1px solid var(--linea);border-radius:4px}
+.marcador div{background:var(--panel);padding:20px 26px;flex:1 1 160px}
+.marcador .n{font-family:"IBM Plex Mono",monospace;font-size:32px;font-weight:500;line-height:1}
+.marcador .l{font-size:13px;color:var(--apagado);margin-top:6px}
+
+.cta{display:inline-block;background:var(--largo);color:#04120c;font-weight:600;
+  padding:14px 26px;border-radius:3px;text-decoration:none;margin:6px 10px 0 0}
+.cta.b{background:transparent;color:var(--texto);border:1px solid var(--linea)}
+footer{padding:44px 0 70px;color:var(--apagado);font-size:14px;border-top:1px solid var(--linea)}
+@media(max-width:860px){
+  .escalera{grid-template-columns:1fr}
+  header{padding:40px 0 20px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="cinta"><div class="cinta-int" id="cinta">
+  <span>BTC <b class="num">—</b></span><span>ETH <b class="num">—</b></span><span>SOL <b class="num">—</b></span><span>ZEC <b class="num">—</b></span>
+</div></div>
+
+<header class="env">
+  <div class="marca"><span class="lg">Líderes Cripto</span><span class="sub">terminal · es-419</span></div>
+  <h1>Sabes dónde los van a liquidar</h1>
+  <p class="entrada">Seguimos las posiciones públicas de las cuentas más grandes de Hyperliquid y OKX. No opinamos: mostramos a qué precio entraron, cuánto llevan puesto y en qué nivel la bolsa les cierra la posición a la fuerza.</p>
+
+  <div class="escalera">
+    <div>
+      <h2>Escalera de liquidaciones · $BTC</h2>
+      <div class="grada" id="grada">
+        <div class="nivel" style="top:8%"><span class="et num">80.549</span><span class="quien"><i class="punto" style="background:var(--corto)"></i>El Lobo sin miedo · corto $6.9 M</span></div>
+        <div class="nivel" style="top:26%"><span class="et num">78.198</span><span class="quien"><i class="punto" style="background:var(--corto)"></i>El Cazador del este · corto $871 mil</span></div>
+        <div class="nivel ahora" style="top:47%"><span class="et num" id="pxbtc">78.215</span><span class="quien">precio ahora</span></div>
+        <div class="nivel" style="top:70%"><span class="et num">74.980</span><span class="quien"><i class="punto" style="background:var(--largo)"></i>La Roca de hierro · largo $12.4 M</span></div>
+        <div class="nivel" style="top:88%"><span class="et num">71.400</span><span class="quien"><i class="punto" style="background:var(--largo)"></i>El Paciente del norte · largo $3.1 M</span></div>
+      </div>
+      <p class="pie">Cuando el precio toca uno de esos niveles, la bolsa cierra esa posición a la fuerza y esa venta empuja el precio todavía más. Por eso son los únicos números que de verdad importan.</p>
+    </div>
+    <div>
+      <div class="tarj"><div class="t">Cuentas seguidas</div><div class="v">70</div><div class="d">más de $1 M, en positivo día, semana y mes</div></div>
+      <div class="tarj"><div class="t">Capital vigilado ahora</div><div class="v">$248 M</div><div class="d">posiciones abiertas de esas cuentas</div></div>
+      <div class="tarj"><div class="t">Aciertos, 7 días</div><div class="v">9 / 13</div><div class="d">publicamos también los fallos</div></div>
+    </div>
+  </div>
+
+  <p style="margin-top:26px">
+    <a class="cta" href="https://t.me/LideresCripto">Entrar al canal</a>
+    <a class="cta b" href="https://t.me/LideresCriptoBot_bot">Probar el bot</a>
+  </p>
+</header>
+
+<section class="env">
+  <h2 class="sec">Qué llega y cuándo</h2>
+  <p class="desc">Tres ediciones al día y avisos sueltos solo cuando pasa algo que exige decidir. Nunca más de cuatro avisos en seis horas.</p>
+  <div class="rej">
+    <div class="cel"><span class="k">08:00 · 14:00 · 20:00</span><h3>Radar</h3><p>Régimen del mercado, qué compraron y vendieron los líderes, cuánto cuesta mantener apalancamiento.</p></div>
+    <div class="cel"><span class="k">al instante</span><h3>Acuerdo de líderes</h3><p>Tres o más cuentas grandes entran en la misma moneda del mismo lado en menos de seis horas.</p></div>
+    <div class="cel"><span class="k">cada 10 min</span><h3>Ballenas on-chain</h3><p>Movimientos de más de $2 M entre bolsas y billeteras, con el enlace a la transacción.</p></div>
+    <div class="cel"><span class="k">16:00</span><h3>Historia del día</h3><p>La posición más ruidosa del mercado: quién gana, quién pierde y quién roza la liquidación.</p></div>
+    <div class="cel"><span class="k">domingo</span><h3>Marcador</h3><p>Cuántas señales salieron bien y cuántas mal, con la mejor y la peor de la semana.</p></div>
+    <div class="cel"><span class="k">bot</span><h3>Ficha de cualquier moneda</h3><p>Escribe un ticker y recibes precio, líderes, funding, interés abierto y desbloqueos.</p></div>
+  </div>
+</section>
+
+<section class="env">
+  <h2 class="sec">Un aviso real, sin retocar</h2>
+  <p class="desc">Así se ve en el canal. Los nombres son apodos fijos: cada billetera tiene siempre el mismo, para que puedas seguirle la pista.</p>
+<div class="post">🔥 <b>$BTC</b> · varios líderes entraron en corto a la vez (3 líderes) · precio 78.215
+
+🧠 Varios líderes abrieron cortos. Esperan que baje.
+👉 Si tienes spot, decide ahora tu precio de salida. Si no tienes, todavía no compres.
+
+👤 <b>Quiénes entraron</b>
+• El Relojero sin miedo con $7.0 M
+• El Lobo sin miedo con $6.9 M, lo liquidan en 80.549
+• El Cazador del este con $871 mil, lo liquidan en 78.198
+🔍 Los enlaces abren sus posiciones, compruébalo tú mismo.</div>
+</section>
+
+<section class="env">
+  <h2 class="sec">El marcador está a la vista</h2>
+  <p class="desc">Cualquiera puede enseñar sus aciertos. Nosotros guardamos cada señal con su precio, la revisamos a las 4 y a las 24 horas y publicamos el resultado salga como salga.</p>
+  <div class="marcador">
+    <div><div class="n">9 / 13</div><div class="l">señales en positivo, últimos 7 días</div></div>
+    <div><div class="n sube">+5.3%</div><div class="l">movimiento medio a 24 h</div></div>
+    <div><div class="n baja">−15.0%</div><div class="l">peor señal de la semana, publicada igual</div></div>
+  </div>
+</section>
+
+<section class="env">
+  <h2 class="sec">Gratis, y así seguirá</h2>
+  <p class="desc">El canal y el bot no cuestan nada. Vivimos del programa de referidos de las bolsas: si abres cuenta con nuestro enlace, la bolsa comparte parte de su comisión y tú pagas exactamente lo mismo. Quien quiera los avisos al instante por privado tiene Pro, 9 USD al mes, sin permanencia.</p>
+  <p><a class="cta" href="https://t.me/LideresCripto">Entrar al canal</a><a class="cta b" href="https://t.me/LideresCriptoBot_bot">Escribir /pro al bot</a></p>
+</section>
+
+<footer class="env">
+  <p>No es asesoría financiera. Mostramos posiciones públicas de otros traders y datos de mercado. Operar cripto con apalancamiento puede hacerte perder todo tu capital.</p>
+  <p>Líderes Cripto · <a href="https://t.me/LideresCripto">canal</a> · <a href="https://t.me/LideresCriptoBot_bot">bot</a> · liderescripto.com</p>
+</footer>
+
+<script>
+// живые котировки: если биржа не ответит, строка просто останется с прочерками
+const PARES=[["BTC","BTCUSDT"],["ETH","ETHUSDT"],["SOL","SOLUSDT"],["ZEC","ZECUSDT"]];
+const fmt=n=>n>=1000?n.toLocaleString("es-ES",{maximumFractionDigits:0}):n.toFixed(n>=1?2:4);
+async function cotiza(){
+  try{
+    const r=await fetch("https://api.bybit.com/v5/market/tickers?category=spot");
+    const j=await r.json();
+    const m={}; j.result.list.forEach(x=>m[x.symbol]=x);
+    const out=PARES.map(([n,s])=>{
+      const t=m[s]; if(!t) return `<span>${n} <b class="num">—</b></span>`;
+      const p=parseFloat(t.lastPrice), c=(p/parseFloat(t.prevPrice24h)-1)*100;
+      return `<span>${n} <b class="num">${fmt(p)}</b> <i class="num ${c>=0?"sube":"baja"}">${c>=0?"+":""}${c.toFixed(1)}%</i></span>`;
+    }).join("");
+    document.getElementById("cinta").innerHTML=out+out;
+    const btc=m["BTCUSDT"]; if(btc) document.getElementById("pxbtc").textContent=fmt(parseFloat(btc.lastPrice));
+  }catch(e){}
+}
+cotiza(); setInterval(cotiza,30000);
+</script>
+</body>
+</html>
