@@ -1,6 +1,28 @@
 {
- "actualizado": 1788970811.8426032,
+ "actualizado": 1788981611.661832,
  "avisos": [
+  {
+   "ts": 1788980409.1787922,
+   "tipo": "Edición del radar",
+   "texto": "radar 09.09 14:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "SOL",
+    "ZEC",
+    "IOST",
+    "SKHY",
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/54"
+  },
+  {
+   "ts": 1788978626.9878423,
+   "tipo": "Noticias",
+   "texto": "noticias 09.09 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/53"
+  },
   {
    "ts": 1788969609.110296,
    "tipo": "Guía",
@@ -29,24 +51,6 @@
    "texto": "noticias 09.09 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/50"
-  },
-  {
-   "ts": 1788954232.214384,
-   "tipo": "Señal",
-   "texto": "$20.7 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/49"
-  },
-  {
-   "ts": 1788948367.0831318,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/47"
   }
  ]
 }
