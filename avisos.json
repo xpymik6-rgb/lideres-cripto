@@ -1,6 +1,24 @@
 {
- "actualizado": 1788927617.0262423,
+ "actualizado": 1788931220.9626577,
  "avisos": [
+  {
+   "ts": 1788930517.525552,
+   "tipo": "Señal",
+   "texto": "$41.0 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/46"
+  },
+  {
+   "ts": 1788930168.5898974,
+   "tipo": "Resultados",
+   "texto": "análisis BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/44"
+  },
   {
    "ts": 1788926029.6324944,
    "tipo": "Señal",
@@ -9,33 +27,6 @@
     "USDC"
    ],
    "url": "https://t.me/LideresCripto/39"
-  },
-  {
-   "ts": 1788918007.3085442,
-   "tipo": "Señal",
-   "texto": "ballena USDT 2M",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/38"
-  },
-  {
-   "ts": 1788916704.0164046,
-   "tipo": "Señal",
-   "texto": "ballena USDT 11M",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/37"
-  },
-  {
-   "ts": 1788915887.3292542,
-   "tipo": "Señal",
-   "texto": "ballena USDT 7M",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/36"
   },
   {
    "ts": 1788915603.9987473,
@@ -47,6 +38,13 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/35"
+  },
+  {
+   "ts": 1788914680.509029,
+   "tipo": "Guía",
+   "texto": "qué es el funding",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/32"
   }
  ]
 }
