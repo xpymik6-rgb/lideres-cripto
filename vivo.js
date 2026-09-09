@@ -93,15 +93,20 @@ async function escalera() {
   /* Две цены ликвидации могут оказаться почти на одной высоте, и подписи налезают
      друг на друга. Разводим их сверху вниз с минимальным зазором: порядок уровней
      сохраняется, а цифра слева остаётся настоящей. */
-  const HUECO = 9;
+  const ARRIBA = 3, ABAJO = 94;
   const filas = niveles.map(n => ({liq: n.liq, y: pos(n.liq)}))
                        .concat([{precioAhora: true, y: pos(precio)}])
                        .sort((a, b) => a.y - b.y);
-  for (let i = 1; i < filas.length; i++) {
-    if (filas[i].y - filas[i - 1].y < HUECO) filas[i].y = filas[i - 1].y + HUECO;
+  // если строк много, зазор ужимаем, но не даём им слипнуться
+  const HUECO = Math.min(9, (ABAJO - ARRIBA) / Math.max(1, filas.length - 1));
+  filas[0].y = Math.max(ARRIBA, filas[0].y);
+  for (let i = 1; i < filas.length; i++) {           // сверху вниз
+    filas[i].y = Math.max(filas[i].y, filas[i - 1].y + HUECO);
   }
-  const sobra = filas[filas.length - 1].y - 94;
-  if (sobra > 0) filas.forEach(f => f.y = Math.max(3, f.y - sobra));
+  filas[filas.length - 1].y = Math.min(ABAJO, filas[filas.length - 1].y);
+  for (let i = filas.length - 2; i >= 0; i--) {      // и обратно снизу вверх
+    filas[i].y = Math.min(filas[i].y, filas[i + 1].y - HUECO);
+  }
   const altura = {};
   for (const f of filas) { if (f.precioAhora) altura.precio = f.y; else altura[f.liq] = f.y; }
 
