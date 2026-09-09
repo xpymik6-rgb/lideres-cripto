@@ -1,6 +1,13 @@
 {
- "actualizado": 1788960013.3969102,
+ "actualizado": 1788970811.8426032,
  "avisos": [
+  {
+   "ts": 1788969609.110296,
+   "tipo": "Guía",
+   "texto": "qué es el interés abierto",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/52"
+  },
   {
    "ts": 1788958810.7070625,
    "tipo": "Edición del radar",
@@ -40,15 +47,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/47"
-  },
-  {
-   "ts": 1788930517.525552,
-   "tipo": "Señal",
-   "texto": "$41.0 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/46"
   }
  ]
 }
