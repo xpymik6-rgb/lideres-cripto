@@ -1,6 +1,15 @@
 {
- "actualizado": 1788918755.4229088,
+ "actualizado": 1788927617.0262423,
  "avisos": [
+  {
+   "ts": 1788926029.6324944,
+   "tipo": "Señal",
+   "texto": "$29.0 M en USDC salen de Bybit",
+   "monedas": [
+    "USDC"
+   ],
+   "url": "https://t.me/LideresCripto/39"
+  },
   {
    "ts": 1788918007.3085442,
    "tipo": "Señal",
@@ -38,15 +47,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/35"
-  },
-  {
-   "ts": 1788914706.4791033,
-   "tipo": "Resultados",
-   "texto": "análisis BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/33"
   }
  ]
 }
