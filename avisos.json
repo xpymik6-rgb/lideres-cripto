@@ -1,0 +1,52 @@
+{
+ "actualizado": 1788918755.4229088,
+ "avisos": [
+  {
+   "ts": 1788918007.3085442,
+   "tipo": "Señal",
+   "texto": "ballena USDT 2M",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/38"
+  },
+  {
+   "ts": 1788916704.0164046,
+   "tipo": "Señal",
+   "texto": "ballena USDT 11M",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/37"
+  },
+  {
+   "ts": 1788915887.3292542,
+   "tipo": "Señal",
+   "texto": "ballena USDT 7M",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/36"
+  },
+  {
+   "ts": 1788915603.9987473,
+   "tipo": "Edición del radar",
+   "texto": "radar 08.09 20:00",
+   "monedas": [
+    "ZEC",
+    "LIT",
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/35"
+  },
+  {
+   "ts": 1788914706.4791033,
+   "tipo": "Resultados",
+   "texto": "análisis BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/33"
+  }
+ ]
+}
