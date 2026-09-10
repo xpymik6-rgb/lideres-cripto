@@ -1,6 +1,25 @@
 {
- "actualizado": 1788988821.3217452,
+ "actualizado": 1789003202.9642212,
  "avisos": [
+  {
+   "ts": 1789002020.379733,
+   "tipo": "Edición del radar",
+   "texto": "radar 09.09 20:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "IOST",
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/59"
+  },
+  {
+   "ts": 1789000218.4181945,
+   "tipo": "Noticias",
+   "texto": "noticias 09.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/58"
+  },
   {
    "ts": 1788987678.7676034,
    "tipo": "Señal",
@@ -31,28 +50,6 @@
    "texto": "noticias 09.09 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/53"
-  },
-  {
-   "ts": 1788969609.110296,
-   "tipo": "Guía",
-   "texto": "qué es el interés abierto",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/52"
-  },
-  {
-   "ts": 1788958810.7070625,
-   "tipo": "Edición del radar",
-   "texto": "radar 09.09 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "CHIP",
-    "AKE",
-    "USELESS",
-    "SOPH"
-   ],
-   "url": "https://t.me/LideresCripto/51"
   }
  ]
 }
