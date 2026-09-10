@@ -1,6 +1,19 @@
 {
- "actualizado": 1789050011.8031895,
+ "actualizado": 1789060812.4774408,
  "avisos": [
+  {
+   "ts": 1789059610.186297,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 10.09",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "AKE",
+    "IOST",
+    "ACE"
+   ],
+   "url": "https://t.me/LideresCripto/71"
+  },
   {
    "ts": 1789049976.3874075,
    "tipo": "Señal",
@@ -36,19 +49,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/65"
-  },
-  {
-   "ts": 1789045204.9081962,
-   "tipo": "Edición del radar",
-   "texto": "radar 10.09 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "IOST",
-    "SKHY"
-   ],
-   "url": "https://t.me/LideresCripto/64"
   }
  ]
 }
