@@ -1,6 +1,24 @@
 {
- "actualizado": 1789046407.0325866,
+ "actualizado": 1789050011.8031895,
  "avisos": [
+  {
+   "ts": 1789049976.3874075,
+   "tipo": "Señal",
+   "texto": "$28.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/70"
+  },
+  {
+   "ts": 1789046962.5657976,
+   "tipo": "Señal",
+   "texto": "$49.4 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/69"
+  },
   {
    "ts": 1789045617.8235028,
    "tipo": "Señal",
@@ -31,22 +49,6 @@
     "SKHY"
    ],
    "url": "https://t.me/LideresCripto/64"
-  },
-  {
-   "ts": 1789043422.470687,
-   "tipo": "Noticias",
-   "texto": "noticias 10.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/63"
-  },
-  {
-   "ts": 1789023943.900315,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/60"
   }
  ]
 }
