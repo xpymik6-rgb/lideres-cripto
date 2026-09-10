@@ -1,6 +1,44 @@
 {
- "actualizado": 1789024820.0304115,
+ "actualizado": 1789046407.0325866,
  "avisos": [
+  {
+   "ts": 1789045617.8235028,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/67"
+  },
+  {
+   "ts": 1789045586.5879033,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/65"
+  },
+  {
+   "ts": 1789045204.9081962,
+   "tipo": "Edición del radar",
+   "texto": "radar 10.09 08:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "ZEC",
+    "IOST",
+    "SKHY"
+   ],
+   "url": "https://t.me/LideresCripto/64"
+  },
+  {
+   "ts": 1789043422.470687,
+   "tipo": "Noticias",
+   "texto": "noticias 10.09 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/63"
+  },
   {
    "ts": 1789023943.900315,
    "tipo": "Señal",
@@ -9,49 +47,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/60"
-  },
-  {
-   "ts": 1789002020.379733,
-   "tipo": "Edición del radar",
-   "texto": "radar 09.09 20:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "IOST",
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/59"
-  },
-  {
-   "ts": 1789000218.4181945,
-   "tipo": "Noticias",
-   "texto": "noticias 09.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/58"
-  },
-  {
-   "ts": 1788987678.7676034,
-   "tipo": "Señal",
-   "texto": "historia ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/55"
-  },
-  {
-   "ts": 1788980409.1787922,
-   "tipo": "Edición del radar",
-   "texto": "radar 09.09 14:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "SOL",
-    "ZEC",
-    "IOST",
-    "SKHY",
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/54"
   }
  ]
 }
