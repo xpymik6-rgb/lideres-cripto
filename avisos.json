@@ -1,6 +1,13 @@
 {
- "actualizado": 1789136414.0025165,
+ "actualizado": 1789143609.6705039,
  "avisos": [
+  {
+   "ts": 1789142407.6246548,
+   "tipo": "Guía",
+   "texto": "qué son las liquidaciones",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/93"
+  },
   {
    "ts": 1789134825.7303975,
    "tipo": "Señal",
@@ -38,15 +45,6 @@
    "texto": "noticias 11.09 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/87"
-  },
-  {
-   "ts": 1789106757.9317753,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/84"
   }
  ]
 }
