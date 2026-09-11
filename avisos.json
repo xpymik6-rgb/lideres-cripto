@@ -1,6 +1,24 @@
 {
- "actualizado": 1789132809.2705228,
+ "actualizado": 1789136414.0025165,
  "avisos": [
+  {
+   "ts": 1789134825.7303975,
+   "tipo": "Señal",
+   "texto": "empujón de BTC $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/90"
+  },
+  {
+   "ts": 1789133534.1592479,
+   "tipo": "Señal",
+   "texto": "$500.0 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/89"
+  },
   {
    "ts": 1789131647.1543012,
    "tipo": "Edición del radar",
@@ -29,24 +47,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/84"
-  },
-  {
-   "ts": 1789106756.9037917,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/82"
-  },
-  {
-   "ts": 1789103205.0696573,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/80"
   }
  ]
 }
