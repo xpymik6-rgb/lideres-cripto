@@ -1,6 +1,15 @@
 {
- "actualizado": 1789089605.9555047,
+ "actualizado": 1789104017.0863633,
  "avisos": [
+  {
+   "ts": 1789103205.0696573,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/80"
+  },
   {
    "ts": 1789088403.112254,
    "tipo": "Edición del radar",
@@ -36,21 +45,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/76"
-  },
-  {
-   "ts": 1789066808.9037259,
-   "tipo": "Edición del radar",
-   "texto": "radar 10.09 14:00",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "PONS",
-    "ETH",
-    "ETHFI",
-    "HYPE",
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/75"
   }
  ]
 }
