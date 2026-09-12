@@ -1,6 +1,33 @@
 {
- "actualizado": 1789190409.1533575,
+ "actualizado": 1789197618.8644538,
  "avisos": [
+  {
+   "ts": 1789196716.365818,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: -1,6% (salió al revés)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/105"
+  },
+  {
+   "ts": 1789196716.159315,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: +2,4% (salió bien)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/104"
+  },
+  {
+   "ts": 1789196715.9416025,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +0,2% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/103"
+  },
   {
    "ts": 1789189550.5395217,
    "tipo": "Señal",
@@ -157,39 +184,6 @@
    "texto": "noticias 10.09 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/78"
-  },
-  {
-   "ts": 1789074021.495297,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/77"
-  },
-  {
-   "ts": 1789071080.3878503,
-   "tipo": "Señal",
-   "texto": "$41.7 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/76"
-  },
-  {
-   "ts": 1789066808.9037259,
-   "tipo": "Edición del radar",
-   "texto": "radar 10.09 14:00",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "PONS",
-    "ETH",
-    "ETHFI",
-    "HYPE",
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/75"
   }
  ]
 }
