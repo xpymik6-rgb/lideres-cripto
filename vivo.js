@@ -287,7 +287,9 @@ async function ultimosAvisos() {
     const r = await fetch("/avisos.json?t=" + Math.floor(Date.now() / 60000));
     const j = await r.json();
     if (!j.avisos || !j.avisos.length) throw 0;
-    const filas = j.avisos.map(a => {
+    // сервер отдаёт сутки постов (из этого же файла строится витрина для X),
+    // а на странице показываем только шесть свежих, чтобы лента не растягивалась
+    const filas = j.avisos.slice(0, 6).map(a => {
       const d = new Date(a.ts * 1000);
       const cuando = d.toLocaleString("es-PE", {timeZone: "America/Lima", day: "2-digit",
                                                 month: "2-digit", hour: "2-digit", minute: "2-digit"});
