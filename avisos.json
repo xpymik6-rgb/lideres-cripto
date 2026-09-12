@@ -1,5 +1,5 @@
 {
- "actualizado": 1789176019.4018984,
+ "actualizado": 1789189133.753404,
  "avisos": [
   {
    "ts": 1789174817.271079,
@@ -51,6 +51,143 @@
     "USDC"
    ],
    "url": "https://t.me/LideresCripto/95"
+  },
+  {
+   "ts": 1789151418.481843,
+   "tipo": "Noticias",
+   "texto": "noticias 11.09 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/94"
+  },
+  {
+   "ts": 1789142407.6246548,
+   "tipo": "Guía",
+   "texto": "qué son las liquidaciones",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/93"
+  },
+  {
+   "ts": 1789134825.7303975,
+   "tipo": "Señal",
+   "texto": "empujón de BTC $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/90"
+  },
+  {
+   "ts": 1789133534.1592479,
+   "tipo": "Señal",
+   "texto": "$500.0 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/89"
+  },
+  {
+   "ts": 1789131647.1543012,
+   "tipo": "Edición del radar",
+   "texto": "radar 11.09 08:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "ZEC",
+    "HYPE",
+    "CHIP"
+   ],
+   "url": "https://t.me/LideresCripto/88"
+  },
+  {
+   "ts": 1789129854.6047392,
+   "tipo": "Noticias",
+   "texto": "noticias 11.09 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/87"
+  },
+  {
+   "ts": 1789106757.9317753,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/84"
+  },
+  {
+   "ts": 1789106756.9037917,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/82"
+  },
+  {
+   "ts": 1789103205.0696573,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/80"
+  },
+  {
+   "ts": 1789088403.112254,
+   "tipo": "Edición del radar",
+   "texto": "radar 10.09 20:00",
+   "monedas": [
+    "ZEC",
+    "BTC",
+    "CHIP"
+   ],
+   "url": "https://t.me/LideresCripto/79"
+  },
+  {
+   "ts": 1789086620.4548392,
+   "tipo": "Noticias",
+   "texto": "noticias 10.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/78"
+  },
+  {
+   "ts": 1789074021.495297,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/77"
+  },
+  {
+   "ts": 1789071080.3878503,
+   "tipo": "Señal",
+   "texto": "$41.7 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/76"
+  },
+  {
+   "ts": 1789066808.9037259,
+   "tipo": "Edición del radar",
+   "texto": "radar 10.09 14:00",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "PONS",
+    "ETH",
+    "ETHFI",
+    "HYPE",
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/75"
+  },
+  {
+   "ts": 1789065026.8383048,
+   "tipo": "Noticias",
+   "texto": "noticias 10.09 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/74"
   }
  ]
 }
