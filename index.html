@@ -61,7 +61,7 @@
           "price":"9",
           "priceCurrency":"USD",
           "availability":"https://schema.org/InStock",
-          "description":"Señales al instante por privado, avisos de precio y fichas sin límite. Mensual, sin permanencia."
+          "description":"Señales al instante por privado, avisos de precio, vigilancia de hasta quince posiciones, ficha completa antes de entrar (límites del día, imanes de liquidaciones, volumen fuera de lo normal, costo real de la entrada y revisión del contrato) y horarios de silencio. Mensual, sin permanencia."
         }
       ]
     },
@@ -71,7 +71,11 @@
         {"@type":"Question","name":"¿Es gratis el canal Líderes Cripto?",
          "acceptedAnswer":{"@type":"Answer","text":"El canal y el bot son gratis: radar tres veces al día, noticias, desbloqueos, señales y resultados semanales. Existe una opción de pago llamada Pro para quien quiere las señales al instante por privado."}},
         {"@type":"Question","name":"¿Cuánto cuesta Pro y qué incluye?",
-         "acceptedAnswer":{"@type":"Answer","text":"9 dólares al mes sin permanencia. Incluye cada señal en el momento en que ocurre, avisos de precio personalizados y consultas de fichas sin límite. Se paga con Estrellas de Telegram o con USDT."}},
+         "acceptedAnswer":{"@type":"Answer","text":"9 dólares al mes sin permanencia. Incluye cada señal en el momento en que ocurre, avisos de precio personalizados, vigilancia de hasta quince posiciones tuyas, la ficha completa antes de entrar (límites del día, dónde se juntaron los stops, volumen fuera de lo normal, cuánto te cuesta la entrada y si el contrato de la moneda tiene trampa) y horarios de silencio para que el bot no te escriba de madrugada. Se paga con Estrellas de Telegram o con USDT."}},
+        {"@type":"Question","name":"¿Cómo saber si una moneda es una trampa antes de comprarla?",
+         "acceptedAnswer":{"@type":"Answer","text":"Escribe /seguridad y el ticker en el bot, por ejemplo /seguridad PEPE. Revisa el contrato de la moneda y responde cuántos tenedores tiene, qué parte del total está en las diez billeteras más grandes, si se pueden imprimir monedas nuevas, si se pueden frenar las transferencias y si se puede comprar pero no vender. Es gratis y tarda segundos. Las monedas de su propia red, como bitcoin o solana, no tienen contrato que revisar."}},
+        {"@type":"Question","name":"¿Dónde pongo el stop y de cuánto abro la posición?",
+         "acceptedAnswer":{"@type":"Answer","text":"Escríbele al bot algo como 'entro en ZEC largo' y te responde con lo que está a favor y en contra, dónde poner el stop y con cuánto entrar. El stop no se pone en un porcentaje redondo: si hay cerca un nivel donde el precio ya se frenó antes, lo pone justo detrás de ese nivel, y calcula el tamaño de la posición para que una operación fallida te cueste el 1% de la cuenta."}},
         {"@type":"Question","name":"¿Cómo ganan dinero si el canal es gratis?",
          "acceptedAnswer":{"@type":"Answer","text":"De dos formas: el programa de referidos de las bolsas, donde la bolsa comparte parte de sus comisiones sin costo extra para ti, y las suscripciones Pro de quien las quiera."}},
         {"@type":"Question","name":"¿De dónde salen los datos de las señales?",
@@ -307,7 +311,8 @@ footer{padding:46px 0 76px;color:var(--apagado);font-size:14px;border-top:1px so
     <div class="cel"><span class="k">cada 10 min</span><h3>Ballenas on-chain</h3><p>Movimientos de más de $2 M entre bolsas y billeteras, con el enlace a la transacción.</p></div>
     <div class="cel"><span class="k">16:00</span><h3>Historia del día</h3><p>La posición más ruidosa del mercado: quién gana, quién pierde y quién roza la liquidación.</p></div>
     <div class="cel"><span class="k">domingo</span><h3>Marcador</h3><p>Cuántas señales salieron bien y cuántas mal, con la mejor y la peor de la semana.</p></div>
-    <div class="cel"><span class="k">bot · 24/7</span><h3>Ficha de cualquier moneda</h3><p>Escribe un ticker y recibes precio, líderes, funding, interés abierto y desbloqueos.</p></div>
+    <div class="cel"><span class="k">bot · 24/7</span><h3>Ficha de cualquier moneda</h3><p>Escribe un ticker y recibes precio, líderes, funding, interés abierto, desbloqueos, los límites de ayer y si el volumen de la hora se salió de lo normal.</p></div>
+    <div class="cel"><span class="k">bot · antes de entrar</span><h3>Revisar antes de comprar</h3><p><b>/seguridad PEPE</b> mira el contrato y avisa si tiene trampa. <b>/niveles BTC</b> muestra los límites de ayer. <b>/imanes BTC</b> muestra dónde se juntaron los stops y las liquidaciones.</p></div>
   </div>
 </section>
 
@@ -353,7 +358,9 @@ footer{padding:46px 0 76px;color:var(--apagado);font-size:14px;border-top:1px so
   <h2>Preguntas que nos hacen</h2>
   <div class="faq">
     <details open><summary>¿Es gratis?</summary><p>El canal y el bot son gratis y así seguirán: radar tres veces al día, noticias, desbloqueos, señales y los resultados del domingo. Hay una opción de pago, Pro, para quien quiere los avisos al instante por privado y avisos de precio. No vendemos cursos ni grupos VIP.</p></details>
-    <details><summary>¿Qué trae Pro y cuánto cuesta?</summary><p>9 USD al mes, sin permanencia. Recibes cada señal en el momento en que ocurre y no en la edición siguiente, pones avisos para que el bot te escriba cuando tu moneda toque el precio que marcaste, y consultas fichas sin límite. Se paga con Estrellas de Telegram o con USDT dentro de Telegram.</p></details>
+    <details><summary>¿Qué trae Pro y cuánto cuesta?</summary><p>9 USD al mes, sin permanencia. Recibes cada señal en el momento en que ocurre y no en la edición siguiente; el bot vigila hasta quince posiciones tuyas y te avisa si los líderes salen, si el funding se pone en tu contra o si se acerca la liquidación; pones avisos de precio; consultas fichas sin límite con los límites del día, los imanes de liquidaciones, el volumen fuera de lo normal, lo que te cuesta realmente la entrada y la revisión del contrato; y decides cuánto te escribe con /modo y /silencio. Se paga con Estrellas de Telegram o con USDT dentro de Telegram.</p></details>
+    <details><summary>¿Cómo sé si una moneda es una trampa antes de comprarla?</summary><p>Escribe <b>/seguridad</b> y el ticker en el bot, por ejemplo <b>/seguridad PEPE</b>. Revisamos el contrato y te decimos cuántos tenedores tiene, qué parte del total está en las diez billeteras más grandes, si se pueden imprimir monedas nuevas, si alguien puede frenar las transferencias y si se puede comprar pero no vender. Es gratis y tarda segundos. Las monedas de su propia red, como bitcoin o solana, no tienen contrato que revisar.</p></details>
+    <details><summary>¿Dónde pongo el stop y con cuánto entro?</summary><p>Escríbele al bot <b>entro en ZEC largo</b> y te responde qué hay a favor y en contra, dónde poner el stop y con cuánto entrar. El stop no va en un porcentaje redondo: si cerca hay un nivel donde el precio ya se frenó antes, lo ponemos justo detrás de ese nivel, y el tamaño se calcula para que una operación fallida te cueste el 1% de tu cuenta.</p></details>
     <details><summary>¿Y entonces cómo ganan dinero?</summary><p>De dos formas, y las dos están a la vista. Con el programa de referidos de las bolsas: si abres tu cuenta con nuestro enlace, la bolsa comparte parte de su comisión y a ti no te cuesta nada extra. Y con las suscripciones Pro de quien las quiera.</p></details>
     <details><summary>¿Qué es un acuerdo de líderes?</summary><p>Es cuando tres o más de las cuentas grandes que seguimos entran en la misma moneda, del mismo lado, en menos de seis horas. No es opinión: es dinero real coincidiendo.</p></details>
     <details><summary>¿Sirve si opero en spot y sin apalancamiento?</summary><p>Sí. El funding y las liquidaciones te dicen dónde está el riesgo aunque tú no uses apalancamiento, y un desbloqueo grande afecta el precio en spot igual que en futuros.</p></details>

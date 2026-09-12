@@ -22,7 +22,14 @@ Sitio: https://liderescripto.com/
 - Desbloqueos de tokens de las próximas 36 horas y calendario semanal.
 - Resultados cada domingo: cuántas señales terminaron en positivo a las 24 horas,
   con la mejor y la peor de la semana.
-- Educación: funding, interés abierto, liquidaciones, desbloqueos, explicados simple.
+- Educación: funding, interés abierto, liquidaciones, desbloqueos, límites del día,
+  revisión de contratos y costo real de la entrada, explicados simple.
+- Herramientas del bot para revisar una moneda antes de entrar: /niveles muestra los
+  límites de ayer (máximo, mínimo y precio medio del día anterior); /imanes muestra dónde
+  se juntaron los stops y las liquidaciones; /seguridad revisa el contrato de la moneda
+  (tenedores, concentración en las diez billeteras más grandes, si se pueden imprimir
+  monedas nuevas, si se pueden frenar las transferencias, si se puede comprar pero no
+  vender); /volumen muestra qué monedas se negocian fuera de lo normal en esta hora.
 
 ## Fuentes de datos
 
@@ -39,13 +46,25 @@ Dos fuentes, ambas declaradas en el canal y en el sitio:
    sin el enlace.
 2. Suscripción Pro, 9 USD al mes sin permanencia, pagada con Estrellas de Telegram o USDT.
    Pro incluye: cada señal en el momento en que ocurre y no en la edición siguiente,
-   avisos de precio personalizados por moneda, y consultas de fichas sin límite.
+   vigilancia de hasta quince posiciones del usuario con aviso cuando los líderes salen,
+   cuando el funding se pone en contra o cuando se acerca la liquidación, avisos de precio
+   personalizados por moneda, consultas de fichas sin límite con límites del día, imanes
+   de liquidaciones, volumen fuera de lo normal, costo real de la entrada y revisión del
+   contrato, y horarios de silencio configurables.
    El canal y el bot siguen siendo gratuitos.
 
 ## Preguntas frecuentes
 
 ¿Es gratis? El canal y el bot sí. Pro es opcional y cuesta 9 USD al mes.
-¿Qué incluye Pro? Señales al instante por privado, avisos de precio y fichas sin límite.
+¿Qué incluye Pro? Señales al instante por privado, vigilancia de hasta quince posiciones,
+avisos de precio, fichas completas antes de entrar y horarios de silencio.
+¿Cómo sé si una moneda es una trampa antes de comprarla? Con /seguridad y el ticker: el bot
+revisa el contrato y responde cuántos tenedores tiene, qué parte del total está en las diez
+billeteras más grandes, si se pueden imprimir monedas nuevas y si se puede comprar pero no
+vender. Es gratis y tarda segundos.
+¿Dónde pongo el stop y con cuánto entro? El bot pone el stop detrás del nivel donde el precio
+ya se frenó antes, no en un porcentaje redondo, y calcula el tamaño de la posición para que
+una operación fallida cueste el 1% de la cuenta.
 ¿Cómo ganan dinero? Con el programa de referidos de las bolsas, sin costo extra para el
 usuario, y con las suscripciones Pro.
 ¿De dónde salen los datos? De fuentes públicas de Hyperliquid, OKX, Binance y Bybit.
