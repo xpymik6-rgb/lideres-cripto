@@ -1,6 +1,26 @@
 {
- "actualizado": 1789161615.1279845,
+ "actualizado": 1789176019.4018984,
  "avisos": [
+  {
+   "ts": 1789174817.271079,
+   "tipo": "Edición del radar",
+   "texto": "radar 11.09 20:00",
+   "monedas": [
+    "ETH",
+    "SOL",
+    "BTC",
+    "NEAR",
+    "STORJ"
+   ],
+   "url": "https://t.me/LideresCripto/100"
+  },
+  {
+   "ts": 1789173015.159306,
+   "tipo": "Noticias",
+   "texto": "noticias 11.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/99"
+  },
   {
    "ts": 1789160413.0773575,
    "tipo": "Señal",
@@ -31,20 +51,6 @@
     "USDC"
    ],
    "url": "https://t.me/LideresCripto/95"
-  },
-  {
-   "ts": 1789151418.481843,
-   "tipo": "Noticias",
-   "texto": "noticias 11.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/94"
-  },
-  {
-   "ts": 1789142407.6246548,
-   "tipo": "Guía",
-   "texto": "qué son las liquidaciones",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/93"
   }
  ]
 }
