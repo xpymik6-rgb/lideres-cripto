@@ -1,6 +1,15 @@
 {
- "actualizado": 1789197618.8644538,
+ "actualizado": 1789201205.4029,
  "avisos": [
+  {
+   "ts": 1789197943.105462,
+   "tipo": "Señal",
+   "texto": "$51.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/106"
+  },
   {
    "ts": 1789196716.365818,
    "tipo": "Resultados",
@@ -177,13 +186,6 @@
     "CHIP"
    ],
    "url": "https://t.me/LideresCripto/79"
-  },
-  {
-   "ts": 1789086620.4548392,
-   "tipo": "Noticias",
-   "texto": "noticias 10.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/78"
   }
  ]
 }
