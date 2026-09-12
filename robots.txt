@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+# /v/ — черновики оформления, не рабочие страницы: дубли в выдаче не нужны
+Disallow: /v/
 
 User-agent: GPTBot
 Allow: /
