@@ -1,6 +1,15 @@
 {
- "actualizado": 1789262408.1705883,
+ "actualizado": 1789280410.0806437,
  "avisos": [
+  {
+   "ts": 1789279507.9492013,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +0,4% (sin movimiento)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/115"
+  },
   {
    "ts": 1789261225.6970372,
    "tipo": "Edición del radar",
@@ -181,13 +190,6 @@
    "texto": "noticias 11.09 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/94"
-  },
-  {
-   "ts": 1789142407.6246548,
-   "tipo": "Guía",
-   "texto": "qué son las liquidaciones",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/93"
   }
  ]
 }
