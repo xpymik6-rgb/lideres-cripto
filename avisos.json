@@ -1,6 +1,25 @@
 {
- "actualizado": 1789248017.6506534,
+ "actualizado": 1789262408.1705883,
  "avisos": [
+  {
+   "ts": 1789261225.6970372,
+   "tipo": "Edición del radar",
+   "texto": "radar 12.09 20:00",
+   "monedas": [
+    "HYPE",
+    "BTC",
+    "LSK",
+    "LIT"
+   ],
+   "url": "https://t.me/LideresCripto/114"
+  },
+  {
+   "ts": 1789259417.1853034,
+   "tipo": "Noticias",
+   "texto": "noticias 12.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/113"
+  },
   {
    "ts": 1789246815.0739944,
    "tipo": "Señal",
@@ -169,24 +188,6 @@
    "texto": "qué son las liquidaciones",
    "monedas": [],
    "url": "https://t.me/LideresCripto/93"
-  },
-  {
-   "ts": 1789134825.7303975,
-   "tipo": "Señal",
-   "texto": "empujón de BTC $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/90"
-  },
-  {
-   "ts": 1789133534.1592479,
-   "tipo": "Señal",
-   "texto": "$500.0 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/89"
   }
  ]
 }
