@@ -1,6 +1,24 @@
 {
- "actualizado": 1789280410.0806437,
+ "actualizado": 1789287620.2684696,
  "avisos": [
+  {
+   "ts": 1789285930.4574203,
+   "tipo": "Señal",
+   "texto": "$24.3 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/117"
+  },
+  {
+   "ts": 1789285327.7793245,
+   "tipo": "Señal",
+   "texto": "$41.4 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/116"
+  },
   {
    "ts": 1789279507.9492013,
    "tipo": "Resultados",
@@ -170,26 +188,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/96"
-  },
-  {
-   "ts": 1789153220.493328,
-   "tipo": "Edición del radar",
-   "texto": "radar 11.09 14:00",
-   "monedas": [
-    "ETH",
-    "ZEC",
-    "BTC",
-    "CASHCAT",
-    "USDC"
-   ],
-   "url": "https://t.me/LideresCripto/95"
-  },
-  {
-   "ts": 1789151418.481843,
-   "tipo": "Noticias",
-   "texto": "noticias 11.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/94"
   }
  ]
 }
