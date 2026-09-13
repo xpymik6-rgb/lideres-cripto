@@ -1,6 +1,15 @@
 {
- "actualizado": 1789327210.1956637,
+ "actualizado": 1789334413.0976803,
  "avisos": [
+  {
+   "ts": 1789333210.671032,
+   "tipo": "Señal",
+   "texto": "historia ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/125"
+  },
   {
    "ts": 1789326007.4897313,
    "tipo": "Edición del radar",
@@ -182,15 +191,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/105"
-  },
-  {
-   "ts": 1789196716.159315,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: +2,4% (salió bien)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/104"
   }
  ]
 }
