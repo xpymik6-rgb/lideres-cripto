@@ -6,19 +6,67 @@
 <meta name="robots" content="noindex">
 <title>El Apostador de medianoche</title>
 <link rel="canonical" href="https://hyperdash.com/address/0xbf732ea04197942783e34730ed6e0f6099575d58">
-<meta http-equiv="refresh" content="0; url=https://hyperdash.com/address/0xbf732ea04197942783e34730ed6e0f6099575d58">
-<script>location.replace("https://hyperdash.com/address/0xbf732ea04197942783e34730ed6e0f6099575d58");</script>
 <style>
 body{margin:0;background:#0b0e18;color:#eef2f8;
  font:17px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-.w{max-width:560px;margin:0 auto;padding:64px 24px;text-align:center}
-a{color:#7fd1a8;display:inline-block;margin:8px 12px}
-p{color:#8fa0bb}
+.w{max-width:600px;margin:0 auto;padding:56px 24px;text-align:center}
+h1{font-size:22px;margin:0 0 8px;font-weight:600}
+p{color:#8fa0bb;margin:0 0 20px}
+.k{display:inline-block;background:#7fd1a8;color:#07210f;text-decoration:none;
+ font-weight:600;padding:14px 26px;border-radius:10px;margin:6px}
+.v{display:inline-block;color:#7fd1a8;text-decoration:none;margin:10px 12px;
+ font-size:15px}
+.m{color:#5d6b85;font-size:14px;margin-top:26px}
+#vozvrat{display:none}
+html.vernulsya #vozvrat{display:block}
+html.vernulsya #idem{display:none}
 </style>
 </head>
 <body><div class="w">
-<p>Posiciones abiertas de El Apostador de medianoche</p>
-<a href="https://hyperdash.com/address/0xbf732ea04197942783e34730ed6e0f6099575d58">Abrir ahora</a>
-<a href="https://hypurrscan.io/address/0xbf732ea04197942783e34730ed6e0f6099575d58#perps">Ver en hypurrscan</a>
-</div></body>
+
+<div id="idem">
+<p>Abriendo las posiciones de El Apostador de medianoche…</p>
+<a class="k" href="https://hyperdash.com/address/0xbf732ea04197942783e34730ed6e0f6099575d58">Abrir ahora</a>
+</div>
+
+<div id="vozvrat">
+<h1>¿Seguimos a El Apostador de medianoche por ti?</h1>
+<p>Publicamos cuando esta cartera suma, recorta o cierra: con entrada,
+tamaño y precio de liquidación. Los mismos números que acabas de ver.</p>
+<a class="k" href="https://t.me/+2vaztgYO2kFhMmQy">Ver el canal</a>
+<div>
+<a class="v" href="https://hyperdash.com/address/0xbf732ea04197942783e34730ed6e0f6099575d58">Volver a las posiciones</a>
+<a class="v" href="https://hypurrscan.io/address/0xbf732ea04197942783e34730ed6e0f6099575d58#perps">Ver en hypurrscan</a>
+</div>
+<p class="m">Datos públicos de la bolsa. No damos señales ni prometemos ganancias.</p>
+</div>
+
+</div>
+<script>
+(function () {
+  var cel = "https://hyperdash.com/address/0xbf732ea04197942783e34730ed6e0f6099575d58";
+  var klyuch = 'w' + location.pathname;
+  // Первый заход: уводим сразу, человек должен увидеть цифры, а не нашу
+  // страницу. Переход обычный, а не replace, чтобы кнопка «назад» вернула
+  // сюда, а не выкинула обратно в ленту.
+  var byl = false;
+  try { byl = sessionStorage.getItem(klyuch) === '1'; } catch (e) {}
+  if (!byl) {
+    try { sessionStorage.setItem(klyuch, '1'); } catch (e) {}
+    location.href = cel;
+    return;
+  }
+  // Человек вернулся назад: цифры он посмотрел, теперь уместно предложить
+  // следить за этим кошельком дальше.
+  document.documentElement.className += ' vernulsya';
+})();
+// Возврат из кеша браузера скрипт заново не выполняет, ловим отдельно.
+window.addEventListener('pageshow', function (e) {
+  if (e.persisted) {
+    document.documentElement.className += ' vernulsya';
+  }
+});
+</script>
+<noscript><a class="k" href="https://hyperdash.com/address/0xbf732ea04197942783e34730ed6e0f6099575d58">Abrir las posiciones de El Apostador de medianoche</a></noscript>
+</body>
 </html>
