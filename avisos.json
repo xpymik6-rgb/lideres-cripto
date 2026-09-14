@@ -1,6 +1,24 @@
 {
- "actualizado": 1789413610.86038,
+ "actualizado": 1789420805.1997845,
  "avisos": [
+  {
+   "ts": 1789420050.4879713,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/145"
+  },
+  {
+   "ts": 1789419622.5572317,
+   "tipo": "Señal",
+   "texto": "historia ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/144"
+  },
   {
    "ts": 1789412408.3950841,
    "tipo": "Edición del radar",
@@ -178,20 +196,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/124"
-  },
-  {
-   "ts": 1789324206.4075491,
-   "tipo": "Noticias",
-   "texto": "noticias 13.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/123"
-  },
-  {
-   "ts": 1789315203.4858527,
-   "tipo": "Guía",
-   "texto": "cómo leemos a los líderes",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/122"
   }
  ]
 }
