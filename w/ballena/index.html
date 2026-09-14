@@ -58,7 +58,7 @@ tamaño y precio de liquidación. Los mismos números que acabas de ver.</p>
     // страницу: проверено 13.09, возврат уносил сразу в ленту. Через таймер
     // тоже ненадёжно — в фоновой вкладке браузер их придерживает, и переход
     // может не случиться вовсе. Событие `load` приходит всегда.
-    var idti = function () { location.href = cel; };
+    var idti = function () { setTimeout(function () { location.href = cel; }, 1200); };
     if (document.readyState === 'complete') { idti(); }
     else { window.addEventListener('load', idti); }
     return;
