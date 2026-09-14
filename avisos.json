@@ -1,6 +1,28 @@
 {
- "actualizado": 1789399212.481382,
+ "actualizado": 1789406414.3063195,
  "avisos": [
+  {
+   "ts": 1789405531.8477397,
+   "tipo": "Resultados",
+   "texto": "resultado $LSK: -60,1% (salió bien)",
+   "monedas": [
+    "LSK"
+   ],
+   "url": "https://t.me/LideresCripto/140"
+  },
+  {
+   "ts": 1789405201.5661232,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 14.09",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "HYPE",
+    "ETH",
+    "LSK"
+   ],
+   "url": "https://t.me/LideresCripto/139"
+  },
   {
    "ts": 1789398383.3683412,
    "tipo": "Señal",
@@ -171,24 +193,6 @@
    "texto": "noticias 13.09 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/118"
-  },
-  {
-   "ts": 1789285930.4574203,
-   "tipo": "Señal",
-   "texto": "$24.3 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/117"
-  },
-  {
-   "ts": 1789285327.7793245,
-   "tipo": "Señal",
-   "texto": "$41.4 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/116"
   }
  ]
 }
