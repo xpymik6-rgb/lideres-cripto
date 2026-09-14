@@ -1,6 +1,15 @@
 {
- "actualizado": 1789352414.013179,
+ "actualizado": 1789377619.1677039,
  "avisos": [
+  {
+   "ts": 1789374524.1684647,
+   "tipo": "Señal",
+   "texto": "$25.0 M en USDT salen de Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/131"
+  },
   {
    "ts": 1789349417.5122297,
    "tipo": "Resultados",
@@ -180,15 +189,6 @@
    "texto": "noticias 12.09 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/110"
-  },
-  {
-   "ts": 1789225505.5364327,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: -2,1% (salió al revés)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/109"
   }
  ]
 }
