@@ -53,7 +53,11 @@ tamaño y precio de liquidación. Los mismos números que acabas de ver.</p>
   try { byl = sessionStorage.getItem(klyuch) === '1'; } catch (e) {}
   if (!byl) {
     try { sessionStorage.setItem(klyuch, '1'); } catch (e) {}
-    location.href = cel;
+    // Переход откладываем на долю секунды нарочно. Навигация, начатая до того,
+    // как страница загрузилась, заменяет запись в истории, и кнопка «назад»
+    // перепрыгивает нашу страницу. Проверено 13.09: возврат уносил сразу в
+    // ленту. Задержки человек не замечает, а история сохраняется.
+    setTimeout(function () { location.href = cel; }, 150);
     return;
   }
   // Человек вернулся назад: цифры он посмотрел, теперь уместно предложить
