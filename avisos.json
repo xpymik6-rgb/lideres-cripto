@@ -1,6 +1,24 @@
 {
- "actualizado": 1789377619.1677039,
+ "actualizado": 1789388416.0478415,
  "avisos": [
+  {
+   "ts": 1789388383.6713817,
+   "tipo": "Señal",
+   "texto": "$30.0 M en USDC entran en Bybit",
+   "monedas": [
+    "USDC"
+   ],
+   "url": "https://t.me/LideresCripto/133"
+  },
+  {
+   "ts": 1789387533.6347702,
+   "tipo": "Resultados",
+   "texto": "resultado $LSK: -3,2% (salió bien)",
+   "monedas": [
+    "LSK"
+   ],
+   "url": "https://t.me/LideresCripto/132"
+  },
   {
    "ts": 1789374524.1684647,
    "tipo": "Señal",
@@ -169,26 +187,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/112"
-  },
-  {
-   "ts": 1789239609.2086627,
-   "tipo": "Edición del radar",
-   "texto": "radar 12.09 14:00",
-   "monedas": [
-    "BTC",
-    "LSK",
-    "STORJ",
-    "MINA",
-    "UAI"
-   ],
-   "url": "https://t.me/LideresCripto/111"
-  },
-  {
-   "ts": 1789237823.3173006,
-   "tipo": "Noticias",
-   "texto": "noticias 12.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/110"
   }
  ]
 }
