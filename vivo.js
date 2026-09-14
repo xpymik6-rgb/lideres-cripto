@@ -299,7 +299,7 @@ async function ultimosAvisos() {
              (monedas ? ` <span style="color:var(--apagado)">${monedas}</span>` : "") + `</li>`;
     }).join("");
     caja.innerHTML = `<div class="rot"><span>Últimos avisos del canal</span>` +
-      `<a href="https://t.me/LideresCripto" style="font-size:11px">ver todo</a></div>` +
+      `<a href="https://t.me/+U2AYNvUy1NM4MmFi" style="font-size:11px">ver todo</a></div>` +
       `<ul class="avisos">${filas}</ul>`;
     caja.classList.remove("vacia");
   } catch (e) {
