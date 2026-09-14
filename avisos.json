@@ -1,6 +1,16 @@
 {
- "actualizado": 1789348803.9153376,
+ "actualizado": 1789352414.013179,
  "avisos": [
+  {
+   "ts": 1789349417.5122297,
+   "tipo": "Resultados",
+   "texto": "resultados semana 13.09",
+   "monedas": [
+    "CRO",
+    "ZRO"
+   ],
+   "url": "https://t.me/LideresCripto/130"
+  },
   {
    "ts": 1789347623.9745936,
    "tipo": "Edición del radar",
@@ -179,20 +189,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/109"
-  },
-  {
-   "ts": 1789218026.470079,
-   "tipo": "Edición del radar",
-   "texto": "radar 12.09 08:00",
-   "monedas": [
-    "ETH",
-    "ZEC",
-    "SOL",
-    "STORJ",
-    "龙虾",
-    "CASHCAT"
-   ],
-   "url": "https://t.me/LideresCripto/108"
   }
  ]
 }
