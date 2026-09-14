@@ -1,6 +1,36 @@
 {
- "actualizado": 1789406414.3063195,
+ "actualizado": 1789413610.86038,
  "avisos": [
+  {
+   "ts": 1789412408.3950841,
+   "tipo": "Edición del radar",
+   "texto": "radar 14.09 14:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "ZEC",
+    "ARB",
+    "LSK",
+    "XRP"
+   ],
+   "url": "https://t.me/LideresCripto/143"
+  },
+  {
+   "ts": 1789410858.0008724,
+   "tipo": "Edición del radar",
+   "texto": "пост руками: razvorot",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/142"
+  },
+  {
+   "ts": 1789410608.1969523,
+   "tipo": "Noticias",
+   "texto": "noticias 14.09 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/141"
+  },
   {
    "ts": 1789405531.8477397,
    "tipo": "Resultados",
@@ -162,37 +192,6 @@
    "texto": "cómo leemos a los líderes",
    "monedas": [],
    "url": "https://t.me/LideresCripto/122"
-  },
-  {
-   "ts": 1789308345.1533906,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/120"
-  },
-  {
-   "ts": 1789304412.8699017,
-   "tipo": "Edición del radar",
-   "texto": "radar 13.09 08:00",
-   "monedas": [
-    "HYPE",
-    "ZEC",
-    "BTC",
-    "ETH",
-    "LSK",
-    "VTHO",
-    "UAI"
-   ],
-   "url": "https://t.me/LideresCripto/119"
-  },
-  {
-   "ts": 1789302618.5759003,
-   "tipo": "Noticias",
-   "texto": "noticias 13.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/118"
   }
  ]
 }
