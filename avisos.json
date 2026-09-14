@@ -1,6 +1,24 @@
 {
- "actualizado": 1789392019.103931,
+ "actualizado": 1789399212.481382,
  "avisos": [
+  {
+   "ts": 1789398383.3683412,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/137"
+  },
+  {
+   "ts": 1789398309.9233866,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +1,1% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/136"
+  },
   {
    "ts": 1789390816.8416579,
    "tipo": "Edición del radar",
@@ -171,27 +189,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/116"
-  },
-  {
-   "ts": 1789279507.9492013,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: +0,4% (sin movimiento)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/115"
-  },
-  {
-   "ts": 1789261225.6970372,
-   "tipo": "Edición del radar",
-   "texto": "radar 12.09 20:00",
-   "monedas": [
-    "HYPE",
-    "BTC",
-    "LSK",
-    "LIT"
-   ],
-   "url": "https://t.me/LideresCripto/114"
   }
  ]
 }
