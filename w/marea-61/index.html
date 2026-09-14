@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>La Marea de las velas rojas</title>
+<link rel="canonical" href="https://hyperdash.com/address/0xde6b2a06407575b98724818445178c1f5fd53361">
+<style>
+body{margin:0;background:#0b0e18;color:#eef2f8;
+ font:17px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.w{max-width:600px;margin:0 auto;padding:56px 24px;text-align:center}
+h1{font-size:22px;margin:0 0 8px;font-weight:600}
+p{color:#8fa0bb;margin:0 0 20px}
+.k{display:inline-block;background:#7fd1a8;color:#07210f;text-decoration:none;
+ font-weight:600;padding:14px 26px;border-radius:10px;margin:6px}
+.v{display:inline-block;color:#7fd1a8;text-decoration:none;margin:10px 12px;
+ font-size:15px}
+.m{color:#5d6b85;font-size:14px;margin-top:26px}
+#vozvrat{display:none}
+html.vernulsya #vozvrat{display:block}
+html.vernulsya #idem{display:none}
+</style>
+</head>
+<body><div class="w">
+
+<div id="idem">
+<p>Abriendo las posiciones de La Marea de las velas rojas…</p>
+<a class="k" href="https://hyperdash.com/address/0xde6b2a06407575b98724818445178c1f5fd53361">Abrir ahora</a>
+</div>
+
+<div id="vozvrat">
+<h1>¿Seguimos a La Marea de las velas rojas por ti?</h1>
+<p>Publicamos cuando esta cartera suma, recorta o cierra: con entrada,
+tamaño y precio de liquidación. Los mismos números que acabas de ver.</p>
+<a class="k" href="https://t.me/+2vaztgYO2kFhMmQy">Ver el canal</a>
+<div>
+<a class="v" href="https://hyperdash.com/address/0xde6b2a06407575b98724818445178c1f5fd53361">Volver a las posiciones</a>
+<a class="v" href="https://hypurrscan.io/address/0xde6b2a06407575b98724818445178c1f5fd53361#perps">Ver en hypurrscan</a>
+</div>
+<p class="m">Datos públicos de la bolsa. No damos señales ni prometemos ganancias.</p>
+</div>
+
+</div>
+<script>
+(function () {
+  var cel = "https://hyperdash.com/address/0xde6b2a06407575b98724818445178c1f5fd53361";
+  var klyuch = 'w' + location.pathname;
+  // Первый заход: уводим сразу, человек должен увидеть цифры, а не нашу
+  // страницу. Переход обычный, а не replace, чтобы кнопка «назад» вернула
+  // сюда, а не выкинула обратно в ленту.
+  var byl = false;
+  try { byl = sessionStorage.getItem(klyuch) === '1'; } catch (e) {}
+  if (!byl) {
+    try { sessionStorage.setItem(klyuch, '1'); } catch (e) {}
+    // Уходим не мгновенно, а по событию полной загрузки. Навигация, начатая
+    // раньше, заменяет запись в истории, и кнопка «назад» перепрыгивает нашу
+    // страницу: проверено 13.09, возврат уносил сразу в ленту. Через таймер
+    // тоже ненадёжно — в фоновой вкладке браузер их придерживает, и переход
+    // может не случиться вовсе. Событие `load` приходит всегда.
+    var idti = function () { setTimeout(function () { location.href = cel; }, 1200); };
+    if (document.readyState === 'complete') { idti(); }
+    else { window.addEventListener('load', idti); }
+    return;
+  }
+  // Человек вернулся назад: цифры он посмотрел, теперь уместно предложить
+  // следить за этим кошельком дальше.
+  document.documentElement.className += ' vernulsya';
+})();
+// Возврат из кеша браузера скрипт заново не выполняет, ловим отдельно.
+window.addEventListener('pageshow', function (e) {
+  if (e.persisted) {
+    document.documentElement.className += ' vernulsya';
+  }
+});
+</script>
+<noscript><a class="k" href="https://hyperdash.com/address/0xde6b2a06407575b98724818445178c1f5fd53361">Abrir las posiciones de La Marea de las velas rojas</a></noscript>
+</body>
+</html>
