@@ -1,6 +1,24 @@
 {
- "actualizado": 1789341603.3893847,
+ "actualizado": 1789348803.9153376,
  "avisos": [
+  {
+   "ts": 1789347623.9745936,
+   "tipo": "Edición del radar",
+   "texto": "radar 13.09 20:00",
+   "monedas": [
+    "ZEC",
+    "ETH",
+    "LSK"
+   ],
+   "url": "https://t.me/LideresCripto/129"
+  },
+  {
+   "ts": 1789345821.666758,
+   "tipo": "Noticias",
+   "texto": "noticias 13.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/128"
+  },
   {
    "ts": 1789340421.0530539,
    "tipo": "Resultados",
@@ -175,22 +193,6 @@
     "CASHCAT"
    ],
    "url": "https://t.me/LideresCripto/108"
-  },
-  {
-   "ts": 1789216215.9765294,
-   "tipo": "Noticias",
-   "texto": "noticias 12.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/107"
-  },
-  {
-   "ts": 1789197943.105462,
-   "tipo": "Señal",
-   "texto": "$51.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/106"
   }
  ]
 }
