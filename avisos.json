@@ -1,6 +1,32 @@
 {
- "actualizado": 1789489219.219154,
+ "actualizado": 1789500011.3464239,
  "avisos": [
+  {
+   "ts": 1789498808.7015803,
+   "tipo": "Edición del radar",
+   "texto": "radar 15.09 14:00",
+   "monedas": [
+    "BTC",
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/165"
+  },
+  {
+   "ts": 1789498173.1154046,
+   "tipo": "Señal",
+   "texto": "empujón de BTC $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/164"
+  },
+  {
+   "ts": 1789497009.1700003,
+   "tipo": "Noticias",
+   "texto": "noticias 15.09 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/163"
+  },
   {
    "ts": 1789488336.9644537,
    "tipo": "Resultados",
@@ -160,35 +186,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/142"
-  },
-  {
-   "ts": 1789410608.1969523,
-   "tipo": "Noticias",
-   "texto": "noticias 14.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/141"
-  },
-  {
-   "ts": 1789405531.8477397,
-   "tipo": "Resultados",
-   "texto": "resultado $LSK: -60,1% (salió bien)",
-   "monedas": [
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/140"
-  },
-  {
-   "ts": 1789405201.5661232,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 14.09",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "HYPE",
-    "ETH",
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/139"
   }
  ]
 }
