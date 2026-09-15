@@ -1,6 +1,15 @@
 {
- "actualizado": 1789435212.3905432,
+ "actualizado": 1789438818.656274,
  "avisos": [
+  {
+   "ts": 1789437951.5286343,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/152"
+  },
   {
    "ts": 1789434010.1398692,
    "tipo": "Edición del radar",
@@ -183,17 +192,6 @@
     "ZRO"
    ],
    "url": "https://t.me/LideresCripto/130"
-  },
-  {
-   "ts": 1789347623.9745936,
-   "tipo": "Edición del radar",
-   "texto": "radar 13.09 20:00",
-   "monedas": [
-    "ZEC",
-    "ETH",
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/129"
   }
  ]
 }
