@@ -1,6 +1,27 @@
 {
- "actualizado": 1789474804.9250326,
+ "actualizado": 1789478412.5831325,
  "avisos": [
+  {
+   "ts": 1789477249.8117957,
+   "tipo": "Edición del radar",
+   "texto": "radar 15.09 08:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "ZEC",
+    "AKE",
+    "LSK",
+    "BTW"
+   ],
+   "url": "https://t.me/LideresCripto/158"
+  },
+  {
+   "ts": 1789475415.9130335,
+   "tipo": "Noticias",
+   "texto": "noticias 15.09 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/157"
+  },
   {
    "ts": 1789473379.9599004,
    "tipo": "Señal",
@@ -175,22 +196,6 @@
     "BR"
    ],
    "url": "https://t.me/LideresCripto/135"
-  },
-  {
-   "ts": 1789389026.21744,
-   "tipo": "Noticias",
-   "texto": "noticias 14.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/134"
-  },
-  {
-   "ts": 1789388383.6713817,
-   "tipo": "Señal",
-   "texto": "$30.0 M en USDC entran en Bybit",
-   "monedas": [
-    "USDC"
-   ],
-   "url": "https://t.me/LideresCripto/133"
   }
  ]
 }
