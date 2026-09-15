@@ -1,6 +1,15 @@
 {
- "actualizado": 1789438818.656274,
+ "actualizado": 1789442404.92721,
  "avisos": [
+  {
+   "ts": 1789441502.7143238,
+   "tipo": "Resultados",
+   "texto": "resultado $LSK: -56,4% (salió bien)",
+   "monedas": [
+    "LSK"
+   ],
+   "url": "https://t.me/LideresCripto/154"
+  },
   {
    "ts": 1789437951.5286343,
    "tipo": "Señal",
@@ -182,16 +191,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/131"
-  },
-  {
-   "ts": 1789349417.5122297,
-   "tipo": "Resultados",
-   "texto": "resultados semana 13.09",
-   "monedas": [
-    "CRO",
-    "ZRO"
-   ],
-   "url": "https://t.me/LideresCripto/130"
   }
  ]
 }
