@@ -1,6 +1,15 @@
 {
- "actualizado": 1789453211.6423655,
+ "actualizado": 1789474804.9250326,
  "avisos": [
+  {
+   "ts": 1789473379.9599004,
+   "tipo": "Señal",
+   "texto": "pump $AKE",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/156"
+  },
   {
    "ts": 1789451106.5193255,
    "tipo": "Señal",
@@ -182,15 +191,6 @@
     "USDC"
    ],
    "url": "https://t.me/LideresCripto/133"
-  },
-  {
-   "ts": 1789387533.6347702,
-   "tipo": "Resultados",
-   "texto": "resultado $LSK: -3,2% (salió bien)",
-   "monedas": [
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/132"
   }
  ]
 }
