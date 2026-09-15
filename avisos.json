@@ -1,6 +1,22 @@
 {
- "actualizado": 1789485602.0821664,
+ "actualizado": 1789489219.219154,
  "avisos": [
+  {
+   "ts": 1789488336.9644537,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -3,0% (salió bien)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/162"
+  },
+  {
+   "ts": 1789488006.6912482,
+   "tipo": "Guía",
+   "texto": "qué es un desbloqueo",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/161"
+  },
   {
    "ts": 1789484205.8469033,
    "tipo": "Señal",
@@ -173,24 +189,6 @@
     "LSK"
    ],
    "url": "https://t.me/LideresCripto/139"
-  },
-  {
-   "ts": 1789398383.3683412,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/137"
-  },
-  {
-   "ts": 1789398309.9233866,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: +1,1% (salió bien)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/136"
   }
  ]
 }
