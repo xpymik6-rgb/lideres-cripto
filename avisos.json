@@ -1,6 +1,15 @@
 {
- "actualizado": 1789500011.3464239,
+ "actualizado": 1789507205.2982855,
  "avisos": [
+  {
+   "ts": 1789506022.5669377,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/166"
+  },
   {
    "ts": 1789498808.7015803,
    "tipo": "Edición del radar",
@@ -177,15 +186,6 @@
     "XRP"
    ],
    "url": "https://t.me/LideresCripto/143"
-  },
-  {
-   "ts": 1789410858.0008724,
-   "tipo": "Edición del radar",
-   "texto": "пост руками: razvorot",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/142"
   }
  ]
 }
