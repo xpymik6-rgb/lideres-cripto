@@ -1,6 +1,15 @@
 {
- "actualizado": 1789590005.316275,
+ "actualizado": 1789593606.4512928,
  "avisos": [
+  {
+   "ts": 1789592403.6314456,
+   "tipo": "Señal",
+   "texto": "historia ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/193"
+  },
   {
    "ts": 1789589112.3274739,
    "tipo": "Resultados",
@@ -180,13 +189,6 @@
     "ARB"
    ],
    "url": "https://t.me/LideresCripto/171"
-  },
-  {
-   "ts": 1789518622.8951995,
-   "tipo": "Noticias",
-   "texto": "noticias 15.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/170"
   }
  ]
 }
