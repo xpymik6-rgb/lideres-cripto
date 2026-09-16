@@ -1,6 +1,15 @@
 {
- "actualizado": 1789525202.3172169,
+ "actualizado": 1789528808.587101,
  "avisos": [
+  {
+   "ts": 1789527906.4367435,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -2,9% (salió al revés)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/174"
+  },
   {
    "ts": 1789521741.4296257,
    "tipo": "Señal",
@@ -174,18 +183,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/152"
-  },
-  {
-   "ts": 1789434010.1398692,
-   "tipo": "Edición del radar",
-   "texto": "radar 14.09 20:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "SOL",
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/151"
   }
  ]
 }
