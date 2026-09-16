@@ -1,6 +1,36 @@
 {
- "actualizado": 1789514415.951164,
+ "actualizado": 1789521603.8017406,
  "avisos": [
+  {
+   "ts": 1789520701.0779765,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -4,4% (salió al revés)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/172"
+  },
+  {
+   "ts": 1789520420.8386402,
+   "tipo": "Edición del radar",
+   "texto": "radar 15.09 20:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "HYPE",
+    "LSK",
+    "STRK",
+    "ARB"
+   ],
+   "url": "https://t.me/LideresCripto/171"
+  },
+  {
+   "ts": 1789518622.8951995,
+   "tipo": "Noticias",
+   "texto": "noticias 15.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/170"
+  },
   {
    "ts": 1789513573.5431137,
    "tipo": "Señal",
@@ -154,33 +184,6 @@
    "texto": "noticias 14.09 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/150"
-  },
-  {
-   "ts": 1789430803.4138758,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/148"
-  },
-  {
-   "ts": 1789428675.2660658,
-   "tipo": "Edición del radar",
-   "texto": "пост руками: rotacion",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/147"
-  },
-  {
-   "ts": 1789420050.4879713,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/145"
   }
  ]
 }
