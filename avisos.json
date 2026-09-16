@@ -1,6 +1,15 @@
 {
- "actualizado": 1789564820.439108,
+ "actualizado": 1789568419.6952517,
  "avisos": [
+  {
+   "ts": 1789564944.3392828,
+   "tipo": "Señal",
+   "texto": "$100.0 M en USDT entran en Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/183"
+  },
   {
    "ts": 1789563917.6857803,
    "tipo": "Resultados",
@@ -174,13 +183,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/162"
-  },
-  {
-   "ts": 1789488006.6912482,
-   "tipo": "Guía",
-   "texto": "qué es un desbloqueo",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/161"
   }
  ]
 }
