@@ -1,6 +1,34 @@
 {
- "actualizado": 1789557606.3311799,
+ "actualizado": 1789564820.439108,
  "avisos": [
+  {
+   "ts": 1789563917.6857803,
+   "tipo": "Resultados",
+   "texto": "resultado $AKE: +21,0% (salió al revés)",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/182"
+  },
+  {
+   "ts": 1789563617.412908,
+   "tipo": "Edición del radar",
+   "texto": "radar 16.09 08:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "LSK",
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/180"
+  },
+  {
+   "ts": 1789561820.285512,
+   "tipo": "Noticias",
+   "texto": "noticias 16.09 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/179"
+  },
   {
    "ts": 1789556513.316606,
    "tipo": "Señal",
@@ -153,36 +181,6 @@
    "texto": "qué es un desbloqueo",
    "monedas": [],
    "url": "https://t.me/LideresCripto/161"
-  },
-  {
-   "ts": 1789484205.8469033,
-   "tipo": "Señal",
-   "texto": "$21.8 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/160"
-  },
-  {
-   "ts": 1789477249.8117957,
-   "tipo": "Edición del radar",
-   "texto": "radar 15.09 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "AKE",
-    "LSK",
-    "BTW"
-   ],
-   "url": "https://t.me/LideresCripto/158"
-  },
-  {
-   "ts": 1789475415.9130335,
-   "tipo": "Noticias",
-   "texto": "noticias 15.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/157"
   }
  ]
 }
