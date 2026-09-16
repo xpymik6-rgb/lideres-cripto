@@ -1,6 +1,24 @@
 {
- "actualizado": 1789539610.3235965,
+ "actualizado": 1789543217.3066416,
  "avisos": [
+  {
+   "ts": 1789542648.7590163,
+   "tipo": "Señal",
+   "texto": "$25.0 M en USDT salen de Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/177"
+  },
+  {
+   "ts": 1789542314.5140357,
+   "tipo": "Resultados",
+   "texto": "resultado $LSK: +18,3% (salió al revés)",
+   "monedas": [
+    "LSK"
+   ],
+   "url": "https://t.me/LideresCripto/176"
+  },
   {
    "ts": 1789538707.8087502,
    "tipo": "Resultados",
@@ -165,24 +183,6 @@
     "AKE"
    ],
    "url": "https://t.me/LideresCripto/156"
-  },
-  {
-   "ts": 1789451106.5193255,
-   "tipo": "Señal",
-   "texto": "pump $LSK",
-   "monedas": [
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/155"
-  },
-  {
-   "ts": 1789441502.7143238,
-   "tipo": "Resultados",
-   "texto": "resultado $LSK: -56,4% (salió bien)",
-   "monedas": [
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/154"
   }
  ]
 }
