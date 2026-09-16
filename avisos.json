@@ -1,6 +1,15 @@
 {
- "actualizado": 1789521603.8017406,
+ "actualizado": 1789525202.3172169,
  "avisos": [
+  {
+   "ts": 1789521741.4296257,
+   "tipo": "Señal",
+   "texto": "pump $LSK",
+   "monedas": [
+    "LSK"
+   ],
+   "url": "https://t.me/LideresCripto/173"
+  },
   {
    "ts": 1789520701.0779765,
    "tipo": "Resultados",
@@ -177,13 +186,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/151"
-  },
-  {
-   "ts": 1789432250.5603917,
-   "tipo": "Noticias",
-   "texto": "noticias 14.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/150"
   }
  ]
 }
