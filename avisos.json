@@ -1,6 +1,15 @@
 {
- "actualizado": 1789528808.587101,
+ "actualizado": 1789539610.3235965,
  "avisos": [
+  {
+   "ts": 1789538707.8087502,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -2,5% (salió al revés)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/175"
+  },
   {
    "ts": 1789527906.4367435,
    "tipo": "Resultados",
@@ -174,15 +183,6 @@
     "LSK"
    ],
    "url": "https://t.me/LideresCripto/154"
-  },
-  {
-   "ts": 1789437951.5286343,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/152"
   }
  ]
 }
