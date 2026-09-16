@@ -1,6 +1,15 @@
 {
- "actualizado": 1789593606.4512928,
+ "actualizado": 1789600807.633982,
  "avisos": [
+  {
+   "ts": 1789599945.4937222,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +0,0% (sin movimiento)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/197"
+  },
   {
    "ts": 1789592403.6314456,
    "tipo": "Señal",
@@ -175,20 +184,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/172"
-  },
-  {
-   "ts": 1789520420.8386402,
-   "tipo": "Edición del radar",
-   "texto": "radar 15.09 20:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "HYPE",
-    "LSK",
-    "STRK",
-    "ARB"
-   ],
-   "url": "https://t.me/LideresCripto/171"
   }
  ]
 }
