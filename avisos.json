@@ -1,6 +1,15 @@
 {
- "actualizado": 1789543217.3066416,
+ "actualizado": 1789557606.3311799,
  "avisos": [
+  {
+   "ts": 1789556513.316606,
+   "tipo": "Señal",
+   "texto": "pump $LSK",
+   "monedas": [
+    "LSK"
+   ],
+   "url": "https://t.me/LideresCripto/178"
+  },
   {
    "ts": 1789542648.7590163,
    "tipo": "Señal",
@@ -174,15 +183,6 @@
    "texto": "noticias 15.09 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/157"
-  },
-  {
-   "ts": 1789473379.9599004,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/156"
   }
  ]
 }
