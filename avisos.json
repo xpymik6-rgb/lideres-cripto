@@ -1,6 +1,15 @@
 {
- "actualizado": 1789586408.194796,
+ "actualizado": 1789590005.316275,
  "avisos": [
+  {
+   "ts": 1789589112.3274739,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +1,4% (salió al revés)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/192"
+  },
   {
    "ts": 1789585205.680324,
    "tipo": "Edición del radar",
@@ -178,15 +187,6 @@
    "texto": "noticias 15.09 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/170"
-  },
-  {
-   "ts": 1789513573.5431137,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/168"
   }
  ]
 }
