@@ -5,47 +5,62 @@ Disallow: /v/
 
 User-agent: GPTBot
 Allow: /
+Disallow: /v/
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /v/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /v/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /v/
 
 User-agent: Claude-Web
 Allow: /
+Disallow: /v/
 
 User-agent: anthropic-ai
 Allow: /
+Disallow: /v/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /v/
 
 User-agent: Perplexity-User
 Allow: /
+Disallow: /v/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /v/
 
 User-agent: Applebot
 Allow: /
+Disallow: /v/
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /v/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /v/
 
 User-agent: Amazonbot
 Allow: /
+Disallow: /v/
 
 User-agent: Meta-ExternalAgent
 Allow: /
+Disallow: /v/
 
 User-agent: cohere-ai
 Allow: /
+Disallow: /v/
 
 Sitemap: https://liderescripto.com/sitemap.xml

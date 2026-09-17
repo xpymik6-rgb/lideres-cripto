@@ -1,0 +1,40 @@
+*{box-sizing:border-box}
+body{margin:0;background:#050810;color:#e8eff9;
+  font:17px/1.7 "IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:#5df2c0}
+.env{max-width:760px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid #1c2a45;padding:16px 0;margin-bottom:34px}
+header .env{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.lg{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-weight:700;
+  letter-spacing:.2em;text-transform:uppercase;font-size:14px;color:#e8eff9;text-decoration:none}
+.miga{font-size:13px;color:#7d90ae;margin-bottom:14px}
+.miga a{color:#7d90ae}
+h1{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-weight:700;
+  font-size:clamp(28px,5vw,40px);line-height:1.12;margin:0 0 10px;letter-spacing:-.01em}
+.bajada{color:#7d90ae;font-size:18px;margin:0 0 30px}
+article p{margin:0 0 18px}
+article b{color:#fff}
+.probar{border:1px solid #2a3d61;background:rgba(14,22,38,.72);border-radius:6px;
+  padding:16px 18px;margin:28px 0}
+.probar .rot{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;
+  letter-spacing:.16em;text-transform:uppercase;color:#5df2c0;display:block;margin-bottom:8px}
+.probar p{margin:0}
+.cta{border-top:1px solid #1c2a45;margin-top:34px;padding-top:26px}
+.cta p{color:#7d90ae;margin:0 0 14px}
+.bot{display:inline-block;background:#5df2c0;color:#050810;font-weight:600;
+  padding:12px 20px;border-radius:5px;text-decoration:none;margin:0 10px 10px 0}
+.can{display:inline-block;border:1px solid #2a3d61;color:#e8eff9;
+  padding:12px 20px;border-radius:5px;text-decoration:none;margin:0 10px 10px 0}
+.sigue{border-top:1px solid #1c2a45;margin-top:30px;padding-top:22px}
+.sigue h2{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-size:15px;
+  letter-spacing:.12em;text-transform:uppercase;color:#7d90ae;margin:0 0 14px;font-weight:600}
+.sigue ul{list-style:none;margin:0;padding:0}
+.sigue li{border-top:1px solid #101b2e;padding:11px 0}
+.sigue li:first-child{border-top:0}
+.sigue a{text-decoration:none}
+.sigue a:hover{text-decoration:underline}
+footer{border-top:1px solid #1c2a45;margin-top:40px;padding:22px 0 40px;
+  color:#7d90ae;font-size:13px}
+footer a{color:#7d90ae}
+@media(max-width:600px){body{font-size:16px}.env{padding:0 16px}}
