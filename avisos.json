@@ -1,6 +1,15 @@
 {
- "actualizado": 1789622403.6402233,
+ "actualizado": 1789640418.63923,
  "avisos": [
+  {
+   "ts": 1789638468.3647182,
+   "tipo": "Señal",
+   "texto": "pump $BR",
+   "monedas": [
+    "BR"
+   ],
+   "url": "https://t.me/LideresCripto/208"
+  },
   {
    "ts": 1789621562.596769,
    "tipo": "Señal",
@@ -176,15 +185,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/183"
-  },
-  {
-   "ts": 1789563917.6857803,
-   "tipo": "Resultados",
-   "texto": "resultado $AKE: +21,0% (salió al revés)",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/182"
   }
  ]
 }
