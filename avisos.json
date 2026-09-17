@@ -1,6 +1,60 @@
 {
- "actualizado": 1789672814.2104037,
+ "actualizado": 1789676402.0602796,
  "avisos": [
+  {
+   "ts": 1789675591.5546942,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $UNI",
+   "monedas": [
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/228"
+  },
+  {
+   "ts": 1789675519.1869888,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +0,8% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/227"
+  },
+  {
+   "ts": 1789675518.913373,
+   "tipo": "Resultados",
+   "texto": "resultado $AKE: +3,6% (salió al revés)",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/226"
+  },
+  {
+   "ts": 1789675518.6937945,
+   "tipo": "Resultados",
+   "texto": "resultado $BR: +1,9% (salió al revés)",
+   "monedas": [
+    "BR"
+   ],
+   "url": "https://t.me/LideresCripto/225"
+  },
+  {
+   "ts": 1789675518.472772,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +1,9% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/224"
+  },
+  {
+   "ts": 1789675518.2467809,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: +16,5% (salió bien)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/223"
+  },
   {
    "ts": 1789672047.1560564,
    "tipo": "Señal",
@@ -134,62 +188,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/206"
-  },
-  {
-   "ts": 1789617929.9025528,
-   "tipo": "Señal",
-   "texto": "$30.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/205"
-  },
-  {
-   "ts": 1789614311.4937565,
-   "tipo": "Resultados",
-   "texto": "resultado $LSK: +27,9% (salió al revés)",
-   "monedas": [
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/204"
-  },
-  {
-   "ts": 1789613451.4009993,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/203"
-  },
-  {
-   "ts": 1789606820.0539877,
-   "tipo": "Edición del radar",
-   "texto": "radar 16.09 20:00",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "ETH",
-    "LSK",
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/202"
-  },
-  {
-   "ts": 1789605052.7246723,
-   "tipo": "Noticias",
-   "texto": "noticias 16.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/201"
-  },
-  {
-   "ts": 1789603600.8558755,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/199"
   }
  ]
 }
