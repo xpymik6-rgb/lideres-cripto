@@ -1,6 +1,15 @@
 {
- "actualizado": 1789615214.2443254,
+ "actualizado": 1789618808.173779,
  "avisos": [
+  {
+   "ts": 1789617929.9025528,
+   "tipo": "Señal",
+   "texto": "$30.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/205"
+  },
   {
    "ts": 1789614311.4937565,
    "tipo": "Resultados",
@@ -177,15 +186,6 @@
    "texto": "noticias 16.09 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/179"
-  },
-  {
-   "ts": 1789556513.316606,
-   "tipo": "Señal",
-   "texto": "pump $LSK",
-   "monedas": [
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/178"
   }
  ]
 }
