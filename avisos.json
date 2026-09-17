@@ -1,6 +1,22 @@
 {
- "actualizado": 1789658420.1697135,
+ "actualizado": 1789662019.4386046,
  "avisos": [
+  {
+   "ts": 1789661116.563216,
+   "tipo": "Resultados",
+   "texto": "resultado $BR: +14,9% (salió al revés)",
+   "monedas": [
+    "BR"
+   ],
+   "url": "https://t.me/LideresCripto/216"
+  },
+  {
+   "ts": 1789660816.2751095,
+   "tipo": "Guía",
+   "texto": "qué es el régimen del mercado",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/215"
+  },
   {
    "ts": 1789650364.8358889,
    "tipo": "Señal",
@@ -171,22 +187,6 @@
     "BR"
    ],
    "url": "https://t.me/LideresCripto/191"
-  },
-  {
-   "ts": 1789583418.342381,
-   "tipo": "Noticias",
-   "texto": "noticias 16.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/190"
-  },
-  {
-   "ts": 1789582000.3014326,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/188"
   }
  ]
 }
