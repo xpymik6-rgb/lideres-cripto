@@ -1,6 +1,19 @@
 {
- "actualizado": 1789662019.4386046,
+ "actualizado": 1789665606.7980905,
  "avisos": [
+  {
+   "ts": 1789664404.22159,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 17.09",
+   "monedas": [
+    "LSK",
+    "BTW",
+    "BTC",
+    "ZEC",
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/217"
+  },
   {
    "ts": 1789661116.563216,
    "tipo": "Resultados",
@@ -173,20 +186,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/192"
-  },
-  {
-   "ts": 1789585205.680324,
-   "tipo": "Edición del radar",
-   "texto": "radar 16.09 14:00",
-   "monedas": [
-    "ETH",
-    "SOL",
-    "BTC",
-    "ZEC",
-    "AKE",
-    "BR"
-   ],
-   "url": "https://t.me/LideresCripto/191"
   }
  ]
 }
