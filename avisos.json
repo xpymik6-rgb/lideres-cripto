@@ -1,6 +1,15 @@
 {
- "actualizado": 1789640418.63923,
+ "actualizado": 1789647620.2788982,
  "avisos": [
+  {
+   "ts": 1789646737.5081923,
+   "tipo": "Resultados",
+   "texto": "resultado $LSK: -25,6% (salió bien)",
+   "monedas": [
+    "LSK"
+   ],
+   "url": "https://t.me/LideresCripto/209"
+  },
   {
    "ts": 1789638468.3647182,
    "tipo": "Señal",
@@ -176,15 +185,6 @@
     "BR"
    ],
    "url": "https://t.me/LideresCripto/184"
-  },
-  {
-   "ts": 1789564944.3392828,
-   "tipo": "Señal",
-   "texto": "$100.0 M en USDT entran en Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/183"
   }
  ]
 }
