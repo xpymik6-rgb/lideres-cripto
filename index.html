@@ -81,7 +81,7 @@
         {"@type":"Question","name":"¿De dónde salen los datos de las señales?",
          "acceptedAnswer":{"@type":"Answer","text":"De datos públicos: el ranking y las posiciones de Hyperliquid, el copytrading de OKX, el funding y el interés abierto de Binance y Bybit, y el flujo de liquidaciones de Bybit. No usamos rumores ni grupos privados."}},
         {"@type":"Question","name":"¿Qué es un acuerdo de líderes?",
-         "acceptedAnswer":{"@type":"Answer","text":"Es cuando tres o más cuentas grandes que seguimos entran en la misma moneda, del mismo lado, en menos de seis horas. No es casualidad: es dinero real coincidiendo."}},
+         "acceptedAnswer":{"@type":"Answer","text":"Es cuando cinco o más cuentas grandes que seguimos entran en la misma moneda, del mismo lado, en menos de doce horas. El umbral es alto a propósito: con tres cuentas en seis horas la señal rendía menos que entrar al azar."}},
         {"@type":"Question","name":"¿Sirve si opero solo en spot y sin apalancamiento?",
          "acceptedAnswer":{"@type":"Answer","text":"Sí. El funding, el interés abierto y las liquidaciones muestran dónde está el riesgo aunque no uses apalancamiento, y los desbloqueos de tokens afectan igual al precio en spot."}},
         {"@type":"Question","name":"¿Publican también las señales que fallan?",
@@ -307,7 +307,7 @@ footer{padding:46px 0 76px;color:var(--apagado);font-size:14px;border-top:1px so
   <p class="desc">Tres ediciones al día y avisos sueltos solo cuando hay que decidir algo. Nunca más de cuatro avisos en seis horas.</p>
   <div class="rej">
     <div class="cel"><span class="k">08:00 · 14:00 · 20:00</span><h3>Radar</h3><p>Régimen del mercado, qué compraron y vendieron los líderes, cuánto cuesta mantener apalancamiento.</p></div>
-    <div class="cel"><span class="k">al instante</span><h3>Acuerdo de líderes</h3><p>Tres o más cuentas grandes entran en la misma moneda del mismo lado en menos de seis horas.</p></div>
+    <div class="cel"><span class="k">al instante</span><h3>Acuerdo de líderes</h3><p>Cinco o más cuentas grandes entran en la misma moneda, del mismo lado, en menos de doce horas.</p></div>
     <div class="cel"><span class="k">cada 10 min</span><h3>Ballenas on-chain</h3><p>Movimientos de más de $2 M entre bolsas y billeteras, con el enlace a la transacción.</p></div>
     <div class="cel"><span class="k">16:00</span><h3>Historia del día</h3><p>La posición más ruidosa del mercado: quién gana, quién pierde y quién roza la liquidación.</p></div>
     <div class="cel"><span class="k">domingo</span><h3>Marcador</h3><p>Cuántas señales salieron bien y cuántas mal, con la mejor y la peor de la semana.</p></div>
@@ -319,7 +319,7 @@ footer{padding:46px 0 76px;color:var(--apagado);font-size:14px;border-top:1px so
 <section class="env">
   <h2>Un aviso real, sin retocar</h2>
   <p class="desc">Cada billetera lleva un apodo fijo, siempre el mismo, para que puedas seguirle la pista de una semana a otra.</p>
-<div class="post">🔥 <b>$BTC</b> · varios líderes entraron en corto a la vez (3 líderes) · precio 78.215
+<div class="post">🔥 <b>$BTC</b> · varios líderes entraron en corto a la vez (6 líderes) · precio 78.215
 
 🧠 Varios líderes abrieron cortos. Esperan que baje.
 👉 Si tienes spot, decide ahora tu precio de salida. Si no tienes, todavía no compres.
@@ -362,7 +362,7 @@ footer{padding:46px 0 76px;color:var(--apagado);font-size:14px;border-top:1px so
     <details><summary>¿Cómo sé si una moneda es una trampa antes de comprarla?</summary><p>Escribe <b>/seguridad</b> y el ticker en el bot, por ejemplo <b>/seguridad PEPE</b>. Revisamos el contrato y te decimos cuántos tenedores tiene, qué parte del total está en las diez billeteras más grandes, si se pueden imprimir monedas nuevas, si alguien puede frenar las transferencias y si se puede comprar pero no vender. Es gratis y tarda segundos. Las monedas de su propia red, como bitcoin o solana, no tienen contrato que revisar.</p></details>
     <details><summary>¿Dónde pongo el stop y con cuánto entro?</summary><p>Escríbele al bot <b>entro en ZEC largo</b> y te responde qué hay a favor y en contra, dónde poner el stop y con cuánto entrar. El stop no va en un porcentaje redondo: si cerca hay un nivel donde el precio ya se frenó antes, lo ponemos justo detrás de ese nivel, y el tamaño se calcula para que una operación fallida te cueste el 1% de tu cuenta.</p></details>
     <details><summary>¿Y entonces cómo ganan dinero?</summary><p>De dos formas, y las dos están a la vista. Con el programa de referidos de las bolsas: si abres tu cuenta con nuestro enlace, la bolsa comparte parte de su comisión y a ti no te cuesta nada extra. Y con las suscripciones Pro de quien las quiera.</p></details>
-    <details><summary>¿Qué es un acuerdo de líderes?</summary><p>Es cuando tres o más de las cuentas grandes que seguimos entran en la misma moneda, del mismo lado, en menos de seis horas. No es opinión: es dinero real coincidiendo.</p></details>
+    <details><summary>¿Qué es un acuerdo de líderes?</summary><p>Es cuando cinco o más de las cuentas grandes que seguimos entran en la misma moneda, del mismo lado, en menos de doce horas. El umbral es alto a propósito: con tres cuentas en seis horas la señal rendía menos que entrar al azar.</p></details>
     <details><summary>¿Sirve si opero en spot y sin apalancamiento?</summary><p>Sí. El funding y las liquidaciones te dicen dónde está el riesgo aunque tú no uses apalancamiento, y un desbloqueo grande afecta el precio en spot igual que en futuros.</p></details>
     <details><summary>¿Publican también las señales que fallan?</summary><p>Sí. Cada señal queda guardada con su precio y se revisa a las 4 y a las 24 horas. El bot responde a su propio aviso contando qué pasó, y el domingo sale el marcador completo.</p></details>
     <details><summary>¿Esto es asesoría financiera?</summary><p>No. Mostramos lo que hacen otros traders con su propio dinero y explicamos qué significan los datos. La decisión y el riesgo son tuyos.</p></details>

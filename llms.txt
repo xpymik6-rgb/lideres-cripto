@@ -17,8 +17,8 @@ Sitio: https://liderescripto.com/
 - Radar tres veces al día (8:00, 14:00 y 20:00 hora de Lima, UTC-5): régimen del mercado
   según el porcentaje del dinero de los líderes en largos, movimientos de esos líderes,
   funding, desbloqueos cercanos y una conclusión en lenguaje simple.
-- Señales al momento: acuerdo de líderes (tres o más cuentas grandes entran en la misma
-  moneda y del mismo lado en menos de seis horas), pumps y caídas superiores al 12% en
+- Señales al momento: acuerdo de líderes (cinco o más cuentas grandes entran en la misma
+  moneda y del mismo lado en menos de doce horas), pumps y caídas superiores al 12% en
   una hora, cascadas de liquidaciones, empujones fuertes de bitcoin.
 - Noticias: tres resúmenes al día, cinco noticias, una línea por noticia con enlace.
 - Desbloqueos de tokens de las próximas 36 horas y calendario semanal.
@@ -70,8 +70,8 @@ una operación fallida cueste el 1% de la cuenta.
 ¿Cómo ganan dinero? Con el programa de referidos de las bolsas, sin costo extra para el
 usuario, y con las suscripciones Pro.
 ¿De dónde salen los datos? De fuentes públicas de Hyperliquid, OKX, Binance y Bybit.
-¿Qué es un acuerdo de líderes? Tres o más cuentas grandes entrando en la misma moneda,
-del mismo lado, en menos de seis horas.
+¿Qué es un acuerdo de líderes? Cinco o más cuentas grandes entrando en la misma moneda,
+del mismo lado, en menos de doce horas.
 ¿Sirve para spot? Sí: funding, liquidaciones y desbloqueos afectan también al precio spot.
 ¿Publican los fallos? Sí, cada domingo, con el marcador completo de la semana.
 ¿Es asesoría financiera? No. Es información sobre posiciones públicas de otros traders.
