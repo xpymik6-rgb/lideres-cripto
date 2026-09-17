@@ -1,6 +1,26 @@
 {
- "actualizado": 1789604415.0800102,
+ "actualizado": 1789608002.6817458,
  "avisos": [
+  {
+   "ts": 1789606820.0539877,
+   "tipo": "Edición del radar",
+   "texto": "radar 16.09 20:00",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "ETH",
+    "LSK",
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/202"
+  },
+  {
+   "ts": 1789605052.7246723,
+   "tipo": "Noticias",
+   "texto": "noticias 16.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/201"
+  },
   {
    "ts": 1789603600.8558755,
    "tipo": "Señal",
@@ -166,24 +186,6 @@
     "LSK"
    ],
    "url": "https://t.me/LideresCripto/176"
-  },
-  {
-   "ts": 1789538707.8087502,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -2,5% (salió al revés)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/175"
-  },
-  {
-   "ts": 1789527906.4367435,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -2,9% (salió al revés)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/174"
   }
  ]
 }
