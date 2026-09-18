@@ -1,6 +1,15 @@
 {
- "actualizado": 1789748421.1831229,
+ "actualizado": 1789752012.20167,
  "avisos": [
+  {
+   "ts": 1789751254.3536994,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $VVV",
+   "monedas": [
+    "VVV"
+   ],
+   "url": "https://t.me/LideresCripto/259"
+  },
   {
    "ts": 1789745445.5143173,
    "tipo": "Señal",
@@ -176,19 +185,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/234"
-  },
-  {
-   "ts": 1789693211.2680779,
-   "tipo": "Edición del radar",
-   "texto": "radar 17.09 20:00",
-   "monedas": [
-    "ZEC",
-    "NEAR",
-    "SUI",
-    "UNI",
-    "XMR"
-   ],
-   "url": "https://t.me/LideresCripto/233"
   }
  ]
 }
