@@ -1,6 +1,42 @@
 {
- "actualizado": 1789708817.9268985,
+ "actualizado": 1789712416.7026176,
  "avisos": [
+  {
+   "ts": 1789711514.641071,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: +11,7% (salió bien)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/244"
+  },
+  {
+   "ts": 1789711514.2326446,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: +10,6% (salió bien)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/243"
+  },
+  {
+   "ts": 1789711513.9806757,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +1,2% (salió bien)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/242"
+  },
+  {
+   "ts": 1789711104.682302,
+   "tipo": "Señal",
+   "texto": "$25.0 M en USDT salen de Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/241"
+  },
   {
    "ts": 1789708113.442101,
    "tipo": "Señal",
@@ -146,46 +182,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/223"
-  },
-  {
-   "ts": 1789672047.1560564,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/221"
-  },
-  {
-   "ts": 1789671910.806348,
-   "tipo": "Resultados",
-   "texto": "resultado $LSK: -46,2% (salió bien)",
-   "monedas": [
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/220"
-  },
-  {
-   "ts": 1789671610.5390637,
-   "tipo": "Edición del radar",
-   "texto": "radar 17.09 14:00",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "ETH",
-    "AERO",
-    "CHIP",
-    "HYPE",
-    "BR"
-   ],
-   "url": "https://t.me/LideresCripto/219"
-  },
-  {
-   "ts": 1789669822.1044703,
-   "tipo": "Noticias",
-   "texto": "noticias 17.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/218"
   }
  ]
 }
