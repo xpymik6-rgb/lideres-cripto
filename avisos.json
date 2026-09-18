@@ -1,6 +1,33 @@
 {
- "actualizado": 1789762802.8611608,
+ "actualizado": 1789766402.7224967,
  "avisos": [
+  {
+   "ts": 1789765540.109397,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: +18,8% (salió bien)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/267"
+  },
+  {
+   "ts": 1789765539.8724327,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: +27,4% (salió bien)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/266"
+  },
+  {
+   "ts": 1789765209.554641,
+   "tipo": "Señal",
+   "texto": "historia SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/265"
+  },
   {
    "ts": 1789761979.520669,
    "tipo": "Señal",
@@ -160,33 +187,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/243"
-  },
-  {
-   "ts": 1789711513.9806757,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +1,2% (salió bien)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/242"
-  },
-  {
-   "ts": 1789711104.682302,
-   "tipo": "Señal",
-   "texto": "$25.0 M en USDT salen de Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/241"
-  },
-  {
-   "ts": 1789708113.442101,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $UNI",
-   "monedas": [
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/240"
   }
  ]
 }
