@@ -1,6 +1,15 @@
 {
- "actualizado": 1789698020.731394,
+ "actualizado": 1789705211.2339184,
  "avisos": [
+  {
+   "ts": 1789704308.5580974,
+   "tipo": "Resultados",
+   "texto": "resultado $AKE: -6,2% (salió bien)",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/235"
+  },
   {
    "ts": 1789697118.596061,
    "tipo": "Resultados",
@@ -179,15 +188,6 @@
    "texto": "qué es el régimen del mercado",
    "monedas": [],
    "url": "https://t.me/LideresCripto/215"
-  },
-  {
-   "ts": 1789650364.8358889,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/213"
   }
  ]
 }
