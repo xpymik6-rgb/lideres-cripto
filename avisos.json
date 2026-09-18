@@ -1,6 +1,33 @@
 {
- "actualizado": 1789705211.2339184,
+ "actualizado": 1789708817.9268985,
  "avisos": [
+  {
+   "ts": 1789708113.442101,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $UNI",
+   "monedas": [
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/240"
+  },
+  {
+   "ts": 1789707991.5747766,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/238"
+  },
+  {
+   "ts": 1789707960.1004882,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/236"
+  },
   {
    "ts": 1789704308.5580974,
    "tipo": "Resultados",
@@ -159,35 +186,6 @@
    "texto": "noticias 17.09 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/218"
-  },
-  {
-   "ts": 1789664404.22159,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 17.09",
-   "monedas": [
-    "LSK",
-    "BTW",
-    "BTC",
-    "ZEC",
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/217"
-  },
-  {
-   "ts": 1789661116.563216,
-   "tipo": "Resultados",
-   "texto": "resultado $BR: +14,9% (salió al revés)",
-   "monedas": [
-    "BR"
-   ],
-   "url": "https://t.me/LideresCripto/216"
-  },
-  {
-   "ts": 1789660816.2751095,
-   "tipo": "Guía",
-   "texto": "qué es el régimen del mercado",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/215"
   }
  ]
 }
