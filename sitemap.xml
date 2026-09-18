@@ -247,6 +247,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/minero-b8/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/nocturno/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

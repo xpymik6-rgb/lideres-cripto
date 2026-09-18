@@ -1,6 +1,15 @@
 {
- "actualizado": 1789744814.8189387,
+ "actualizado": 1789748421.1831229,
  "avisos": [
+  {
+   "ts": 1789745445.5143173,
+   "tipo": "Señal",
+   "texto": "$44.7 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/258"
+  },
   {
    "ts": 1789743912.1816604,
    "tipo": "Resultados",
@@ -180,13 +189,6 @@
     "XMR"
    ],
    "url": "https://t.me/LideresCripto/233"
-  },
-  {
-   "ts": 1789691421.8101408,
-   "tipo": "Noticias",
-   "texto": "noticias 17.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/232"
   }
  ]
 }
