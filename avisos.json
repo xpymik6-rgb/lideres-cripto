@@ -1,6 +1,26 @@
 {
- "actualizado": 1789687202.6984787,
+ "actualizado": 1789694413.5543063,
  "avisos": [
+  {
+   "ts": 1789693211.2680779,
+   "tipo": "Edición del radar",
+   "texto": "radar 17.09 20:00",
+   "monedas": [
+    "ZEC",
+    "NEAR",
+    "SUI",
+    "UNI",
+    "XMR"
+   ],
+   "url": "https://t.me/LideresCripto/233"
+  },
+  {
+   "ts": 1789691421.8101408,
+   "tipo": "Noticias",
+   "texto": "noticias 17.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/232"
+  },
   {
    "ts": 1789679109.9507086,
    "tipo": "Resultados",
@@ -172,22 +192,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/211"
-  },
-  {
-   "ts": 1789648208.6783926,
-   "tipo": "Noticias",
-   "texto": "noticias 17.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/210"
-  },
-  {
-   "ts": 1789646737.5081923,
-   "tipo": "Resultados",
-   "texto": "resultado $LSK: -25,6% (salió bien)",
-   "monedas": [
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/209"
   }
  ]
 }
