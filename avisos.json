@@ -1,6 +1,26 @@
 {
- "actualizado": 1789770009.5323138,
+ "actualizado": 1789780813.115309,
  "avisos": [
+  {
+   "ts": 1789779610.8517525,
+   "tipo": "Edición del radar",
+   "texto": "radar 18.09 20:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "AKE",
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/270"
+  },
+  {
+   "ts": 1789777823.5112922,
+   "tipo": "Noticias",
+   "texto": "noticias 18.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/269"
+  },
   {
    "ts": 1789769106.9332485,
    "tipo": "Resultados",
@@ -169,24 +189,6 @@
     "BR"
    ],
    "url": "https://t.me/LideresCripto/246"
-  },
-  {
-   "ts": 1789715100.741796,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: +11,3% (salió bien)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/245"
-  },
-  {
-   "ts": 1789711514.641071,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: +11,7% (salió bien)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/244"
   }
  ]
 }
