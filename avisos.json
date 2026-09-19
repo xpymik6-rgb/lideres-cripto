@@ -1,6 +1,42 @@
 {
- "actualizado": 1789845613.2046316,
+ "actualizado": 1789849210.446683,
  "avisos": [
+  {
+   "ts": 1789848347.851466,
+   "tipo": "Resultados",
+   "texto": "resultado $AKE: +74,5% (salió al revés)",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/298"
+  },
+  {
+   "ts": 1789848317.603563,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +1,4% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/297"
+  },
+  {
+   "ts": 1789847269.9923131,
+   "tipo": "Señal",
+   "texto": "$150.0 M en USDT: tesorería de Tether ← Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/296"
+  },
+  {
+   "ts": 1789846213.9102185,
+   "tipo": "Señal",
+   "texto": "pump $AKE",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/295"
+  },
   {
    "ts": 1789844731.2182527,
    "tipo": "Resultados",
@@ -151,42 +187,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/277"
-  },
-  {
-   "ts": 1789797911.28776,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: +0,7% (sin movimiento)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/276"
-  },
-  {
-   "ts": 1789794501.1144867,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $VVV",
-   "monedas": [
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/275"
-  },
-  {
-   "ts": 1789794348.5954547,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/274"
-  },
-  {
-   "ts": 1789794347.681211,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/272"
   }
  ]
 }
