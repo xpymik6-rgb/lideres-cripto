@@ -1,6 +1,37 @@
 {
- "actualizado": 1789820407.3422406,
+ "actualizado": 1789824015.7660997,
  "avisos": [
+  {
+   "ts": 1789823113.114794,
+   "tipo": "Resultados",
+   "texto": "resultado $TAO: +8,6% (salió bien)",
+   "monedas": [
+    "TAO"
+   ],
+   "url": "https://t.me/LideresCripto/287"
+  },
+  {
+   "ts": 1789822812.7609258,
+   "tipo": "Edición del radar",
+   "texto": "radar 19.09 08:00",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "ETH",
+    "NEAR",
+    "HYPE",
+    "TAO",
+    "VVV"
+   ],
+   "url": "https://t.me/LideresCripto/285"
+  },
+  {
+   "ts": 1789821018.2993262,
+   "tipo": "Noticias",
+   "texto": "noticias 19.09 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/284"
+  },
   {
    "ts": 1789819504.473265,
    "tipo": "Resultados",
@@ -155,37 +186,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/265"
-  },
-  {
-   "ts": 1789761979.520669,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/263"
-  },
-  {
-   "ts": 1789758009.2786503,
-   "tipo": "Edición del radar",
-   "texto": "radar 18.09 14:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "AKE",
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/262"
-  },
-  {
-   "ts": 1789756392.5275824,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/261"
   }
  ]
 }
