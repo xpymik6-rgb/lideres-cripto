@@ -1,6 +1,13 @@
 {
- "actualizado": 1789831221.0414066,
+ "actualizado": 1789834817.3166513,
  "avisos": [
+  {
+   "ts": 1789833615.0715268,
+   "tipo": "Guía",
+   "texto": "cómo usar las señales",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/290"
+  },
   {
    "ts": 1789830318.3287487,
    "tipo": "Resultados",
@@ -177,15 +184,6 @@
     "UNI"
    ],
    "url": "https://t.me/LideresCripto/268"
-  },
-  {
-   "ts": 1789765540.109397,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: +18,8% (salió bien)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/267"
   }
  ]
 }
