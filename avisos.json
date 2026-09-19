@@ -1,6 +1,15 @@
 {
- "actualizado": 1789852819.8160021,
+ "actualizado": 1789856418.5232203,
  "avisos": [
+  {
+   "ts": 1789855515.9943733,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -0,1% (sin movimiento)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/300"
+  },
   {
    "ts": 1789851617.3140454,
    "tipo": "Señal",
@@ -178,15 +187,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/279"
-  },
-  {
-   "ts": 1789801518.273044,
-   "tipo": "Resultados",
-   "texto": "resultado $UNI: +5,9% (salió bien)",
-   "monedas": [
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/278"
   }
  ]
 }
