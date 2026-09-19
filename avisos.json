@@ -1,6 +1,15 @@
 {
- "actualizado": 1789816806.3085666,
+ "actualizado": 1789820407.3422406,
  "avisos": [
+  {
+   "ts": 1789819504.473265,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: +1,2% (salió bien)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/283"
+  },
   {
    "ts": 1789816001.8974211,
    "tipo": "Señal",
@@ -177,13 +186,6 @@
     "AKE"
    ],
    "url": "https://t.me/LideresCripto/261"
-  },
-  {
-   "ts": 1789756221.100006,
-   "tipo": "Noticias",
-   "texto": "noticias 18.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/260"
   }
  ]
 }
