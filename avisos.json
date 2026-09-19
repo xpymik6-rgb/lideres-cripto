@@ -1,6 +1,42 @@
 {
- "actualizado": 1789780813.115309,
+ "actualizado": 1789795214.8825579,
  "avisos": [
+  {
+   "ts": 1789794501.1144867,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $VVV",
+   "monedas": [
+    "VVV"
+   ],
+   "url": "https://t.me/LideresCripto/275"
+  },
+  {
+   "ts": 1789794348.5954547,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/274"
+  },
+  {
+   "ts": 1789794347.681211,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/272"
+  },
+  {
+   "ts": 1789794165.6316009,
+   "tipo": "Señal",
+   "texto": "pump $AKE",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/271"
+  },
   {
    "ts": 1789779610.8517525,
    "tipo": "Edición del radar",
@@ -155,40 +191,6 @@
     "UNI"
    ],
    "url": "https://t.me/LideresCripto/251"
-  },
-  {
-   "ts": 1789734625.3118553,
-   "tipo": "Noticias",
-   "texto": "noticias 18.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/250"
-  },
-  {
-   "ts": 1789729676.9634469,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $TAO",
-   "monedas": [
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/249"
-  },
-  {
-   "ts": 1789729555.00835,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/247"
-  },
-  {
-   "ts": 1789729508.5930753,
-   "tipo": "Resultados",
-   "texto": "resultado $BR: -0,6% (sin movimiento)",
-   "monedas": [
-    "BR"
-   ],
-   "url": "https://t.me/LideresCripto/246"
   }
  ]
 }
