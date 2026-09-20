@@ -1,6 +1,15 @@
 {
- "actualizado": 1789888817.8340087,
+ "actualizado": 1789896008.9371302,
  "avisos": [
+  {
+   "ts": 1789895352.426891,
+   "tipo": "Señal",
+   "texto": "pump $AKE",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/311"
+  },
   {
    "ts": 1789887935.3002245,
    "tipo": "Resultados",
@@ -182,13 +191,6 @@
    "texto": "noticias 19.09 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/291"
-  },
-  {
-   "ts": 1789833615.0715268,
-   "tipo": "Guía",
-   "texto": "cómo usar las señales",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/290"
   }
  ]
 }
