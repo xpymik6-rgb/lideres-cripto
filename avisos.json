@@ -1,6 +1,15 @@
 {
- "actualizado": 1789910402.254499,
+ "actualizado": 1789928410.8302815,
  "avisos": [
+  {
+   "ts": 1789927595.3182905,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/318"
+  },
   {
    "ts": 1789909219.6791887,
    "tipo": "Edición del radar",
@@ -179,15 +188,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/297"
-  },
-  {
-   "ts": 1789847269.9923131,
-   "tipo": "Señal",
-   "texto": "$150.0 M en USDT: tesorería de Tether ← Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/296"
   }
  ]
 }
