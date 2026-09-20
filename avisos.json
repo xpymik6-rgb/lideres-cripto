@@ -1,6 +1,24 @@
 {
- "actualizado": 1789942816.7230456,
+ "actualizado": 1789946406.5223806,
  "avisos": [
+  {
+   "ts": 1789945585.9772718,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/329"
+  },
+  {
+   "ts": 1789945204.07151,
+   "tipo": "Resultados",
+   "texto": "análisis ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/327"
+  },
   {
    "ts": 1789941950.402916,
    "tipo": "Señal",
@@ -168,24 +186,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/306"
-  },
-  {
-   "ts": 1789884319.348184,
-   "tipo": "Resultados",
-   "texto": "resultado $AKE: +35,4% (salió al revés)",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/305"
-  },
-  {
-   "ts": 1789873546.4016116,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/303"
   }
  ]
 }
