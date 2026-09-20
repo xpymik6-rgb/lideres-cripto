@@ -203,5 +203,10 @@
   "kod": "paciente",
   "imya": "El Paciente del sur",
   "kogda": "2026-09-19 17:59"
+ },
+ "0x77ddcc4b6440b3a32b7802f053105c2fad3ae0e9": {
+  "kod": "zorro-e9",
+  "imya": "El Zorro silencioso",
+  "kogda": "2026-09-20 07:15"
  }
 }
