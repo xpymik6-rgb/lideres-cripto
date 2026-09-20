@@ -1,6 +1,42 @@
 {
- "actualizado": 1789885201.847609,
+ "actualizado": 1789888817.8340087,
  "avisos": [
+  {
+   "ts": 1789887935.3002245,
+   "tipo": "Resultados",
+   "texto": "resultado $TAO: -0,8% (sin movimiento)",
+   "monedas": [
+    "TAO"
+   ],
+   "url": "https://t.me/LideresCripto/310"
+  },
+  {
+   "ts": 1789887935.1015265,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -1,6% (salió al revés)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/309"
+  },
+  {
+   "ts": 1789887934.8417864,
+   "tipo": "Resultados",
+   "texto": "resultado $VVV: -3,2% (salió al revés)",
+   "monedas": [
+    "VVV"
+   ],
+   "url": "https://t.me/LideresCripto/308"
+  },
+  {
+   "ts": 1789887904.5716343,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -0,8% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/307"
+  },
   {
    "ts": 1789884319.5712183,
    "tipo": "Resultados",
@@ -153,48 +189,6 @@
    "texto": "cómo usar las señales",
    "monedas": [],
    "url": "https://t.me/LideresCripto/290"
-  },
-  {
-   "ts": 1789830318.3287487,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: +5,7% (salió bien)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/289"
-  },
-  {
-   "ts": 1789830317.0424929,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +4,1% (salió bien)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/288"
-  },
-  {
-   "ts": 1789823113.114794,
-   "tipo": "Resultados",
-   "texto": "resultado $TAO: +8,6% (salió bien)",
-   "monedas": [
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/287"
-  },
-  {
-   "ts": 1789822812.7609258,
-   "tipo": "Edición del radar",
-   "texto": "radar 19.09 08:00",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "ETH",
-    "NEAR",
-    "HYPE",
-    "TAO",
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/285"
   }
  ]
 }
