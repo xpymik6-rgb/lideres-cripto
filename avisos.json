@@ -1,6 +1,15 @@
 {
- "actualizado": 1789903219.7980092,
+ "actualizado": 1789906818.0048745,
  "avisos": [
+  {
+   "ts": 1789905915.8555412,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: -2,7% (salió al revés)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/314"
+  },
   {
    "ts": 1789902317.4657602,
    "tipo": "Resultados",
@@ -177,15 +186,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/294"
-  },
-  {
-   "ts": 1789844731.0027237,
-   "tipo": "Resultados",
-   "texto": "resultado $VVV: +1,5% (salió bien)",
-   "monedas": [
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/293"
   }
  ]
 }
