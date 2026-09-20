@@ -1,6 +1,24 @@
 {
- "actualizado": 1789932014.5389647,
+ "actualizado": 1789939217.539868,
  "avisos": [
+  {
+   "ts": 1789938315.0388627,
+   "tipo": "Resultados",
+   "texto": "resultado $AKE: -9,2% (salió bien)",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/324"
+  },
+  {
+   "ts": 1789938014.767432,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/323"
+  },
   {
    "ts": 1789930812.393284,
    "tipo": "Edición del radar",
@@ -176,22 +194,6 @@
     "FF"
    ],
    "url": "https://t.me/LideresCripto/302"
-  },
-  {
-   "ts": 1789864218.2162433,
-   "tipo": "Noticias",
-   "texto": "noticias 19.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/301"
-  },
-  {
-   "ts": 1789855515.9943733,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: -0,1% (sin movimiento)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/300"
   }
  ]
 }
