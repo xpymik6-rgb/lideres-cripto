@@ -1,6 +1,26 @@
 {
- "actualizado": 1789906818.0048745,
+ "actualizado": 1789910402.254499,
  "avisos": [
+  {
+   "ts": 1789909219.6791887,
+   "tipo": "Edición del radar",
+   "texto": "radar 20.09 08:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "ZEC",
+    "AKE",
+    "BR"
+   ],
+   "url": "https://t.me/LideresCripto/316"
+  },
+  {
+   "ts": 1789907407.4033544,
+   "tipo": "Noticias",
+   "texto": "noticias 20.09 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/315"
+  },
   {
    "ts": 1789905915.8555412,
    "tipo": "Resultados",
@@ -168,24 +188,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/296"
-  },
-  {
-   "ts": 1789846213.9102185,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/295"
-  },
-  {
-   "ts": 1789844731.2182527,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +1,2% (salió bien)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/294"
   }
  ]
 }
