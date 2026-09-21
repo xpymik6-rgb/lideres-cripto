@@ -1,6 +1,15 @@
 {
- "actualizado": 1789996806.5364215,
+ "actualizado": 1790000413.1495163,
  "avisos": [
+  {
+   "ts": 1789997850.6050904,
+   "tipo": "Señal",
+   "texto": "$49.7 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/354"
+  },
   {
    "ts": 1789995624.3171222,
    "tipo": "Edición del radar",
@@ -183,15 +192,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/327"
-  },
-  {
-   "ts": 1789941950.402916,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/325"
   }
  ]
 }
