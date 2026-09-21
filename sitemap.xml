@@ -302,6 +302,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/roca-d9/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/tiburon/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -1,6 +1,13 @@
 {
- "actualizado": 1790004009.321671,
+ "actualizado": 1790007616.0385072,
  "avisos": [
+  {
+   "ts": 1790006413.743553,
+   "tipo": "Guía",
+   "texto": "qué es un pump",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/357"
+  },
   {
    "ts": 1790003176.556107,
    "tipo": "Señal",
@@ -183,15 +190,6 @@
    "texto": "noticias 20.09 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/331"
-  },
-  {
-   "ts": 1789945585.9772718,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/329"
   }
  ]
 }
