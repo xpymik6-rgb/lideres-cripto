@@ -1,6 +1,33 @@
 {
- "actualizado": 1789964421.3323066,
+ "actualizado": 1789968007.688909,
  "avisos": [
+  {
+   "ts": 1789967212.917638,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/338"
+  },
+  {
+   "ts": 1789967206.5810997,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/336"
+  },
+  {
+   "ts": 1789966516.3802693,
+   "tipo": "Señal",
+   "texto": "$25.0 M en USDT salen de Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/335"
+  },
   {
    "ts": 1789963519.0467532,
    "tipo": "Resultados",
@@ -168,33 +195,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/313"
-  },
-  {
-   "ts": 1789900278.1929069,
-   "tipo": "Señal",
-   "texto": "pump $BR",
-   "monedas": [
-    "BR"
-   ],
-   "url": "https://t.me/LideresCripto/312"
-  },
-  {
-   "ts": 1789895352.426891,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/311"
-  },
-  {
-   "ts": 1789887935.3002245,
-   "tipo": "Resultados",
-   "texto": "resultado $TAO: -0,8% (sin movimiento)",
-   "monedas": [
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/310"
   }
  ]
 }
