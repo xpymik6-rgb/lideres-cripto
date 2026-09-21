@@ -1,6 +1,20 @@
 {
- "actualizado": 1789953602.0164003,
+ "actualizado": 1789957208.5213168,
  "avisos": [
+  {
+   "ts": 1789954204.4071393,
+   "tipo": "Resultados",
+   "texto": "resultados semana 20.09",
+   "monedas": [
+    "MOT",
+    "RYO",
+    "H",
+    "XPL",
+    "GT",
+    "FOGO"
+   ],
+   "url": "https://t.me/LideresCripto/333"
+  },
   {
    "ts": 1789952419.9749541,
    "tipo": "Edición del radar",
@@ -181,15 +195,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/309"
-  },
-  {
-   "ts": 1789887934.8417864,
-   "tipo": "Resultados",
-   "texto": "resultado $VVV: -3,2% (salió al revés)",
-   "monedas": [
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/308"
   }
  ]
 }
