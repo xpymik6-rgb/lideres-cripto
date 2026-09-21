@@ -1,6 +1,15 @@
 {
- "actualizado": 1789957208.5213168,
+ "actualizado": 1789964421.3323066,
  "avisos": [
+  {
+   "ts": 1789963519.0467532,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +3,4% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/334"
+  },
   {
    "ts": 1789954204.4071393,
    "tipo": "Resultados",
@@ -186,15 +195,6 @@
     "TAO"
    ],
    "url": "https://t.me/LideresCripto/310"
-  },
-  {
-   "ts": 1789887935.1015265,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: -1,6% (salió al revés)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/309"
   }
  ]
 }
