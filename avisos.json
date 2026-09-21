@@ -1,6 +1,22 @@
 {
- "actualizado": 1790025607.1513708,
+ "actualizado": 1790032803.8291268,
  "avisos": [
+  {
+   "ts": 1790031908.2568827,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: -1,8% (salió al revés)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/367"
+  },
+  {
+   "ts": 1790030074.8280888,
+   "tipo": "Resultados",
+   "texto": "",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/365"
+  },
   {
    "ts": 1790024404.4260206,
    "tipo": "Señal",
@@ -169,24 +185,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/341"
-  },
-  {
-   "ts": 1789970713.3961325,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: +3,2% (salió bien)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/340"
-  },
-  {
-   "ts": 1789967212.917638,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/338"
   }
  ]
 }
