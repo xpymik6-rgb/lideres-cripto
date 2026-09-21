@@ -218,5 +218,10 @@
   "kod": "paciente-73",
   "imya": "El Paciente del sur",
   "kogda": "2026-09-21 12:15"
+ },
+ "0x4da577b56741299e2c3fcdfa3ffa41a771b80abe": {
+  "kod": "cirujano-be",
+  "imya": "El Cirujano de hierro",
+  "kogda": "2026-09-21 13:15"
  }
 }
