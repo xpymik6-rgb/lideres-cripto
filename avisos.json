@@ -1,6 +1,19 @@
 {
- "actualizado": 1790007616.0385072,
+ "actualizado": 1790011203.5316057,
  "avisos": [
+  {
+   "ts": 1790010001.138229,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 21.09",
+   "monedas": [
+    "ZEC",
+    "NEAR",
+    "UNI",
+    "HYPE",
+    "TAO"
+   ],
+   "url": "https://t.me/LideresCripto/358"
+  },
   {
    "ts": 1790006413.743553,
    "tipo": "Guía",
@@ -183,13 +196,6 @@
     "RENDER"
    ],
    "url": "https://t.me/LideresCripto/332"
-  },
-  {
-   "ts": 1789950621.2368405,
-   "tipo": "Noticias",
-   "texto": "noticias 20.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/331"
   }
  ]
 }
