@@ -1,6 +1,33 @@
 {
- "actualizado": 1789989611.5012257,
+ "actualizado": 1789993219.6946402,
  "avisos": [
+  {
+   "ts": 1789992483.865282,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $TAO",
+   "monedas": [
+    "TAO"
+   ],
+   "url": "https://t.me/LideresCripto/349"
+  },
+  {
+   "ts": 1789992317.1965916,
+   "tipo": "Resultados",
+   "texto": "resultado $BR: -8,9% (salió bien)",
+   "monedas": [
+    "BR"
+   ],
+   "url": "https://t.me/LideresCripto/348"
+  },
+  {
+   "ts": 1789991729.4643693,
+   "tipo": "Señal",
+   "texto": "pump $AKE",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/347"
+  },
   {
    "ts": 1789988709.2485015,
    "tipo": "Resultados",
@@ -162,37 +189,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/323"
-  },
-  {
-   "ts": 1789930812.393284,
-   "tipo": "Edición del radar",
-   "texto": "radar 20.09 14:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "AKE",
-    "ASTER",
-    "SUI",
-    "HBAR"
-   ],
-   "url": "https://t.me/LideresCripto/322"
-  },
-  {
-   "ts": 1789929578.5175798,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/321"
-  },
-  {
-   "ts": 1789929022.186003,
-   "tipo": "Noticias",
-   "texto": "noticias 20.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/320"
   }
  ]
 }
