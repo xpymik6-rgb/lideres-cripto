@@ -1,6 +1,15 @@
 {
- "actualizado": 1789986013.4306264,
+ "actualizado": 1789989611.5012257,
  "avisos": [
+  {
+   "ts": 1789988709.2485015,
+   "tipo": "Resultados",
+   "texto": "resultado $AKE: -47,9% (salió bien)",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/346"
+  },
   {
    "ts": 1789985193.421085,
    "tipo": "Señal",
@@ -184,15 +193,6 @@
    "texto": "noticias 20.09 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/320"
-  },
-  {
-   "ts": 1789927595.3182905,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/318"
   }
  ]
 }
