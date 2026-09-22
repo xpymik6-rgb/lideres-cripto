@@ -1,6 +1,15 @@
 {
- "actualizado": 1790050806.3662162,
+ "actualizado": 1790054412.8322856,
  "avisos": [
+  {
+   "ts": 1790053586.7765927,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/377"
+  },
   {
    "ts": 1790047999.1946435,
    "tipo": "Señal",
@@ -180,15 +189,6 @@
    "texto": "noticias 21.09 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/351"
-  },
-  {
-   "ts": 1789992483.865282,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $TAO",
-   "monedas": [
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/349"
   }
  ]
 }
