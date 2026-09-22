@@ -1,6 +1,15 @@
 {
- "actualizado": 1790068804.8204045,
+ "actualizado": 1790076008.850395,
  "avisos": [
+  {
+   "ts": 1790075106.773875,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +1,4% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/383"
+  },
   {
    "ts": 1790067902.0136213,
    "tipo": "Resultados",
@@ -179,13 +188,6 @@
     "TAO"
    ],
    "url": "https://t.me/LideresCripto/358"
-  },
-  {
-   "ts": 1790006413.743553,
-   "tipo": "Guía",
-   "texto": "qué es un pump",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/357"
   }
  ]
 }
