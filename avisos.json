@@ -1,6 +1,42 @@
 {
- "actualizado": 1790083202.20274,
+ "actualizado": 1790086803.4082086,
  "avisos": [
+  {
+   "ts": 1790085940.4086943,
+   "tipo": "Resultados",
+   "texto": "resultado $XPL: -7,9% (salió al revés)",
+   "monedas": [
+    "XPL"
+   ],
+   "url": "https://t.me/LideresCripto/396"
+  },
+  {
+   "ts": 1790085940.126514,
+   "tipo": "Resultados",
+   "texto": "resultado $TAO: +12,6% (salió bien)",
+   "monedas": [
+    "TAO"
+   ],
+   "url": "https://t.me/LideresCripto/395"
+  },
+  {
+   "ts": 1790085031.3501399,
+   "tipo": "Señal",
+   "texto": "$100.0 M en USDT entran en Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/392"
+  },
+  {
+   "ts": 1790085000.7981844,
+   "tipo": "Señal",
+   "texto": "$100.0 M en USDT entran en Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/391"
+  },
   {
    "ts": 1790082319.343369,
    "tipo": "Resultados",
@@ -146,44 +182,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/370"
-  },
-  {
-   "ts": 1790038809.3375957,
-   "tipo": "Edición del radar",
-   "texto": "radar 21.09 20:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "GRASS",
-    "TAO",
-    "WLD",
-    "AVAX"
-   ],
-   "url": "https://t.me/LideresCripto/369"
-  },
-  {
-   "ts": 1790037020.1389658,
-   "tipo": "Noticias",
-   "texto": "noticias 21.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/368"
-  },
-  {
-   "ts": 1790031908.2568827,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: -1,8% (salió al revés)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/367"
-  },
-  {
-   "ts": 1790030074.8280888,
-   "tipo": "Resultados",
-   "texto": "",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/365"
   }
  ]
 }
