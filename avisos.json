@@ -1,6 +1,24 @@
 {
- "actualizado": 1790076008.850395,
+ "actualizado": 1790079609.3391442,
  "avisos": [
+  {
+   "ts": 1790078773.654723,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $TAO",
+   "monedas": [
+    "TAO"
+   ],
+   "url": "https://t.me/LideresCripto/385"
+  },
+  {
+   "ts": 1790078706.7269075,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +1,7% (salió bien)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/384"
+  },
   {
    "ts": 1790075106.773875,
    "tipo": "Resultados",
@@ -168,26 +186,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/360"
-  },
-  {
-   "ts": 1790015415.255017,
-   "tipo": "Noticias",
-   "texto": "noticias 21.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/359"
-  },
-  {
-   "ts": 1790010001.138229,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 21.09",
-   "monedas": [
-    "ZEC",
-    "NEAR",
-    "UNI",
-    "HYPE",
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/358"
   }
  ]
 }
