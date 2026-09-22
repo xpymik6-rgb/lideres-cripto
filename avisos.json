@@ -1,6 +1,15 @@
 {
- "actualizado": 1790047219.6851287,
+ "actualizado": 1790050806.3662162,
  "avisos": [
+  {
+   "ts": 1790047999.1946435,
+   "tipo": "Señal",
+   "texto": "pump $AKE",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/376"
+  },
   {
    "ts": 1790046616.433902,
    "tipo": "Señal",
@@ -180,15 +189,6 @@
     "TAO"
    ],
    "url": "https://t.me/LideresCripto/349"
-  },
-  {
-   "ts": 1789992317.1965916,
-   "tipo": "Resultados",
-   "texto": "resultado $BR: -8,9% (salió bien)",
-   "monedas": [
-    "BR"
-   ],
-   "url": "https://t.me/LideresCripto/348"
   }
  ]
 }
