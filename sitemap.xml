@@ -327,6 +327,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/thank/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/tiburon/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
