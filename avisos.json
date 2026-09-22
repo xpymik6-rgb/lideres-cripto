@@ -1,6 +1,33 @@
 {
- "actualizado": 1790054412.8322856,
+ "actualizado": 1790061620.2801564,
  "avisos": [
+  {
+   "ts": 1790060717.6049,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: -2,9% (salió al revés)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/381"
+  },
+  {
+   "ts": 1790060717.3356905,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -3,7% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/380"
+  },
+  {
+   "ts": 1790060556.1274955,
+   "tipo": "Señal",
+   "texto": "$59.7 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/379"
+  },
   {
    "ts": 1790053586.7765927,
    "tipo": "Señal",
@@ -159,36 +186,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/355"
-  },
-  {
-   "ts": 1789997850.6050904,
-   "tipo": "Señal",
-   "texto": "$49.7 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/354"
-  },
-  {
-   "ts": 1789995624.3171222,
-   "tipo": "Edición del radar",
-   "texto": "radar 21.09 08:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "ZEC",
-    "XPL",
-    "TAO",
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/352"
-  },
-  {
-   "ts": 1789993811.16071,
-   "tipo": "Noticias",
-   "texto": "noticias 21.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/351"
   }
  ]
 }
