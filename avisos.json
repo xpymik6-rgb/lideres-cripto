@@ -1,6 +1,33 @@
 {
- "actualizado": 1790094005.6107545,
+ "actualizado": 1790097613.69105,
  "avisos": [
+  {
+   "ts": 1790096710.9337049,
+   "tipo": "Resultados",
+   "texto": "resultado $ENA: -5,4% (salió al revés)",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/400"
+  },
+  {
+   "ts": 1790096710.6113155,
+   "tipo": "Resultados",
+   "texto": "resultado $SOL: -1,3% (salió al revés)",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/399"
+  },
+  {
+   "ts": 1790094937.553064,
+   "tipo": "Señal",
+   "texto": "pump $MUBARAK",
+   "monedas": [
+    "MUBARAK"
+   ],
+   "url": "https://t.me/LideresCripto/398"
+  },
   {
    "ts": 1790093103.512399,
    "tipo": "Resultados",
@@ -155,33 +182,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/377"
-  },
-  {
-   "ts": 1790047999.1946435,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/376"
-  },
-  {
-   "ts": 1790046616.433902,
-   "tipo": "Señal",
-   "texto": "pump $ZETA",
-   "monedas": [
-    "ZETA"
-   ],
-   "url": "https://t.me/LideresCripto/375"
-  },
-  {
-   "ts": 1790039168.2593634,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $TAO",
-   "monedas": [
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/371"
   }
  ]
 }
