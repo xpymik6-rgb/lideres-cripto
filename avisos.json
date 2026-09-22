@@ -1,6 +1,28 @@
 {
- "actualizado": 1790101220.3459344,
+ "actualizado": 1790104802.072215,
  "avisos": [
+  {
+   "ts": 1790103619.4523768,
+   "tipo": "Edición del radar",
+   "texto": "radar 22.09 14:00",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "NEAR",
+    "ZRO",
+    "MUBARAK",
+    "BCH",
+    "SKY"
+   ],
+   "url": "https://t.me/LideresCripto/403"
+  },
+  {
+   "ts": 1790101811.62104,
+   "tipo": "Noticias",
+   "texto": "noticias 22.09 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/402"
+  },
   {
    "ts": 1790100318.252344,
    "tipo": "Resultados",
@@ -164,24 +186,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/381"
-  },
-  {
-   "ts": 1790060717.3356905,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: -3,7% (salió al revés)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/380"
-  },
-  {
-   "ts": 1790060556.1274955,
-   "tipo": "Señal",
-   "texto": "$59.7 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/379"
   }
  ]
 }
