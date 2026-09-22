@@ -1,6 +1,15 @@
 {
- "actualizado": 1790061620.2801564,
+ "actualizado": 1790068804.8204045,
  "avisos": [
+  {
+   "ts": 1790067902.0136213,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: +0,1% (sin movimiento)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/382"
+  },
   {
    "ts": 1790060717.6049,
    "tipo": "Resultados",
@@ -177,15 +186,6 @@
    "texto": "qué es un pump",
    "monedas": [],
    "url": "https://t.me/LideresCripto/357"
-  },
-  {
-   "ts": 1790003176.556107,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/355"
   }
  ]
 }
