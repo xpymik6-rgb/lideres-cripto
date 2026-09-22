@@ -1,6 +1,15 @@
 {
- "actualizado": 1790040012.2391725,
+ "actualizado": 1790047219.6851287,
  "avisos": [
+  {
+   "ts": 1790046616.433902,
+   "tipo": "Señal",
+   "texto": "pump $ZETA",
+   "monedas": [
+    "ZETA"
+   ],
+   "url": "https://t.me/LideresCripto/375"
+  },
   {
    "ts": 1790039168.2593634,
    "tipo": "Señal",
@@ -180,15 +189,6 @@
     "BR"
    ],
    "url": "https://t.me/LideresCripto/348"
-  },
-  {
-   "ts": 1789991729.4643693,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/347"
   }
  ]
 }
