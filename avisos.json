@@ -1,6 +1,15 @@
 {
- "actualizado": 1790151620.8651738,
+ "actualizado": 1790155207.3303838,
  "avisos": [
+  {
+   "ts": 1790154408.8593378,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/425"
+  },
   {
    "ts": 1790150718.192066,
    "tipo": "Resultados",
@@ -178,15 +187,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/397"
-  },
-  {
-   "ts": 1790085940.4086943,
-   "tipo": "Resultados",
-   "texto": "resultado $XPL: -7,9% (salió al revés)",
-   "monedas": [
-    "XPL"
-   ],
-   "url": "https://t.me/LideresCripto/396"
   }
  ]
 }
