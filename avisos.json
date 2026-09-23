@@ -1,6 +1,15 @@
 {
- "actualizado": 1790173205.6835115,
+ "actualizado": 1790176805.4302878,
  "avisos": [
+  {
+   "ts": 1790175983.0230453,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/436"
+  },
   {
    "ts": 1790172303.2394202,
    "tipo": "Resultados",
@@ -185,13 +194,6 @@
     "SKY"
    ],
    "url": "https://t.me/LideresCripto/403"
-  },
-  {
-   "ts": 1790101811.62104,
-   "tipo": "Noticias",
-   "texto": "noticias 22.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/402"
   }
  ]
 }
