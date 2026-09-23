@@ -1,6 +1,15 @@
 {
- "actualizado": 1790169613.6109438,
+ "actualizado": 1790173205.6835115,
  "avisos": [
+  {
+   "ts": 1790172303.2394202,
+   "tipo": "Resultados",
+   "texto": "resultado $TAO: -5,0% (salió al revés)",
+   "monedas": [
+    "TAO"
+   ],
+   "url": "https://t.me/LideresCripto/435"
+  },
   {
    "ts": 1790168826.0999126,
    "tipo": "Señal",
@@ -183,15 +192,6 @@
    "texto": "noticias 22.09 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/402"
-  },
-  {
-   "ts": 1790100318.252344,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +0,8% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/401"
   }
  ]
 }
