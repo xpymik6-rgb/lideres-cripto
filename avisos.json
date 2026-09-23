@@ -1,6 +1,15 @@
 {
- "actualizado": 1790148013.0043151,
+ "actualizado": 1790151620.8651738,
  "avisos": [
+  {
+   "ts": 1790150718.192066,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +1,0% (sin movimiento)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/424"
+  },
   {
    "ts": 1790147294.8399436,
    "tipo": "Señal",
@@ -178,15 +187,6 @@
     "XPL"
    ],
    "url": "https://t.me/LideresCripto/396"
-  },
-  {
-   "ts": 1790085940.126514,
-   "tipo": "Resultados",
-   "texto": "resultado $TAO: +12,6% (salió bien)",
-   "monedas": [
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/395"
   }
  ]
 }
