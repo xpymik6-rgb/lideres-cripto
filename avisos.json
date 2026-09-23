@@ -1,6 +1,15 @@
 {
- "actualizado": 1790144414.6242867,
+ "actualizado": 1790148013.0043151,
  "avisos": [
+  {
+   "ts": 1790147294.8399436,
+   "tipo": "Señal",
+   "texto": "$25.0 M en USDT salen de Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/423"
+  },
   {
    "ts": 1790143511.9840565,
    "tipo": "Resultados",
@@ -178,15 +187,6 @@
     "TAO"
    ],
    "url": "https://t.me/LideresCripto/395"
-  },
-  {
-   "ts": 1790085031.3501399,
-   "tipo": "Señal",
-   "texto": "$100.0 M en USDT entran en Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/392"
   }
  ]
 }
