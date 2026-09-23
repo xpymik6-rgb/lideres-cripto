@@ -1,6 +1,15 @@
 {
- "actualizado": 1790155207.3303838,
+ "actualizado": 1790158805.8600385,
  "avisos": [
+  {
+   "ts": 1790158434.4221396,
+   "tipo": "Señal",
+   "texto": "pump $AKE",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/427"
+  },
   {
    "ts": 1790154408.8593378,
    "tipo": "Señal",
@@ -178,15 +187,6 @@
     "MUBARAK"
    ],
    "url": "https://t.me/LideresCripto/398"
-  },
-  {
-   "ts": 1790093103.512399,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +0,2% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/397"
   }
  ]
 }
