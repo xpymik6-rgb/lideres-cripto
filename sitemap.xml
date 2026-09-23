@@ -237,6 +237,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/francotirador-ea/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/francotirador-f1/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

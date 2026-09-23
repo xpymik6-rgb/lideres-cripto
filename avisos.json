@@ -1,6 +1,13 @@
 {
- "actualizado": 1790176805.4302878,
+ "actualizado": 1790180403.749167,
  "avisos": [
+  {
+   "ts": 1790179240.9075546,
+   "tipo": "Guía",
+   "texto": "cuánto arriesgar",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/438"
+  },
   {
    "ts": 1790175983.0230453,
    "tipo": "Señal",
@@ -179,21 +186,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/406"
-  },
-  {
-   "ts": 1790103619.4523768,
-   "tipo": "Edición del radar",
-   "texto": "radar 22.09 14:00",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "NEAR",
-    "ZRO",
-    "MUBARAK",
-    "BCH",
-    "SKY"
-   ],
-   "url": "https://t.me/LideresCripto/403"
   }
  ]
 }
