@@ -1,6 +1,38 @@
 {
- "actualizado": 1790166008.5621665,
+ "actualizado": 1790169613.6109438,
  "avisos": [
+  {
+   "ts": 1790168826.0999126,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/431"
+  },
+  {
+   "ts": 1790168411.1668622,
+   "tipo": "Edición del radar",
+   "texto": "radar 23.09 08:00",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "ETH",
+    "NEAR",
+    "AKE",
+    "MUBARAK",
+    "TAKE",
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/429"
+  },
+  {
+   "ts": 1790166618.8909497,
+   "tipo": "Noticias",
+   "texto": "noticias 23.09 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/428"
+  },
   {
    "ts": 1790158434.4221396,
    "tipo": "Señal",
@@ -160,33 +192,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/401"
-  },
-  {
-   "ts": 1790096710.9337049,
-   "tipo": "Resultados",
-   "texto": "resultado $ENA: -5,4% (salió al revés)",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/400"
-  },
-  {
-   "ts": 1790096710.6113155,
-   "tipo": "Resultados",
-   "texto": "resultado $SOL: -1,3% (salió al revés)",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/399"
-  },
-  {
-   "ts": 1790094937.553064,
-   "tipo": "Señal",
-   "texto": "pump $MUBARAK",
-   "monedas": [
-    "MUBARAK"
-   ],
-   "url": "https://t.me/LideresCripto/398"
   }
  ]
 }
