@@ -1,6 +1,27 @@
 {
- "actualizado": 1790112020.1672628,
+ "actualizado": 1790126409.42715,
  "avisos": [
+  {
+   "ts": 1790125206.7864475,
+   "tipo": "Edición del radar",
+   "texto": "radar 22.09 20:00",
+   "monedas": [
+    "ZEC",
+    "NEAR",
+    "BTC",
+    "FOLKS",
+    "TIA",
+    "PENGU"
+   ],
+   "url": "https://t.me/LideresCripto/413"
+  },
+  {
+   "ts": 1790123439.0397267,
+   "tipo": "Noticias",
+   "texto": "noticias 22.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/412"
+  },
   {
    "ts": 1790111217.5462964,
    "tipo": "Señal",
@@ -168,24 +189,6 @@
    "texto": "noticias 22.09 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/386"
-  },
-  {
-   "ts": 1790078773.654723,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $TAO",
-   "monedas": [
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/385"
-  },
-  {
-   "ts": 1790078706.7269075,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +1,7% (salió bien)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/384"
   }
  ]
 }
