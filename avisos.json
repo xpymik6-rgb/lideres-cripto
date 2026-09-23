@@ -1,6 +1,15 @@
 {
- "actualizado": 1790130017.4313414,
+ "actualizado": 1790137207.8747516,
  "avisos": [
+  {
+   "ts": 1790136444.1294703,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $UNI",
+   "monedas": [
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/417"
+  },
   {
    "ts": 1790129114.7429316,
    "tipo": "Resultados",
@@ -178,19 +187,6 @@
     "BCH"
    ],
    "url": "https://t.me/LideresCripto/389"
-  },
-  {
-   "ts": 1790082019.04427,
-   "tipo": "Edición del radar",
-   "texto": "radar 22.09 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "TAO",
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/387"
   }
  ]
 }
