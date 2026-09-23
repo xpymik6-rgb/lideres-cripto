@@ -1,6 +1,33 @@
 {
- "actualizado": 1790198406.5104742,
+ "actualizado": 1790205604.8566585,
  "avisos": [
+  {
+   "ts": 1790205370.2386668,
+   "tipo": "Señal",
+   "texto": "pump $NIL",
+   "monedas": [
+    "NIL"
+   ],
+   "url": "https://t.me/LideresCripto/450"
+  },
+  {
+   "ts": 1790204702.3794725,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -1,6% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/449"
+  },
+  {
+   "ts": 1790204702.1717882,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: +1,1% (salió bien)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/448"
+  },
   {
    "ts": 1790197204.4866552,
    "tipo": "Señal",
@@ -160,36 +187,6 @@
     "UNI"
    ],
    "url": "https://t.me/LideresCripto/417"
-  },
-  {
-   "ts": 1790129114.7429316,
-   "tipo": "Resultados",
-   "texto": "resultado $TAO: +1,2% (salió bien)",
-   "monedas": [
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/416"
-  },
-  {
-   "ts": 1790125206.7864475,
-   "tipo": "Edición del radar",
-   "texto": "radar 22.09 20:00",
-   "monedas": [
-    "ZEC",
-    "NEAR",
-    "BTC",
-    "FOLKS",
-    "TIA",
-    "PENGU"
-   ],
-   "url": "https://t.me/LideresCripto/413"
-  },
-  {
-   "ts": 1790123439.0397267,
-   "tipo": "Noticias",
-   "texto": "noticias 22.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/412"
   }
  ]
 }
