@@ -1,6 +1,15 @@
 {
- "actualizado": 1790126409.42715,
+ "actualizado": 1790130017.4313414,
  "avisos": [
+  {
+   "ts": 1790129114.7429316,
+   "tipo": "Resultados",
+   "texto": "resultado $TAO: +1,2% (salió bien)",
+   "monedas": [
+    "TAO"
+   ],
+   "url": "https://t.me/LideresCripto/416"
+  },
   {
    "ts": 1790125206.7864475,
    "tipo": "Edición del radar",
@@ -182,13 +191,6 @@
     "AKE"
    ],
    "url": "https://t.me/LideresCripto/387"
-  },
-  {
-   "ts": 1790080217.6869657,
-   "tipo": "Noticias",
-   "texto": "noticias 22.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/386"
   }
  ]
 }
