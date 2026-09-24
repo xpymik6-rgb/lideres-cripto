@@ -1,6 +1,28 @@
 {
- "actualizado": 1790274016.5360792,
+ "actualizado": 1790277607.6625924,
  "avisos": [
+  {
+   "ts": 1790276425.2589157,
+   "tipo": "Edición del radar",
+   "texto": "radar 24.09 14:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "ONDO",
+    "TRUMP",
+    "CC",
+    "JUP"
+   ],
+   "url": "https://t.me/LideresCripto/481"
+  },
+  {
+   "ts": 1790274625.69548,
+   "tipo": "Noticias",
+   "texto": "noticias 24.09 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/480"
+  },
   {
    "ts": 1790269506.614991,
    "tipo": "Resultados",
@@ -171,24 +193,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/457"
-  },
-  {
-   "ts": 1790229913.739865,
-   "tipo": "Resultados",
-   "texto": "resultado $UNI: -11,5% (salió al revés)",
-   "monedas": [
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/456"
-  },
-  {
-   "ts": 1790220206.4186256,
-   "tipo": "Señal",
-   "texto": "$20.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/455"
   }
  ]
 }
