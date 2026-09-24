@@ -1,6 +1,15 @@
 {
- "actualizado": 1790223603.6219518,
+ "actualizado": 1790230815.756656,
  "avisos": [
+  {
+   "ts": 1790229913.739865,
+   "tipo": "Resultados",
+   "texto": "resultado $UNI: -11,5% (salió al revés)",
+   "monedas": [
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/456"
+  },
   {
    "ts": 1790220206.4186256,
    "tipo": "Señal",
@@ -183,15 +192,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/423"
-  },
-  {
-   "ts": 1790143511.9840565,
-   "tipo": "Resultados",
-   "texto": "resultado $TAO: +1,3% (salió bien)",
-   "monedas": [
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/422"
   }
  ]
 }
