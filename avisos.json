@@ -1,6 +1,15 @@
 {
- "actualizado": 1790281216.408617,
+ "actualizado": 1790284807.6870909,
  "avisos": [
+  {
+   "ts": 1790283605.0816748,
+   "tipo": "Señal",
+   "texto": "historia ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/488"
+  },
   {
    "ts": 1790280335.1750271,
    "tipo": "Señal",
@@ -184,15 +193,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/460"
-  },
-  {
-   "ts": 1790233520.1418364,
-   "tipo": "Resultados",
-   "texto": "resultado $UNI: -10,0% (salió al revés)",
-   "monedas": [
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/459"
   }
  ]
 }
