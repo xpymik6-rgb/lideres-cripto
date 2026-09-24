@@ -1,6 +1,28 @@
 {
- "actualizado": 1790266821.315642,
+ "actualizado": 1790270409.0693624,
  "avisos": [
+  {
+   "ts": 1790269506.614991,
+   "tipo": "Resultados",
+   "texto": "resultado $LIT: -5,0% (salió al revés)",
+   "monedas": [
+    "LIT"
+   ],
+   "url": "https://t.me/LideresCripto/479"
+  },
+  {
+   "ts": 1790269206.2806258,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 24.09",
+   "monedas": [
+    "ZEC",
+    "NEAR",
+    "HYPE",
+    "ETH",
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/478"
+  },
   {
    "ts": 1790265918.861013,
    "tipo": "Resultados",
@@ -167,29 +189,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/455"
-  },
-  {
-   "ts": 1790211608.688895,
-   "tipo": "Edición del radar",
-   "texto": "radar 23.09 20:00",
-   "monedas": [
-    "BTC",
-    "SOL",
-    "XRP",
-    "DOGE",
-    "NIL",
-    "WLFI",
-    "ENA",
-    "H"
-   ],
-   "url": "https://t.me/LideresCripto/452"
-  },
-  {
-   "ts": 1790209819.8964815,
-   "tipo": "Noticias",
-   "texto": "noticias 23.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/451"
   }
  ]
 }
