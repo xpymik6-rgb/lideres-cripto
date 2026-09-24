@@ -1,6 +1,24 @@
 {
- "actualizado": 1790234402.3941827,
+ "actualizado": 1790238021.3733377,
  "avisos": [
+  {
+   "ts": 1790237444.5595627,
+   "tipo": "Señal",
+   "texto": "pump $LSK",
+   "monedas": [
+    "LSK"
+   ],
+   "url": "https://t.me/LideresCripto/463"
+  },
+  {
+   "ts": 1790236902.4488614,
+   "tipo": "Señal",
+   "texto": "pump $AKE",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/462"
+  },
   {
    "ts": 1790233538.3689969,
    "tipo": "Señal",
@@ -169,29 +187,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/431"
-  },
-  {
-   "ts": 1790168411.1668622,
-   "tipo": "Edición del radar",
-   "texto": "radar 23.09 08:00",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "ETH",
-    "NEAR",
-    "AKE",
-    "MUBARAK",
-    "TAKE",
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/429"
-  },
-  {
-   "ts": 1790166618.8909497,
-   "tipo": "Noticias",
-   "texto": "noticias 23.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/428"
   }
  ]
 }
