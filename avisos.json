@@ -1,6 +1,15 @@
 {
- "actualizado": 1790245214.3310947,
+ "actualizado": 1790252406.662396,
  "avisos": [
+  {
+   "ts": 1790250322.35772,
+   "tipo": "Señal",
+   "texto": "$50.0 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/467"
+  },
   {
    "ts": 1790244354.1457112,
    "tipo": "Señal",
@@ -178,15 +187,6 @@
    "texto": "cuánto arriesgar",
    "monedas": [],
    "url": "https://t.me/LideresCripto/438"
-  },
-  {
-   "ts": 1790175983.0230453,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/436"
   }
  ]
 }
