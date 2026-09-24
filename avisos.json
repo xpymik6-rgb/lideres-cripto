@@ -1,6 +1,33 @@
 {
- "actualizado": 1790259611.7343621,
+ "actualizado": 1790266821.315642,
  "avisos": [
+  {
+   "ts": 1790265918.861013,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: -3,1% (salió al revés)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/477"
+  },
+  {
+   "ts": 1790265918.644666,
+   "tipo": "Resultados",
+   "texto": "resultado $LIT: -5,0% (salió al revés)",
+   "monedas": [
+    "LIT"
+   ],
+   "url": "https://t.me/LideresCripto/476"
+  },
+  {
+   "ts": 1790265918.2314665,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -1,0% (salió al revés)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/475"
+  },
   {
    "ts": 1790258771.940903,
    "tipo": "Señal",
@@ -163,33 +190,6 @@
    "texto": "noticias 23.09 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/451"
-  },
-  {
-   "ts": 1790205370.2386668,
-   "tipo": "Señal",
-   "texto": "pump $NIL",
-   "monedas": [
-    "NIL"
-   ],
-   "url": "https://t.me/LideresCripto/450"
-  },
-  {
-   "ts": 1790204702.3794725,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: -1,6% (salió al revés)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/449"
-  },
-  {
-   "ts": 1790204702.1717882,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: +1,1% (salió bien)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/448"
   }
  ]
 }
