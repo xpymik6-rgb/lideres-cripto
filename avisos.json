@@ -1,6 +1,42 @@
 {
- "actualizado": 1790230815.756656,
+ "actualizado": 1790234402.3941827,
  "avisos": [
+  {
+   "ts": 1790233538.3689969,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/460"
+  },
+  {
+   "ts": 1790233520.1418364,
+   "tipo": "Resultados",
+   "texto": "resultado $UNI: -10,0% (salió al revés)",
+   "monedas": [
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/459"
+  },
+  {
+   "ts": 1790233519.8812273,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -5,0% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/458"
+  },
+  {
+   "ts": 1790231650.70069,
+   "tipo": "Señal",
+   "texto": "$36.2 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/457"
+  },
   {
    "ts": 1790229913.739865,
    "tipo": "Resultados",
@@ -156,42 +192,6 @@
    "texto": "noticias 23.09 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/428"
-  },
-  {
-   "ts": 1790158434.4221396,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/427"
-  },
-  {
-   "ts": 1790154408.8593378,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/425"
-  },
-  {
-   "ts": 1790150718.192066,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: +1,0% (sin movimiento)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/424"
-  },
-  {
-   "ts": 1790147294.8399436,
-   "tipo": "Señal",
-   "texto": "$25.0 M en USDT salen de Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/423"
   }
  ]
 }
