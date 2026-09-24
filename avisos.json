@@ -1,6 +1,24 @@
 {
- "actualizado": 1790277607.6625924,
+ "actualizado": 1790281216.408617,
  "avisos": [
+  {
+   "ts": 1790280335.1750271,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/486"
+  },
+  {
+   "ts": 1790280334.0694027,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/484"
+  },
   {
    "ts": 1790276425.2589157,
    "tipo": "Edición del radar",
@@ -175,24 +193,6 @@
     "UNI"
    ],
    "url": "https://t.me/LideresCripto/459"
-  },
-  {
-   "ts": 1790233519.8812273,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: -5,0% (salió al revés)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/458"
-  },
-  {
-   "ts": 1790231650.70069,
-   "tipo": "Señal",
-   "texto": "$36.2 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/457"
   }
  ]
 }
