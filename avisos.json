@@ -1,6 +1,29 @@
 {
- "actualizado": 1790209211.6807137,
+ "actualizado": 1790212810.7989392,
  "avisos": [
+  {
+   "ts": 1790211608.688895,
+   "tipo": "Edición del radar",
+   "texto": "radar 23.09 20:00",
+   "monedas": [
+    "BTC",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "NIL",
+    "WLFI",
+    "ENA",
+    "H"
+   ],
+   "url": "https://t.me/LideresCripto/452"
+  },
+  {
+   "ts": 1790209819.8964815,
+   "tipo": "Noticias",
+   "texto": "noticias 23.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/451"
+  },
   {
    "ts": 1790205370.2386668,
    "tipo": "Señal",
@@ -169,24 +192,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/421"
-  },
-  {
-   "ts": 1790139990.210597,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/419"
-  },
-  {
-   "ts": 1790136444.1294703,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $UNI",
-   "monedas": [
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/417"
   }
  ]
 }
