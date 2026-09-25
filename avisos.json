@@ -1,6 +1,15 @@
 {
- "actualizado": 1790324409.1686907,
+ "actualizado": 1790335205.1694038,
  "avisos": [
+  {
+   "ts": 1790334303.0835495,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: +3,0% (salió bien)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/503"
+  },
   {
    "ts": 1790323546.9094267,
    "tipo": "Resultados",
@@ -184,22 +193,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/472"
-  },
-  {
-   "ts": 1790254819.6389675,
-   "tipo": "Edición del radar",
-   "texto": "radar 24.09 08:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "XRP",
-    "ZEC",
-    "HYPE",
-    "LSK",
-    "AKE",
-    "NIL"
-   ],
-   "url": "https://t.me/LideresCripto/469"
   }
  ]
 }
