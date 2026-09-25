@@ -1,6 +1,31 @@
 {
- "actualizado": 1790349610.0782437,
+ "actualizado": 1790353216.9133205,
  "avisos": [
+  {
+   "ts": 1790352365.2465887,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ENA",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/514"
+  },
+  {
+   "ts": 1790352014.280245,
+   "tipo": "Guía",
+   "texto": "dónde poner la salida",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/513"
+  },
+  {
+   "ts": 1790350173.3613267,
+   "tipo": "Señal",
+   "texto": "$20.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/512"
+  },
   {
    "ts": 1790348707.4937482,
    "tipo": "Resultados",
@@ -164,37 +189,6 @@
    "texto": "noticias 24.09 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/480"
-  },
-  {
-   "ts": 1790269506.614991,
-   "tipo": "Resultados",
-   "texto": "resultado $LIT: -5,0% (salió al revés)",
-   "monedas": [
-    "LIT"
-   ],
-   "url": "https://t.me/LideresCripto/479"
-  },
-  {
-   "ts": 1790269206.2806258,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 24.09",
-   "monedas": [
-    "ZEC",
-    "NEAR",
-    "HYPE",
-    "ETH",
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/478"
-  },
-  {
-   "ts": 1790265918.861013,
-   "tipo": "Resultados",
-   "texto": "resultado $HYPE: -3,1% (salió al revés)",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/477"
   }
  ]
 }
