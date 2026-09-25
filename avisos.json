@@ -1,6 +1,33 @@
 {
- "actualizado": 1790320811.185013,
+ "actualizado": 1790324409.1686907,
  "avisos": [
+  {
+   "ts": 1790323546.9094267,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +0,0% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/502"
+  },
+  {
+   "ts": 1790321864.294928,
+   "tipo": "Señal",
+   "texto": "$25.0 M en USDT salen de Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/501"
+  },
+  {
+   "ts": 1790321863.7462504,
+   "tipo": "Señal",
+   "texto": "$25.0 M en USDT salen de Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/500"
+  },
   {
    "ts": 1790319982.5623374,
    "tipo": "Señal",
@@ -173,31 +200,6 @@
     "NIL"
    ],
    "url": "https://t.me/LideresCripto/469"
-  },
-  {
-   "ts": 1790253046.107333,
-   "tipo": "Noticias",
-   "texto": "noticias 24.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/468"
-  },
-  {
-   "ts": 1790250322.35772,
-   "tipo": "Señal",
-   "texto": "$50.0 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/467"
-  },
-  {
-   "ts": 1790244354.1457112,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/465"
   }
  ]
 }
