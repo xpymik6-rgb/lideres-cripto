@@ -407,6 +407,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/vigilante-0e/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/vigilante-1e/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
