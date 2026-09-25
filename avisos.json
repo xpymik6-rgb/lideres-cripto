@@ -1,6 +1,15 @@
 {
- "actualizado": 1790371212.3100696,
+ "actualizado": 1790374818.2026505,
  "avisos": [
+  {
+   "ts": 1790373750.9206014,
+   "tipo": "Señal",
+   "texto": "pump $PHA",
+   "monedas": [
+    "PHA"
+   ],
+   "url": "https://t.me/LideresCripto/527"
+  },
   {
    "ts": 1790370309.842748,
    "tipo": "Resultados",
@@ -174,15 +183,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/498"
-  },
-  {
-   "ts": 1790312831.6267343,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/496"
   }
  ]
 }
