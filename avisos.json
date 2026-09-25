@@ -1,6 +1,15 @@
 {
- "actualizado": 1790353216.9133205,
+ "actualizado": 1790356803.0517437,
  "avisos": [
+  {
+   "ts": 1790355971.3097522,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/516"
+  },
   {
    "ts": 1790352365.2465887,
    "tipo": "Señal",
@@ -182,13 +191,6 @@
     "JUP"
    ],
    "url": "https://t.me/LideresCripto/481"
-  },
-  {
-   "ts": 1790274625.69548,
-   "tipo": "Noticias",
-   "texto": "noticias 24.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/480"
   }
  ]
 }
