@@ -1,6 +1,15 @@
 {
- "actualizado": 1790356803.0517437,
+ "actualizado": 1790360421.0657349,
  "avisos": [
+  {
+   "ts": 1790359697.3042593,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $XPL",
+   "monedas": [
+    "XPL"
+   ],
+   "url": "https://t.me/LideresCripto/518"
+  },
   {
    "ts": 1790355971.3097522,
    "tipo": "Señal",
@@ -176,21 +185,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/484"
-  },
-  {
-   "ts": 1790276425.2589157,
-   "tipo": "Edición del radar",
-   "texto": "radar 24.09 14:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ONDO",
-    "TRUMP",
-    "CC",
-    "JUP"
-   ],
-   "url": "https://t.me/LideresCripto/481"
   }
  ]
 }
