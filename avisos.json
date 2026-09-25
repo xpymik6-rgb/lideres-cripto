@@ -1,6 +1,15 @@
 {
- "actualizado": 1790299215.446318,
+ "actualizado": 1790313608.257529,
  "avisos": [
+  {
+   "ts": 1790312831.6267343,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/496"
+  },
   {
    "ts": 1790298012.8093302,
    "tipo": "Edición del radar",
@@ -189,15 +198,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/464"
-  },
-  {
-   "ts": 1790237444.5595627,
-   "tipo": "Señal",
-   "texto": "pump $LSK",
-   "monedas": [
-    "LSK"
-   ],
-   "url": "https://t.me/LideresCripto/463"
   }
  ]
 }
