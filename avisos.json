@@ -1,6 +1,15 @@
 {
- "actualizado": 1790313608.257529,
+ "actualizado": 1790320811.185013,
  "avisos": [
+  {
+   "ts": 1790319982.5623374,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/498"
+  },
   {
    "ts": 1790312831.6267343,
    "tipo": "Señal",
@@ -189,15 +198,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/465"
-  },
-  {
-   "ts": 1790244309.9966068,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: -8,8% (salió al revés)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/464"
   }
  ]
 }
