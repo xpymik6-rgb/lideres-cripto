@@ -1,6 +1,15 @@
 {
- "actualizado": 1790374818.2026505,
+ "actualizado": 1790378417.1487808,
  "avisos": [
+  {
+   "ts": 1790377655.855016,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/528"
+  },
   {
    "ts": 1790373750.9206014,
    "tipo": "Señal",
@@ -174,15 +183,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/500"
-  },
-  {
-   "ts": 1790319982.5623374,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/498"
   }
  ]
 }

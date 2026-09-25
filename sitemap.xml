@@ -182,6 +182,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/cazador-be/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/cirujano/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
