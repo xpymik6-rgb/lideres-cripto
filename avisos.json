@@ -1,6 +1,24 @@
 {
- "actualizado": 1790392819.514357,
+ "actualizado": 1790403616.2631154,
  "avisos": [
+  {
+   "ts": 1790402942.8107173,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $PENGU",
+   "monedas": [
+    "PENGU"
+   ],
+   "url": "https://t.me/LideresCripto/537"
+  },
+  {
+   "ts": 1790402851.2578495,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $ENA",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/536"
+  },
   {
    "ts": 1790392100.306222,
    "tipo": "Señal",
@@ -172,22 +190,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/505"
-  },
-  {
-   "ts": 1790339421.9843163,
-   "tipo": "Noticias",
-   "texto": "noticias 25.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/504"
-  },
-  {
-   "ts": 1790334303.0835495,
-   "tipo": "Resultados",
-   "texto": "resultado $HYPE: +3,0% (salió bien)",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/503"
   }
  ]
 }
