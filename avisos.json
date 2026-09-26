@@ -1,6 +1,15 @@
 {
- "actualizado": 1790436016.3320868,
+ "actualizado": 1790439603.0279338,
  "avisos": [
+  {
+   "ts": 1790436245.1080298,
+   "tipo": "Señal",
+   "texto": "pump $BTW",
+   "monedas": [
+    "BTW"
+   ],
+   "url": "https://t.me/LideresCripto/550"
+  },
   {
    "ts": 1790435114.3057177,
    "tipo": "Resultados",
@@ -182,20 +191,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/524"
-  },
-  {
-   "ts": 1790362813.0595815,
-   "tipo": "Edición del radar",
-   "texto": "radar 25.09 14:00",
-   "monedas": [
-    "ZEC",
-    "BTC",
-    "HYPE",
-    "XPL",
-    "SOL",
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/521"
   }
  ]
 }
