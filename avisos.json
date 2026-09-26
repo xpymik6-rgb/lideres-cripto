@@ -1,6 +1,15 @@
 {
- "actualizado": 1790450421.7091157,
+ "actualizado": 1790454012.60279,
  "avisos": [
+  {
+   "ts": 1790453110.0504928,
+   "tipo": "Resultados",
+   "texto": "resultado $XPL: +6,4% (salió bien)",
+   "monedas": [
+    "XPL"
+   ],
+   "url": "https://t.me/LideresCripto/561"
+  },
   {
    "ts": 1790449219.45293,
    "tipo": "Edición del radar",
@@ -181,22 +190,6 @@
     "TAO"
    ],
    "url": "https://t.me/LideresCripto/534"
-  },
-  {
-   "ts": 1790384413.0414903,
-   "tipo": "Edición del radar",
-   "texto": "radar 25.09 20:00",
-   "monedas": [
-    "ZEC",
-    "XRP",
-    "UNI",
-    "SOL",
-    "PHA",
-    "ENA",
-    "LDO",
-    "MORPHO"
-   ],
-   "url": "https://t.me/LideresCripto/531"
   }
  ]
 }
