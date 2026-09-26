@@ -1,6 +1,15 @@
 {
- "actualizado": 1790421619.414461,
+ "actualizado": 1790425206.6012619,
  "avisos": [
+  {
+   "ts": 1790424304.1414955,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: -1,0% (salió al revés)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/543"
+  },
   {
    "ts": 1790420717.2769446,
    "tipo": "Resultados",
@@ -179,15 +188,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/516"
-  },
-  {
-   "ts": 1790352365.2465887,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ENA",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/514"
   }
  ]
 }
