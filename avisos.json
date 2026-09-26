@@ -1,6 +1,15 @@
 {
- "actualizado": 1790403616.2631154,
+ "actualizado": 1790407205.1435146,
  "avisos": [
+  {
+   "ts": 1790406342.7182162,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -0,9% (sin movimiento)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/538"
+  },
   {
    "ts": 1790402942.8107173,
    "tipo": "Señal",
@@ -177,19 +186,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/507"
-  },
-  {
-   "ts": 1790341225.2212925,
-   "tipo": "Edición del radar",
-   "texto": "radar 25.09 08:00",
-   "monedas": [
-    "BTC",
-    "HYPE",
-    "ETH",
-    "NEAR",
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/505"
   }
  ]
 }
