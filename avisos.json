@@ -1,6 +1,15 @@
 {
- "actualizado": 1790418012.3539186,
+ "actualizado": 1790421619.414461,
  "avisos": [
+  {
+   "ts": 1790420717.2769446,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -3,6% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/542"
+  },
   {
    "ts": 1790417265.2872653,
    "tipo": "Señal",
@@ -179,13 +188,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/514"
-  },
-  {
-   "ts": 1790352014.280245,
-   "tipo": "Guía",
-   "texto": "dónde poner la salida",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/513"
   }
  ]
 }
