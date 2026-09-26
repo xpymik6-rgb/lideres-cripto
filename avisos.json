@@ -1,6 +1,28 @@
 {
- "actualizado": 1790446820.0919034,
+ "actualizado": 1790450421.7091157,
  "avisos": [
+  {
+   "ts": 1790449219.45293,
+   "tipo": "Edición del radar",
+   "texto": "radar 26.09 14:00",
+   "monedas": [
+    "SOL",
+    "WLD",
+    "ZEC",
+    "ENA",
+    "NEAR",
+    "BTW",
+    "RARE"
+   ],
+   "url": "https://t.me/LideresCripto/558"
+  },
+  {
+   "ts": 1790447410.316923,
+   "tipo": "Noticias",
+   "texto": "noticias 26.09 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/557"
+  },
   {
    "ts": 1790445976.170792,
    "tipo": "Señal",
@@ -175,22 +197,6 @@
     "MORPHO"
    ],
    "url": "https://t.me/LideresCripto/531"
-  },
-  {
-   "ts": 1790382624.359856,
-   "tipo": "Noticias",
-   "texto": "noticias 25.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/530"
-  },
-  {
-   "ts": 1790377655.855016,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $SOL",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/528"
   }
  ]
 }
