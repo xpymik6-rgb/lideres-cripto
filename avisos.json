@@ -1,6 +1,24 @@
 {
- "actualizado": 1790414406.2053304,
+ "actualizado": 1790418012.3539186,
  "avisos": [
+  {
+   "ts": 1790417265.2872653,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $XPL",
+   "monedas": [
+    "XPL"
+   ],
+   "url": "https://t.me/LideresCripto/541"
+  },
+  {
+   "ts": 1790415078.6329277,
+   "tipo": "Señal",
+   "texto": "$50.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/540"
+  },
   {
    "ts": 1790413543.8286777,
    "tipo": "Resultados",
@@ -168,24 +186,6 @@
    "texto": "dónde poner la salida",
    "monedas": [],
    "url": "https://t.me/LideresCripto/513"
-  },
-  {
-   "ts": 1790350173.3613267,
-   "tipo": "Señal",
-   "texto": "$20.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/512"
-  },
-  {
-   "ts": 1790348707.4937482,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -1,2% (salió al revés)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/511"
   }
  ]
 }
