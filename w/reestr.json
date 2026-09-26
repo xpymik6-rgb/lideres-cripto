@@ -323,5 +323,10 @@
   "kod": "lobo-ab",
   "imya": "El Lobo del este",
   "kogda": "2026-09-26 09:12"
+ },
+ "0x8b61a50f7091abbc7ab292d3a24b9eeb4a29c0c2": {
+  "kod": "paciente-c2",
+  "imya": "El Paciente del este",
+  "kogda": "2026-09-26 17:11"
  }
 }
