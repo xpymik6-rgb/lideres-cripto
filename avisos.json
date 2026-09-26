@@ -1,6 +1,33 @@
 {
- "actualizado": 1790443203.1655102,
+ "actualizado": 1790446820.0919034,
  "avisos": [
+  {
+   "ts": 1790445976.170792,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ENA",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/555"
+  },
+  {
+   "ts": 1790445974.7730672,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/553"
+  },
+  {
+   "ts": 1790445917.7416816,
+   "tipo": "Resultados",
+   "texto": "resultado $SOL: -0,2% (sin movimiento)",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/552"
+  },
   {
    "ts": 1790442330.6459029,
    "tipo": "Resultados",
@@ -164,33 +191,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/528"
-  },
-  {
-   "ts": 1790373750.9206014,
-   "tipo": "Señal",
-   "texto": "pump $PHA",
-   "monedas": [
-    "PHA"
-   ],
-   "url": "https://t.me/LideresCripto/527"
-  },
-  {
-   "ts": 1790370309.842748,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: -0,4% (sin movimiento)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/526"
-  },
-  {
-   "ts": 1790370309.6158926,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: -0,1% (sin movimiento)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/525"
   }
  ]
 }
