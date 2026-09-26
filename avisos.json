@@ -1,6 +1,15 @@
 {
- "actualizado": 1790385615.3791556,
+ "actualizado": 1790392819.514357,
  "avisos": [
+  {
+   "ts": 1790392100.306222,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $TAO",
+   "monedas": [
+    "TAO"
+   ],
+   "url": "https://t.me/LideresCripto/534"
+  },
   {
    "ts": 1790384413.0414903,
    "tipo": "Edición del radar",
@@ -179,15 +188,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/503"
-  },
-  {
-   "ts": 1790323546.9094267,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +0,0% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/502"
   }
  ]
 }
