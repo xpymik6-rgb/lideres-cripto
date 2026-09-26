@@ -1,6 +1,15 @@
 {
- "actualizado": 1790432401.995164,
+ "actualizado": 1790436016.3320868,
  "avisos": [
+  {
+   "ts": 1790435114.3057177,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: -1,7% (salió al revés)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/549"
+  },
   {
    "ts": 1790427660.1959937,
    "tipo": "Edición del radar",
@@ -187,13 +196,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/521"
-  },
-  {
-   "ts": 1790361013.3050454,
-   "tipo": "Noticias",
-   "texto": "noticias 25.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/520"
   }
  ]
 }
