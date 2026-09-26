@@ -1,6 +1,15 @@
 {
- "actualizado": 1790454012.60279,
+ "actualizado": 1790457604.7568889,
  "avisos": [
+  {
+   "ts": 1790456422.6372292,
+   "tipo": "Señal",
+   "texto": "historia SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/562"
+  },
   {
    "ts": 1790453110.0504928,
    "tipo": "Resultados",
@@ -181,15 +190,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/536"
-  },
-  {
-   "ts": 1790392100.306222,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $TAO",
-   "monedas": [
-    "TAO"
-   ],
-   "url": "https://t.me/LideresCripto/534"
   }
  ]
 }
