@@ -1,6 +1,15 @@
 {
- "actualizado": 1790439603.0279338,
+ "actualizado": 1790443203.1655102,
  "avisos": [
+  {
+   "ts": 1790442330.6459029,
+   "tipo": "Resultados",
+   "texto": "resultado $ENA: +8,3% (salió bien)",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/551"
+  },
   {
    "ts": 1790436245.1080298,
    "tipo": "Señal",
@@ -182,15 +191,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/525"
-  },
-  {
-   "ts": 1790370009.3664699,
-   "tipo": "Señal",
-   "texto": "historia SOL",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/524"
   }
  ]
 }
