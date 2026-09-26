@@ -372,6 +372,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/paciente-c2/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/relojero/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
