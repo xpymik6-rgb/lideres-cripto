@@ -1,6 +1,29 @@
 {
- "actualizado": 1790378417.1487808,
+ "actualizado": 1790385615.3791556,
  "avisos": [
+  {
+   "ts": 1790384413.0414903,
+   "tipo": "Edición del radar",
+   "texto": "radar 25.09 20:00",
+   "monedas": [
+    "ZEC",
+    "XRP",
+    "UNI",
+    "SOL",
+    "PHA",
+    "ENA",
+    "LDO",
+    "MORPHO"
+   ],
+   "url": "https://t.me/LideresCripto/531"
+  },
+  {
+   "ts": 1790382624.359856,
+   "tipo": "Noticias",
+   "texto": "noticias 25.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/530"
+  },
   {
    "ts": 1790377655.855016,
    "tipo": "Señal",
@@ -165,24 +188,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/502"
-  },
-  {
-   "ts": 1790321864.294928,
-   "tipo": "Señal",
-   "texto": "$25.0 M en USDT salen de Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/501"
-  },
-  {
-   "ts": 1790321863.7462504,
-   "tipo": "Señal",
-   "texto": "$25.0 M en USDT salen de Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/500"
   }
  ]
 }
