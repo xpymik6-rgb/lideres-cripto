@@ -1,6 +1,24 @@
 {
- "actualizado": 1790536818.0262914,
+ "actualizado": 1790540412.2860959,
  "avisos": [
+  {
+   "ts": 1790539549.8235943,
+   "tipo": "Resultados",
+   "texto": "resultado $ENA: +3,1% (salió bien)",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/591"
+  },
+  {
+   "ts": 1790539549.6130102,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: +7,9% (salió bien)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/590"
+  },
   {
    "ts": 1790535956.3129911,
    "tipo": "Señal",
@@ -174,24 +192,6 @@
     "QNT"
    ],
    "url": "https://t.me/LideresCripto/564"
-  },
-  {
-   "ts": 1790463908.2265065,
-   "tipo": "Resultados",
-   "texto": "resultado $ENA: +2,1% (salió bien)",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/563"
-  },
-  {
-   "ts": 1790456422.6372292,
-   "tipo": "Señal",
-   "texto": "historia SOL",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/562"
   }
  ]
 }
