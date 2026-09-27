@@ -1,6 +1,15 @@
 {
- "actualizado": 1790547619.5109308,
+ "actualizado": 1790551207.6099308,
  "avisos": [
+  {
+   "ts": 1790550025.398523,
+   "tipo": "Resultados",
+   "texto": "análisis ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/595"
+  },
   {
    "ts": 1790544366.7821636,
    "tipo": "Señal",
@@ -179,21 +188,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/567"
-  },
-  {
-   "ts": 1790470814.8653479,
-   "tipo": "Edición del radar",
-   "texto": "radar 26.09 20:00",
-   "monedas": [
-    "ZEC",
-    "SOL",
-    "NEAR",
-    "QNT",
-    "MEGA",
-    "RENDER",
-    "ZRO"
-   ],
-   "url": "https://t.me/LideresCripto/566"
   }
  ]
 }
