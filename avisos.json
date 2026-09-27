@@ -1,6 +1,37 @@
 {
- "actualizado": 1790464810.6170225,
+ "actualizado": 1790472017.7337213,
  "avisos": [
+  {
+   "ts": 1790471115.1189787,
+   "tipo": "Resultados",
+   "texto": "resultado $SOL: -0,7% (sin movimiento)",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/567"
+  },
+  {
+   "ts": 1790470814.8653479,
+   "tipo": "Edición del radar",
+   "texto": "radar 26.09 20:00",
+   "monedas": [
+    "ZEC",
+    "SOL",
+    "NEAR",
+    "QNT",
+    "MEGA",
+    "RENDER",
+    "ZRO"
+   ],
+   "url": "https://t.me/LideresCripto/566"
+  },
+  {
+   "ts": 1790469026.356762,
+   "tipo": "Noticias",
+   "texto": "noticias 26.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/565"
+  },
   {
    "ts": 1790464055.3009772,
    "tipo": "Señal",
@@ -163,33 +194,6 @@
     "XPL"
    ],
    "url": "https://t.me/LideresCripto/541"
-  },
-  {
-   "ts": 1790415078.6329277,
-   "tipo": "Señal",
-   "texto": "$50.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/540"
-  },
-  {
-   "ts": 1790413543.8286777,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: +10,1% (salió bien)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/539"
-  },
-  {
-   "ts": 1790406342.7182162,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: -0,9% (sin movimiento)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/538"
   }
  ]
 }
