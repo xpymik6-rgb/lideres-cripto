@@ -1,6 +1,15 @@
 {
- "actualizado": 1790497211.5177443,
+ "actualizado": 1790511602.909885,
  "avisos": [
+  {
+   "ts": 1790510719.936255,
+   "tipo": "Resultados",
+   "texto": "resultado $XPL: -6,1% (salió al revés)",
+   "monedas": [
+    "XPL"
+   ],
+   "url": "https://t.me/LideresCripto/576"
+  },
   {
    "ts": 1790496348.6948664,
    "tipo": "Resultados",
@@ -179,15 +188,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/551"
-  },
-  {
-   "ts": 1790436245.1080298,
-   "tipo": "Señal",
-   "texto": "pump $BTW",
-   "monedas": [
-    "BTW"
-   ],
-   "url": "https://t.me/LideresCripto/550"
   }
  ]
 }
