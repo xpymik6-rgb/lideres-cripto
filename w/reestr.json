@@ -328,5 +328,10 @@
   "kod": "paciente-c2",
   "imya": "El Paciente del este",
   "kogda": "2026-09-26 17:15"
+ },
+ "0xdd7a372377fc633f74ab6e20963803d52f448830": {
+  "kod": "cirujano-30",
+  "imya": "El Cirujano del este",
+  "kogda": "2026-09-27 09:15"
  }
 }
