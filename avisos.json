@@ -1,6 +1,15 @@
 {
- "actualizado": 1790540412.2860959,
+ "actualizado": 1790544002.4527159,
  "avisos": [
+  {
+   "ts": 1790542820.1457367,
+   "tipo": "Señal",
+   "texto": "historia ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/592"
+  },
   {
    "ts": 1790539549.8235943,
    "tipo": "Resultados",
@@ -183,15 +192,6 @@
    "texto": "noticias 26.09 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/565"
-  },
-  {
-   "ts": 1790464055.3009772,
-   "tipo": "Señal",
-   "texto": "pump $QNT",
-   "monedas": [
-    "QNT"
-   ],
-   "url": "https://t.me/LideresCripto/564"
   }
  ]
 }
