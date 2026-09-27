@@ -1,6 +1,15 @@
 {
- "actualizado": 1790544002.4527159,
+ "actualizado": 1790547619.5109308,
  "avisos": [
+  {
+   "ts": 1790544366.7821636,
+   "tipo": "Señal",
+   "texto": "pump $QNT",
+   "monedas": [
+    "QNT"
+   ],
+   "url": "https://t.me/LideresCripto/594"
+  },
   {
    "ts": 1790542820.1457367,
    "tipo": "Señal",
@@ -185,13 +194,6 @@
     "ZRO"
    ],
    "url": "https://t.me/LideresCripto/566"
-  },
-  {
-   "ts": 1790469026.356762,
-   "tipo": "Noticias",
-   "texto": "noticias 26.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/565"
   }
  ]
 }
