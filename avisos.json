@@ -1,6 +1,38 @@
 {
- "actualizado": 1790533217.8327296,
+ "actualizado": 1790536818.0262914,
  "avisos": [
+  {
+   "ts": 1790535956.3129911,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/586"
+  },
+  {
+   "ts": 1790535615.9149227,
+   "tipo": "Edición del radar",
+   "texto": "radar 27.09 14:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "HYPE",
+    "NEAR",
+    "2Z",
+    "Q",
+    "QNT"
+   ],
+   "url": "https://t.me/LideresCripto/585"
+  },
+  {
+   "ts": 1790533807.7206068,
+   "tipo": "Noticias",
+   "texto": "noticias 27.09 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/584"
+  },
   {
    "ts": 1790532350.8777184,
    "tipo": "Señal",
@@ -160,37 +192,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/562"
-  },
-  {
-   "ts": 1790453110.0504928,
-   "tipo": "Resultados",
-   "texto": "resultado $XPL: +6,4% (salió bien)",
-   "monedas": [
-    "XPL"
-   ],
-   "url": "https://t.me/LideresCripto/561"
-  },
-  {
-   "ts": 1790449219.45293,
-   "tipo": "Edición del radar",
-   "texto": "radar 26.09 14:00",
-   "monedas": [
-    "SOL",
-    "WLD",
-    "ZEC",
-    "ENA",
-    "NEAR",
-    "BTW",
-    "RARE"
-   ],
-   "url": "https://t.me/LideresCripto/558"
-  },
-  {
-   "ts": 1790447410.316923,
-   "tipo": "Noticias",
-   "texto": "noticias 26.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/557"
   }
  ]
 }
