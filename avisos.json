@@ -1,6 +1,15 @@
 {
- "actualizado": 1790472017.7337213,
+ "actualizado": 1790479211.3939745,
  "avisos": [
+  {
+   "ts": 1790478349.6628697,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $WLD",
+   "monedas": [
+    "WLD"
+   ],
+   "url": "https://t.me/LideresCripto/570"
+  },
   {
    "ts": 1790471115.1189787,
    "tipo": "Resultados",
@@ -185,15 +194,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/542"
-  },
-  {
-   "ts": 1790417265.2872653,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $XPL",
-   "monedas": [
-    "XPL"
-   ],
-   "url": "https://t.me/LideresCripto/541"
   }
  ]
 }
