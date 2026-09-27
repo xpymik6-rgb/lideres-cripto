@@ -1,6 +1,24 @@
 {
- "actualizado": 1790479211.3939745,
+ "actualizado": 1790486414.0041447,
  "avisos": [
+  {
+   "ts": 1790485919.8406823,
+   "tipo": "Señal",
+   "texto": "pump $Q",
+   "monedas": [
+    "Q"
+   ],
+   "url": "https://t.me/LideresCripto/572"
+  },
+  {
+   "ts": 1790485512.2298574,
+   "tipo": "Resultados",
+   "texto": "resultado $TAO: +2,8% (salió bien)",
+   "monedas": [
+    "TAO"
+   ],
+   "url": "https://t.me/LideresCripto/571"
+  },
   {
    "ts": 1790478349.6628697,
    "tipo": "Señal",
@@ -176,24 +194,6 @@
    "texto": "noticias 26.09 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/544"
-  },
-  {
-   "ts": 1790424304.1414955,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: -1,0% (salió al revés)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/543"
-  },
-  {
-   "ts": 1790420717.2769446,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: -3,6% (salió al revés)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/542"
   }
  ]
 }
