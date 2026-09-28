@@ -1,6 +1,24 @@
 {
- "actualizado": 1790623204.676212,
+ "actualizado": 1790626813.9785376,
  "avisos": [
+  {
+   "ts": 1790625911.2492268,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -0,2% (sin movimiento)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/632"
+  },
+  {
+   "ts": 1790625911.0397382,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: -5,8% (salió al revés)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/631"
+  },
   {
    "ts": 1790622393.7777538,
    "tipo": "Señal",
@@ -178,29 +196,6 @@
     "2Z"
    ],
    "url": "https://t.me/LideresCripto/601"
-  },
-  {
-   "ts": 1790557224.3501325,
-   "tipo": "Edición del radar",
-   "texto": "radar 27.09 20:00",
-   "monedas": [
-    "XRP",
-    "ETH",
-    "ENA",
-    "ZEC",
-    "BTC",
-    "JUP",
-    "QNT",
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/600"
-  },
-  {
-   "ts": 1790555422.4923058,
-   "tipo": "Noticias",
-   "texto": "noticias 27.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/599"
   }
  ]
 }
