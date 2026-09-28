@@ -1,6 +1,15 @@
 {
- "actualizado": 1790630404.159525,
+ "actualizado": 1790634021.17741,
  "avisos": [
+  {
+   "ts": 1790633118.4836879,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: -12,3% (salió al revés)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/634"
+  },
   {
    "ts": 1790629220.9886653,
    "tipo": "Señal",
@@ -182,15 +191,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/605"
-  },
-  {
-   "ts": 1790568313.6897216,
-   "tipo": "Resultados",
-   "texto": "resultado $WLD: +0,3% (sin movimiento)",
-   "monedas": [
-    "WLD"
-   ],
-   "url": "https://t.me/LideresCripto/604"
   }
  ]
 }
