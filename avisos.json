@@ -1,6 +1,15 @@
 {
- "actualizado": 1790605211.4215505,
+ "actualizado": 1790612421.5316212,
  "avisos": [
+  {
+   "ts": 1790609077.5383852,
+   "tipo": "Señal",
+   "texto": "pump $SOON",
+   "monedas": [
+    "SOON"
+   ],
+   "url": "https://t.me/LideresCripto/620"
+  },
   {
    "ts": 1790600426.7763329,
    "tipo": "Edición del radar",
@@ -185,15 +194,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/590"
-  },
-  {
-   "ts": 1790535956.3129911,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/586"
   }
  ]
 }
