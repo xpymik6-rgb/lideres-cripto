@@ -1,6 +1,15 @@
 {
- "actualizado": 1790562004.8475158,
+ "actualizado": 1790569216.0561912,
  "avisos": [
+  {
+   "ts": 1790568313.6897216,
+   "tipo": "Resultados",
+   "texto": "resultado $WLD: +0,3% (sin movimiento)",
+   "monedas": [
+    "WLD"
+   ],
+   "url": "https://t.me/LideresCripto/604"
+  },
   {
    "ts": 1790559009.5989914,
    "tipo": "Resultados",
@@ -189,15 +198,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/574"
-  },
-  {
-   "ts": 1790486642.160936,
-   "tipo": "Señal",
-   "texto": "pump $RARE",
-   "monedas": [
-    "RARE"
-   ],
-   "url": "https://t.me/LideresCripto/573"
   }
  ]
 }
