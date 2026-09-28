@@ -1,6 +1,28 @@
 {
- "actualizado": 1790587202.124518,
+ "actualizado": 1790601610.6864054,
  "avisos": [
+  {
+   "ts": 1790600426.7763329,
+   "tipo": "Edición del radar",
+   "texto": "radar 28.09 08:00",
+   "monedas": [
+    "BTC",
+    "SOL",
+    "ETH",
+    "BTW",
+    "HBAR",
+    "QNT",
+    "Q"
+   ],
+   "url": "https://t.me/LideresCripto/616"
+  },
+  {
+   "ts": 1790598615.3486102,
+   "tipo": "Noticias",
+   "texto": "noticias 28.09 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/615"
+  },
   {
    "ts": 1790586141.7621703,
    "tipo": "Señal",
@@ -172,29 +194,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/586"
-  },
-  {
-   "ts": 1790535615.9149227,
-   "tipo": "Edición del radar",
-   "texto": "radar 27.09 14:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "SOL",
-    "HYPE",
-    "NEAR",
-    "2Z",
-    "Q",
-    "QNT"
-   ],
-   "url": "https://t.me/LideresCripto/585"
-  },
-  {
-   "ts": 1790533807.7206068,
-   "tipo": "Noticias",
-   "texto": "noticias 27.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/584"
   }
  ]
 }

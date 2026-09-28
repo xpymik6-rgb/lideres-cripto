@@ -277,6 +277,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/lobo-1a/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/lobo-71/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
