@@ -1,6 +1,15 @@
 {
- "actualizado": 1790576420.6628573,
+ "actualizado": 1790580019.226722,
  "avisos": [
+  {
+   "ts": 1790579117.2209625,
+   "tipo": "Resultados",
+   "texto": "resultado $WLD: +1,0% (sin movimiento)",
+   "monedas": [
+    "WLD"
+   ],
+   "url": "https://t.me/LideresCripto/612"
+  },
   {
    "ts": 1790575611.0742674,
    "tipo": "Señal",
@@ -184,22 +193,6 @@
    "texto": "spot o apalancamiento",
    "monedas": [],
    "url": "https://t.me/LideresCripto/581"
-  },
-  {
-   "ts": 1790514025.1505318,
-   "tipo": "Edición del radar",
-   "texto": "radar 27.09 08:00",
-   "monedas": [
-    "XRP",
-    "SOL",
-    "ZEC",
-    "HYPE",
-    "Q",
-    "RARE",
-    "WLD",
-    "QNT"
-   ],
-   "url": "https://t.me/LideresCripto/578"
   }
  ]
 }
