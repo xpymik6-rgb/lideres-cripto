@@ -1,6 +1,15 @@
 {
- "actualizado": 1790616013.281964,
+ "actualizado": 1790619601.894232,
  "avisos": [
+  {
+   "ts": 1790619208.0206938,
+   "tipo": "Señal",
+   "texto": "pump $BTW",
+   "monedas": [
+    "BTW"
+   ],
+   "url": "https://t.me/LideresCripto/624"
+  },
   {
    "ts": 1790615180.2551272,
    "tipo": "Señal",
@@ -189,15 +198,6 @@
     "QNT"
    ],
    "url": "https://t.me/LideresCripto/594"
-  },
-  {
-   "ts": 1790542820.1457367,
-   "tipo": "Señal",
-   "texto": "historia ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/592"
   }
  ]
 }
