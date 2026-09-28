@@ -1,6 +1,20 @@
 {
- "actualizado": 1790558407.1446545,
+ "actualizado": 1790562004.8475158,
  "avisos": [
+  {
+   "ts": 1790559009.5989914,
+   "tipo": "Resultados",
+   "texto": "resultados semana 27.09",
+   "monedas": [
+    "SHOW",
+    "SUI",
+    "FF",
+    "ENA",
+    "BTW",
+    "2Z"
+   ],
+   "url": "https://t.me/LideresCripto/601"
+  },
   {
    "ts": 1790557224.3501325,
    "tipo": "Edición del radar",
@@ -184,15 +198,6 @@
     "RARE"
    ],
    "url": "https://t.me/LideresCripto/573"
-  },
-  {
-   "ts": 1790485919.8406823,
-   "tipo": "Señal",
-   "texto": "pump $Q",
-   "monedas": [
-    "Q"
-   ],
-   "url": "https://t.me/LideresCripto/572"
   }
  ]
 }
