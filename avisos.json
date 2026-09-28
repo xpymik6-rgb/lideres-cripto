@@ -1,6 +1,24 @@
 {
- "actualizado": 1790569216.0561912,
+ "actualizado": 1790572801.8101385,
  "avisos": [
+  {
+   "ts": 1790571972.809642,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/607"
+  },
+  {
+   "ts": 1790571941.5756073,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/605"
+  },
   {
    "ts": 1790568313.6897216,
    "tipo": "Resultados",
@@ -180,24 +198,6 @@
     "XPL"
    ],
    "url": "https://t.me/LideresCripto/576"
-  },
-  {
-   "ts": 1790496348.6948664,
-   "tipo": "Resultados",
-   "texto": "resultado $PENGU: -2,5% (salió al revés)",
-   "monedas": [
-    "PENGU"
-   ],
-   "url": "https://t.me/LideresCripto/575"
-  },
-  {
-   "ts": 1790496318.4351952,
-   "tipo": "Resultados",
-   "texto": "resultado $ENA: +1,1% (salió bien)",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/574"
   }
  ]
 }
