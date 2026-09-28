@@ -1,6 +1,24 @@
 {
- "actualizado": 1790580019.226722,
+ "actualizado": 1790587202.124518,
  "avisos": [
+  {
+   "ts": 1790586141.7621703,
+   "tipo": "Señal",
+   "texto": "$25.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/614"
+  },
+  {
+   "ts": 1790585584.7781153,
+   "tipo": "Señal",
+   "texto": "pump $HBAR",
+   "monedas": [
+    "HBAR"
+   ],
+   "url": "https://t.me/LideresCripto/613"
+  },
   {
    "ts": 1790579117.2209625,
    "tipo": "Resultados",
@@ -177,22 +195,6 @@
    "texto": "noticias 27.09 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/584"
-  },
-  {
-   "ts": 1790532350.8777184,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/582"
-  },
-  {
-   "ts": 1790524814.249302,
-   "tipo": "Guía",
-   "texto": "spot o apalancamiento",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/581"
   }
  ]
 }
