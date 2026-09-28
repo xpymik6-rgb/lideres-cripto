@@ -1,6 +1,28 @@
 {
- "actualizado": 1790612421.5316212,
+ "actualizado": 1790616013.281964,
  "avisos": [
+  {
+   "ts": 1790615180.2551272,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/622"
+  },
+  {
+   "ts": 1790614848.9951181,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 28.09",
+   "monedas": [
+    "ZEC",
+    "NEAR",
+    "HYPE",
+    "ENA",
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/621"
+  },
   {
    "ts": 1790609077.5383852,
    "tipo": "Señal",
@@ -176,24 +198,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/592"
-  },
-  {
-   "ts": 1790539549.8235943,
-   "tipo": "Resultados",
-   "texto": "resultado $ENA: +3,1% (salió bien)",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/591"
-  },
-  {
-   "ts": 1790539549.6130102,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: +7,9% (salió bien)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/590"
   }
  ]
 }
