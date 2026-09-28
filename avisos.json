@@ -1,6 +1,24 @@
 {
- "actualizado": 1790572801.8101385,
+ "actualizado": 1790576420.6628573,
  "avisos": [
+  {
+   "ts": 1790575611.0742674,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/610"
+  },
+  {
+   "ts": 1790574694.4018657,
+   "tipo": "Señal",
+   "texto": "$40.0 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/609"
+  },
   {
    "ts": 1790571972.809642,
    "tipo": "Señal",
@@ -182,22 +200,6 @@
     "QNT"
    ],
    "url": "https://t.me/LideresCripto/578"
-  },
-  {
-   "ts": 1790512213.3136122,
-   "tipo": "Noticias",
-   "texto": "noticias 27.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/577"
-  },
-  {
-   "ts": 1790510719.936255,
-   "tipo": "Resultados",
-   "texto": "resultado $XPL: -6,1% (salió al revés)",
-   "monedas": [
-    "XPL"
-   ],
-   "url": "https://t.me/LideresCripto/576"
   }
  ]
 }
