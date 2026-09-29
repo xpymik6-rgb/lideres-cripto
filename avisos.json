@@ -1,6 +1,33 @@
 {
- "actualizado": 1790655616.9151495,
+ "actualizado": 1790666419.3558366,
  "avisos": [
+  {
+   "ts": 1790665571.8723683,
+   "tipo": "Señal",
+   "texto": "$22.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/646"
+  },
+  {
+   "ts": 1790665517.2690864,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: -12,1% (salió al revés)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/645"
+  },
+  {
+   "ts": 1790665517.0559711,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +0,3% (sin movimiento)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/644"
+  },
   {
    "ts": 1790654758.3342924,
    "tipo": "Señal",
@@ -161,37 +188,6 @@
     "SOON"
    ],
    "url": "https://t.me/LideresCripto/620"
-  },
-  {
-   "ts": 1790600426.7763329,
-   "tipo": "Edición del radar",
-   "texto": "radar 28.09 08:00",
-   "monedas": [
-    "BTC",
-    "SOL",
-    "ETH",
-    "BTW",
-    "HBAR",
-    "QNT",
-    "Q"
-   ],
-   "url": "https://t.me/LideresCripto/616"
-  },
-  {
-   "ts": 1790598615.3486102,
-   "tipo": "Noticias",
-   "texto": "noticias 28.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/615"
-  },
-  {
-   "ts": 1790586141.7621703,
-   "tipo": "Señal",
-   "texto": "$25.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/614"
   }
  ]
 }
