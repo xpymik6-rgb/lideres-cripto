@@ -1,6 +1,15 @@
 {
- "actualizado": 1790670017.3848433,
+ "actualizado": 1790673603.647781,
  "avisos": [
+  {
+   "ts": 1790673403.9180043,
+   "tipo": "Señal",
+   "texto": "$39.7 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/648"
+  },
   {
    "ts": 1790669135.189539,
    "tipo": "Resultados",
@@ -175,19 +184,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/622"
-  },
-  {
-   "ts": 1790614848.9951181,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 28.09",
-   "monedas": [
-    "ZEC",
-    "NEAR",
-    "HYPE",
-    "ENA",
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/621"
   }
  ]
 }
