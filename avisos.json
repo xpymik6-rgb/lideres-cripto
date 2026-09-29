@@ -1,6 +1,25 @@
 {
- "actualizado": 1790634021.17741,
+ "actualizado": 1790644805.3355875,
  "avisos": [
+  {
+   "ts": 1790643619.9719586,
+   "tipo": "Edición del radar",
+   "texto": "radar 28.09 20:00",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "PUMP",
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/636"
+  },
+  {
+   "ts": 1790641813.3073838,
+   "tipo": "Noticias",
+   "texto": "noticias 28.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/635"
+  },
   {
    "ts": 1790633118.4836879,
    "tipo": "Resultados",
@@ -173,24 +192,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/609"
-  },
-  {
-   "ts": 1790571972.809642,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/607"
-  },
-  {
-   "ts": 1790571941.5756073,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/605"
   }
  ]
 }
