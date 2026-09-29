@@ -1,6 +1,33 @@
 {
- "actualizado": 1790644805.3355875,
+ "actualizado": 1790648402.7559273,
  "avisos": [
+  {
+   "ts": 1790647609.946086,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/640"
+  },
+  {
+   "ts": 1790647520.2166133,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -1,2% (salió bien)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/639"
+  },
+  {
+   "ts": 1790646293.8216894,
+   "tipo": "Señal",
+   "texto": "$50.6 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/637"
+  },
   {
    "ts": 1790643619.9719586,
    "tipo": "Edición del radar",
@@ -165,33 +192,6 @@
     "HBAR"
    ],
    "url": "https://t.me/LideresCripto/613"
-  },
-  {
-   "ts": 1790579117.2209625,
-   "tipo": "Resultados",
-   "texto": "resultado $WLD: +1,0% (sin movimiento)",
-   "monedas": [
-    "WLD"
-   ],
-   "url": "https://t.me/LideresCripto/612"
-  },
-  {
-   "ts": 1790575611.0742674,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/610"
-  },
-  {
-   "ts": 1790574694.4018657,
-   "tipo": "Señal",
-   "texto": "$40.0 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/609"
   }
  ]
 }
