@@ -1,6 +1,15 @@
 {
- "actualizado": 1790648402.7559273,
+ "actualizado": 1790655616.9151495,
  "avisos": [
+  {
+   "ts": 1790654758.3342924,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/642"
+  },
   {
    "ts": 1790647609.946086,
    "tipo": "Señal",
@@ -183,15 +192,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/614"
-  },
-  {
-   "ts": 1790585584.7781153,
-   "tipo": "Señal",
-   "texto": "pump $HBAR",
-   "monedas": [
-    "HBAR"
-   ],
-   "url": "https://t.me/LideresCripto/613"
   }
  ]
 }
