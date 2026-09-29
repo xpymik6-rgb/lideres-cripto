@@ -1,6 +1,15 @@
 {
- "actualizado": 1790666419.3558366,
+ "actualizado": 1790670017.3848433,
  "avisos": [
+  {
+   "ts": 1790669135.189539,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +0,5% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/647"
+  },
   {
    "ts": 1790665571.8723683,
    "tipo": "Señal",
@@ -179,15 +188,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/621"
-  },
-  {
-   "ts": 1790609077.5383852,
-   "tipo": "Señal",
-   "texto": "pump $SOON",
-   "monedas": [
-    "SOON"
-   ],
-   "url": "https://t.me/LideresCripto/620"
   }
  ]
 }
