@@ -1,6 +1,22 @@
 {
- "actualizado": 1790691604.083358,
+ "actualizado": 1790698810.1888525,
  "avisos": [
+  {
+   "ts": 1790697948.854023,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/654"
+  },
+  {
+   "ts": 1790697607.1560943,
+   "tipo": "Guía",
+   "texto": "por qué el precio de liquidación importa",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/653"
+  },
   {
    "ts": 1790686828.9483438,
    "tipo": "Edición del radar",
@@ -167,27 +183,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/627"
-  },
-  {
-   "ts": 1790622021.9562771,
-   "tipo": "Edición del radar",
-   "texto": "radar 28.09 14:00",
-   "monedas": [
-    "SOL",
-    "ETH",
-    "ZEC",
-    "HYPE",
-    "BTW",
-    "SOON"
-   ],
-   "url": "https://t.me/LideresCripto/626"
-  },
-  {
-   "ts": 1790620214.5795233,
-   "tipo": "Noticias",
-   "texto": "noticias 28.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/625"
   }
  ]
 }
