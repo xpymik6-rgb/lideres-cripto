@@ -1,6 +1,15 @@
 {
- "actualizado": 1790788819.7920017,
+ "actualizado": 1790792418.7648766,
  "avisos": [
+  {
+   "ts": 1790791516.1284506,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +0,6% (sin movimiento)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/688"
+  },
   {
    "ts": 1790787939.4195912,
    "tipo": "Señal",
@@ -185,13 +194,6 @@
     "USDC"
    ],
    "url": "https://t.me/LideresCripto/658"
-  },
-  {
-   "ts": 1790706653.8267395,
-   "tipo": "Noticias",
-   "texto": "noticias 29.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/657"
   }
  ]
 }
