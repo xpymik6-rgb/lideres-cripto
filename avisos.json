@@ -1,6 +1,24 @@
 {
- "actualizado": 1790778007.0838974,
+ "actualizado": 1790781609.355656,
  "avisos": [
+  {
+   "ts": 1790780727.5301812,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/684"
+  },
+  {
+   "ts": 1790779523.5447898,
+   "tipo": "Señal",
+   "texto": "pump $SOON",
+   "monedas": [
+    "SOON"
+   ],
+   "url": "https://t.me/LideresCripto/683"
+  },
   {
    "ts": 1790777298.793109,
    "tipo": "Señal",
@@ -174,22 +192,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/656"
-  },
-  {
-   "ts": 1790697948.854023,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/654"
-  },
-  {
-   "ts": 1790697607.1560943,
-   "tipo": "Guía",
-   "texto": "por qué el precio de liquidación importa",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/653"
   }
  ]
 }
