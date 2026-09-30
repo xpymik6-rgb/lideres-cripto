@@ -1,6 +1,15 @@
 {
- "actualizado": 1790774408.3175702,
+ "actualizado": 1790778007.0838974,
  "avisos": [
+  {
+   "ts": 1790777298.793109,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $ENA",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/682"
+  },
   {
    "ts": 1790773225.573652,
    "tipo": "Edición del radar",
@@ -181,21 +190,6 @@
    "texto": "por qué el precio de liquidación importa",
    "monedas": [],
    "url": "https://t.me/LideresCripto/653"
-  },
-  {
-   "ts": 1790686828.9483438,
-   "tipo": "Edición del radar",
-   "texto": "radar 29.09 08:00",
-   "monedas": [
-    "SOL",
-    "BTC",
-    "PUMP",
-    "HYPE",
-    "ZEC",
-    "BTW",
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/650"
   }
  ]
 }
