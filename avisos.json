@@ -1,6 +1,15 @@
 {
- "actualizado": 1790738412.0041556,
+ "actualizado": 1790745612.9148984,
  "avisos": [
+  {
+   "ts": 1790744710.7675178,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: +2,2% (salió bien)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/672"
+  },
   {
    "ts": 1790737595.3047059,
    "tipo": "Señal",
@@ -182,15 +191,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/644"
-  },
-  {
-   "ts": 1790654758.3342924,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/642"
   }
  ]
 }
