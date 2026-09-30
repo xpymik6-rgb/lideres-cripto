@@ -1,6 +1,28 @@
 {
- "actualizado": 1790716803.9517462,
+ "actualizado": 1790731217.0513587,
  "avisos": [
+  {
+   "ts": 1790730014.0570219,
+   "tipo": "Edición del radar",
+   "texto": "radar 29.09 20:00",
+   "monedas": [
+    "BTC",
+    "XRP",
+    "NEAR",
+    "LIT",
+    "GRASS",
+    "MON",
+    "CAKE"
+   ],
+   "url": "https://t.me/LideresCripto/666"
+  },
+  {
+   "ts": 1790728225.6340268,
+   "tipo": "Noticias",
+   "texto": "noticias 29.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/665"
+  },
   {
    "ts": 1790715621.4404228,
    "tipo": "Señal",
@@ -169,27 +191,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/639"
-  },
-  {
-   "ts": 1790646293.8216894,
-   "tipo": "Señal",
-   "texto": "$50.6 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/637"
-  },
-  {
-   "ts": 1790643619.9719586,
-   "tipo": "Edición del radar",
-   "texto": "radar 28.09 20:00",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "PUMP",
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/636"
   }
  ]
 }
