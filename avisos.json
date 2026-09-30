@@ -1,6 +1,33 @@
 {
- "actualizado": 1790799610.5416892,
+ "actualizado": 1790803210.5271275,
  "avisos": [
+  {
+   "ts": 1790802348.4263754,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +0,1% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/695"
+  },
+  {
+   "ts": 1790802115.4248934,
+   "tipo": "Señal",
+   "texto": "pump $MOVR",
+   "monedas": [
+    "MOVR"
+   ],
+   "url": "https://t.me/LideresCripto/694"
+  },
+  {
+   "ts": 1790802018.1407242,
+   "tipo": "Señal",
+   "texto": "historia NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/693"
+  },
   {
    "ts": 1790794820.1601532,
    "tipo": "Edición del radar",
@@ -166,31 +193,6 @@
     "CAKE"
    ],
    "url": "https://t.me/LideresCripto/666"
-  },
-  {
-   "ts": 1790728225.6340268,
-   "tipo": "Noticias",
-   "texto": "noticias 29.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/665"
-  },
-  {
-   "ts": 1790715621.4404228,
-   "tipo": "Señal",
-   "texto": "historia NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/664"
-  },
-  {
-   "ts": 1790712366.7538865,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/662"
   }
  ]
 }
