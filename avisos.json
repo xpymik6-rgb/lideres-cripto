@@ -1,6 +1,27 @@
 {
- "actualizado": 1790770820.586435,
+ "actualizado": 1790774408.3175702,
  "avisos": [
+  {
+   "ts": 1790773225.573652,
+   "tipo": "Edición del radar",
+   "texto": "radar 30.09 08:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "PUMP",
+    "ARK",
+    "LIT",
+    "GRASS"
+   ],
+   "url": "https://t.me/LideresCripto/678"
+  },
+  {
+   "ts": 1790771411.8907528,
+   "tipo": "Noticias",
+   "texto": "noticias 30.09 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/677"
+  },
   {
    "ts": 1790763174.375267,
    "tipo": "Señal",
@@ -175,22 +196,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/650"
-  },
-  {
-   "ts": 1790685025.4209163,
-   "tipo": "Noticias",
-   "texto": "noticias 29.09 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/649"
-  },
-  {
-   "ts": 1790673403.9180043,
-   "tipo": "Señal",
-   "texto": "$39.7 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/648"
   }
  ]
 }
