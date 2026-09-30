@@ -1,6 +1,33 @@
 {
- "actualizado": 1790745612.9148984,
+ "actualizado": 1790749220.065179,
  "avisos": [
+  {
+   "ts": 1790748317.3472009,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: +3,5% (salió bien)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/675"
+  },
+  {
+   "ts": 1790748317.1430504,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: -1,5% (salió al revés)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/674"
+  },
+  {
+   "ts": 1790748108.83502,
+   "tipo": "Señal",
+   "texto": "$21.6 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/673"
+  },
   {
    "ts": 1790744710.7675178,
    "tipo": "Resultados",
@@ -164,33 +191,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/647"
-  },
-  {
-   "ts": 1790665571.8723683,
-   "tipo": "Señal",
-   "texto": "$22.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/646"
-  },
-  {
-   "ts": 1790665517.2690864,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: -12,1% (salió al revés)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/645"
-  },
-  {
-   "ts": 1790665517.0559711,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: +0,3% (sin movimiento)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/644"
   }
  ]
 }
