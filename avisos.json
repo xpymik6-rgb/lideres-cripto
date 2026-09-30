@@ -1,6 +1,15 @@
 {
- "actualizado": 1790749220.065179,
+ "actualizado": 1790763616.4367108,
  "avisos": [
+  {
+   "ts": 1790763174.375267,
+   "tipo": "Señal",
+   "texto": "$25.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/676"
+  },
   {
    "ts": 1790748317.3472009,
    "tipo": "Resultados",
@@ -182,15 +191,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/648"
-  },
-  {
-   "ts": 1790669135.189539,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +0,5% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/647"
   }
  ]
 }
