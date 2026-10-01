@@ -1,6 +1,15 @@
 {
- "actualizado": 1790828405.6841598,
+ "actualizado": 1790832001.663591,
  "avisos": [
+  {
+   "ts": 1790831463.0509844,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $ENA",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/705"
+  },
   {
    "ts": 1790827543.2310817,
    "tipo": "Resultados",
@@ -181,15 +190,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/674"
-  },
-  {
-   "ts": 1790748108.83502,
-   "tipo": "Señal",
-   "texto": "$21.6 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/673"
   }
  ]
 }
