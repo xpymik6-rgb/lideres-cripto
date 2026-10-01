@@ -1,6 +1,40 @@
 {
- "actualizado": 1790860808.8991134,
+ "actualizado": 1790871620.9304483,
  "avisos": [
+  {
+   "ts": 1790870795.4080474,
+   "tipo": "Señal",
+   "texto": "pump $MOVR",
+   "monedas": [
+    "MOVR"
+   ],
+   "url": "https://t.me/LideresCripto/722"
+  },
+  {
+   "ts": 1790870718.6291137,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +0,3% (sin movimiento)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/721"
+  },
+  {
+   "ts": 1790870718.3125396,
+   "tipo": "Resultados",
+   "texto": "resultado $ENA: -7,0% (salió al revés)",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/720"
+  },
+  {
+   "ts": 1790870437.8906186,
+   "tipo": "Guía",
+   "texto": "cómo guardar tus criptos",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/719"
+  },
   {
    "ts": 1790859626.2345438,
    "tipo": "Edición del radar",
@@ -150,46 +184,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/693"
-  },
-  {
-   "ts": 1790794820.1601532,
-   "tipo": "Edición del radar",
-   "texto": "radar 30.09 14:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "HYPE",
-    "SOON",
-    "ENA",
-    "EIGEN"
-   ],
-   "url": "https://t.me/LideresCripto/690"
-  },
-  {
-   "ts": 1790793011.8266308,
-   "tipo": "Noticias",
-   "texto": "noticias 30.09 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/689"
-  },
-  {
-   "ts": 1790791516.1284506,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: +0,6% (sin movimiento)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/688"
-  },
-  {
-   "ts": 1790787939.4195912,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/686"
   }
  ]
 }
