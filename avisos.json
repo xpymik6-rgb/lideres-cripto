@@ -1,6 +1,15 @@
 {
- "actualizado": 1790824817.352098,
+ "actualizado": 1790828405.6841598,
  "avisos": [
+  {
+   "ts": 1790827543.2310817,
+   "tipo": "Resultados",
+   "texto": "resultado $LIT: +5,7% (salió bien)",
+   "monedas": [
+    "LIT"
+   ],
+   "url": "https://t.me/LideresCripto/704"
+  },
   {
    "ts": 1790823983.2756782,
    "tipo": "Señal",
@@ -181,15 +190,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/673"
-  },
-  {
-   "ts": 1790744710.7675178,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: +2,2% (salió bien)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/672"
   }
  ]
 }
