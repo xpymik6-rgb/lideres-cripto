@@ -1,6 +1,15 @@
 {
- "actualizado": 1790886004.66025,
+ "actualizado": 1790889614.6804285,
  "avisos": [
+  {
+   "ts": 1790888412.305291,
+   "tipo": "Señal",
+   "texto": "historia ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/730"
+  },
   {
    "ts": 1790883286.6170056,
    "tipo": "Señal",
@@ -180,15 +189,6 @@
     "LIT"
    ],
    "url": "https://t.me/LideresCripto/704"
-  },
-  {
-   "ts": 1790823983.2756782,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/702"
   }
  ]
 }
