@@ -1,6 +1,15 @@
 {
- "actualizado": 1790846417.4214795,
+ "actualizado": 1790850011.241935,
  "avisos": [
+  {
+   "ts": 1790849227.4352765,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/711"
+  },
   {
    "ts": 1790845526.988668,
    "tipo": "Señal",
@@ -178,20 +187,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/682"
-  },
-  {
-   "ts": 1790773225.573652,
-   "tipo": "Edición del radar",
-   "texto": "radar 30.09 08:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "PUMP",
-    "ARK",
-    "LIT",
-    "GRASS"
-   ],
-   "url": "https://t.me/LideresCripto/678"
   }
  ]
 }
