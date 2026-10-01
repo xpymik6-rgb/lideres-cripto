@@ -1,6 +1,15 @@
 {
- "actualizado": 1790875219.5133061,
+ "actualizado": 1790878807.7918727,
  "avisos": [
+  {
+   "ts": 1790877904.9623022,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +0,1% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/724"
+  },
   {
    "ts": 1790874036.4992752,
    "tipo": "Resultados",
@@ -179,15 +188,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/695"
-  },
-  {
-   "ts": 1790802115.4248934,
-   "tipo": "Señal",
-   "texto": "pump $MOVR",
-   "monedas": [
-    "MOVR"
-   ],
-   "url": "https://t.me/LideresCripto/694"
   }
  ]
 }
