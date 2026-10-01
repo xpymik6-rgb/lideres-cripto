@@ -1,6 +1,19 @@
 {
- "actualizado": 1790871620.9304483,
+ "actualizado": 1790875219.5133061,
  "avisos": [
+  {
+   "ts": 1790874036.4992752,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 01.10",
+   "monedas": [
+    "ETH",
+    "NEAR",
+    "BTC",
+    "KII",
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/723"
+  },
   {
    "ts": 1790870795.4080474,
    "tipo": "Señal",
@@ -175,15 +188,6 @@
     "MOVR"
    ],
    "url": "https://t.me/LideresCripto/694"
-  },
-  {
-   "ts": 1790802018.1407242,
-   "tipo": "Señal",
-   "texto": "historia NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/693"
   }
  ]
 }
