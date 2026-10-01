@@ -1,6 +1,28 @@
 {
- "actualizado": 1790878807.7918727,
+ "actualizado": 1790882403.4796808,
  "avisos": [
+  {
+   "ts": 1790881220.522028,
+   "tipo": "Edición del radar",
+   "texto": "radar 01.10 14:00",
+   "monedas": [
+    "BTC",
+    "HYPE",
+    "ETH",
+    "US",
+    "MOVR",
+    "AERO",
+    "S"
+   ],
+   "url": "https://t.me/LideresCripto/726"
+  },
+  {
+   "ts": 1790879420.4062405,
+   "tipo": "Noticias",
+   "texto": "noticias 01.10 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/725"
+  },
   {
    "ts": 1790877904.9623022,
    "tipo": "Resultados",
@@ -172,22 +194,6 @@
     "SUI"
    ],
    "url": "https://t.me/LideresCripto/699"
-  },
-  {
-   "ts": 1790814649.5870585,
-   "tipo": "Noticias",
-   "texto": "noticias 30.09 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/698"
-  },
-  {
-   "ts": 1790802348.4263754,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +0,1% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/695"
   }
  ]
 }
