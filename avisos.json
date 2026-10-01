@@ -1,6 +1,15 @@
 {
- "actualizado": 1790850011.241935,
+ "actualizado": 1790853610.0829542,
  "avisos": [
+  {
+   "ts": 1790852555.6656814,
+   "tipo": "Señal",
+   "texto": "$20.0 M en USDT entran en Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/713"
+  },
   {
    "ts": 1790849227.4352765,
    "tipo": "Señal",
@@ -178,15 +187,6 @@
     "SOON"
    ],
    "url": "https://t.me/LideresCripto/683"
-  },
-  {
-   "ts": 1790777298.793109,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $ENA",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/682"
   }
  ]
 }
