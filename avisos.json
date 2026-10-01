@@ -1,6 +1,27 @@
 {
- "actualizado": 1790803210.5271275,
+ "actualizado": 1790817613.2127817,
  "avisos": [
+  {
+   "ts": 1790816410.5059135,
+   "tipo": "Edición del radar",
+   "texto": "radar 30.09 20:00",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "HYPE",
+    "ENA",
+    "MOVR",
+    "SUI"
+   ],
+   "url": "https://t.me/LideresCripto/699"
+  },
+  {
+   "ts": 1790814649.5870585,
+   "tipo": "Noticias",
+   "texto": "noticias 30.09 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/698"
+  },
   {
    "ts": 1790802348.4263754,
    "tipo": "Resultados",
@@ -169,30 +190,6 @@
     "LIT"
    ],
    "url": "https://t.me/LideresCripto/670"
-  },
-  {
-   "ts": 1790737509.5104842,
-   "tipo": "Resultados",
-   "texto": "resultado $HYPE: +0,1% (sin movimiento)",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/669"
-  },
-  {
-   "ts": 1790730014.0570219,
-   "tipo": "Edición del radar",
-   "texto": "radar 29.09 20:00",
-   "monedas": [
-    "BTC",
-    "XRP",
-    "NEAR",
-    "LIT",
-    "GRASS",
-    "MON",
-    "CAKE"
-   ],
-   "url": "https://t.me/LideresCripto/666"
   }
  ]
 }
