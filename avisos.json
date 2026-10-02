@@ -1,6 +1,25 @@
 {
- "actualizado": 1790889614.6804285,
+ "actualizado": 1790904011.5052881,
  "avisos": [
+  {
+   "ts": 1790902809.2941902,
+   "tipo": "Edición del radar",
+   "texto": "radar 01.10 20:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "SOL",
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/733"
+  },
+  {
+   "ts": 1790901018.9876955,
+   "tipo": "Noticias",
+   "texto": "noticias 01.10 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/732"
+  },
   {
    "ts": 1790888412.305291,
    "tipo": "Señal",
@@ -171,24 +190,6 @@
     "MOVR"
    ],
    "url": "https://t.me/LideresCripto/706"
-  },
-  {
-   "ts": 1790831463.0509844,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $ENA",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/705"
-  },
-  {
-   "ts": 1790827543.2310817,
-   "tipo": "Resultados",
-   "texto": "resultado $LIT: +5,7% (salió bien)",
-   "monedas": [
-    "LIT"
-   ],
-   "url": "https://t.me/LideresCripto/704"
   }
  ]
 }
