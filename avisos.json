@@ -1,6 +1,15 @@
 {
- "actualizado": 1790954418.1711175,
+ "actualizado": 1790961621.5087438,
  "avisos": [
+  {
+   "ts": 1790960874.4650145,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $ONDO",
+   "monedas": [
+    "ONDO"
+   ],
+   "url": "https://t.me/LideresCripto/761"
+  },
   {
    "ts": 1790954366.3242166,
    "tipo": "Señal",
@@ -175,15 +184,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/730"
-  },
-  {
-   "ts": 1790883286.6170056,
-   "tipo": "Señal",
-   "texto": "$68.3 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/727"
   }
  ]
 }
