@@ -1,6 +1,15 @@
 {
- "actualizado": 1790936410.177411,
+ "actualizado": 1790943603.949079,
  "avisos": [
+  {
+   "ts": 1790942701.1094556,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +3,5% (salió bien)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/748"
+  },
   {
    "ts": 1790935508.0999596,
    "tipo": "Resultados",
@@ -180,13 +189,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/720"
-  },
-  {
-   "ts": 1790870437.8906186,
-   "tipo": "Guía",
-   "texto": "cómo guardar tus criptos",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/719"
   }
  ]
 }
