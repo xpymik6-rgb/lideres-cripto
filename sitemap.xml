@@ -367,6 +367,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/marea-f8/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/minero/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -403,6 +408,11 @@
   </url>
   <url>
     <loc>https://liderescripto.com/w/nocturno-0f/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://liderescripto.com/w/nocturno-1d/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

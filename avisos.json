@@ -1,6 +1,15 @@
 {
- "actualizado": 1790947211.3787286,
+ "actualizado": 1790950818.7801085,
  "avisos": [
+  {
+   "ts": 1790948340.857572,
+   "tipo": "Señal",
+   "texto": "$500.0 M en USDT: tesorería de Tether ← Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/757"
+  },
   {
    "ts": 1790946395.4826918,
    "tipo": "Señal",
@@ -181,13 +190,6 @@
     "S"
    ],
    "url": "https://t.me/LideresCripto/726"
-  },
-  {
-   "ts": 1790879420.4062405,
-   "tipo": "Noticias",
-   "texto": "noticias 01.10 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/725"
   }
  ]
 }
