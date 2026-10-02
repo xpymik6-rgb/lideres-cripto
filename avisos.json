@@ -1,6 +1,33 @@
 {
- "actualizado": 1790907618.3273904,
+ "actualizado": 1790918406.7846663,
  "avisos": [
+  {
+   "ts": 1790917581.9805744,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/740"
+  },
+  {
+   "ts": 1790917580.8773358,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/738"
+  },
+  {
+   "ts": 1790917504.4089901,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: -0,8% (sin movimiento)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/737"
+  },
   {
    "ts": 1790906646.0876062,
    "tipo": "Señal",
@@ -163,33 +190,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/711"
-  },
-  {
-   "ts": 1790845526.988668,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/709"
-  },
-  {
-   "ts": 1790839891.0148973,
-   "tipo": "Señal",
-   "texto": "$25.0 M en USDT salen de Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/708"
-  },
-  {
-   "ts": 1790834705.7359138,
-   "tipo": "Resultados",
-   "texto": "resultado $LIT: +8,0% (salió bien)",
-   "monedas": [
-    "LIT"
-   ],
-   "url": "https://t.me/LideresCripto/707"
   }
  ]
 }
