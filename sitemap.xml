@@ -542,6 +542,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/zorro-b2/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/zorro-c6/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

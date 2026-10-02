@@ -1,6 +1,54 @@
 {
- "actualizado": 1790943603.949079,
+ "actualizado": 1790947211.3787286,
  "avisos": [
+  {
+   "ts": 1790946395.4826918,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/755"
+  },
+  {
+   "ts": 1790946363.525483,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/753"
+  },
+  {
+   "ts": 1790946308.346886,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +3,1% (salió bien)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/752"
+  },
+  {
+   "ts": 1790946047.8445935,
+   "tipo": "Edición del radar",
+   "texto": "radar 02.10 08:00",
+   "monedas": [
+    "ETH",
+    "SOL",
+    "BTC",
+    "SAND",
+    "HYPE",
+    "MOVR"
+   ],
+   "url": "https://t.me/LideresCripto/750"
+  },
+  {
+   "ts": 1790944213.9872944,
+   "tipo": "Noticias",
+   "texto": "noticias 02.10 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/749"
+  },
   {
    "ts": 1790942701.1094556,
    "tipo": "Resultados",
@@ -140,55 +188,6 @@
    "texto": "noticias 01.10 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/725"
-  },
-  {
-   "ts": 1790877904.9623022,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +0,1% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/724"
-  },
-  {
-   "ts": 1790874036.4992752,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 01.10",
-   "monedas": [
-    "ETH",
-    "NEAR",
-    "BTC",
-    "KII",
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/723"
-  },
-  {
-   "ts": 1790870795.4080474,
-   "tipo": "Señal",
-   "texto": "pump $MOVR",
-   "monedas": [
-    "MOVR"
-   ],
-   "url": "https://t.me/LideresCripto/722"
-  },
-  {
-   "ts": 1790870718.6291137,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: +0,3% (sin movimiento)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/721"
-  },
-  {
-   "ts": 1790870718.3125396,
-   "tipo": "Resultados",
-   "texto": "resultado $ENA: -7,0% (salió al revés)",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/720"
   }
  ]
 }
