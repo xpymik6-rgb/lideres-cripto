@@ -1,6 +1,15 @@
 {
- "actualizado": 1790932803.9396157,
+ "actualizado": 1790936410.177411,
  "avisos": [
+  {
+   "ts": 1790935508.0999596,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +2,4% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/747"
+  },
   {
    "ts": 1790931944.981083,
    "tipo": "Señal",
@@ -178,20 +187,6 @@
    "texto": "cómo guardar tus criptos",
    "monedas": [],
    "url": "https://t.me/LideresCripto/719"
-  },
-  {
-   "ts": 1790859626.2345438,
-   "tipo": "Edición del radar",
-   "texto": "radar 01.10 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "MOVR",
-    "ENA",
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/715"
   }
  ]
 }
