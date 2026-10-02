@@ -1,6 +1,15 @@
 {
- "actualizado": 1790922017.222192,
+ "actualizado": 1790925603.8823292,
  "avisos": [
+  {
+   "ts": 1790924701.5656993,
+   "tipo": "Resultados",
+   "texto": "resultado $ENA: -9,1% (salió al revés)",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/744"
+  },
   {
    "ts": 1790921190.5786774,
    "tipo": "Señal",
@@ -181,15 +190,6 @@
    "texto": "noticias 01.10 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/714"
-  },
-  {
-   "ts": 1790852555.6656814,
-   "tipo": "Señal",
-   "texto": "$20.0 M en USDT entran en Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/713"
   }
  ]
 }
