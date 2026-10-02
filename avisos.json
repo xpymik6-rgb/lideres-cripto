@@ -1,6 +1,15 @@
 {
- "actualizado": 1790904011.5052881,
+ "actualizado": 1790907618.3273904,
  "avisos": [
+  {
+   "ts": 1790906646.0876062,
+   "tipo": "Señal",
+   "texto": "pump $US",
+   "monedas": [
+    "US"
+   ],
+   "url": "https://t.me/LideresCripto/736"
+  },
   {
    "ts": 1790902809.2941902,
    "tipo": "Edición del radar",
@@ -181,15 +190,6 @@
     "LIT"
    ],
    "url": "https://t.me/LideresCripto/707"
-  },
-  {
-   "ts": 1790833266.5145009,
-   "tipo": "Señal",
-   "texto": "pump $MOVR",
-   "monedas": [
-    "MOVR"
-   ],
-   "url": "https://t.me/LideresCripto/706"
   }
  ]
 }
