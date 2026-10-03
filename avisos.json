@@ -1,6 +1,13 @@
 {
- "actualizado": 1791040803.6517403,
+ "actualizado": 1791044421.35957,
  "avisos": [
+  {
+   "ts": 1791043238.5059617,
+   "tipo": "Guía",
+   "texto": "por qué solo te muestran las ganadas",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/785"
+  },
   {
    "ts": 1791039901.406877,
    "tipo": "Resultados",
@@ -181,15 +188,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/757"
-  },
-  {
-   "ts": 1790946395.4826918,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $SOL",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/755"
   }
  ]
 }
