@@ -172,6 +172,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liderescripto.com/w/ballena-e1/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liderescripto.com/w/ballena-fb/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
