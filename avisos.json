@@ -1,6 +1,15 @@
 {
- "actualizado": 1790990417.7562609,
+ "actualizado": 1791001206.9362197,
  "avisos": [
+  {
+   "ts": 1790997733.898492,
+   "tipo": "Señal",
+   "texto": "pump $SAND",
+   "monedas": [
+    "SAND"
+   ],
+   "url": "https://t.me/LideresCripto/771"
+  },
   {
    "ts": 1790989215.7312143,
    "tipo": "Edición del radar",
@@ -182,15 +191,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/740"
-  },
-  {
-   "ts": 1790917580.8773358,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/738"
   }
  ]
 }
