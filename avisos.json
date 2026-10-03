@@ -1,6 +1,38 @@
 {
- "actualizado": 1791044421.35957,
+ "actualizado": 1791055212.5245788,
  "avisos": [
+  {
+   "ts": 1791054309.9246397,
+   "tipo": "Resultados",
+   "texto": "resultado $ONDO: -1,8% (salió al revés)",
+   "monedas": [
+    "ONDO"
+   ],
+   "url": "https://t.me/LideresCripto/788"
+  },
+  {
+   "ts": 1791054009.652252,
+   "tipo": "Edición del radar",
+   "texto": "radar 03.10 14:00",
+   "monedas": [
+    "BTC",
+    "BNB",
+    "AAVE",
+    "ZK",
+    "SAND",
+    "US",
+    "ZRO",
+    "TRUMP"
+   ],
+   "url": "https://t.me/LideresCripto/787"
+  },
+  {
+   "ts": 1791052221.5426886,
+   "tipo": "Noticias",
+   "texto": "noticias 03.10 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/786"
+  },
   {
    "ts": 1791043238.5059617,
    "tipo": "Guía",
@@ -161,33 +193,6 @@
    "texto": "noticias 02.10 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/762"
-  },
-  {
-   "ts": 1790960874.4650145,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $ONDO",
-   "monedas": [
-    "ONDO"
-   ],
-   "url": "https://t.me/LideresCripto/761"
-  },
-  {
-   "ts": 1790954366.3242166,
-   "tipo": "Señal",
-   "texto": "$21.3 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/760"
-  },
-  {
-   "ts": 1790948340.857572,
-   "tipo": "Señal",
-   "texto": "$500.0 M en USDT: tesorería de Tether ← Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/757"
   }
  ]
 }
