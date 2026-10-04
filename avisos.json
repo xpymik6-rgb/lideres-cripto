@@ -1,6 +1,30 @@
 {
- "actualizado": 1791123606.7652397,
+ "actualizado": 1791141601.634382,
  "avisos": [
+  {
+   "ts": 1791140449.1233113,
+   "tipo": "Edición del radar",
+   "texto": "radar 04.10 14:00",
+   "monedas": [
+    "BTC",
+    "BNB",
+    "GRASS",
+    "ENA",
+    "AERO",
+    "JUP",
+    "MARSCOIN",
+    "RENDER",
+    "SUI"
+   ],
+   "url": "https://t.me/LideresCripto/807"
+  },
+  {
+   "ts": 1791138617.6266427,
+   "tipo": "Noticias",
+   "texto": "noticias 04.10 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/806"
+  },
   {
    "ts": 1791118816.1989045,
    "tipo": "Edición del radar",
@@ -174,24 +198,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/777"
-  },
-  {
-   "ts": 1791011109.6148255,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -2,3% (salió bien)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/776"
-  },
-  {
-   "ts": 1791011109.2160487,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: -5,3% (salió al revés)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/775"
   }
  ]
 }
