@@ -1,6 +1,24 @@
 {
- "actualizado": 1791076819.6778831,
+ "actualizado": 1791094817.033705,
  "avisos": [
+  {
+   "ts": 1791093934.253344,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +0,7% (sin movimiento)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/797"
+  },
+  {
+   "ts": 1791093903.9773874,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +0,3% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/796"
+  },
   {
    "ts": 1791075617.363785,
    "tipo": "Edición del radar",
@@ -170,28 +188,6 @@
     "SAND"
    ],
    "url": "https://t.me/LideresCripto/771"
-  },
-  {
-   "ts": 1790989215.7312143,
-   "tipo": "Edición del radar",
-   "texto": "radar 02.10 20:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "HYPE",
-    "KII",
-    "SAND",
-    "ETHFI",
-    "JUP"
-   ],
-   "url": "https://t.me/LideresCripto/768"
-  },
-  {
-   "ts": 1790987416.1612344,
-   "tipo": "Noticias",
-   "texto": "noticias 02.10 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/767"
   }
  ]
 }
