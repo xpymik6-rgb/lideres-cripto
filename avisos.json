@@ -1,6 +1,15 @@
 {
- "actualizado": 1791094817.033705,
+ "actualizado": 1791105616.8532262,
  "avisos": [
+  {
+   "ts": 1791102251.1955824,
+   "tipo": "Señal",
+   "texto": "pump $BTW",
+   "monedas": [
+    "BTW"
+   ],
+   "url": "https://t.me/LideresCripto/798"
+  },
   {
    "ts": 1791093934.253344,
    "tipo": "Resultados",
@@ -179,15 +188,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/772"
-  },
-  {
-   "ts": 1790997733.898492,
-   "tipo": "Señal",
-   "texto": "pump $SAND",
-   "monedas": [
-    "SAND"
-   ],
-   "url": "https://t.me/LideresCripto/771"
   }
  ]
 }
