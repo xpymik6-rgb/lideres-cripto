@@ -1,6 +1,27 @@
 {
- "actualizado": 1791062409.4199963,
+ "actualizado": 1791076819.6778831,
  "avisos": [
+  {
+   "ts": 1791075617.363785,
+   "tipo": "Edición del radar",
+   "texto": "radar 03.10 20:00",
+   "monedas": [
+    "BTC",
+    "PUMP",
+    "ZRO",
+    "STRK",
+    "XPL",
+    "SAND"
+   ],
+   "url": "https://t.me/LideresCripto/794"
+  },
+  {
+   "ts": 1791073817.0361667,
+   "tipo": "Noticias",
+   "texto": "noticias 03.10 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/793"
+  },
   {
    "ts": 1791061207.2284088,
    "tipo": "Señal",
@@ -171,30 +192,6 @@
    "texto": "noticias 02.10 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/767"
-  },
-  {
-   "ts": 1790974814.7302413,
-   "tipo": "Señal",
-   "texto": "historia AAVE",
-   "monedas": [
-    "AAVE"
-   ],
-   "url": "https://t.me/LideresCripto/766"
-  },
-  {
-   "ts": 1790967647.0354626,
-   "tipo": "Edición del radar",
-   "texto": "radar 02.10 14:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "XRP",
-    "ONDO",
-    "SAND",
-    "SOL",
-    "2Z"
-   ],
-   "url": "https://t.me/LideresCripto/763"
   }
  ]
 }
