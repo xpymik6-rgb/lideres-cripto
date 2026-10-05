@@ -1,6 +1,15 @@
 {
- "actualizado": 1791210018.7236552,
+ "actualizado": 1791213611.0843706,
  "avisos": [
+  {
+   "ts": 1791212773.009154,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $UNI",
+   "monedas": [
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/829"
+  },
   {
    "ts": 1791205249.3752606,
    "tipo": "Edición del radar",
@@ -190,20 +199,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/796"
-  },
-  {
-   "ts": 1791075617.363785,
-   "tipo": "Edición del radar",
-   "texto": "radar 03.10 20:00",
-   "monedas": [
-    "BTC",
-    "PUMP",
-    "ZRO",
-    "STRK",
-    "XPL",
-    "SAND"
-   ],
-   "url": "https://t.me/LideresCripto/794"
   }
  ]
 }
