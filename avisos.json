@@ -1,6 +1,33 @@
 {
- "actualizado": 1791166809.4628713,
+ "actualizado": 1791188420.4167404,
  "avisos": [
+  {
+   "ts": 1791187781.652891,
+   "tipo": "Señal",
+   "texto": "pump $BTW",
+   "monedas": [
+    "BTW"
+   ],
+   "url": "https://t.me/LideresCripto/822"
+  },
+  {
+   "ts": 1791187600.3546932,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/820"
+  },
+  {
+   "ts": 1791186877.99946,
+   "tipo": "Señal",
+   "texto": "$49.5 M en USDT entran en Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/819"
+  },
   {
    "ts": 1791163804.2562902,
    "tipo": "Resultados",
@@ -180,29 +207,6 @@
     "TRUMP"
    ],
    "url": "https://t.me/LideresCripto/787"
-  },
-  {
-   "ts": 1791052221.5426886,
-   "tipo": "Noticias",
-   "texto": "noticias 03.10 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/786"
-  },
-  {
-   "ts": 1791043238.5059617,
-   "tipo": "Guía",
-   "texto": "por qué solo te muestran las ganadas",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/785"
-  },
-  {
-   "ts": 1791039901.406877,
-   "tipo": "Resultados",
-   "texto": "resultado $SOL: -2,6% (salió al revés)",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/784"
   }
  ]
 }
