@@ -1,6 +1,28 @@
 {
- "actualizado": 1791217217.9806635,
+ "actualizado": 1791220805.75618,
  "avisos": [
+  {
+   "ts": 1791220017.3969648,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ENA",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/835"
+  },
+  {
+   "ts": 1791219603.2338755,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 05.10",
+   "monedas": [
+    "ZEC",
+    "BTC",
+    "ETH",
+    "HYPE",
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/834"
+  },
   {
    "ts": 1791216409.4167814,
    "tipo": "Señal",
@@ -181,22 +203,6 @@
     "SAND"
    ],
    "url": "https://t.me/LideresCripto/800"
-  },
-  {
-   "ts": 1791117023.7888799,
-   "tipo": "Noticias",
-   "texto": "noticias 04.10 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/799"
-  },
-  {
-   "ts": 1791102251.1955824,
-   "tipo": "Señal",
-   "texto": "pump $BTW",
-   "monedas": [
-    "BTW"
-   ],
-   "url": "https://t.me/LideresCripto/798"
   }
  ]
 }
