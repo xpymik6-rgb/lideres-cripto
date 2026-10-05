@@ -1,6 +1,15 @@
 {
- "actualizado": 1791188420.4167404,
+ "actualizado": 1791192007.693533,
  "avisos": [
+  {
+   "ts": 1791191209.095214,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/823"
+  },
   {
    "ts": 1791187781.652891,
    "tipo": "Señal",
@@ -191,22 +200,6 @@
     "ONDO"
    ],
    "url": "https://t.me/LideresCripto/788"
-  },
-  {
-   "ts": 1791054009.652252,
-   "tipo": "Edición del radar",
-   "texto": "radar 03.10 14:00",
-   "monedas": [
-    "BTC",
-    "BNB",
-    "AAVE",
-    "ZK",
-    "SAND",
-    "US",
-    "ZRO",
-    "TRUMP"
-   ],
-   "url": "https://t.me/LideresCripto/787"
   }
  ]
 }
