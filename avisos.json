@@ -1,6 +1,15 @@
 {
- "actualizado": 1791220805.75618,
+ "actualizado": 1791224419.333505,
  "avisos": [
+  {
+   "ts": 1791223023.0794754,
+   "tipo": "Señal",
+   "texto": "pump $RLC",
+   "monedas": [
+    "RLC"
+   ],
+   "url": "https://t.me/LideresCripto/837"
+  },
   {
    "ts": 1791220017.3969648,
    "tipo": "Señal",
@@ -188,21 +197,6 @@
    "texto": "noticias 04.10 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/806"
-  },
-  {
-   "ts": 1791118816.1989045,
-   "tipo": "Edición del radar",
-   "texto": "radar 04.10 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "BTW",
-    "ZK",
-    "STRK",
-    "SAND"
-   ],
-   "url": "https://t.me/LideresCripto/800"
   }
  ]
 }
