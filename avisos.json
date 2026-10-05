@@ -1,6 +1,19 @@
 {
- "actualizado": 1791163201.7343004,
+ "actualizado": 1791166809.4628713,
  "avisos": [
+  {
+   "ts": 1791163804.2562902,
+   "tipo": "Resultados",
+   "texto": "resultados semana 04.10",
+   "monedas": [
+    "BFT",
+    "ADI",
+    "RAIN",
+    "RYO",
+    "UB"
+   ],
+   "url": "https://t.me/LideresCripto/816"
+  },
   {
    "ts": 1791162019.6619968,
    "tipo": "Edición del radar",
@@ -190,15 +203,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/784"
-  },
-  {
-   "ts": 1791039901.202656,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -2,4% (salió al revés)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/783"
   }
  ]
 }
