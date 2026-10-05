@@ -1,6 +1,15 @@
 {
- "actualizado": 1791192007.693533,
+ "actualizado": 1791195610.7985055,
  "avisos": [
+  {
+   "ts": 1791192301.1103709,
+   "tipo": "Señal",
+   "texto": "$25.0 M en USDT salen de Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/825"
+  },
   {
    "ts": 1791191209.095214,
    "tipo": "Señal",
@@ -191,15 +200,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/791"
-  },
-  {
-   "ts": 1791054309.9246397,
-   "tipo": "Resultados",
-   "texto": "resultado $ONDO: -1,8% (salió al revés)",
-   "monedas": [
-    "ONDO"
-   ],
-   "url": "https://t.me/LideresCripto/788"
   }
  ]
 }
