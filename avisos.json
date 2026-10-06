@@ -1,6 +1,15 @@
 {
- "actualizado": 1791264007.9689715,
+ "actualizado": 1791267613.9483862,
  "avisos": [
+  {
+   "ts": 1791265980.977187,
+   "tipo": "Señal",
+   "texto": "$50.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/855"
+  },
   {
    "ts": 1791263919.3616772,
    "tipo": "Señal",
@@ -182,15 +191,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/820"
-  },
-  {
-   "ts": 1791186877.99946,
-   "tipo": "Señal",
-   "texto": "$49.5 M en USDT entran en Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/819"
   }
  ]
 }
