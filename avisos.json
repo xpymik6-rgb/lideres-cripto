@@ -1,6 +1,15 @@
 {
- "actualizado": 1791307202.1400943,
+ "actualizado": 1791310803.594959,
  "avisos": [
+  {
+   "ts": 1791308468.492037,
+   "tipo": "Señal",
+   "texto": "pump $ORCA",
+   "monedas": [
+    "ORCA"
+   ],
+   "url": "https://t.me/LideresCripto/870"
+  },
   {
    "ts": 1791306425.1566188,
    "tipo": "Señal",
@@ -182,19 +191,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/835"
-  },
-  {
-   "ts": 1791219603.2338755,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 05.10",
-   "monedas": [
-    "ZEC",
-    "BTC",
-    "ETH",
-    "HYPE",
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/834"
   }
  ]
 }
