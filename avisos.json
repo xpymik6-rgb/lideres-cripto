@@ -1,6 +1,15 @@
 {
- "actualizado": 1791267613.9483862,
+ "actualizado": 1791282008.848432,
  "avisos": [
+  {
+   "ts": 1791281106.4439094,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: -0,1% (sin movimiento)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/856"
+  },
   {
    "ts": 1791265980.977187,
    "tipo": "Señal",
@@ -182,15 +191,6 @@
     "BTW"
    ],
    "url": "https://t.me/LideresCripto/822"
-  },
-  {
-   "ts": 1791187600.3546932,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/820"
   }
  ]
 }
