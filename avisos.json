@@ -1,6 +1,35 @@
 {
- "actualizado": 1791310803.594959,
+ "actualizado": 1791314408.7861757,
  "avisos": [
+  {
+   "ts": 1791313506.488021,
+   "tipo": "Resultados",
+   "texto": "resultado $ENA: -4,2% (salió al revés)",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/873"
+  },
+  {
+   "ts": 1791313246.1979225,
+   "tipo": "Edición del radar",
+   "texto": "radar 06.10 14:00",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "ETH",
+    "ORCA",
+    "SAND"
+   ],
+   "url": "https://t.me/LideresCripto/872"
+  },
+  {
+   "ts": 1791311414.6773577,
+   "tipo": "Noticias",
+   "texto": "noticias 06.10 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/871"
+  },
   {
    "ts": 1791308468.492037,
    "tipo": "Señal",
@@ -166,31 +195,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/839"
-  },
-  {
-   "ts": 1791225008.4642768,
-   "tipo": "Noticias",
-   "texto": "noticias 05.10 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/838"
-  },
-  {
-   "ts": 1791223023.0794754,
-   "tipo": "Señal",
-   "texto": "pump $RLC",
-   "monedas": [
-    "RLC"
-   ],
-   "url": "https://t.me/LideresCripto/837"
-  },
-  {
-   "ts": 1791220017.3969648,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ENA",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/835"
   }
  ]
 }
