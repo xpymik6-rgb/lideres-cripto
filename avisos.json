@@ -1,6 +1,27 @@
 {
- "actualizado": 1791238816.4619093,
+ "actualizado": 1791249605.996763,
  "avisos": [
+  {
+   "ts": 1791248423.6745896,
+   "tipo": "Edición del radar",
+   "texto": "radar 05.10 20:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "HYPE",
+    "PUMP",
+    "RLC",
+    "ORCA"
+   ],
+   "url": "https://t.me/LideresCripto/849"
+  },
+  {
+   "ts": 1791246614.0888867,
+   "tipo": "Noticias",
+   "texto": "noticias 05.10 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/848"
+  },
   {
    "ts": 1791234007.216044,
    "tipo": "Señal",
@@ -179,22 +200,6 @@
     "AXS"
    ],
    "url": "https://t.me/LideresCripto/815"
-  },
-  {
-   "ts": 1791160211.7462146,
-   "tipo": "Noticias",
-   "texto": "noticias 04.10 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/814"
-  },
-  {
-   "ts": 1791154813.8112643,
-   "tipo": "Resultados",
-   "texto": "análisis HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/812"
   }
  ]
 }
