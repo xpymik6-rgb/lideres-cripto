@@ -1,6 +1,24 @@
 {
- "actualizado": 1791303614.024425,
+ "actualizado": 1791307202.1400943,
  "avisos": [
+  {
+   "ts": 1791306425.1566188,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/868"
+  },
+  {
+   "ts": 1791306319.5288727,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: +4,9% (salió bien)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/867"
+  },
   {
    "ts": 1791302711.6792731,
    "tipo": "Resultados",
@@ -177,22 +195,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/834"
-  },
-  {
-   "ts": 1791216409.4167814,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/832"
-  },
-  {
-   "ts": 1791216015.462454,
-   "tipo": "Guía",
-   "texto": "qué mira el radar y qué no",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/831"
   }
  ]
 }
