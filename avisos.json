@@ -1,6 +1,24 @@
 {
- "actualizado": 1791249605.996763,
+ "actualizado": 1791264007.9689715,
  "avisos": [
+  {
+   "ts": 1791263919.3616772,
+   "tipo": "Señal",
+   "texto": "pump $RLC",
+   "monedas": [
+    "RLC"
+   ],
+   "url": "https://t.me/LideresCripto/854"
+  },
+  {
+   "ts": 1791263137.5984306,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/852"
+  },
   {
    "ts": 1791248423.6745896,
    "tipo": "Edición del radar",
@@ -173,33 +191,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/819"
-  },
-  {
-   "ts": 1791163804.2562902,
-   "tipo": "Resultados",
-   "texto": "resultados semana 04.10",
-   "monedas": [
-    "BFT",
-    "ADI",
-    "RAIN",
-    "RYO",
-    "UB"
-   ],
-   "url": "https://t.me/LideresCripto/816"
-  },
-  {
-   "ts": 1791162019.6619968,
-   "tipo": "Edición del radar",
-   "texto": "radar 04.10 20:00",
-   "monedas": [
-    "BTC",
-    "NEAR",
-    "BNB",
-    "SAND",
-    "STRK",
-    "AXS"
-   ],
-   "url": "https://t.me/LideresCripto/815"
   }
  ]
 }
