@@ -1,6 +1,15 @@
 {
- "actualizado": 1791314408.7861757,
+ "actualizado": 1791321618.8656049,
  "avisos": [
+  {
+   "ts": 1791320416.2347155,
+   "tipo": "Señal",
+   "texto": "historia AAVE",
+   "monedas": [
+    "AAVE"
+   ],
+   "url": "https://t.me/LideresCripto/876"
+  },
   {
    "ts": 1791313506.488021,
    "tipo": "Resultados",
@@ -180,21 +189,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/846"
-  },
-  {
-   "ts": 1791226847.7241185,
-   "tipo": "Edición del radar",
-   "texto": "radar 05.10 14:00",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "HYPE",
-    "RLC",
-    "ENA",
-    "UNI",
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/839"
   }
  ]
 }
