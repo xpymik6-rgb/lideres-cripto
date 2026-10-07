@@ -1,6 +1,15 @@
 {
- "actualizado": 1791382806.182504,
+ "actualizado": 1791386407.972898,
  "avisos": [
+  {
+   "ts": 1791385545.6026402,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -3,9% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/895"
+  },
   {
    "ts": 1791381903.4005415,
    "tipo": "Resultados",
@@ -178,15 +187,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/867"
-  },
-  {
-   "ts": 1791302711.6792731,
-   "tipo": "Resultados",
-   "texto": "resultado $UNI: -1,2% (salió al revés)",
-   "monedas": [
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/866"
   }
  ]
 }
