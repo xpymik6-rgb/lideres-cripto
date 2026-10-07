@@ -1,6 +1,15 @@
 {
- "actualizado": 1791350411.6612222,
+ "actualizado": 1791354017.9482355,
  "avisos": [
+  {
+   "ts": 1791353115.8700907,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -1,7% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/884"
+  },
   {
    "ts": 1791349575.5399256,
    "tipo": "Señal",
@@ -181,15 +190,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/856"
-  },
-  {
-   "ts": 1791265980.977187,
-   "tipo": "Señal",
-   "texto": "$50.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/855"
   }
  ]
 }
