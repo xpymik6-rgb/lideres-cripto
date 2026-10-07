@@ -1,6 +1,15 @@
 {
- "actualizado": 1791336006.0214787,
+ "actualizado": 1791339612.9546216,
  "avisos": [
+  {
+   "ts": 1791338692.2822237,
+   "tipo": "Señal",
+   "texto": "empujón de BTC $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/880"
+  },
   {
    "ts": 1791334823.7631874,
    "tipo": "Edición del radar",
@@ -181,20 +190,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/852"
-  },
-  {
-   "ts": 1791248423.6745896,
-   "tipo": "Edición del radar",
-   "texto": "radar 05.10 20:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "HYPE",
-    "PUMP",
-    "RLC",
-    "ORCA"
-   ],
-   "url": "https://t.me/LideresCripto/849"
   }
  ]
 }
