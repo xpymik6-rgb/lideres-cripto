@@ -1,6 +1,15 @@
 {
- "actualizado": 1791404412.5476878,
+ "actualizado": 1791408003.376046,
  "avisos": [
+  {
+   "ts": 1791406820.5938752,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/903"
+  },
   {
    "ts": 1791399932.6534438,
    "tipo": "Resultados",
@@ -177,15 +186,6 @@
     "AAVE"
    ],
    "url": "https://t.me/LideresCripto/876"
-  },
-  {
-   "ts": 1791313506.488021,
-   "tipo": "Resultados",
-   "texto": "resultado $ENA: -4,2% (salió al revés)",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/873"
   }
  ]
 }
