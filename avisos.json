@@ -1,6 +1,36 @@
 {
- "actualizado": 1791390015.250786,
+ "actualizado": 1791400805.2831683,
  "avisos": [
+  {
+   "ts": 1791399932.6534438,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -2,5% (salió al revés)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/900"
+  },
+  {
+   "ts": 1791399622.2853246,
+   "tipo": "Edición del radar",
+   "texto": "radar 07.10 14:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "SAND",
+    "NMR",
+    "ORCA",
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/899"
+  },
+  {
+   "ts": 1791397814.9878795,
+   "tipo": "Noticias",
+   "texto": "noticias 07.10 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/898"
+  },
   {
    "ts": 1791388886.3779938,
    "tipo": "Señal",
@@ -156,35 +186,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/873"
-  },
-  {
-   "ts": 1791313246.1979225,
-   "tipo": "Edición del radar",
-   "texto": "radar 06.10 14:00",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "ETH",
-    "ORCA",
-    "SAND"
-   ],
-   "url": "https://t.me/LideresCripto/872"
-  },
-  {
-   "ts": 1791311414.6773577,
-   "tipo": "Noticias",
-   "texto": "noticias 06.10 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/871"
-  },
-  {
-   "ts": 1791308468.492037,
-   "tipo": "Señal",
-   "texto": "pump $ORCA",
-   "monedas": [
-    "ORCA"
-   ],
-   "url": "https://t.me/LideresCripto/870"
   }
  ]
 }
