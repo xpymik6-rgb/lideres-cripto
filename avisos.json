@@ -1,6 +1,25 @@
 {
- "actualizado": 1791372006.391769,
+ "actualizado": 1791379217.8965127,
  "avisos": [
+  {
+   "ts": 1791378015.6168878,
+   "tipo": "Edición del radar",
+   "texto": "radar 07.10 08:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "ZEC",
+    "ORCA"
+   ],
+   "url": "https://t.me/LideresCripto/888"
+  },
+  {
+   "ts": 1791376222.9375622,
+   "tipo": "Noticias",
+   "texto": "noticias 07.10 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/887"
+  },
   {
    "ts": 1791371168.5112367,
    "tipo": "Señal",
@@ -172,24 +191,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/860"
-  },
-  {
-   "ts": 1791288430.6014774,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/858"
-  },
-  {
-   "ts": 1791284713.1773672,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -0,2% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/857"
   }
  ]
 }
