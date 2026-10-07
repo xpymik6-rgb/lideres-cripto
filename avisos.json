@@ -1,6 +1,22 @@
 {
- "actualizado": 1791386407.972898,
+ "actualizado": 1791390015.250786,
  "avisos": [
+  {
+   "ts": 1791388886.3779938,
+   "tipo": "Señal",
+   "texto": "pump $SAND",
+   "monedas": [
+    "SAND"
+   ],
+   "url": "https://t.me/LideresCripto/897"
+  },
+  {
+   "ts": 1791388812.9056938,
+   "tipo": "Guía",
+   "texto": "cuándo no operar",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/896"
+  },
   {
    "ts": 1791385545.6026402,
    "tipo": "Resultados",
@@ -169,24 +185,6 @@
     "ORCA"
    ],
    "url": "https://t.me/LideresCripto/870"
-  },
-  {
-   "ts": 1791306425.1566188,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/868"
-  },
-  {
-   "ts": 1791306319.5288727,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: +4,9% (salió bien)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/867"
   }
  ]
 }
