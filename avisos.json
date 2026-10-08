@@ -1,6 +1,19 @@
 {
- "actualizado": 1791476406.8864305,
+ "actualizado": 1791480003.46146,
  "avisos": [
+  {
+   "ts": 1791478841.0111485,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 08.10",
+   "monedas": [
+    "HYPE",
+    "BTC",
+    "UNI",
+    "ZEC",
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/943"
+  },
   {
    "ts": 1791473737.8485332,
    "tipo": "Señal",
@@ -174,15 +187,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/920"
-  },
-  {
-   "ts": 1791439548.432255,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/918"
   }
  ]
 }
