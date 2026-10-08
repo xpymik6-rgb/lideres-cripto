@@ -1,6 +1,24 @@
 {
- "actualizado": 1791429620.5671868,
+ "actualizado": 1791436804.7951717,
  "avisos": [
+  {
+   "ts": 1791436060.5573564,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/915"
+  },
+  {
+   "ts": 1791435999.5727715,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/913"
+  },
   {
    "ts": 1791428718.5245228,
    "tipo": "Resultados",
@@ -168,24 +186,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/884"
-  },
-  {
-   "ts": 1791349575.5399256,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/882"
-  },
-  {
-   "ts": 1791346086.0373714,
-   "tipo": "Señal",
-   "texto": "$20.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/881"
   }
  ]
 }
