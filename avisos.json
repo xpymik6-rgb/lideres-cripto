@@ -1,6 +1,15 @@
 {
- "actualizado": 1791472807.5957909,
+ "actualizado": 1791476406.8864305,
  "avisos": [
+  {
+   "ts": 1791473737.8485332,
+   "tipo": "Señal",
+   "texto": "empujón de BTC $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/942"
+  },
   {
    "ts": 1791471992.8952787,
    "tipo": "Señal",
@@ -174,15 +183,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/918"
-  },
-  {
-   "ts": 1791439547.2852328,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/916"
   }
  ]
 }
