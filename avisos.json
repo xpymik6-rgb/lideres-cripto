@@ -1,6 +1,15 @@
 {
- "actualizado": 1791480003.46146,
+ "actualizado": 1791483612.7282717,
  "avisos": [
+  {
+   "ts": 1791480122.7210133,
+   "tipo": "Señal",
+   "texto": "liquidaciones $SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/944"
+  },
   {
    "ts": 1791478841.0111485,
    "tipo": "Resultados",
@@ -178,15 +187,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/921"
-  },
-  {
-   "ts": 1791443115.1927207,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -1,8% (salió al revés)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/920"
   }
  ]
 }
