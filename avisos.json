@@ -1,6 +1,105 @@
 {
- "actualizado": 1791444017.4153655,
+ "actualizado": 1791458412.362917,
  "avisos": [
+  {
+   "ts": 1791457569.917501,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -1,8% (salió al revés)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/931"
+  },
+  {
+   "ts": 1791457569.684237,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -1,1% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/930"
+  },
+  {
+   "ts": 1791457569.448288,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -2,5% (salió al revés)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/929"
+  },
+  {
+   "ts": 1791457539.180886,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -3,9% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/928"
+  },
+  {
+   "ts": 1791457538.9227436,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -5,3% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/927"
+  },
+  {
+   "ts": 1791457538.698702,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -1,7% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/926"
+  },
+  {
+   "ts": 1791457538.485792,
+   "tipo": "Resultados",
+   "texto": "resultado $ENA: -4,2% (salió al revés)",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/925"
+  },
+  {
+   "ts": 1791457538.238779,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: +4,9% (salió bien)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/924"
+  },
+  {
+   "ts": 1791457507.9809415,
+   "tipo": "Resultados",
+   "texto": "resultado $UNI: -1,2% (salió al revés)",
+   "monedas": [
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/923"
+  },
+  {
+   "ts": 1791457507.7303095,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -0,2% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/922"
+  },
+  {
+   "ts": 1791457507.512506,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: -0,1% (sin movimiento)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/921"
+  },
   {
    "ts": 1791443115.1927207,
    "tipo": "Resultados",
@@ -85,109 +184,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/904"
-  },
-  {
-   "ts": 1791406820.5938752,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/903"
-  },
-  {
-   "ts": 1791399932.6534438,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -2,5% (salió al revés)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/900"
-  },
-  {
-   "ts": 1791399622.2853246,
-   "tipo": "Edición del radar",
-   "texto": "radar 07.10 14:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "SAND",
-    "NMR",
-    "ORCA",
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/899"
-  },
-  {
-   "ts": 1791397814.9878795,
-   "tipo": "Noticias",
-   "texto": "noticias 07.10 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/898"
-  },
-  {
-   "ts": 1791388886.3779938,
-   "tipo": "Señal",
-   "texto": "pump $SAND",
-   "monedas": [
-    "SAND"
-   ],
-   "url": "https://t.me/LideresCripto/897"
-  },
-  {
-   "ts": 1791388812.9056938,
-   "tipo": "Guía",
-   "texto": "cuándo no operar",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/896"
-  },
-  {
-   "ts": 1791385545.6026402,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: -3,9% (salió al revés)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/895"
-  },
-  {
-   "ts": 1791381903.4005415,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: -5,3% (salió al revés)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/894"
-  },
-  {
-   "ts": 1791381013.904709,
-   "tipo": "Señal",
-   "texto": "$20.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/891"
-  },
-  {
-   "ts": 1791381013.3016207,
-   "tipo": "Señal",
-   "texto": "$20.1 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/890"
-  },
-  {
-   "ts": 1791378015.6168878,
-   "tipo": "Edición del radar",
-   "texto": "radar 07.10 08:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "ZEC",
-    "ORCA"
-   ],
-   "url": "https://t.me/LideresCripto/888"
   }
  ]
 }
