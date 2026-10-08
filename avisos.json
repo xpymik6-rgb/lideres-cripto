@@ -1,6 +1,15 @@
 {
- "actualizado": 1791487209.0447736,
+ "actualizado": 1791494406.309628,
  "avisos": [
+  {
+   "ts": 1791493224.0419357,
+   "tipo": "Señal",
+   "texto": "historia BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/949"
+  },
   {
    "ts": 1791486026.0662608,
    "tipo": "Edición del radar",
@@ -183,15 +192,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/924"
-  },
-  {
-   "ts": 1791457507.9809415,
-   "tipo": "Resultados",
-   "texto": "resultado $UNI: -1,2% (salió al revés)",
-   "monedas": [
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/923"
   }
  ]
 }
