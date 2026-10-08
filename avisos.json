@@ -1,6 +1,15 @@
 {
- "actualizado": 1791422417.402043,
+ "actualizado": 1791429620.5671868,
  "avisos": [
+  {
+   "ts": 1791428718.5245228,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -1,1% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/912"
+  },
   {
    "ts": 1791421214.4856985,
    "tipo": "Edición del radar",
@@ -177,15 +186,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/881"
-  },
-  {
-   "ts": 1791338692.2822237,
-   "tipo": "Señal",
-   "texto": "empujón de BTC $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/880"
   }
  ]
 }
