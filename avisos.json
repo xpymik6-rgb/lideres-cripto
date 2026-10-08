@@ -1,6 +1,24 @@
 {
- "actualizado": 1791469217.7214968,
+ "actualizado": 1791472807.5957909,
  "avisos": [
+  {
+   "ts": 1791471992.8952787,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $VVV",
+   "monedas": [
+    "VVV"
+   ],
+   "url": "https://t.me/LideresCripto/940"
+  },
+  {
+   "ts": 1791470010.9256947,
+   "tipo": "Señal",
+   "texto": "$50.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/939"
+  },
   {
    "ts": 1791464425.2333925,
    "tipo": "Edición del radar",
@@ -165,24 +183,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/916"
-  },
-  {
-   "ts": 1791436060.5573564,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/915"
-  },
-  {
-   "ts": 1791435999.5727715,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/913"
   }
  ]
 }
