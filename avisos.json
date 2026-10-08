@@ -1,6 +1,15 @@
 {
- "actualizado": 1791440411.2969038,
+ "actualizado": 1791444017.4153655,
  "avisos": [
+  {
+   "ts": 1791443115.1927207,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -1,8% (salió al revés)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/920"
+  },
   {
    "ts": 1791439548.432255,
    "tipo": "Señal",
@@ -179,13 +188,6 @@
     "ORCA"
    ],
    "url": "https://t.me/LideresCripto/888"
-  },
-  {
-   "ts": 1791376222.9375622,
-   "tipo": "Noticias",
-   "texto": "noticias 07.10 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/887"
   }
  ]
 }
