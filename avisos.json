@@ -1,6 +1,24 @@
 {
- "actualizado": 1791458412.362917,
+ "actualizado": 1791462018.6758661,
  "avisos": [
+  {
+   "ts": 1791461172.223546,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/933"
+  },
+  {
+   "ts": 1791461116.3479824,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -1,2% (salió al revés)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/932"
+  },
   {
    "ts": 1791457569.917501,
    "tipo": "Resultados",
@@ -168,22 +186,6 @@
     "NMR"
    ],
    "url": "https://t.me/LideresCripto/909"
-  },
-  {
-   "ts": 1791419414.5878587,
-   "tipo": "Noticias",
-   "texto": "noticias 07.10 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/908"
-  },
-  {
-   "ts": 1791410751.5129175,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/904"
   }
  ]
 }
