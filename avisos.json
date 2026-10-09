@@ -1,6 +1,15 @@
 {
- "actualizado": 1791577212.7489195,
+ "actualizado": 1791580805.4413006,
  "avisos": [
+  {
+   "ts": 1791579622.7042682,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/988"
+  },
   {
    "ts": 1791575129.9887557,
    "tipo": "Señal",
@@ -176,15 +185,6 @@
     "RLC"
    ],
    "url": "https://t.me/LideresCripto/963"
-  },
-  {
-   "ts": 1791522390.283576,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $VVV",
-   "monedas": [
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/962"
   }
  ]
 }
