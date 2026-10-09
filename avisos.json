@@ -1,6 +1,24 @@
 {
- "actualizado": 1791519608.28487,
+ "actualizado": 1791523214.4779994,
  "avisos": [
+  {
+   "ts": 1791522390.283576,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $VVV",
+   "monedas": [
+    "VVV"
+   ],
+   "url": "https://t.me/LideresCripto/962"
+  },
+  {
+   "ts": 1791522328.5415058,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/960"
+  },
   {
    "ts": 1791516655.0504394,
    "tipo": "Señal",
@@ -176,24 +194,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/933"
-  },
-  {
-   "ts": 1791461116.3479824,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: -1,2% (salió al revés)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/932"
-  },
-  {
-   "ts": 1791457569.917501,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -1,8% (salió al revés)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/931"
   }
  ]
 }
