@@ -1,6 +1,22 @@
 {
- "actualizado": 1791559205.868029,
+ "actualizado": 1791562813.7081423,
  "avisos": [
+  {
+   "ts": 1791561910.9615242,
+   "tipo": "Resultados",
+   "texto": "resultado $VVV: -1,7% (salió bien)",
+   "monedas": [
+    "VVV"
+   ],
+   "url": "https://t.me/LideresCripto/979"
+  },
+  {
+   "ts": 1791561610.4681253,
+   "tipo": "Guía",
+   "texto": "qué es el funding",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/978"
+  },
   {
    "ts": 1791558361.6390367,
    "tipo": "Señal",
@@ -168,24 +184,6 @@
    "texto": "noticias 08.10 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/953"
-  },
-  {
-   "ts": 1791504311.068534,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: -15,4% (salió bien)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/952"
-  },
-  {
-   "ts": 1791497246.2937794,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $VVV",
-   "monedas": [
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/950"
   }
  ]
 }
