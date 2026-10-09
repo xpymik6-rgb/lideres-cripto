@@ -1,6 +1,15 @@
 {
- "actualizado": 1791530408.3988943,
+ "actualizado": 1791541202.1008863,
  "avisos": [
+  {
+   "ts": 1791540388.3951547,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $STRK",
+   "monedas": [
+    "STRK"
+   ],
+   "url": "https://t.me/LideresCripto/968"
+  },
   {
    "ts": 1791529505.826873,
    "tipo": "Resultados",
@@ -182,15 +191,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/943"
-  },
-  {
-   "ts": 1791473737.8485332,
-   "tipo": "Señal",
-   "texto": "empujón de BTC $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/942"
   }
  ]
 }
