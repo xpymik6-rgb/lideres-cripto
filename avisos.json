@@ -1,6 +1,15 @@
 {
- "actualizado": 1791555609.0351942,
+ "actualizado": 1791559205.868029,
  "avisos": [
+  {
+   "ts": 1791558361.6390367,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/976"
+  },
   {
    "ts": 1791554706.30583,
    "tipo": "Resultados",
@@ -177,15 +186,6 @@
     "VVV"
    ],
    "url": "https://t.me/LideresCripto/950"
-  },
-  {
-   "ts": 1791493224.0419357,
-   "tipo": "Señal",
-   "texto": "historia BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/949"
   }
  ]
 }
