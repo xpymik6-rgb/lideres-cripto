@@ -1,6 +1,24 @@
 {
- "actualizado": 1791580805.4413006,
+ "actualizado": 1791588009.7087393,
  "avisos": [
+  {
+   "ts": 1791587150.2904863,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $UNI",
+   "monedas": [
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/990"
+  },
+  {
+   "ts": 1791587107.2438881,
+   "tipo": "Resultados",
+   "texto": "resultado $VVV: -5,2% (salió bien)",
+   "monedas": [
+    "VVV"
+   ],
+   "url": "https://t.me/LideresCripto/989"
+  },
   {
    "ts": 1791579622.7042682,
    "tipo": "Señal",
@@ -167,24 +185,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/965"
-  },
-  {
-   "ts": 1791529505.0987093,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: -2,9% (salió al revés)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/964"
-  },
-  {
-   "ts": 1791525574.8220336,
-   "tipo": "Señal",
-   "texto": "pump $RLC",
-   "monedas": [
-    "RLC"
-   ],
-   "url": "https://t.me/LideresCripto/963"
   }
  ]
 }
