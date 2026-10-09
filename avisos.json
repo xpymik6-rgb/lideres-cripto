@@ -1,6 +1,42 @@
 {
- "actualizado": 1791526820.9516246,
+ "actualizado": 1791530408.3988943,
  "avisos": [
+  {
+   "ts": 1791529505.826873,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -1,5% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/967"
+  },
+  {
+   "ts": 1791529505.534716,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -0,5% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/966"
+  },
+  {
+   "ts": 1791529505.3156843,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: -11,6% (salió bien)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/965"
+  },
+  {
+   "ts": 1791529505.0987093,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -2,9% (salió al revés)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/964"
+  },
   {
    "ts": 1791525574.8220336,
    "tipo": "Señal",
@@ -155,45 +191,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/942"
-  },
-  {
-   "ts": 1791471992.8952787,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $VVV",
-   "monedas": [
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/940"
-  },
-  {
-   "ts": 1791470010.9256947,
-   "tipo": "Señal",
-   "texto": "$50.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/939"
-  },
-  {
-   "ts": 1791464425.2333925,
-   "tipo": "Edición del radar",
-   "texto": "radar 08.10 08:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "STRK",
-    "MET",
-    "ZEC",
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/936"
-  },
-  {
-   "ts": 1791462638.6840985,
-   "tipo": "Noticias",
-   "texto": "noticias 08.10 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/935"
   }
  ]
 }
