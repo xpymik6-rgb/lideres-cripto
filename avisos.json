@@ -1,6 +1,15 @@
 {
- "actualizado": 1791562813.7081423,
+ "actualizado": 1791566420.4789238,
  "avisos": [
+  {
+   "ts": 1791565517.9233315,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +1,7% (salió al revés)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/980"
+  },
   {
    "ts": 1791561910.9615242,
    "tipo": "Resultados",
@@ -177,13 +186,6 @@
     "VVV"
    ],
    "url": "https://t.me/LideresCripto/954"
-  },
-  {
-   "ts": 1791505826.7438998,
-   "tipo": "Noticias",
-   "texto": "noticias 08.10 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/953"
   }
  ]
 }
