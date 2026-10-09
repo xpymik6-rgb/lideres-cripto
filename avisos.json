@@ -1,6 +1,45 @@
 {
- "actualizado": 1791570008.278819,
+ "actualizado": 1791573603.0104861,
  "avisos": [
+  {
+   "ts": 1791572700.8282335,
+   "tipo": "Resultados",
+   "texto": "resultado $XRP: +5,0% (salió bien)",
+   "monedas": [
+    "XRP"
+   ],
+   "url": "https://t.me/LideresCripto/984"
+  },
+  {
+   "ts": 1791572700.498109,
+   "tipo": "Resultados",
+   "texto": "resultado $SOL: +2,3% (salió bien)",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/983"
+  },
+  {
+   "ts": 1791572420.1833124,
+   "tipo": "Edición del radar",
+   "texto": "radar 09.10 14:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "RLC",
+    "US",
+    "1000BONK",
+    "MORPHO"
+   ],
+   "url": "https://t.me/LideresCripto/982"
+  },
+  {
+   "ts": 1791570619.9575784,
+   "tipo": "Noticias",
+   "texto": "noticias 09.10 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/981"
+  },
   {
    "ts": 1791565517.9233315,
    "tipo": "Resultados",
@@ -146,46 +185,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/960"
-  },
-  {
-   "ts": 1791516655.0504394,
-   "tipo": "Señal",
-   "texto": "$20.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/959"
-  },
-  {
-   "ts": 1791514844.3784962,
-   "tipo": "Señal",
-   "texto": "$20.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/958"
-  },
-  {
-   "ts": 1791507968.6910343,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/955"
-  },
-  {
-   "ts": 1791507638.5296042,
-   "tipo": "Edición del radar",
-   "texto": "radar 08.10 20:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "SOL",
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/954"
   }
  ]
 }
