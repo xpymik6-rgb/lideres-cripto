@@ -1,6 +1,24 @@
 {
- "actualizado": 1791552016.7612562,
+ "actualizado": 1791555609.0351942,
  "avisos": [
+  {
+   "ts": 1791554706.30583,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +1,2% (salió al revés)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/975"
+  },
+  {
+   "ts": 1791552287.4870853,
+   "tipo": "Señal",
+   "texto": "pump $US",
+   "monedas": [
+    "US"
+   ],
+   "url": "https://t.me/LideresCripto/972"
+  },
   {
    "ts": 1791550814.2127867,
    "tipo": "Edición del radar",
@@ -168,29 +186,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/949"
-  },
-  {
-   "ts": 1791486026.0662608,
-   "tipo": "Edición del radar",
-   "texto": "radar 08.10 14:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "ZEC",
-    "NEAR",
-    "OGN",
-    "XRP",
-    "SOL",
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/946"
-  },
-  {
-   "ts": 1791484225.0752363,
-   "tipo": "Noticias",
-   "texto": "noticias 08.10 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/945"
   }
  ]
 }
