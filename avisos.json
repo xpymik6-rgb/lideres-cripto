@@ -1,6 +1,28 @@
 {
- "actualizado": 1791588009.7087393,
+ "actualizado": 1791595205.4995706,
  "avisos": [
+  {
+   "ts": 1791594023.1157243,
+   "tipo": "Edición del radar",
+   "texto": "radar 09.10 20:00",
+   "monedas": [
+    "BTC",
+    "HYPE",
+    "UNI",
+    "RLC",
+    "1000BONK",
+    "AERO",
+    "MEGA"
+   ],
+   "url": "https://t.me/LideresCripto/993"
+  },
+  {
+   "ts": 1791592216.3583398,
+   "tipo": "Noticias",
+   "texto": "noticias 09.10 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/992"
+  },
   {
    "ts": 1791587150.2904863,
    "tipo": "Señal",
@@ -167,24 +189,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/967"
-  },
-  {
-   "ts": 1791529505.534716,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -0,5% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/966"
-  },
-  {
-   "ts": 1791529505.3156843,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: -11,6% (salió bien)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/965"
   }
  ]
 }
