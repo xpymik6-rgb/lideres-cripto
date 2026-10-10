@@ -513,5 +513,10 @@
   "kod": "cazador-3a",
   "imya": "El Cazador del este",
   "kogda": "2026-10-09 12:44"
+ },
+ "0x8bae3527e5a33fa0cf184f37bc112d071463ab6d": {
+  "kod": "minero-6d",
+  "imya": "El Minero del sur",
+  "kogda": "2026-10-10 06:42"
  }
 }
