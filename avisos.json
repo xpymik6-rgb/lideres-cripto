@@ -1,6 +1,15 @@
 {
- "actualizado": 1791613209.2047253,
+ "actualizado": 1791631205.917223,
  "avisos": [
+  {
+   "ts": 1791630323.5862246,
+   "tipo": "Resultados",
+   "texto": "resultado $STRK: -4,2% (salió bien)",
+   "monedas": [
+    "STRK"
+   ],
+   "url": "https://t.me/LideresCripto/999"
+  },
   {
    "ts": 1791612307.0192597,
    "tipo": "Resultados",
@@ -176,15 +185,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/975"
-  },
-  {
-   "ts": 1791552287.4870853,
-   "tipo": "Señal",
-   "texto": "pump $US",
-   "monedas": [
-    "US"
-   ],
-   "url": "https://t.me/LideresCripto/972"
   }
  ]
 }
