@@ -1,6 +1,24 @@
 {
- "actualizado": 1791598808.5133598,
+ "actualizado": 1791613209.2047253,
  "avisos": [
+  {
+   "ts": 1791612307.0192597,
+   "tipo": "Resultados",
+   "texto": "resultado $VVV: -3,0% (salió bien)",
+   "monedas": [
+    "VVV"
+   ],
+   "url": "https://t.me/LideresCripto/998"
+  },
+  {
+   "ts": 1791612306.5892437,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +0,4% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/997"
+  },
   {
    "ts": 1791598086.2413177,
    "tipo": "Señal",
@@ -167,28 +185,6 @@
     "US"
    ],
    "url": "https://t.me/LideresCripto/972"
-  },
-  {
-   "ts": 1791550814.2127867,
-   "tipo": "Edición del radar",
-   "texto": "radar 09.10 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "STRK",
-    "RLC",
-    "VVV",
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/971"
-  },
-  {
-   "ts": 1791549020.9346585,
-   "tipo": "Noticias",
-   "texto": "noticias 09.10 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/970"
   }
  ]
 }
