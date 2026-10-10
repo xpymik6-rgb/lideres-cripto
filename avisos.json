@@ -1,6 +1,26 @@
 {
- "actualizado": 1791634812.1400125,
+ "actualizado": 1791638419.6477451,
  "avisos": [
+  {
+   "ts": 1791637217.0843074,
+   "tipo": "Edición del radar",
+   "texto": "radar 10.10 08:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "US",
+    "MAGIC",
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/1002"
+  },
+  {
+   "ts": 1791635422.8971364,
+   "tipo": "Noticias",
+   "texto": "noticias 10.10 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1001"
+  },
   {
    "ts": 1791632382.0490234,
    "tipo": "Señal",
@@ -169,22 +189,6 @@
     "VVV"
    ],
    "url": "https://t.me/LideresCripto/979"
-  },
-  {
-   "ts": 1791561610.4681253,
-   "tipo": "Guía",
-   "texto": "qué es el funding",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/978"
-  },
-  {
-   "ts": 1791558361.6390367,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/976"
   }
  ]
 }
