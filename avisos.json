@@ -1,6 +1,34 @@
 {
- "actualizado": 1791652820.2329316,
+ "actualizado": 1791660017.8309104,
  "avisos": [
+  {
+   "ts": 1791659319.7049415,
+   "tipo": "Resultados",
+   "texto": "",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1009"
+  },
+  {
+   "ts": 1791658810.5708966,
+   "tipo": "Edición del radar",
+   "texto": "radar 10.10 14:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "US",
+    "STRK",
+    "MINA"
+   ],
+   "url": "https://t.me/LideresCripto/1008"
+  },
+  {
+   "ts": 1791657013.6908255,
+   "tipo": "Noticias",
+   "texto": "noticias 10.10 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1007"
+  },
   {
    "ts": 1791651918.1410947,
    "tipo": "Resultados",
@@ -159,36 +187,6 @@
     "XRP"
    ],
    "url": "https://t.me/LideresCripto/984"
-  },
-  {
-   "ts": 1791572700.498109,
-   "tipo": "Resultados",
-   "texto": "resultado $SOL: +2,3% (salió bien)",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/983"
-  },
-  {
-   "ts": 1791572420.1833124,
-   "tipo": "Edición del radar",
-   "texto": "radar 09.10 14:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "RLC",
-    "US",
-    "1000BONK",
-    "MORPHO"
-   ],
-   "url": "https://t.me/LideresCripto/982"
-  },
-  {
-   "ts": 1791570619.9575784,
-   "tipo": "Noticias",
-   "texto": "noticias 09.10 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/981"
   }
  ]
 }
