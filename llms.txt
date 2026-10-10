@@ -76,6 +76,19 @@ del mismo lado, en menos de doce horas.
 ¿Publican los fallos? Sí, cada domingo, con el marcador completo de la semana.
 ¿Es asesoría financiera? No. Es información sobre posiciones públicas de otros traders.
 
+## Cómo te roban (estafas cripto explicadas)
+
+- USDT falso (Flash USDT): cómo saber si el USDT que te enviaron es real.
+  https://liderescripto.com/aprende/usdt-falso-flash-usdt/
+  Resumen: el token falso copia nombre, símbolo y logo del USDT; lo único que no puede
+  copiar es la dirección del contrato. Contratos oficiales de USDT:
+  Tron (TRC20) TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t;
+  BNB Chain (BEP20) 0x55d398326f99059fF775485246999027B3197955;
+  Ethereum (ERC20) 0xdac17f958d2ee523a2206206994597c13d831ec7;
+  Solana Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB.
+  Lo más seguro es cobrar en la dirección de depósito del exchange: el exchange solo
+  acredita el token real. Quien vende "programas para generar Flash USDT" estafa al que compra.
+
 ## Aprende (explicaciones en español, gratis)
 
 Índice: https://liderescripto.com/aprende/

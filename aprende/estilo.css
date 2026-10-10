@@ -37,4 +37,17 @@ article b{color:#fff}
 footer{border-top:1px solid #1c2a45;margin-top:40px;padding:22px 0 40px;
   color:#7d90ae;font-size:13px}
 footer a{color:#7d90ae}
+article h2{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-weight:700;
+  font-size:22px;line-height:1.25;margin:34px 0 12px}
+article ul{margin:0 0 18px;padding-left:22px}
+article li{margin:0 0 8px}
+article code{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:15px;
+  color:#5df2c0;word-break:break-all;overflow-wrap:anywhere}
+.probar code{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:14px;
+  color:#5df2c0;word-break:break-all}
+ul.contratos{list-style:none;padding:0}
+ul.contratos li{border:1px solid #2a3d61;border-radius:6px;padding:10px 14px;margin:0 0 10px}
+.nota{color:#7d90ae;font-size:14px}
+.razdel{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-size:15px;
+  letter-spacing:.12em;text-transform:uppercase;color:#ff8a8a;margin:0 0 6px;font-weight:600}
 @media(max-width:600px){body{font-size:16px}.env{padding:0 16px}}
