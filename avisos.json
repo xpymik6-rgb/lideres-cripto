@@ -1,6 +1,15 @@
 {
- "actualizado": 1791663609.5123138,
+ "actualizado": 1791667221.231865,
  "avisos": [
+  {
+   "ts": 1791666010.7289224,
+   "tipo": "Señal",
+   "texto": "historia NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/1013"
+  },
   {
    "ts": 1791659319.7049415,
    "tipo": "Resultados",
@@ -178,15 +187,6 @@
     "RLC"
    ],
    "url": "https://t.me/LideresCripto/985"
-  },
-  {
-   "ts": 1791572700.8282335,
-   "tipo": "Resultados",
-   "texto": "resultado $XRP: +5,0% (salió bien)",
-   "monedas": [
-    "XRP"
-   ],
-   "url": "https://t.me/LideresCripto/984"
   }
  ]
 }
