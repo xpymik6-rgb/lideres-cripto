@@ -1,6 +1,15 @@
 {
- "actualizado": 1791631205.917223,
+ "actualizado": 1791634812.1400125,
  "avisos": [
+  {
+   "ts": 1791632382.0490234,
+   "tipo": "Señal",
+   "texto": "pump $US",
+   "monedas": [
+    "US"
+   ],
+   "url": "https://t.me/LideresCripto/1000"
+  },
   {
    "ts": 1791630323.5862246,
    "tipo": "Resultados",
@@ -176,15 +185,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/976"
-  },
-  {
-   "ts": 1791554706.30583,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +1,2% (salió al revés)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/975"
   }
  ]
 }
