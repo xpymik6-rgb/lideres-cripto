@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Envenenamiento de direcciones (address poisoning): la estafa del copiar y pegar</title>
+<meta name="description" content="Te llega una transferencia de cero desde una dirección casi igual a la que usas siempre. Si la copias del historial, tu dinero va al estafador. Cómo funciona el envenenamiento de direcciones y cómo evitarlo.">
+<link rel="canonical" href="https://liderescripto.com/aprende/envenenamiento-de-direcciones/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Envenenamiento de direcciones (address poisoning): la estafa del copiar y pegar">
+<meta property="og:description" content="Te llega una transferencia de cero desde una dirección casi igual a la que usas siempre. Si la copias del historial, tu dinero va al estafador. Cómo funciona el envenenamiento de direcciones y cómo evitarlo.">
+<meta property="og:url" content="https://liderescripto.com/aprende/envenenamiento-de-direcciones/">
+<meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://liderescripto.com/og-aprende.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://liderescripto.com/og-aprende.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/aprende/estilo.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Article",
+      "headline":"La dirección que se parece a la tuya",
+      "description":"Te llega una transferencia de cero desde una dirección casi igual a la que usas siempre. Si la copias del historial, tu dinero va al estafador. Cómo funciona el envenenamiento de direcciones y cómo evitarlo.",
+      "inLanguage":"es",
+      "mainEntityOfPage":{"@type":"WebPage","@id":"https://liderescripto.com/aprende/envenenamiento-de-direcciones/"},
+      "datePublished":"2026-10-10",
+      "dateModified":"2026-10-10",
+      "author":{"@type":"Organization","name":"Líderes Cripto","url":"https://liderescripto.com/"},
+      "publisher":{"@type":"Organization","name":"Líderes Cripto","url":"https://liderescripto.com/"}
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"¿Qué es el envenenamiento de direcciones?",
+          "acceptedAnswer":{"@type":"Answer","text":"Es una estafa en la que te envían una transferencia de cero o de centavos desde una dirección casi igual a una que usas seguido. Si después copias esa dirección del historial, tu dinero va al estafador."}},
+        {"@type":"Question","name":"¿Por qué me llegó una transferencia de 0 USDT?",
+          "acceptedAnswer":{"@type":"Answer","text":"Muy probablemente es un intento de envenenamiento de direcciones. No pasa nada si no la usas: no copies direcciones de tu historial."}},
+        {"@type":"Question","name":"¿Cómo evito enviar a una dirección falsa?",
+          "acceptedAnswer":{"@type":"Answer","text":"Copia la dirección siempre de la fuente original, guárdala en tus contactos, revísala completa y manda una prueba pequeña antes de un monto grande."}}
+      ]
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Inicio","item":"https://liderescripto.com/"},
+        {"@type":"ListItem","position":2,"name":"Aprende","item":"https://liderescripto.com/aprende/"},
+        {"@type":"ListItem","position":3,"name":"La dirección que se parece a la tuya","item":"https://liderescripto.com/aprende/envenenamiento-de-direcciones/"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header><div class="env">
+  <a class="lg" href="/">Líderes Cripto</a>
+  <a href="https://t.me/LideresCripto">Canal en Telegram</a>
+</div></header>
+<main class="env">
+
+<nav class="miga"><a href="/">Inicio</a> › <a href="/aprende/">Aprende</a></nav>
+<p class="razdel">Cómo te roban</p>
+<h1>La dirección que se parece a la tuya</h1>
+<p class="bajada">Te llega una transferencia de cero desde una dirección casi igual a la que usas siempre. Si la copias del historial, tu dinero va al estafador. Cómo funciona el envenenamiento de direcciones y cómo evitarlo.</p>
+<article>
+<p>Revisas tu historial y ves una transferencia rara: cero USDT, o unos centavos, desde una dirección que empieza y termina igual que la de tu exchange o la de un amigo. No le das importancia.</p>
+<p>Días después vas a enviar dinero, copias la dirección del historial como haces siempre, y el dinero se va al estafador.</p>
+
+<h2>Cómo funciona</h2>
+<p>Todas las transferencias en la cadena son públicas. El estafador ve a quién le envías dinero seguido y genera una dirección que comparte los primeros y los últimos caracteres con esa. Como las billeteras muestran las direcciones recortadas, del tipo <code>TXy4...9fQk</code>, las dos se ven iguales.</p>
+<p>Después te manda una transferencia de cero o de centavos desde esa dirección falsa. No te roba nada en ese momento: solo deja su dirección «envenenada» en tu historial, esperando que la copies.</p>
+<p>No necesita tus claves ni hackear nada. Le basta con que copies del lugar equivocado.</p>
+
+<h2>Qué tan común es</h2>
+<p>Investigadores de la Universidad Carnegie Mellon midieron dos años de actividad en Ethereum y BNB Chain y encontraron unos <b>270 millones de intentos</b> contra <b>17 millones de billeteras</b>. Contaron 6.633 casos en los que la gente sí envió el dinero, con pérdidas de al menos 83,8 millones de dólares. Lo presentaron en USENIX Security 2025, una de las conferencias de seguridad más importantes.</p>
+<p>Pasa mucho con USDT, porque es lo que más se envía de un lado a otro.</p>
+
+<h2>Cómo no caer</h2>
+<ul>
+<li><b>Nunca copies una dirección del historial de transacciones.</b> Cópiala de la fuente: la sección de depósito de tu exchange o el mensaje original de la persona.</li>
+<li><b>Guarda las direcciones que usas seguido en la libreta de contactos</b> de tu billetera o en la lista blanca de retiros del exchange.</li>
+<li><b>Revisa la dirección completa</b>, no solo el principio y el final. Compara también los caracteres del medio.</li>
+<li><b>Si el monto es grande, manda primero una prueba pequeña</b> y confirma que llegó al lugar correcto.</li>
+<li>Si ves en tu historial transferencias de cero que no reconoces, es una señal: alguien te puso en la mira.</li>
+</ul>
+
+<h2>Si ya enviaste</h2>
+<p>En la cadena no hay botón de deshacer. Guarda el hash de la transacción y la dirección del estafador y haz la denuncia. Si el dinero llegó a un exchange, el equipo de ese exchange a veces puede congelarlo si se le avisa rápido con la denuncia. Y desconfía de cualquiera que te ofrezca recuperarlo cobrando primero.</p>
+<p class="nota">Fuente: Tsuchiya, Dong, Christin y Soska, «Blockchain Address Poisoning», USENIX Security 2025, Carnegie Mellon University (CyLab). Verificado el 10 de octubre de 2026.</p>
+</article>
+<div class="probar"><span class="rot">Compruébalo tú mismo</span><p>Abre tu historial en el explorador de tu red (tronscan.org o bscscan.com) y busca transferencias de cero o de centavos desde direcciones que no conoces. Compáralas carácter por carácter con las que usas de verdad.</p></div>
+<div class="cta">
+  <p>En el canal desarmamos una estafa nueva cada semana, con pruebas y en español.
+  El bot es gratis: escríbele un ticker y te da la ficha completa de esa moneda.</p>
+  <a class="can" href="https://t.me/LideresCripto">Ver el canal</a>
+  <a class="bot" href="https://t.me/LideresCriptoBot_bot?start=estafas">Abrir el bot</a>
+</div>
+<div class="sigue"><h2>Sigue leyendo</h2>
+  <ul>
+    <li><a href="/aprende/usdt-falso-flash-usdt/">USDT falso: cómo saber si lo que te llegó es real</a></li>
+    <li><a href="/aprende/falso-soporte-binance-telegram/">El «soporte de Binance» que te escribe primero</a></li>
+    <li><a href="/aprende/donde-guardar-tus-criptos/">Dónde guardar lo que compraste</a></li>
+  </ul></div>
+</main>
+<footer><div class="env">
+  <p>Líderes Cripto · seguimos posiciones públicas de Hyperliquid y OKX y lo contamos en español.</p>
+  <p>No es asesoría financiera. Mostramos lo que hacen los líderes, la decisión es tuya.</p>
+  <p><a href="/">Inicio</a> · <a href="/aprende/">Aprende</a> · <a href="https://t.me/LideresCripto">Canal</a> · <a href="https://t.me/LideresCriptoBot_bot?start=aprende">Bot</a></p>
+</div></footer>
+</body>
+</html>

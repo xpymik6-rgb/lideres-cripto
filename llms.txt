@@ -78,16 +78,34 @@ del mismo lado, en menos de doce horas.
 
 ## Cómo te roban (estafas cripto explicadas)
 
-- USDT falso (Flash USDT): cómo saber si el USDT que te enviaron es real.
+- USDT falso (Flash USDT): cómo saber si el USDT que te enviaron es real
   https://liderescripto.com/aprende/usdt-falso-flash-usdt/
-  Resumen: el token falso copia nombre, símbolo y logo del USDT; lo único que no puede
-  copiar es la dirección del contrato. Contratos oficiales de USDT:
-  Tron (TRC20) TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t;
-  BNB Chain (BEP20) 0x55d398326f99059fF775485246999027B3197955;
-  Ethereum (ERC20) 0xdac17f958d2ee523a2206206994597c13d831ec7;
-  Solana Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB.
-  Lo más seguro es cobrar en la dirección de depósito del exchange: el exchange solo
-  acredita el token real. Quien vende "programas para generar Flash USDT" estafa al que compra.
+  ¿Qué es el Flash USDT? Es un token falso que copia el nombre, el símbolo y el logo del USDT. En la billetera se ve igual, pero no vale nada: ningún exchange lo acepta y, según cómo lo programaron, no se puede transferir o desaparece del saldo.
+  ¿Cómo sé si el USDT que me enviaron es real? Mira la dirección del contrato del token en tu billetera o en el explorador de la red y compárala con la oficial. En Tron (TRC20) el USDT real es TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t. Si no coincide letra por letra, es falso.
+- Estafa de tareas pagadas por WhatsApp: cómo funciona y cómo reconocerla
+  https://liderescripto.com/aprende/estafa-de-tareas-pagadas/
+  ¿Qué es la estafa de tareas pagadas? Te ofrecen un trabajo simple desde el celular, como calificar películas o productos. Te pagan pequeñas sumas al principio para que confíes y después te piden depositar cripto para desbloquear o retirar lo ganado. Ese dinero no vuelve.
+  ¿Por qué me pagaron si es una estafa? Porque esos primeros pagos son la carnada. Cuestan poco y hacen que creas que el trabajo es real antes de pedirte depósitos mucho más grandes.
+- Bot de trading con IA que multiplica tu dinero: así funciona la estafa
+  https://liderescripto.com/aprende/bot-de-trading-con-ia-estafa/
+  ¿Existe un bot de trading con IA que multiplique el dinero? No de la forma que muestran esos videos. Pasar de 68 a 750.000 dólares exige unas 15 apuestas ganadas seguidas con todo el saldo, algo con probabilidad de una entre casi diez mil.
+  ¿Cómo funciona la estafa del bot de trading con Claude o ChatGPT? Un video te enseña a desplegar un contrato y cargarle dinero para que «opere». El contrato envía el dinero a los estafadores. TRM Labs documentó 517.000 dólares robados a 224 personas con este método.
+- Falso soporte de Binance en Telegram y WhatsApp: cómo reconocerlo
+  https://liderescripto.com/aprende/falso-soporte-binance-telegram/
+  ¿Binance da soporte por Telegram o WhatsApp? No por chat privado. El soporte real está dentro de la app y en binance.com. Si alguien te escribe por privado diciendo ser soporte, es una estafa.
+  ¿Cómo sé si un contacto de Binance es oficial? Con Binance Verify, en binance.com/es/official-verification: pegas el enlace, correo, teléfono o usuario de Telegram y te dice si es verificado.
+- Envenenamiento de direcciones (address poisoning): la estafa del copiar y pegar
+  https://liderescripto.com/aprende/envenenamiento-de-direcciones/
+  ¿Qué es el envenenamiento de direcciones? Es una estafa en la que te envían una transferencia de cero o de centavos desde una dirección casi igual a una que usas seguido. Si después copias esa dirección del historial, tu dinero va al estafador.
+  ¿Por qué me llegó una transferencia de 0 USDT? Muy probablemente es un intento de envenenamiento de direcciones. No pasa nada si no la usas: no copies direcciones de tu historial.
+- ¿Te estafaron con cripto? Cuidado con los que prometen recuperar tu dinero
+  https://liderescripto.com/aprende/estafa-recuperacion-de-fondos/
+  ¿Se puede recuperar cripto robada? Es difícil y casi nunca pasa. Lo que sí sirve es denunciar en la policía y avisar al exchange por donde pasó el dinero. Ninguna de las dos cosas cuesta.
+  ¿Los servicios de recuperación de criptomonedas son reales? Los que te contactan primero y piden pago por adelantado son estafas. El FBI alertó en 2025 sobre falsos despachos de abogados que buscan a víctimas de estafas con cripto.
+- Comprobante falso en P2P: cómo te roban al vender cripto y cómo evitarlo
+  https://liderescripto.com/aprende/comprobante-falso-p2p/
+  ¿Cómo saber si un comprobante de pago es falso en P2P? No intentes adivinarlo mirando la captura. Abre tú mismo la app de tu banco o billetera: si el dinero no está acreditado, no hay pago.
+  ¿Cuándo debo liberar la cripto en una venta P2P? Solo cuando ves el dinero acreditado en tu propia cuenta. Si no llega, no liberes y abre una apelación dentro de la orden.
 
 ## Aprende (explicaciones en español, gratis)
 
