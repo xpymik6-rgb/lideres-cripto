@@ -1,6 +1,29 @@
 {
- "actualizado": 1791706804.3053524,
+ "actualizado": 1791724815.9909108,
  "avisos": [
+  {
+   "ts": 1791723613.2732549,
+   "tipo": "Edición del radar",
+   "texto": "radar 11.10 08:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "HYPE",
+    "LUMIA",
+    "STRK",
+    "CHIP",
+    "US",
+    "RENDER"
+   ],
+   "url": "https://t.me/LideresCripto/1022"
+  },
+  {
+   "ts": 1791721840.84867,
+   "tipo": "Noticias",
+   "texto": "noticias 11.10 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1021"
+  },
   {
    "ts": 1791705612.7550309,
    "tipo": "Señal",
@@ -170,24 +193,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/997"
-  },
-  {
-   "ts": 1791598086.2413177,
-   "tipo": "Señal",
-   "texto": "pump $MAGIC",
-   "monedas": [
-    "MAGIC"
-   ],
-   "url": "https://t.me/LideresCripto/996"
-  },
-  {
-   "ts": 1791597906.4207337,
-   "tipo": "Resultados",
-   "texto": "resultado $HYPE: -0,3% (sin movimiento)",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/995"
   }
  ]
 }
