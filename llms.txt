@@ -106,6 +106,10 @@ del mismo lado, en menos de doce horas.
   https://liderescripto.com/aprende/comprobante-falso-p2p/
   ¿Cómo saber si un comprobante de pago es falso en P2P? No intentes adivinarlo mirando la captura. Abre tú mismo la app de tu banco o billetera: si el dinero no está acreditado, no hay pago.
   ¿Cuándo debo liberar la cripto en una venta P2P? Solo cuando ves el dinero acreditado en tu propia cuenta. Si no llega, no liberes y abre una apelación dentro de la orden.
+- SIM swapping: cómo te roban el número de celular para vaciar tu cuenta cripto
+  https://liderescripto.com/aprende/sim-swapping-robo-de-numero/
+  ¿Qué es el SIM swapping? Es cuando alguien saca un duplicado de tu chip a tu nombre engañando a tu operadora. Desde ese momento recibe tus llamadas y SMS, y con los códigos por SMS entra a tu correo, tu exchange o tu banco.
+  ¿Cómo sé si me hicieron SIM swapping? La señal del celular se corta de golpe y no vuelve al reiniciar, y empiezan a llegarte correos de cambios de contraseña o inicios de sesión que no hiciste.
 
 ## Aprende (explicaciones en español, gratis)
 
