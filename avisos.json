@@ -1,6 +1,15 @@
 {
- "actualizado": 1791699618.50382,
+ "actualizado": 1791706804.3053524,
  "avisos": [
+  {
+   "ts": 1791705612.7550309,
+   "tipo": "Señal",
+   "texto": "$80.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/1020"
+  },
   {
    "ts": 1791698743.9066715,
    "tipo": "Señal",
@@ -179,21 +188,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/995"
-  },
-  {
-   "ts": 1791594023.1157243,
-   "tipo": "Edición del radar",
-   "texto": "radar 09.10 20:00",
-   "monedas": [
-    "BTC",
-    "HYPE",
-    "UNI",
-    "RLC",
-    "1000BONK",
-    "AERO",
-    "MEGA"
-   ],
-   "url": "https://t.me/LideresCripto/993"
   }
  ]
 }
