@@ -1,6 +1,15 @@
 {
- "actualizado": 1791667221.231865,
+ "actualizado": 1791678018.2262938,
  "avisos": [
+  {
+   "ts": 1791677115.7904897,
+   "tipo": "Resultados",
+   "texto": "resultado $UNI: +4,6% (salió bien)",
+   "monedas": [
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/1014"
+  },
   {
    "ts": 1791666010.7289224,
    "tipo": "Señal",
@@ -178,15 +187,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/988"
-  },
-  {
-   "ts": 1791575129.9887557,
-   "tipo": "Señal",
-   "texto": "pump $RLC",
-   "monedas": [
-    "RLC"
-   ],
-   "url": "https://t.me/LideresCripto/985"
   }
  ]
 }
