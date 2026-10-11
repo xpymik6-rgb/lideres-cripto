@@ -1,6 +1,15 @@
 {
- "actualizado": 1791753610.6988413,
+ "actualizado": 1791760805.0892358,
  "avisos": [
+  {
+   "ts": 1791759622.6181147,
+   "tipo": "Resultados",
+   "texto": "análisis HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1033"
+  },
   {
    "ts": 1791752428.2551486,
    "tipo": "Señal",
@@ -184,19 +193,6 @@
     "STRK"
    ],
    "url": "https://t.me/LideresCripto/1005"
-  },
-  {
-   "ts": 1791637217.0843074,
-   "tipo": "Edición del radar",
-   "texto": "radar 10.10 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "US",
-    "MAGIC",
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/1002"
   }
  ]
 }
