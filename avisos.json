@@ -1,6 +1,22 @@
 {
- "actualizado": 1791728403.1165318,
+ "actualizado": 1791735618.5526814,
  "avisos": [
+  {
+   "ts": 1791734415.9624624,
+   "tipo": "Guía",
+   "texto": "qué es el interés abierto",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1025"
+  },
+  {
+   "ts": 1791734316.2713761,
+   "tipo": "Señal",
+   "texto": "liquidaciones $NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/1024"
+  },
   {
    "ts": 1791723613.2732549,
    "tipo": "Edición del radar",
@@ -175,24 +191,6 @@
     "STRK"
    ],
    "url": "https://t.me/LideresCripto/999"
-  },
-  {
-   "ts": 1791612307.0192597,
-   "tipo": "Resultados",
-   "texto": "resultado $VVV: -3,0% (salió bien)",
-   "monedas": [
-    "VVV"
-   ],
-   "url": "https://t.me/LideresCripto/998"
-  },
-  {
-   "ts": 1791612306.5892437,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +0,4% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/997"
   }
  ]
 }
