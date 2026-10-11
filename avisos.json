@@ -1,6 +1,15 @@
 {
- "actualizado": 1791746415.7467983,
+ "actualizado": 1791753610.6988413,
  "avisos": [
+  {
+   "ts": 1791752428.2551486,
+   "tipo": "Señal",
+   "texto": "historia NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/1030"
+  },
   {
    "ts": 1791745253.0681844,
    "tipo": "Edición del radar",
@@ -188,13 +197,6 @@
     "UNI"
    ],
    "url": "https://t.me/LideresCripto/1002"
-  },
-  {
-   "ts": 1791635422.8971364,
-   "tipo": "Noticias",
-   "texto": "noticias 10.10 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1001"
   }
  ]
 }
