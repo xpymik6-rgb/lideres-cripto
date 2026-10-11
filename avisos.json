@@ -1,6 +1,15 @@
 {
- "actualizado": 1791685212.546842,
+ "actualizado": 1791699618.50382,
  "avisos": [
+  {
+   "ts": 1791698743.9066715,
+   "tipo": "Señal",
+   "texto": "pump $LUMIA",
+   "monedas": [
+    "LUMIA"
+   ],
+   "url": "https://t.me/LideresCripto/1019"
+  },
   {
    "ts": 1791684050.4707854,
    "tipo": "Señal",
@@ -185,13 +194,6 @@
     "MEGA"
    ],
    "url": "https://t.me/LideresCripto/993"
-  },
-  {
-   "ts": 1791592216.3583398,
-   "tipo": "Noticias",
-   "texto": "noticias 09.10 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/992"
   }
  ]
 }
