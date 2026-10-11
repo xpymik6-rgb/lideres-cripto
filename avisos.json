@@ -1,6 +1,15 @@
 {
- "actualizado": 1791681616.5577385,
+ "actualizado": 1791685212.546842,
  "avisos": [
+  {
+   "ts": 1791684050.4707854,
+   "tipo": "Señal",
+   "texto": "pump $STRK",
+   "monedas": [
+    "STRK"
+   ],
+   "url": "https://t.me/LideresCripto/1018"
+  },
   {
    "ts": 1791680453.6778915,
    "tipo": "Edición del radar",
@@ -183,15 +192,6 @@
    "texto": "noticias 09.10 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/992"
-  },
-  {
-   "ts": 1791587150.2904863,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $UNI",
-   "monedas": [
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/990"
   }
  ]
 }
