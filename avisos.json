@@ -1,6 +1,15 @@
 {
- "actualizado": 1791811220.626144,
+ "actualizado": 1791814808.1273515,
  "avisos": [
+  {
+   "ts": 1791813961.9550984,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1061"
+  },
   {
    "ts": 1791810018.4743347,
    "tipo": "Edición del radar",
@@ -183,15 +192,6 @@
    "texto": "qué es el interés abierto",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1025"
-  },
-  {
-   "ts": 1791734316.2713761,
-   "tipo": "Señal",
-   "texto": "liquidaciones $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1024"
   }
  ]
 }
