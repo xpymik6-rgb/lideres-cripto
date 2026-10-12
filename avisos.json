@@ -1,6 +1,15 @@
 {
- "actualizado": 1791840003.8358757,
+ "actualizado": 1791847221.4024558,
  "avisos": [
+  {
+   "ts": 1791846367.3713918,
+   "tipo": "Señal",
+   "texto": "liquidaciones $SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/1075"
+  },
   {
    "ts": 1791839194.4878836,
    "tipo": "Señal",
@@ -184,15 +193,6 @@
     "CRO"
    ],
    "url": "https://t.me/LideresCripto/1041"
-  },
-  {
-   "ts": 1791767176.639689,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1039"
   }
  ]
 }
