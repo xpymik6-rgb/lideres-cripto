@@ -1,6 +1,33 @@
 {
- "actualizado": 1791789620.3083842,
+ "actualizado": 1791793206.797641,
  "avisos": [
+  {
+   "ts": 1791792332.4001977,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1052"
+  },
+  {
+   "ts": 1791791875.85183,
+   "tipo": "Señal",
+   "texto": "$20.5 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/1051"
+  },
+  {
+   "ts": 1791791875.3282564,
+   "tipo": "Señal",
+   "texto": "$200.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/1050"
+  },
   {
    "ts": 1791788845.4483423,
    "tipo": "Señal",
@@ -167,40 +194,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1020"
-  },
-  {
-   "ts": 1791698743.9066715,
-   "tipo": "Señal",
-   "texto": "pump $LUMIA",
-   "monedas": [
-    "LUMIA"
-   ],
-   "url": "https://t.me/LideresCripto/1019"
-  },
-  {
-   "ts": 1791684050.4707854,
-   "tipo": "Señal",
-   "texto": "pump $STRK",
-   "monedas": [
-    "STRK"
-   ],
-   "url": "https://t.me/LideresCripto/1018"
-  },
-  {
-   "ts": 1791680453.6778915,
-   "tipo": "Edición del radar",
-   "texto": "radar 10.10 20:00",
-   "monedas": [
-    "ETH",
-    "UNI",
-    "BTC",
-    "CHIP",
-    "TIA",
-    "IMX",
-    "WLFI",
-    "STRK"
-   ],
-   "url": "https://t.me/LideresCripto/1016"
   }
  ]
 }
