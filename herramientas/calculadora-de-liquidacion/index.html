@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Calculadora de liquidación: a qué precio te liquidan en futuros cripto</title>
+<meta name="description" content="Pon tu precio de entrada, el apalancamiento y si estás en largo o en corto, y ves a qué precio te cierran la posición y cuánto tiene que moverse el mercado. Gratis y sin registrarte.">
+<link rel="canonical" href="https://liderescripto.com/herramientas/calculadora-de-liquidacion/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Calculadora de liquidación: a qué precio te liquidan en futuros cripto">
+<meta property="og:description" content="Pon tu precio de entrada, el apalancamiento y si estás en largo o en corto, y ves a qué precio te cierran la posición y cuánto tiene que moverse el mercado. Gratis y sin registrarte.">
+<meta property="og:url" content="https://liderescripto.com/herramientas/calculadora-de-liquidacion/">
+<meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://liderescripto.com/og-aprende.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://liderescripto.com/og-aprende.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/aprende/estilo.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebApplication",
+      "name":"¿A qué precio te liquidan? Calcúlalo",
+      "description":"Pon tu precio de entrada, el apalancamiento y si estás en largo o en corto, y ves a qué precio te cierran la posición y cuánto tiene que moverse el mercado. Gratis y sin registrarte.",
+      "url":"https://liderescripto.com/herramientas/calculadora-de-liquidacion/",
+      "applicationCategory":"FinanceApplication",
+      "operatingSystem":"Any",
+      "inLanguage":"es",
+      "isAccessibleForFree":true,
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+      "publisher":{"@type":"Organization","name":"Líderes Cripto","url":"https://liderescripto.com/"}
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"¿Cómo se calcula el precio de liquidación?","acceptedAnswer":{"@type":"Answer","text":"De forma aproximada, en margen aislado: para un largo, entrada × (1 − 1/apalancamiento) ÷ (1 − margen de mantenimiento); para un corto, entrada × (1 + 1/apalancamiento) ÷ (1 + margen de mantenimiento). Cada exchange ajusta por comisiones y niveles."}},
+        {"@type":"Question","name":"¿Con apalancamiento x10 cuánto tiene que caer para liquidarme?","acceptedAnswer":{"@type":"Answer","text":"Algo menos de 10%. Con margen de mantenimiento de 0,5%, un largo x10 se liquida con una caída de alrededor de 9,5% desde la entrada."}},
+        {"@type":"Question","name":"¿Por qué mi exchange muestra otro precio de liquidación?","acceptedAnswer":{"@type":"Answer","text":"Porque usa su propio margen de mantenimiento según el tamaño de la posición, descuenta comisiones y, en margen cruzado, cuenta todo tu saldo. Este cálculo es una referencia; el precio exacto lo ves en tu exchange."}},
+        {"@type":"Question","name":"¿Qué apalancamiento es seguro?","acceptedAnswer":{"@type":"Answer","text":"Ninguno es seguro por sí solo. Lo que te protege es poner el stop antes del precio de liquidación y arriesgar una parte chica de tu cuenta en cada operación."}}
+      ]
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Inicio","item":"https://liderescripto.com/"},
+        {"@type":"ListItem","position":2,"name":"Herramientas","item":"https://liderescripto.com/herramientas/"},
+        {"@type":"ListItem","position":3,"name":"¿A qué precio te liquidan? Calcúlalo","item":"https://liderescripto.com/herramientas/calculadora-de-liquidacion/"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header><div class="env">
+  <a class="lg" href="/">Líderes Cripto</a>
+  <a href="https://t.me/LideresCripto">Canal en Telegram</a>
+</div></header>
+<main class="env">
+
+<nav class="miga"><a href="/">Inicio</a> › <a href="/herramientas/">Herramientas</a></nav>
+<p class="razdel" style="color:#5df2c0">Herramienta gratis</p>
+<h1>¿A qué precio te liquidan? Calcúlalo</h1>
+<p class="bajada">Pon tu precio de entrada, el apalancamiento y si estás en largo o en corto, y ves a qué precio te cierran la posición y cuánto tiene que moverse el mercado. Gratis y sin registrarte.</p>
+<article>
+
+<div class="verif calc">
+  <div class="lado">
+    <button type="button" id="largo" class="on">Largo</button>
+    <button type="button" id="corto">Corto</button>
+  </div>
+  <label for="entrada">Precio de entrada (USDT)</label>
+  <input id="entrada" type="text" inputmode="decimal" placeholder="Ej.: 65000">
+  <label for="apal">Apalancamiento</label>
+  <input id="apal" type="text" inputmode="decimal" placeholder="Ej.: 10" value="10">
+  <label for="margen">Tu margen (USDT, opcional)</label>
+  <input id="margen" type="text" inputmode="decimal" placeholder="Ej.: 100">
+  <label for="mmr">Margen de mantenimiento (%)</label>
+  <input id="mmr" type="text" inputmode="decimal" value="0,5">
+  <div id="res" role="status" aria-live="polite"></div>
+</div>
+<script>
+(function () {
+  var largo = true;
+  function num(id) { var v = document.getElementById(id).value.replace(/\s/g, '').replace(',', '.'); return parseFloat(v); }
+  function f(x) {
+    var d = x >= 1000 ? 2 : x >= 1 ? 4 : 8;
+    return x.toLocaleString('es', { maximumFractionDigits: d });
+  }
+  function calc() {
+    var e = num('entrada'), l = num('apal'), m = num('margen'), mmr = (num('mmr') || 0) / 100;
+    var res = document.getElementById('res');
+    if (!(e > 0) || !(l >= 1)) { res.className = ''; res.innerHTML = ''; return; }
+    var liq = largo ? e * (1 - 1 / l) / (1 - mmr) : e * (1 + 1 / l) / (1 + mmr);
+    var dist = Math.abs(liq - e) / e * 100;
+    var h = '<b>Te liquidan cerca de ' + f(liq) + ' USDT.</b><br>' +
+      'Es un movimiento de <b>' + dist.toFixed(2).replace('.', ',') + '%</b> ' +
+      (largo ? 'a la baja' : 'al alza') + ' desde tu entrada.';
+    if (m > 0) {
+      h += '<br>Tu posición es de ' + f(m * l) + ' USDT. Si llega a ese precio, pierdes los ' + f(m) + ' USDT de margen.';
+    }
+    if (dist < 5) {
+      h += '<br>⚠️ Menos de 5%: un movimiento así en cripto puede pasar en una hora.';
+    }
+    res.className = dist < 5 ? 'mal' : 'ok';
+    res.innerHTML = h;
+  }
+  function lado(es_largo) {
+    largo = es_largo;
+    document.getElementById('largo').className = es_largo ? 'on' : '';
+    document.getElementById('corto').className = es_largo ? '' : 'on';
+    calc();
+  }
+  document.getElementById('largo').addEventListener('click', function () { lado(true); });
+  document.getElementById('corto').addEventListener('click', function () { lado(false); });
+  ['entrada', 'apal', 'margen', 'mmr'].forEach(function (id) {
+    document.getElementById(id).addEventListener('input', calc);
+  });
+})();
+</script>
+<style>
+.calc label{margin-top:12px}
+.calc input{margin-bottom:2px}
+.lado{display:flex;gap:8px;margin-bottom:6px}
+.lado button{flex:1;margin:0;background:transparent;color:#e8eff9;border:1px solid #2a3d61}
+.lado button.on{background:#5df2c0;color:#050810;border-color:#5df2c0}
+</style>
+<h2>Cómo leer el resultado</h2>
+<p>El precio de liquidación es donde el exchange cierra tu posición a la fuerza porque tu margen ya no alcanza. Con apalancamiento x10, un movimiento de menos de 10% en contra te deja sin el margen que pusiste. Con x50, menos de 2%.</p>
+<p>Ese precio no es un detalle técnico: es donde se acumulan las órdenes de cierre de mucha gente a la vez, y por eso el mercado muchas veces va a buscarlo. Lo explicamos en <a href="/aprende/precio-de-liquidacion/">el precio de liquidación es un imán</a>.</p>
+
+<h2>La regla práctica</h2>
+<p>Tu stop tiene que estar <b>antes</b> del precio de liquidación, nunca después. Si el stop que tiene sentido para tu operación queda más allá de la liquidación, el apalancamiento es demasiado alto: bájalo, no muevas el stop.</p>
+
+<h2>Por qué tu exchange puede mostrar otro número</h2>
+<p>Este cálculo es aproximado: margen aislado, contrato en USDT, sin comisiones. Cada exchange usa su propio margen de mantenimiento según el tamaño de la posición, descuenta la comisión de cierre y, en margen cruzado, cuenta todo tu saldo. El precio exacto lo ves en tu exchange, al lado de la posición abierta.</p>
+<p class="nota">Fórmula usada: largo, entrada × (1 − 1/apalancamiento) ÷ (1 − margen de mantenimiento); corto, entrada × (1 + 1/apalancamiento) ÷ (1 + margen de mantenimiento). Todo se calcula en tu navegador.</p>
+</article>
+<div class="cta">
+  <p>En el canal desarmamos una estafa nueva cada semana, con pruebas y en español.
+  El bot es gratis: escríbele un ticker y te da la ficha completa de esa moneda.</p>
+  <a class="can" href="https://t.me/LideresCripto">Ver el canal</a>
+  <a class="bot" href="https://t.me/LideresCriptoBot_bot?start=estafas">Abrir el bot</a>
+</div>
+<div class="sigue"><h2>Sigue leyendo</h2>
+  <ul>
+    <li><a href="/aprende/precio-de-liquidacion/">El precio de liquidación es un imán</a></li>
+    <li><a href="/aprende/que-es-una-liquidacion/">Liquidaciones: cuando la bolsa cierra tu posición</a></li>
+    <li><a href="/aprende/cuanto-arriesgar-por-operacion/">Cuánto arriesgar por operación</a></li>
+  </ul></div>
+</main>
+<footer><div class="env">
+  <p>Líderes Cripto · seguimos posiciones públicas de Hyperliquid y OKX y lo contamos en español.</p>
+  <p>No es asesoría financiera. Mostramos lo que hacen los líderes, la decisión es tuya.</p>
+  <p><a href="/">Inicio</a> · <a href="/aprende/">Aprende</a> · <a href="https://t.me/LideresCripto">Canal</a> · <a href="https://t.me/LideresCriptoBot_bot?start=aprende">Bot</a></p>
+</div></footer>
+<script src="/c.js" defer></script>
+</body>
+</html>

@@ -125,6 +125,9 @@ del mismo lado, en menos de doce horas.
 - Herramienta gratis: Verificar USDT: comprueba si el USDT que recibiste es real o falso
   https://liderescripto.com/herramientas/verificar-usdt/
   Pega la dirección del contrato del token que te llegó y te decimos si es el USDT oficial en Tron, BNB Chain, Ethereum o Solana, o si es una copia. Gratis, sin registrarte y sin conectar tu billetera.
+- Herramienta gratis: Calculadora de liquidación: a qué precio te liquidan en futuros cripto
+  https://liderescripto.com/herramientas/calculadora-de-liquidacion/
+  Pon tu precio de entrada, el apalancamiento y si estás en largo o en corto, y ves a qué precio te cierran la posición y cuánto tiene que moverse el mercado. Gratis y sin registrarte.
 
 ## Aprende (explicaciones en español, gratis)
 
