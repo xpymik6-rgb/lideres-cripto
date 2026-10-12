@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Verificar USDT: comprueba si el USDT que recibiste es real o falso</title>
+<meta name="description" content="Pega la dirección del contrato del token que te llegó y te decimos si es el USDT oficial en Tron, BNB Chain, Ethereum o Solana, o si es una copia. Gratis, sin registrarte y sin conectar tu billetera.">
+<link rel="canonical" href="https://liderescripto.com/herramientas/verificar-usdt/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Verificar USDT: comprueba si el USDT que recibiste es real o falso">
+<meta property="og:description" content="Pega la dirección del contrato del token que te llegó y te decimos si es el USDT oficial en Tron, BNB Chain, Ethereum o Solana, o si es una copia. Gratis, sin registrarte y sin conectar tu billetera.">
+<meta property="og:url" content="https://liderescripto.com/herramientas/verificar-usdt/">
+<meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://liderescripto.com/og-aprende.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://liderescripto.com/og-aprende.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/aprende/estilo.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebApplication",
+      "name":"¿Tu USDT es real? Compruébalo aquí",
+      "description":"Pega la dirección del contrato del token que te llegó y te decimos si es el USDT oficial en Tron, BNB Chain, Ethereum o Solana, o si es una copia. Gratis, sin registrarte y sin conectar tu billetera.",
+      "url":"https://liderescripto.com/herramientas/verificar-usdt/",
+      "applicationCategory":"FinanceApplication",
+      "operatingSystem":"Any",
+      "inLanguage":"es",
+      "isAccessibleForFree":true,
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+      "publisher":{"@type":"Organization","name":"Líderes Cripto","url":"https://liderescripto.com/"}
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"¿Cómo verifico si mi USDT es real?","acceptedAnswer":{"@type":"Answer","text":"Busca la dirección del contrato del token en tu billetera o en el explorador de la red, pégala en el verificador y compárala con la oficial. Si no coincide letra por letra, no es USDT."}},
+        {"@type":"Question","name":"¿Dónde encuentro la dirección del contrato del token?","acceptedAnswer":{"@type":"Answer","text":"En tu billetera, tocando el token y abriendo su información o el explorador. En el explorador de la red (tronscan.org, bscscan.com, etherscan.io), dentro de la transacción que recibiste."}},
+        {"@type":"Question","name":"¿Tengo que conectar mi billetera?","acceptedAnswer":{"@type":"Answer","text":"No. Solo pegas una dirección pública. El verificador funciona en tu navegador y no envía nada a ningún servidor."}},
+        {"@type":"Question","name":"¿Por qué mi billetera dice USDT si es falso?","acceptedAnswer":{"@type":"Answer","text":"Porque la billetera muestra el nombre que el token dice tener. Cualquiera puede crear un token llamado USDT con el mismo logo. Lo único que no se puede copiar es la dirección del contrato."}}
+      ]
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Inicio","item":"https://liderescripto.com/"},
+        {"@type":"ListItem","position":2,"name":"Herramientas","item":"https://liderescripto.com/herramientas/"},
+        {"@type":"ListItem","position":3,"name":"¿Tu USDT es real? Compruébalo aquí","item":"https://liderescripto.com/herramientas/verificar-usdt/"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header><div class="env">
+  <a class="lg" href="/">Líderes Cripto</a>
+  <a href="https://t.me/LideresCripto">Canal en Telegram</a>
+</div></header>
+<main class="env">
+
+<nav class="miga"><a href="/">Inicio</a> › <a href="/herramientas/">Herramientas</a></nav>
+<p class="razdel" style="color:#5df2c0">Herramienta gratis</p>
+<h1>¿Tu USDT es real? Compruébalo aquí</h1>
+<p class="bajada">Pega la dirección del contrato del token que te llegó y te decimos si es el USDT oficial en Tron, BNB Chain, Ethereum o Solana, o si es una copia. Gratis, sin registrarte y sin conectar tu billetera.</p>
+<article>
+
+<div class="verif">
+  <label for="dir">Dirección del contrato del token</label>
+  <input id="dir" type="text" autocomplete="off" spellcheck="false"
+         placeholder="Ej.: TR7NHq... o 0x55d3...">
+  <button id="btn" type="button">Verificar</button>
+  <div id="res" role="status" aria-live="polite"></div>
+</div>
+<script>
+(function () {
+  var OFICIALES = [
+  {red:'Tron (TRC20)', dir:'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t', mayus:true, expl:'https://tronscan.org/#/token20/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t'},
+  {red:'BNB Chain (BEP20)', dir:'0x55d398326f99059fF775485246999027B3197955', mayus:false, expl:'https://bscscan.com/token/0x55d398326f99059fF775485246999027B3197955'},
+  {red:'Ethereum (ERC20)', dir:'0xdac17f958d2ee523a2206206994597c13d831ec7', mayus:false, expl:'https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7'},
+  {red:'Solana', dir:'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB', mayus:true, expl:'https://solscan.io/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB'}
+];
+  var inp = document.getElementById('dir'), res = document.getElementById('res');
+  function limpio(s) { return (s || '').replace(/\s+/g, '').replace(/^["']|["']$/g, ''); }
+  function igual(a, c) { return c.mayus ? a === c.dir : a.toLowerCase() === c.dir.toLowerCase(); }
+  function gemelo(a, c) {
+    var x = c.mayus ? a : a.toLowerCase(), y = c.mayus ? c.dir : c.dir.toLowerCase();
+    return x.length === y.length && x !== y && x.slice(0, 4) === y.slice(0, 4) && x.slice(-4) === y.slice(-4);
+  }
+  function mostrar(clase, html) { res.className = clase; res.innerHTML = html; }
+  function verificar() {
+    var a = limpio(inp.value);
+    if (!a) { mostrar('', ''); return; }
+    for (var i = 0; i < OFICIALES.length; i++) {
+      var c = OFICIALES[i];
+      if (igual(a, c)) {
+        mostrar('ok', '<b>Es el USDT oficial en ' + c.red + '.</b> La dirección coincide exactamente. ' +
+          'Puedes verlo tú mismo en <a href="' + c.expl + '" rel="nofollow noopener" target="_blank">el explorador de la red</a>.');
+        return;
+      }
+    }
+    for (var j = 0; j < OFICIALES.length; j++) {
+      if (gemelo(a, OFICIALES[j])) {
+        mostrar('mal', '<b>Cuidado: se parece al USDT de ' + OFICIALES[j].red + ', pero NO es.</b> ' +
+          'Empieza y termina igual, cambia en el medio. Así se hacen las direcciones falsas para engañar a la vista. ' +
+          '<a href="/aprende/envenenamiento-de-direcciones/">Cómo funciona este truco</a>.');
+        return;
+      }
+    }
+    mostrar('mal', '<b>No es USDT oficial</b> en ninguna de las redes que revisamos (Tron, BNB Chain, Ethereum, Solana). ' +
+      'Si tu billetera lo muestra como USDT, es una copia. No entregues nada a cambio. ' +
+      '<a href="/aprende/usdt-falso-flash-usdt/">Qué hacer ahora</a>.');
+  }
+  document.getElementById('btn').addEventListener('click', verificar);
+  inp.addEventListener('keydown', function (e) { if (e.key === 'Enter') verificar(); });
+  inp.addEventListener('input', function () { if (!limpio(inp.value)) mostrar('', ''); });
+})();
+</script>
+<style>
+.verif{border:1px solid #2a3d61;background:rgba(14,22,38,.72);border-radius:8px;padding:18px;margin:8px 0 30px}
+.verif label{display:block;font-size:14px;color:#7d90ae;margin-bottom:8px}
+.verif input{width:100%;box-sizing:border-box;font:16px "IBM Plex Mono",ui-monospace,monospace;
+  background:#050810;color:#e8eff9;border:1px solid #2a3d61;border-radius:6px;padding:12px}
+.verif button{margin-top:12px;background:#5df2c0;color:#050810;font-weight:600;font-size:16px;
+  border:0;border-radius:5px;padding:12px 22px;cursor:pointer}
+#res{margin-top:16px;border-radius:6px;line-height:1.55}
+#res.ok{background:rgba(93,242,192,.12);border:1px solid #5df2c0;padding:14px}
+#res.mal{background:rgba(255,107,107,.12);border:1px solid #ff6b6b;padding:14px}
+#res b{color:#fff}
+</style>
+<h2>Las direcciones oficiales</h2>
+<ul class="contratos">
+<li><b>Tron (TRC20):</b><br><code>TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t</code></li>
+<li><b>BNB Chain (BEP20):</b><br><code>0x55d398326f99059fF775485246999027B3197955</code></li>
+<li><b>Ethereum (ERC20):</b><br><code>0xdac17f958d2ee523a2206206994597c13d831ec7</code></li>
+<li><b>Solana:</b><br><code>Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB</code></li>
+</ul>
+<p>En BNB Chain el USDT lo emite Binance y no Tether directamente, pero es el que aceptan todos los exchanges.</p>
+
+<h2>Dónde encuentro la dirección del contrato</h2>
+<p><b>En tu billetera:</b> toca el USDT que recibiste y busca «información del token» o «ver en el explorador».</p>
+<p><b>En el explorador de la red:</b> abre la transacción que recibiste en tronscan.org, bscscan.com o etherscan.io. Ahí ves qué token se movió y su contrato. Escribe la dirección del explorador tú mismo, no entres por enlaces que te pasaron.</p>
+
+<h2>Por qué esto es lo único que sirve</h2>
+<p>Cualquiera puede crear un token que se llame Tether USD, con el símbolo USDT y el mismo logo. Tu billetera lo va a mostrar igual que el real. Lo único que no se puede copiar es la dirección del contrato: es su documento de identidad en la cadena.</p>
+<p>Si alguien te pagó con USDT y la dirección no coincide, no entregues nada. Lee <a href="/aprende/usdt-falso-flash-usdt/">cómo funciona el USDT falso</a> y qué hacer.</p>
+<p class="nota">Direcciones verificadas el 10 de octubre de 2026 en CoinGecko, en el registro de tokens de Trust Wallet y en tether.to. El verificador funciona en tu navegador: no guardamos ni enviamos lo que pegas.</p>
+</article>
+<div class="cta">
+  <p>En el canal desarmamos una estafa nueva cada semana, con pruebas y en español.
+  El bot es gratis: escríbele un ticker y te da la ficha completa de esa moneda.</p>
+  <a class="can" href="https://t.me/LideresCripto">Ver el canal</a>
+  <a class="bot" href="https://t.me/LideresCriptoBot_bot?start=estafas">Abrir el bot</a>
+</div>
+<div class="sigue"><h2>Sigue leyendo</h2>
+  <ul>
+    <li><a href="/aprende/usdt-falso-flash-usdt/">USDT falso: cómo saber si lo que te llegó es real</a></li>
+    <li><a href="/aprende/envenenamiento-de-direcciones/">La dirección que se parece a la tuya</a></li>
+    <li><a href="/aprende/comprobante-falso-p2p/">El comprobante que no es un pago</a></li>
+  </ul></div>
+</main>
+<footer><div class="env">
+  <p>Líderes Cripto · seguimos posiciones públicas de Hyperliquid y OKX y lo contamos en español.</p>
+  <p>No es asesoría financiera. Mostramos lo que hacen los líderes, la decisión es tuya.</p>
+  <p><a href="/">Inicio</a> · <a href="/aprende/">Aprende</a> · <a href="https://t.me/LideresCripto">Canal</a> · <a href="https://t.me/LideresCriptoBot_bot?start=aprende">Bot</a></p>
+</div></footer>
+<script src="/c.js" defer></script>
+</body>
+</html>

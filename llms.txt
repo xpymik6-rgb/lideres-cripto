@@ -122,6 +122,9 @@ del mismo lado, en menos de doce horas.
   https://liderescripto.com/aprende/estafa-inversion-romantica-pig-butchering/
   ¿Qué es el pig butchering? Es una estafa en la que alguien construye una amistad o relación contigo por internet y después te lleva a invertir en una plataforma de cripto falsa. Ves ganancias, pero no puedes retirar nada.
   ¿Cómo sé si una plataforma de inversión es falsa? Si te la recomendó alguien que conociste por internet, solo existe en su enlace y para retirar te piden pagar impuestos o comisiones antes, es falsa.
+- Herramienta gratis: Verificar USDT: comprueba si el USDT que recibiste es real o falso
+  https://liderescripto.com/herramientas/verificar-usdt/
+  Pega la dirección del contrato del token que te llegó y te decimos si es el USDT oficial en Tron, BNB Chain, Ethereum o Solana, o si es una copia. Gratis, sin registrarte y sin conectar tu billetera.
 
 ## Aprende (explicaciones en español, gratis)
 
