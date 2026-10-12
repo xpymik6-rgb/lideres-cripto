@@ -1,6 +1,46 @@
 {
- "actualizado": 1791814808.1273515,
+ "actualizado": 1791825615.27176,
  "avisos": [
+  {
+   "ts": 1791824751.9037933,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: -4,2% (salió bien)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/1066"
+  },
+  {
+   "ts": 1791824742.361454,
+   "tipo": "Señal",
+   "texto": "liquidaciones $SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/1065"
+  },
+  {
+   "ts": 1791824711.644823,
+   "tipo": "Resultados",
+   "texto": "resultado $NEAR: -4,2% (salió bien)",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/1064"
+  },
+  {
+   "ts": 1791824411.3314373,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 12.10",
+   "monedas": [
+    "BTC",
+    "VVV",
+    "STRK",
+    "ETH",
+    "UNI"
+   ],
+   "url": "https://t.me/LideresCripto/1063"
+  },
   {
    "ts": 1791813961.9550984,
    "tipo": "Señal",
@@ -154,44 +194,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1033"
-  },
-  {
-   "ts": 1791752428.2551486,
-   "tipo": "Señal",
-   "texto": "historia NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1030"
-  },
-  {
-   "ts": 1791745253.0681844,
-   "tipo": "Edición del radar",
-   "texto": "radar 11.10 14:00",
-   "monedas": [
-    "ETH",
-    "HYPE",
-    "BTC",
-    "NEAR",
-    "APT",
-    "CFX",
-    "LIT"
-   ],
-   "url": "https://t.me/LideresCripto/1027"
-  },
-  {
-   "ts": 1791743415.5216744,
-   "tipo": "Noticias",
-   "texto": "noticias 11.10 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1026"
-  },
-  {
-   "ts": 1791734415.9624624,
-   "tipo": "Guía",
-   "texto": "qué es el interés abierto",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1025"
   }
  ]
 }
