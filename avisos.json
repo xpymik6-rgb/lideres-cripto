@@ -1,6 +1,24 @@
 {
- "actualizado": 1791832802.4164963,
+ "actualizado": 1791840003.8358757,
  "avisos": [
+  {
+   "ts": 1791839194.4878836,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $PUMP",
+   "monedas": [
+    "PUMP"
+   ],
+   "url": "https://t.me/LideresCripto/1072"
+  },
+  {
+   "ts": 1791838821.0619185,
+   "tipo": "Señal",
+   "texto": "historia ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1071"
+  },
   {
    "ts": 1791831639.594003,
    "tipo": "Edición del radar",
@@ -175,28 +193,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1039"
-  },
-  {
-   "ts": 1791766837.9868882,
-   "tipo": "Edición del radar",
-   "texto": "radar 11.10 20:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "ATH",
-    "GRAM",
-    "WLD",
-    "KAIA"
-   ],
-   "url": "https://t.me/LideresCripto/1038"
-  },
-  {
-   "ts": 1791765018.7669673,
-   "tipo": "Noticias",
-   "texto": "noticias 11.10 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1037"
   }
  ]
 }
