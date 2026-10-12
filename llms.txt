@@ -114,6 +114,14 @@ del mismo lado, en menos de doce horas.
   https://liderescripto.com/aprende/dinero-por-error-credito-a-tu-nombre/
   Me llegó dinero por error a mi billetera, ¿lo devuelvo? No lo envíes tú a otra cuenta, aunque te lo pidan. Escribe al soporte oficial de tu billetera o banco para que revisen el origen y reviertan el movimiento. Puede ser un crédito sacado a tu nombre.
   ¿Cómo funciona la estafa del crédito a mi nombre? Los delincuentes consiguen tus claves, piden un crédito exprés desde tu propia billetera, te dicen que el dinero llegó por error y te piden devolverlo a otra cuenta. Ellos se quedan la plata y tú quedas con la deuda.
+- Airdrop falso y drainers: cómo te vacían la billetera con una sola firma
+  https://liderescripto.com/aprende/airdrop-falso-drainer/
+  ¿Qué es un wallet drainer? Es un programa en una página falsa que te hace firmar un permiso para mover tus tokens. Con esa firma vacía tu billetera sin necesitar tus doce palabras.
+  ¿Un airdrop puede vaciar mi billetera? Un airdrop falso sí. Si conectas la billetera y firmas un permiso tipo approve o permit en una página que no es la oficial, pueden llevarse tus tokens.
+- Estafa de inversión por amistad o romance (pig butchering): la plataforma donde ganas y no puedes retirar
+  https://liderescripto.com/aprende/estafa-inversion-romantica-pig-butchering/
+  ¿Qué es el pig butchering? Es una estafa en la que alguien construye una amistad o relación contigo por internet y después te lleva a invertir en una plataforma de cripto falsa. Ves ganancias, pero no puedes retirar nada.
+  ¿Cómo sé si una plataforma de inversión es falsa? Si te la recomendó alguien que conociste por internet, solo existe en su enlace y para retirar te piden pagar impuestos o comisiones antes, es falsa.
 
 ## Aprende (explicaciones en español, gratis)
 

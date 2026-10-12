@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Airdrop falso y drainers: cómo te vacían la billetera con una sola firma</title>
+<meta name="description" content="Un enlace a un airdrop, conectas la billetera, firmas algo que no cuesta gas y a los minutos no te queda nada. Qué es un drainer, qué firmas son peligrosas y cómo revocar permisos.">
+<link rel="canonical" href="https://liderescripto.com/aprende/airdrop-falso-drainer/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Airdrop falso y drainers: cómo te vacían la billetera con una sola firma">
+<meta property="og:description" content="Un enlace a un airdrop, conectas la billetera, firmas algo que no cuesta gas y a los minutos no te queda nada. Qué es un drainer, qué firmas son peligrosas y cómo revocar permisos.">
+<meta property="og:url" content="https://liderescripto.com/aprende/airdrop-falso-drainer/">
+<meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://liderescripto.com/og-aprende.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://liderescripto.com/og-aprende.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/aprende/estilo.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Article",
+      "headline":"La firma que te vacía la billetera",
+      "description":"Un enlace a un airdrop, conectas la billetera, firmas algo que no cuesta gas y a los minutos no te queda nada. Qué es un drainer, qué firmas son peligrosas y cómo revocar permisos.",
+      "inLanguage":"es",
+      "mainEntityOfPage":{"@type":"WebPage","@id":"https://liderescripto.com/aprende/airdrop-falso-drainer/"},
+      "datePublished":"2026-10-12",
+      "dateModified":"2026-10-12",
+      "author":{"@type":"Organization","name":"Líderes Cripto","url":"https://liderescripto.com/"},
+      "publisher":{"@type":"Organization","name":"Líderes Cripto","url":"https://liderescripto.com/"}
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"¿Qué es un wallet drainer?",
+          "acceptedAnswer":{"@type":"Answer","text":"Es un programa en una página falsa que te hace firmar un permiso para mover tus tokens. Con esa firma vacía tu billetera sin necesitar tus doce palabras."}},
+        {"@type":"Question","name":"¿Un airdrop puede vaciar mi billetera?",
+          "acceptedAnswer":{"@type":"Answer","text":"Un airdrop falso sí. Si conectas la billetera y firmas un permiso tipo approve o permit en una página que no es la oficial, pueden llevarse tus tokens."}},
+        {"@type":"Question","name":"¿Firmar un mensaje que no cobra gas es seguro?",
+          "acceptedAnswer":{"@type":"Answer","text":"No siempre. La firma permit no cuesta gas y aun así autoriza a gastar tus tokens. Con ella se hizo el robo más grande de 2025, 6,5 millones de dólares."}},
+        {"@type":"Question","name":"¿Cómo revoco los permisos de mi billetera?",
+          "acceptedAnswer":{"@type":"Answer","text":"Con herramientas como revoke.cash: ves qué direcciones pueden gastar tus tokens y quitas las que no reconoces. Luego pasa tus fondos a una billetera nueva."}}
+      ]
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Inicio","item":"https://liderescripto.com/"},
+        {"@type":"ListItem","position":2,"name":"Aprende","item":"https://liderescripto.com/aprende/"},
+        {"@type":"ListItem","position":3,"name":"La firma que te vacía la billetera","item":"https://liderescripto.com/aprende/airdrop-falso-drainer/"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header><div class="env">
+  <a class="lg" href="/">Líderes Cripto</a>
+  <a href="https://t.me/LideresCripto">Canal en Telegram</a>
+</div></header>
+<main class="env">
+
+<nav class="miga"><a href="/">Inicio</a> › <a href="/aprende/">Aprende</a></nav>
+<p class="razdel">Cómo te roban</p>
+<h1>La firma que te vacía la billetera</h1>
+<p class="bajada">Un enlace a un airdrop, conectas la billetera, firmas algo que no cuesta gas y a los minutos no te queda nada. Qué es un drainer, qué firmas son peligrosas y cómo revocar permisos.</p>
+<article>
+<p>Ves un anuncio de airdrop: un token nuevo regala monedas a los que usaron tal red, o hay recompensas «sin reclamar» a tu nombre. El enlace está en una respuesta en X, en un grupo de Telegram o en un token raro que apareció solo en tu billetera.</p>
+<p>Entras, conectas la billetera, firmas lo que te pide. No te cobra ni gas. Unos minutos después tus monedas ya no están.</p>
+
+<h2>Qué es un drainer</h2>
+<p>Un drainer es un programa montado en una página falsa. No necesita tus doce palabras: le alcanza con que tú mismo firmes un permiso para mover tus monedas. Con ese permiso las saca cuando quiere, sin volver a preguntarte.</p>
+<p>Las firmas que usan tienen nombres técnicos que la billetera a veces muestra: <b>approve</b>, <b>permit</b>, <b>setApprovalForAll</b>. Todas dicen lo mismo en el fondo: «autorizo a esta dirección a gastar mis tokens». La más traicionera es <b>permit</b>: es un mensaje firmado, no una transacción, así que no cuesta gas y parece inofensiva.</p>
+
+<h2>Qué tan grande es</h2>
+<p>La firma de seguridad Scam Sniffer, que rastrea estos robos, contó <b>494 millones de dólares</b> robados por drainers en 2024. En 2025 la cifra bajó a 83,85 millones, de 106.106 víctimas, y ellos mismos aclaran que es un piso, no el total. El robo más grande de 2025, 6,5 millones de dólares, fue con una sola firma de tipo permit.</p>
+<p>Bajó, pero no desapareció: sube cada vez que el mercado se anima y llega gente nueva.</p>
+
+<h2>Cómo reconocerlo</h2>
+<ul>
+<li>Airdrops que te llegan por mensaje, respuesta o anuncio, y no desde el canal oficial del proyecto.</li>
+<li>Tokens que aparecen solos en tu billetera con el nombre de una página web. Son anzuelos: no los toques ni visites esa web.</li>
+<li>Apuro: «solo quedan 2 horas», «últimos cupos».</li>
+<li>La página pide una firma que no entiendes, o tu billetera te avisa que el sitio es sospechoso.</li>
+<li>La dirección de la página se parece a la del proyecto real pero tiene una letra de más o un dominio raro.</li>
+</ul>
+
+<h2>Las reglas</h2>
+<ul>
+<li><b>Lee qué firmas.</b> Si dice approve, permit o setApprovalForAll para un sitio que no conoces, rechaza.</li>
+<li><b>Usa una billetera aparte para probar cosas nuevas</b>, con poco dinero. Lo grande, en otra billetera que nunca conectas a sitios desconocidos.</li>
+<li><b>Entra a los proyectos escribiendo la dirección tú mismo</b> o desde su cuenta oficial, nunca desde un enlace que te pasaron.</li>
+<li>Una billetera física ayuda, pero firma lo que tú apruebas: si apruebas un permiso malo, también se lo da.</li>
+</ul>
+
+<h2>Si ya firmaste</h2>
+<ul>
+<li>Revoca los permisos ahora. Herramientas como revoke.cash muestran qué direcciones pueden gastar tus tokens y te dejan quitarlas. Escribe la dirección tú mismo.</li>
+<li>Pasa lo que te quede a una billetera nueva. Si además escribiste tus doce palabras en algún sitio, esa billetera está perdida entera: no la uses más.</li>
+<li>Guarda el enlace de la página, la dirección que recibió tus fondos y los hashes, y haz la denuncia.</li>
+<li>No pagues a nadie que prometa recuperarlo.</li>
+</ul>
+<p>Lo que el drainer ya movió casi nunca vuelve. Revocar sirve para que no se lleve lo que queda.</p>
+<p class="nota">Fuente: Scam Sniffer, informe anual de phishing cripto 2025 (drops.scamsniffer.io). Verificado el 12 de octubre de 2026.</p>
+</article>
+<div class="probar"><span class="rot">Compruébalo tú mismo</span><p>Entra a revoke.cash escribiendo la dirección tú mismo, pega la dirección pública de tu billetera (no hace falta conectarla para mirar) y revisa qué permisos diste. Los que no reconoces, quítalos.</p></div>
+<div class="cta">
+  <p>En el canal desarmamos una estafa nueva cada semana, con pruebas y en español.
+  El bot es gratis: escríbele un ticker y te da la ficha completa de esa moneda.</p>
+  <a class="can" href="https://t.me/LideresCripto">Ver el canal</a>
+  <a class="bot" href="https://t.me/LideresCriptoBot_bot?start=estafas">Abrir el bot</a>
+</div>
+<div class="sigue"><h2>Sigue leyendo</h2>
+  <ul>
+    <li><a href="/aprende/envenenamiento-de-direcciones/">La dirección que se parece a la tuya</a></li>
+    <li><a href="/aprende/bot-de-trading-con-ia-estafa/">El bot con IA que «convirtió 68 dólares en 750.000»</a></li>
+    <li><a href="/aprende/como-revisar-el-contrato-de-un-token/">Antes de comprar una moneda rara, mira el contrato</a></li>
+  </ul></div>
+</main>
+<footer><div class="env">
+  <p>Líderes Cripto · seguimos posiciones públicas de Hyperliquid y OKX y lo contamos en español.</p>
+  <p>No es asesoría financiera. Mostramos lo que hacen los líderes, la decisión es tuya.</p>
+  <p><a href="/">Inicio</a> · <a href="/aprende/">Aprende</a> · <a href="https://t.me/LideresCripto">Canal</a> · <a href="https://t.me/LideresCriptoBot_bot?start=aprende">Bot</a></p>
+</div></footer>
+<script src="/c.js" defer></script>
+</body>
+</html>
