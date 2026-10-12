@@ -1,6 +1,27 @@
 {
- "actualizado": 1791768020.6728694,
+ "actualizado": 1791771617.3286538,
  "avisos": [
+  {
+   "ts": 1791770786.0209222,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/1044"
+  },
+  {
+   "ts": 1791768603.0736206,
+   "tipo": "Resultados",
+   "texto": "resultados semana 11.10",
+   "monedas": [
+    "PUMP",
+    "STRK",
+    "DBR",
+    "CRO"
+   ],
+   "url": "https://t.me/LideresCripto/1041"
+  },
   {
    "ts": 1791767176.639689,
    "tipo": "Señal",
@@ -178,22 +199,6 @@
     "UNI"
    ],
    "url": "https://t.me/LideresCripto/1014"
-  },
-  {
-   "ts": 1791666010.7289224,
-   "tipo": "Señal",
-   "texto": "historia NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1013"
-  },
-  {
-   "ts": 1791659319.7049415,
-   "tipo": "Resultados",
-   "texto": "",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1009"
   }
  ]
 }
