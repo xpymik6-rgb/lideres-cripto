@@ -1,6 +1,15 @@
 {
- "actualizado": 1791771617.3286538,
+ "actualizado": 1791778820.880251,
  "avisos": [
+  {
+   "ts": 1791775773.921178,
+   "tipo": "Señal",
+   "texto": "pump $W",
+   "monedas": [
+    "W"
+   ],
+   "url": "https://t.me/LideresCripto/1046"
+  },
   {
    "ts": 1791770786.0209222,
    "tipo": "Señal",
@@ -190,15 +199,6 @@
    "texto": "noticias 10.10 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1015"
-  },
-  {
-   "ts": 1791677115.7904897,
-   "tipo": "Resultados",
-   "texto": "resultado $UNI: +4,6% (salió bien)",
-   "monedas": [
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/1014"
   }
  ]
 }
