@@ -1,6 +1,15 @@
 {
- "actualizado": 1791854407.527367,
+ "actualizado": 1791858018.9294722,
  "avisos": [
+  {
+   "ts": 1791857116.2604249,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: -7,0% (salió al revés)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1081"
+  },
   {
    "ts": 1791853505.0929985,
    "tipo": "Resultados",
@@ -185,15 +194,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1050"
-  },
-  {
-   "ts": 1791788845.4483423,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $ZRO",
-   "monedas": [
-    "ZRO"
-   ],
-   "url": "https://t.me/LideresCripto/1047"
   }
  ]
 }
