@@ -1,6 +1,22 @@
 {
- "actualizado": 1791904802.698891,
+ "actualizado": 1791908410.175981,
  "avisos": [
+  {
+   "ts": 1791907507.5796335,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +0,7% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1100"
+  },
+  {
+   "ts": 1791907207.2068288,
+   "tipo": "Guía",
+   "texto": "qué son las liquidaciones",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1099"
+  },
   {
    "ts": 1791901915.8320875,
    "tipo": "Señal",
@@ -168,24 +184,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/1075"
-  },
-  {
-   "ts": 1791839194.4878836,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $PUMP",
-   "monedas": [
-    "PUMP"
-   ],
-   "url": "https://t.me/LideresCripto/1072"
-  },
-  {
-   "ts": 1791838821.0619185,
-   "tipo": "Señal",
-   "texto": "historia ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1071"
   }
  ]
 }
