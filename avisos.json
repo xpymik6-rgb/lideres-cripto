@@ -1,6 +1,15 @@
 {
- "actualizado": 1791926419.6608312,
+ "actualizado": 1791933611.9823058,
  "avisos": [
+  {
+   "ts": 1791932709.8082483,
+   "tipo": "Resultados",
+   "texto": "resultado $PUMP: -1,5% (salió al revés)",
+   "monedas": [
+    "PUMP"
+   ],
+   "url": "https://t.me/LideresCripto/1109"
+  },
   {
    "ts": 1791925217.5417387,
    "tipo": "Señal",
@@ -177,15 +186,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/1082"
-  },
-  {
-   "ts": 1791857116.2604249,
-   "tipo": "Resultados",
-   "texto": "resultado $HYPE: -7,0% (salió al revés)",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1081"
   }
  ]
 }
