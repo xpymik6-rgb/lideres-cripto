@@ -1,6 +1,15 @@
 {
- "actualizado": 1791919205.4676983,
+ "actualizado": 1791926419.6608312,
  "avisos": [
+  {
+   "ts": 1791925217.5417387,
+   "tipo": "Señal",
+   "texto": "historia BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1106"
+  },
   {
    "ts": 1791918022.554878,
    "tipo": "Edición del radar",
@@ -177,15 +186,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1081"
-  },
-  {
-   "ts": 1791853505.0929985,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: -4,0% (salió bien)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1078"
   }
  ]
 }
