@@ -1,6 +1,15 @@
 {
- "actualizado": 1791886807.6325958,
+ "actualizado": 1791890414.2357302,
  "avisos": [
+  {
+   "ts": 1791889511.8423362,
+   "tipo": "Resultados",
+   "texto": "resultado $ZEC: -7,6% (salió al revés)",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/1092"
+  },
   {
    "ts": 1791885905.3558636,
    "tipo": "Resultados",
@@ -178,15 +187,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/1065"
-  },
-  {
-   "ts": 1791824711.644823,
-   "tipo": "Resultados",
-   "texto": "resultado $NEAR: -4,2% (salió bien)",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1064"
   }
  ]
 }
