@@ -1,6 +1,15 @@
 {
- "actualizado": 1791879605.1970081,
+ "actualizado": 1791886807.6325958,
  "avisos": [
+  {
+   "ts": 1791885905.3558636,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -1,1% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1091"
+  },
   {
    "ts": 1791878703.1123736,
    "tipo": "Resultados",
@@ -178,19 +187,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/1064"
-  },
-  {
-   "ts": 1791824411.3314373,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 12.10",
-   "monedas": [
-    "BTC",
-    "VVV",
-    "STRK",
-    "ETH",
-    "UNI"
-   ],
-   "url": "https://t.me/LideresCripto/1063"
   }
  ]
 }
