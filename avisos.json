@@ -1,6 +1,24 @@
 {
- "actualizado": 1791872402.0721378,
+ "actualizado": 1791879605.1970081,
  "avisos": [
+  {
+   "ts": 1791878703.1123736,
+   "tipo": "Resultados",
+   "texto": "resultado $ZRO: -11,4% (salió al revés)",
+   "monedas": [
+    "ZRO"
+   ],
+   "url": "https://t.me/LideresCripto/1090"
+  },
+  {
+   "ts": 1791878702.8398013,
+   "tipo": "Resultados",
+   "texto": "resultado $HYPE: -5,5% (salió al revés)",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1089"
+  },
   {
    "ts": 1791871519.8172681,
    "tipo": "Resultados",
@@ -173,29 +191,6 @@
     "UNI"
    ],
    "url": "https://t.me/LideresCripto/1063"
-  },
-  {
-   "ts": 1791813961.9550984,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1061"
-  },
-  {
-   "ts": 1791810018.4743347,
-   "tipo": "Edición del radar",
-   "texto": "radar 12.10 08:00",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "NEAR",
-    "ZEC",
-    "ZRO",
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1057"
   }
  ]
 }
