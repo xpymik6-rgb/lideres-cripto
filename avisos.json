@@ -1,6 +1,37 @@
 {
- "actualizado": 1791847221.4024558,
+ "actualizado": 1791854407.527367,
  "avisos": [
+  {
+   "ts": 1791853505.0929985,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -4,0% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1078"
+  },
+  {
+   "ts": 1791853224.8299065,
+   "tipo": "Edición del radar",
+   "texto": "radar 12.10 20:00",
+   "monedas": [
+    "ETH",
+    "HYPE",
+    "BTC",
+    "SOL",
+    "PUMP",
+    "W",
+    "AERO"
+   ],
+   "url": "https://t.me/LideresCripto/1077"
+  },
+  {
+   "ts": 1791851416.310878,
+   "tipo": "Noticias",
+   "texto": "noticias 12.10 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1076"
+  },
   {
    "ts": 1791846367.3713918,
    "tipo": "Señal",
@@ -163,36 +194,6 @@
     "ZRO"
    ],
    "url": "https://t.me/LideresCripto/1047"
-  },
-  {
-   "ts": 1791775773.921178,
-   "tipo": "Señal",
-   "texto": "pump $W",
-   "monedas": [
-    "W"
-   ],
-   "url": "https://t.me/LideresCripto/1046"
-  },
-  {
-   "ts": 1791770786.0209222,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1044"
-  },
-  {
-   "ts": 1791768603.0736206,
-   "tipo": "Resultados",
-   "texto": "resultados semana 11.10",
-   "monedas": [
-    "PUMP",
-    "STRK",
-    "DBR",
-    "CRO"
-   ],
-   "url": "https://t.me/LideresCripto/1041"
   }
  ]
 }
