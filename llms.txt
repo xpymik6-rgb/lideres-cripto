@@ -126,6 +126,14 @@ del mismo lado, en menos de doce horas.
   https://liderescripto.com/aprende/piramide-cripto-rendimiento-diario/
   ¿Cómo saber si una plataforma de inversión cripto es una pirámide? Si promete una ganancia fija diaria o mensual, paga bonos por traer gente y no explica de dónde sale el dinero, es casi seguro una pirámide.
   ¿Por qué me pagaron si es una estafa? Porque en una pirámide los primeros cobran con el dinero de los que entran después. Esos pagos sirven para que confíes y traigas a más personas.
+- App o exchange falso: cómo saber si la plataforma de cripto donde inviertes es real
+  https://liderescripto.com/aprende/app-falsa-exchange-falso/
+  ¿Cómo saber si un exchange de criptomonedas es falso? Si no está en la tienda oficial, te lo recomendó alguien de internet, el nombre imita a una empresa conocida y para retirar te piden pagar antes, es falso.
+  ¿Por qué me piden pagar impuestos para retirar mis ganancias? Es la señal más clara de una app falsa. El FBI documentó casos en que las víctimas pagaron ese «impuesto» y siguieron sin poder retirar.
+- Grupos VIP de señales y pump and dump en Telegram: quién gana y quién paga
+  https://liderescripto.com/aprende/grupos-vip-senales-pump-and-dump/
+  ¿Qué es un pump and dump en cripto? Un grupo compra en silencio una moneda chica, hace que miles de personas la compren a la vez y vende cuando el precio sube. Los que compraron tarde se quedan con la pérdida.
+  ¿Los grupos VIP de señales en Telegram son confiables? Los que hacen cuentas regresivas, solo muestran ganancias y prometen ganar seguro no lo son. Un canal serio publica todos sus resultados, también los malos.
 - Herramienta gratis: Verificar USDT: comprueba si el USDT que recibiste es real o falso
   https://liderescripto.com/herramientas/verificar-usdt/
   Pega la dirección del contrato del token que te llegó y te decimos si es el USDT oficial en Tron, BNB Chain, Ethereum o Solana, o si es una copia. Gratis, sin registrarte y sin conectar tu billetera.
