@@ -1,6 +1,15 @@
 {
- "actualizado": 1791966004.4753368,
+ "actualizado": 1791976805.4515948,
  "avisos": [
+  {
+   "ts": 1791975943.2481096,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: -0,1% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1120"
+  },
   {
    "ts": 1791965328.5882063,
    "tipo": "Señal",
@@ -183,15 +192,6 @@
    "texto": "noticias 13.10 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1093"
-  },
-  {
-   "ts": 1791889511.8423362,
-   "tipo": "Resultados",
-   "texto": "resultado $ZEC: -7,6% (salió al revés)",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/1092"
   }
  ]
 }
