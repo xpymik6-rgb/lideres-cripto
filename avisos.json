@@ -1,6 +1,24 @@
 {
- "actualizado": 1791951621.2124906,
+ "actualizado": 1791958803.2687802,
  "avisos": [
+  {
+   "ts": 1791957900.7012377,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +0,2% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1118"
+  },
+  {
+   "ts": 1791957900.4945278,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: -0,3% (sin movimiento)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1117"
+  },
   {
    "ts": 1791949723.3100748,
    "tipo": "Señal",
@@ -174,24 +192,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1091"
-  },
-  {
-   "ts": 1791878703.1123736,
-   "tipo": "Resultados",
-   "texto": "resultado $ZRO: -11,4% (salió al revés)",
-   "monedas": [
-    "ZRO"
-   ],
-   "url": "https://t.me/LideresCripto/1090"
-  },
-  {
-   "ts": 1791878702.8398013,
-   "tipo": "Resultados",
-   "texto": "resultado $HYPE: -5,5% (salió al revés)",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1089"
   }
  ]
 }
