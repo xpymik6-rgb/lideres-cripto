@@ -1,6 +1,15 @@
 {
- "actualizado": 1791987604.0247602,
+ "actualizado": 1791998412.110843,
  "avisos": [
+  {
+   "ts": 1791995833.0199468,
+   "tipo": "Señal",
+   "texto": "pump $WAL",
+   "monedas": [
+    "WAL"
+   ],
+   "url": "https://t.me/LideresCripto/1127"
+  },
   {
    "ts": 1791982820.4277833,
    "tipo": "Edición del radar",
@@ -187,13 +196,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1100"
-  },
-  {
-   "ts": 1791907207.2068288,
-   "tipo": "Guía",
-   "texto": "qué son las liquidaciones",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1099"
   }
  ]
 }
