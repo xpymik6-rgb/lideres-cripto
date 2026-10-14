@@ -1,6 +1,15 @@
 {
- "actualizado": 1791944406.9536912,
+ "actualizado": 1791951621.2124906,
  "avisos": [
+  {
+   "ts": 1791949723.3100748,
+   "tipo": "Señal",
+   "texto": "pump $BTW",
+   "monedas": [
+    "BTW"
+   ],
+   "url": "https://t.me/LideresCripto/1116"
+  },
   {
    "ts": 1791943504.4765208,
    "tipo": "Resultados",
@@ -183,15 +192,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1089"
-  },
-  {
-   "ts": 1791871519.8172681,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -0,9% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1088"
   }
  ]
 }
