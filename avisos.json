@@ -1,6 +1,28 @@
 {
- "actualizado": 1791998412.110843,
+ "actualizado": 1792005613.6203592,
  "avisos": [
+  {
+   "ts": 1792004410.9366264,
+   "tipo": "Edición del radar",
+   "texto": "radar 14.10 14:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "WAL",
+    "USDT",
+    "HYPE",
+    "LINK",
+    "ASTER"
+   ],
+   "url": "https://t.me/LideresCripto/1129"
+  },
+  {
+   "ts": 1792002620.4500988,
+   "tipo": "Noticias",
+   "texto": "noticias 14.10 13:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1128"
+  },
   {
    "ts": 1791995833.0199468,
    "tipo": "Señal",
@@ -178,24 +200,6 @@
    "texto": "noticias 13.10 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1102"
-  },
-  {
-   "ts": 1791914711.8498921,
-   "tipo": "Resultados",
-   "texto": "resultado $SOL: -0,4% (sin movimiento)",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/1101"
-  },
-  {
-   "ts": 1791907507.5796335,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +0,7% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1100"
   }
  ]
 }
