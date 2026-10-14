@@ -1,6 +1,24 @@
 {
- "actualizado": 1792005613.6203592,
+ "actualizado": 1792012804.1873856,
  "avisos": [
+  {
+   "ts": 1792011949.36145,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1132"
+  },
+  {
+   "ts": 1792011621.4055462,
+   "tipo": "Señal",
+   "texto": "historia BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1131"
+  },
   {
    "ts": 1792004410.9366264,
    "tipo": "Edición del radar",
@@ -176,30 +194,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1106"
-  },
-  {
-   "ts": 1791918022.554878,
-   "tipo": "Edición del radar",
-   "texto": "radar 13.10 14:00",
-   "monedas": [
-    "WLD",
-    "ETH",
-    "NEAR",
-    "HYPE",
-    "S",
-    "SUI",
-    "1000BONK",
-    "AERO",
-    "JTO"
-   ],
-   "url": "https://t.me/LideresCripto/1103"
-  },
-  {
-   "ts": 1791916223.1609287,
-   "tipo": "Noticias",
-   "texto": "noticias 13.10 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1102"
   }
  ]
 }
