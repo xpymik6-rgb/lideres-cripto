@@ -1,6 +1,33 @@
 {
- "actualizado": 1792070413.1863136,
+ "actualizado": 1792074014.1304655,
  "avisos": [
+  {
+   "ts": 1792073548.3048816,
+   "tipo": "Señal",
+   "texto": "$102.0 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/1154"
+  },
+  {
+   "ts": 1792073111.1236658,
+   "tipo": "Resultados",
+   "texto": "resultado $SOL: -4,0% (salió al revés)",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/1153"
+  },
+  {
+   "ts": 1792073110.8426034,
+   "tipo": "Resultados",
+   "texto": "resultado $ENA: -11,3% (salió al revés)",
+   "monedas": [
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/1152"
+  },
   {
    "ts": 1792069250.9495416,
    "tipo": "Edición del radar",
@@ -166,33 +193,6 @@
    "texto": "noticias 14.10 07:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1121"
-  },
-  {
-   "ts": 1791975943.2481096,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: -0,1% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1120"
-  },
-  {
-   "ts": 1791965328.5882063,
-   "tipo": "Señal",
-   "texto": "$40.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1119"
-  },
-  {
-   "ts": 1791957900.7012377,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +0,2% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1118"
   }
  ]
 }
