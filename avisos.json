@@ -1,6 +1,28 @@
 {
- "actualizado": 1792081204.0311291,
+ "actualizado": 1792084811.2971056,
  "avisos": [
+  {
+   "ts": 1792083946.1434171,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1159"
+  },
+  {
+   "ts": 1792083609.1924329,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 15.10",
+   "monedas": [
+    "BTC",
+    "HYPE",
+    "ZRO",
+    "ETH",
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/1158"
+  },
   {
    "ts": 1792080001.3583834,
    "tipo": "Guía",
@@ -169,30 +191,6 @@
    "texto": "noticias 14.10 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1128"
-  },
-  {
-   "ts": 1791995833.0199468,
-   "tipo": "Señal",
-   "texto": "pump $WAL",
-   "monedas": [
-    "WAL"
-   ],
-   "url": "https://t.me/LideresCripto/1127"
-  },
-  {
-   "ts": 1791982820.4277833,
-   "tipo": "Edición del radar",
-   "texto": "radar 14.10 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "BTW",
-    "SOL",
-    "ENA",
-    "S"
-   ],
-   "url": "https://t.me/LideresCripto/1124"
   }
  ]
 }
