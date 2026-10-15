@@ -1,6 +1,15 @@
 {
- "actualizado": 1792027219.0856283,
+ "actualizado": 1792030818.2275522,
  "avisos": [
+  {
+   "ts": 1792029790.4472463,
+   "tipo": "Señal",
+   "texto": "pump $WAL",
+   "monedas": [
+    "WAL"
+   ],
+   "url": "https://t.me/LideresCripto/1142"
+  },
   {
    "ts": 1792026016.8346553,
    "tipo": "Edición del radar",
@@ -191,13 +200,6 @@
     "KORU"
    ],
    "url": "https://t.me/LideresCripto/1111"
-  },
-  {
-   "ts": 1791937806.8068595,
-   "tipo": "Noticias",
-   "texto": "noticias 13.10 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1110"
   }
  ]
 }
