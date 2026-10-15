@@ -1,6 +1,15 @@
 {
- "actualizado": 1792034407.685496,
+ "actualizado": 1792041610.1945052,
  "avisos": [
+  {
+   "ts": 1792040744.9794583,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1145"
+  },
   {
    "ts": 1792031056.0879142,
    "tipo": "Señal",
@@ -183,15 +192,6 @@
     "BTW"
    ],
    "url": "https://t.me/LideresCripto/1116"
-  },
-  {
-   "ts": 1791943504.4765208,
-   "tipo": "Resultados",
-   "texto": "resultado $SOL: +5,2% (salió bien)",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/1115"
   }
  ]
 }
