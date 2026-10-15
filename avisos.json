@@ -1,6 +1,24 @@
 {
- "actualizado": 1792030818.2275522,
+ "actualizado": 1792034407.685496,
  "avisos": [
+  {
+   "ts": 1792031056.0879142,
+   "tipo": "Señal",
+   "texto": "liquidaciones $SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/1144"
+  },
+  {
+   "ts": 1792030994.0243497,
+   "tipo": "Señal",
+   "texto": "liquidaciones $XRP",
+   "monedas": [
+    "XRP"
+   ],
+   "url": "https://t.me/LideresCripto/1143"
+  },
   {
    "ts": 1792029790.4472463,
    "tipo": "Señal",
@@ -174,32 +192,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/1115"
-  },
-  {
-   "ts": 1791939914.895328,
-   "tipo": "Resultados",
-   "texto": "resultado $SOL: +0,7% (sin movimiento)",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/1112"
-  },
-  {
-   "ts": 1791939614.6405203,
-   "tipo": "Edición del radar",
-   "texto": "radar 13.10 20:00",
-   "monedas": [
-    "ZEC",
-    "BTC",
-    "HYPE",
-    "WLD",
-    "SEI",
-    "BTW",
-    "PLUME",
-    "PYTH",
-    "KORU"
-   ],
-   "url": "https://t.me/LideresCripto/1111"
   }
  ]
 }
