@@ -1,6 +1,28 @@
 {
- "actualizado": 1792012804.1873856,
+ "actualizado": 1792027219.0856283,
  "avisos": [
+  {
+   "ts": 1792026016.8346553,
+   "tipo": "Edición del radar",
+   "texto": "radar 14.10 20:00",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "ZEC",
+    "KORU",
+    "LIT",
+    "XMR",
+    "1000BONK"
+   ],
+   "url": "https://t.me/LideresCripto/1139"
+  },
+  {
+   "ts": 1792024209.211235,
+   "tipo": "Noticias",
+   "texto": "noticias 14.10 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1138"
+  },
   {
    "ts": 1792011949.36145,
    "tipo": "Señal",
@@ -176,24 +198,6 @@
    "texto": "noticias 13.10 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1110"
-  },
-  {
-   "ts": 1791932709.8082483,
-   "tipo": "Resultados",
-   "texto": "resultado $PUMP: -1,5% (salió al revés)",
-   "monedas": [
-    "PUMP"
-   ],
-   "url": "https://t.me/LideresCripto/1109"
-  },
-  {
-   "ts": 1791925217.5417387,
-   "tipo": "Señal",
-   "texto": "historia BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1106"
   }
  ]
 }
