@@ -1,6 +1,25 @@
 {
- "actualizado": 1792041610.1945052,
+ "actualizado": 1792070413.1863136,
  "avisos": [
+  {
+   "ts": 1792069250.9495416,
+   "tipo": "Edición del radar",
+   "texto": "radar 15.10 08:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "ZEREBRO",
+    "LIT"
+   ],
+   "url": "https://t.me/LideresCripto/1148"
+  },
+  {
+   "ts": 1792067407.050009,
+   "tipo": "Noticias",
+   "texto": "noticias 15.10 07:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1147"
+  },
   {
    "ts": 1792040744.9794583,
    "tipo": "Señal",
@@ -174,24 +193,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1118"
-  },
-  {
-   "ts": 1791957900.4945278,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: -0,3% (sin movimiento)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1117"
-  },
-  {
-   "ts": 1791949723.3100748,
-   "tipo": "Señal",
-   "texto": "pump $BTW",
-   "monedas": [
-    "BTW"
-   ],
-   "url": "https://t.me/LideresCripto/1116"
   }
  ]
 }
