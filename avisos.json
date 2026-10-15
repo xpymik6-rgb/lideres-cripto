@@ -1,6 +1,22 @@
 {
- "actualizado": 1792077604.9334142,
+ "actualizado": 1792081204.0311291,
  "avisos": [
+  {
+   "ts": 1792080001.3583834,
+   "tipo": "Guía",
+   "texto": "cómo leemos a los líderes",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1157"
+  },
+  {
+   "ts": 1792078955.4145992,
+   "tipo": "Señal",
+   "texto": "pump $STRK",
+   "monedas": [
+    "STRK"
+   ],
+   "url": "https://t.me/LideresCripto/1156"
+  },
   {
    "ts": 1792075360.0131087,
    "tipo": "Señal",
@@ -177,24 +193,6 @@
     "S"
    ],
    "url": "https://t.me/LideresCripto/1124"
-  },
-  {
-   "ts": 1791981267.7749276,
-   "tipo": "Señal",
-   "texto": "liquidaciones $SOL",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/1123"
-  },
-  {
-   "ts": 1791981077.0451615,
-   "tipo": "Señal",
-   "texto": "liquidaciones $ENA",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/1122"
   }
  ]
 }
