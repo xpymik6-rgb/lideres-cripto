@@ -1,6 +1,15 @@
 {
- "actualizado": 1792099204.16758,
+ "actualizado": 1792102811.5838077,
  "avisos": [
+  {
+   "ts": 1792101909.329956,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +1,7% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1167"
+  },
   {
    "ts": 1792098021.5513728,
    "tipo": "Señal",
@@ -184,13 +193,6 @@
     "1000BONK"
    ],
    "url": "https://t.me/LideresCripto/1139"
-  },
-  {
-   "ts": 1792024209.211235,
-   "tipo": "Noticias",
-   "texto": "noticias 14.10 19:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1138"
   }
  ]
 }
