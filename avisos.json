@@ -1,6 +1,33 @@
 {
- "actualizado": 1792128021.3435957,
+ "actualizado": 1792131611.9553812,
  "avisos": [
+  {
+   "ts": 1792130709.404827,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +1,0% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1181"
+  },
+  {
+   "ts": 1792130709.2204819,
+   "tipo": "Resultados",
+   "texto": "resultado $ETH: +3,1% (salió bien)",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1180"
+  },
+  {
+   "ts": 1792130705.9297101,
+   "tipo": "Resultados",
+   "texto": "resultado $BTC: +1,0% (sin movimiento)",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1179"
+  },
   {
    "ts": 1792127161.3677478,
    "tipo": "Señal",
@@ -159,36 +186,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1154"
-  },
-  {
-   "ts": 1792073111.1236658,
-   "tipo": "Resultados",
-   "texto": "resultado $SOL: -4,0% (salió al revés)",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/1153"
-  },
-  {
-   "ts": 1792073110.8426034,
-   "tipo": "Resultados",
-   "texto": "resultado $ENA: -11,3% (salió al revés)",
-   "monedas": [
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/1152"
-  },
-  {
-   "ts": 1792069250.9495416,
-   "tipo": "Edición del radar",
-   "texto": "radar 15.10 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEREBRO",
-    "LIT"
-   ],
-   "url": "https://t.me/LideresCripto/1148"
   }
  ]
 }
