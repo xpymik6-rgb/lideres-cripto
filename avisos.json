@@ -1,6 +1,15 @@
 {
- "actualizado": 1792178414.0765903,
+ "actualizado": 1792185612.5974967,
  "avisos": [
+  {
+   "ts": 1792184410.4381416,
+   "tipo": "Señal",
+   "texto": "historia BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1193"
+  },
   {
    "ts": 1792177511.5667944,
    "tipo": "Resultados",
@@ -183,13 +192,6 @@
     "STRK"
    ],
    "url": "https://t.me/LideresCripto/1163"
-  },
-  {
-   "ts": 1792089007.7297592,
-   "tipo": "Noticias",
-   "texto": "noticias 15.10 13:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1162"
   }
  ]
 }
