@@ -1,6 +1,24 @@
 {
- "actualizado": 1792189209.7646573,
+ "actualizado": 1792200004.115756,
  "avisos": [
+  {
+   "ts": 1792198821.3914263,
+   "tipo": "Edición del radar",
+   "texto": "radar 16.10 20:00",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/1199"
+  },
+  {
+   "ts": 1792197010.5182955,
+   "tipo": "Noticias",
+   "texto": "noticias 16.10 19:30",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1198"
+  },
   {
    "ts": 1792188478.7319376,
    "tipo": "Señal",
@@ -168,24 +186,6 @@
    "texto": "noticias 15.10 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1170"
-  },
-  {
-   "ts": 1792101909.329956,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: +1,7% (salió bien)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1167"
-  },
-  {
-   "ts": 1792098021.5513728,
-   "tipo": "Señal",
-   "texto": "historia NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1166"
   }
  ]
 }
