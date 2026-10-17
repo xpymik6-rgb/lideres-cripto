@@ -1,6 +1,15 @@
 {
- "actualizado": 1792243212.5287662,
+ "actualizado": 1792250407.4868917,
  "avisos": [
+  {
+   "ts": 1792250264.5003443,
+   "tipo": "Señal",
+   "texto": "pump $Q",
+   "monedas": [
+    "Q"
+   ],
+   "url": "https://t.me/LideresCripto/1204"
+  },
   {
    "ts": 1792242628.5434413,
    "tipo": "Edición del radar",
@@ -184,17 +193,6 @@
     "XRP"
    ],
    "url": "https://t.me/LideresCripto/1174"
-  },
-  {
-   "ts": 1792112423.5134952,
-   "tipo": "Edición del radar",
-   "texto": "radar 15.10 20:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "KORU"
-   ],
-   "url": "https://t.me/LideresCripto/1171"
   }
  ]
 }
