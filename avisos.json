@@ -1,6 +1,15 @@
 {
- "actualizado": 1792254004.6019986,
+ "actualizado": 1792272004.126274,
  "avisos": [
+  {
+   "ts": 1792271371.7107706,
+   "tipo": "Señal",
+   "texto": "historia BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1206"
+  },
   {
    "ts": 1792252982.3656297,
    "tipo": "Guía",
@@ -182,15 +191,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1176"
-  },
-  {
-   "ts": 1792123519.8232517,
-   "tipo": "Resultados",
-   "texto": "resultado $SOL: +3,1% (salió bien)",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/1175"
   }
  ]
 }
