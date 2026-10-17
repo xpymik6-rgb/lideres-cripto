@@ -1,6 +1,13 @@
 {
- "actualizado": 1792250407.4868917,
+ "actualizado": 1792254004.6019986,
  "avisos": [
+  {
+   "ts": 1792252982.3656297,
+   "tipo": "Guía",
+   "texto": "qué es un desbloqueo",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1205"
+  },
   {
    "ts": 1792250264.5003443,
    "tipo": "Señal",
@@ -184,15 +191,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/1175"
-  },
-  {
-   "ts": 1792123519.591104,
-   "tipo": "Resultados",
-   "texto": "resultado $XRP: +2,4% (salió bien)",
-   "monedas": [
-    "XRP"
-   ],
-   "url": "https://t.me/LideresCripto/1174"
   }
  ]
 }
