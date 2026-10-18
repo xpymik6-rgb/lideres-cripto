@@ -1,6 +1,19 @@
 {
- "actualizado": 1792300814.5829222,
+ "actualizado": 1792329616.4993794,
  "avisos": [
+  {
+   "ts": 1792328906.373502,
+   "tipo": "Edición del radar",
+   "texto": "radar 18.10 08:08",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "Q",
+    "XRP",
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/1212"
+  },
   {
    "ts": 1792300183.2481592,
    "tipo": "Señal",
@@ -180,15 +193,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1181"
-  },
-  {
-   "ts": 1792130709.2204819,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: +3,1% (salió bien)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1180"
   }
  ]
 }
