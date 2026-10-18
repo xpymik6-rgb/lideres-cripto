@@ -1,6 +1,13 @@
 {
- "actualizado": 1792275610.496446,
+ "actualizado": 1792286417.0064447,
  "avisos": [
+  {
+   "ts": 1792284254.4794524,
+   "tipo": "Noticias",
+   "texto": "noticias 17.10 19:44",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1210"
+  },
   {
    "ts": 1792272751.4666438,
    "tipo": "Señal",
@@ -182,15 +189,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1179"
-  },
-  {
-   "ts": 1792127161.3677478,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1177"
   }
  ]
 }
