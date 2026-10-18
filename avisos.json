@@ -1,6 +1,15 @@
 {
- "actualizado": 1792329616.4993794,
+ "actualizado": 1792340404.462351,
  "avisos": [
+  {
+   "ts": 1792338457.593926,
+   "tipo": "Señal",
+   "texto": "pump $Q",
+   "monedas": [
+    "Q"
+   ],
+   "url": "https://t.me/LideresCripto/1214"
+  },
   {
    "ts": 1792328906.373502,
    "tipo": "Edición del radar",
@@ -184,15 +193,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1182"
-  },
-  {
-   "ts": 1792130709.404827,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +1,0% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1181"
   }
  ]
 }
