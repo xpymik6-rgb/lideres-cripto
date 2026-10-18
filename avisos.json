@@ -1,6 +1,15 @@
 {
- "actualizado": 1792286417.0064447,
+ "actualizado": 1792300814.5829222,
  "avisos": [
+  {
+   "ts": 1792300183.2481592,
+   "tipo": "Señal",
+   "texto": "pump $Q",
+   "monedas": [
+    "Q"
+   ],
+   "url": "https://t.me/LideresCripto/1211"
+  },
   {
    "ts": 1792284254.4794524,
    "tipo": "Noticias",
@@ -180,15 +189,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1180"
-  },
-  {
-   "ts": 1792130705.9297101,
-   "tipo": "Resultados",
-   "texto": "resultado $BTC: +1,0% (sin movimiento)",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1179"
   }
  ]
 }
