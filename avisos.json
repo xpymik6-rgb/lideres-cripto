@@ -1,6 +1,13 @@
 {
- "actualizado": 1792419618.2619097,
+ "actualizado": 1792426811.0061495,
  "avisos": [
+  {
+   "ts": 1792426389.4375758,
+   "tipo": "Guía",
+   "texto": "qué es el régimen del mercado",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1229"
+  },
   {
    "ts": 1792415064.4578414,
    "tipo": "Edición del radar",
@@ -185,15 +192,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/1194"
-  },
-  {
-   "ts": 1792184410.4381416,
-   "tipo": "Señal",
-   "texto": "historia BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1193"
   }
  ]
 }
