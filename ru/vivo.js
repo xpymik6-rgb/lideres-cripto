@@ -146,7 +146,11 @@ async function escalera() {
   mover(linea.querySelector(".et"), desvio.precio);
   mover(linea.querySelector(".q"), desvio.precio);
   const px = document.getElementById("pxbtc");
-  if (px) px.textContent = nfmt(precio);
+  if (px) px.textContent = nfmt(precio) + " $";
+  // 19.10: подпись с названием монеты. Без неё «78,7 цена сейчас» читали как
+  // биткоин за 78 тысяч, хотя лестница стоит по монете из заголовка (HYPE)
+  const q = linea.querySelector(".q");
+  if (q) q.textContent = "цена " + coin + " сейчас";
   ESCALA = {alto, bajo, rango, borde: BORDE, coin};
   dibujaChispa(coin);
   historiaDelDia(porMoneda, mids);
