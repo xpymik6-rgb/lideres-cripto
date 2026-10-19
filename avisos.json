@@ -1,6 +1,19 @@
 {
- "actualizado": 1792426811.0061495,
+ "actualizado": 1792430418.7410946,
  "avisos": [
+  {
+   "ts": 1792429816.2931292,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 19.10",
+   "monedas": [
+    "BTC",
+    "NEAR",
+    "Q",
+    "SOL",
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1230"
+  },
   {
    "ts": 1792426389.4375758,
    "tipo": "Guía",
@@ -183,15 +196,6 @@
    "texto": "noticias 16.10 19:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1198"
-  },
-  {
-   "ts": 1792188478.7319376,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1194"
   }
  ]
 }
