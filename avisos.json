@@ -1,6 +1,13 @@
 {
- "actualizado": 1792365603.287232,
+ "actualizado": 1792372811.566382,
  "avisos": [
+  {
+   "ts": 1792369967.6810842,
+   "tipo": "Noticias",
+   "texto": "noticias 18.10 19:32",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1220"
+  },
   {
    "ts": 1792365141.3293853,
    "tipo": "Resultados",
@@ -186,13 +193,6 @@
     "AKE"
    ],
    "url": "https://t.me/LideresCripto/1185"
-  },
-  {
-   "ts": 1792153819.3869545,
-   "tipo": "Noticias",
-   "texto": "noticias 16.10 07:30",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1184"
   }
  ]
 }
