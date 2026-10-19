@@ -178,3 +178,12 @@ del mismo lado, en menos de doce horas.
 
 No es asesoría financiera. Operar criptomonedas, y en especial con apalancamiento,
 puede hacer perder todo el capital.
+
+<!-- ru:inicio -->
+## По-русски (Russian)
+
+- [Крипторынок сейчас](https://liderescripto.com/ru/): ликвидации за сутки, плата за плечо, крупные трейдеры Hyperliquid, разлоки. Обновляется каждый час.
+- [Как крадут криптовалюту](https://liderescripto.com/ru/moshennichestvo/): схемы мошенников по-русски.
+- [Учебник трейдера](https://liderescripto.com/ru/uchebnik/) и [словарь](https://liderescripto.com/ru/slovar/).
+- [Бот Крипто-радар](https://t.me/crypto01_radar_bot): бесплатная проверка монеты перед входом в сделку.
+<!-- ru:fin -->

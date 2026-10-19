@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Отравление адресов (address poisoning): развод на копировании адреса</title>
+<meta name="description" content="Тебе приходит нулевой перевод с адреса, почти такого же, как тот, которым ты пользуешься. Скопируешь его из истории, и деньги уйдут мошеннику. Как не попасться.">
+<link rel="canonical" href="https://liderescripto.com/ru/moshennichestvo/otravlenie-adresov-address-poisoning/">
+<link rel="alternate" hreflang="ru" href="https://liderescripto.com/ru/moshennichestvo/otravlenie-adresov-address-poisoning/">
+<link rel="alternate" hreflang="es" href="https://liderescripto.com/aprende/envenenamiento-de-direcciones/">
+<link rel="alternate" hreflang="x-default" href="https://liderescripto.com/aprende/envenenamiento-de-direcciones/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Отравление адресов (address poisoning): развод на копировании адреса">
+<meta property="og:description" content="Тебе приходит нулевой перевод с адреса, почти такого же, как тот, которым ты пользуешься. Скопируешь его из истории, и деньги уйдут мошеннику. Как не попасться.">
+<meta property="og:url" content="https://liderescripto.com/ru/moshennichestvo/otravlenie-adresov-address-poisoning/">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://liderescripto.com/og-aprende.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/aprende/estilo.css">
+<style>
+.yaz{font-size:13px;color:#7d90ae}.yaz a{color:#7d90ae;margin-left:10px}
+.setka{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:18px 0}
+.kart{border:1px solid #2a3d61;background:rgba(14,22,38,.72);border-radius:8px;padding:14px 16px}
+.kart h3{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#7d90ae;margin:0 0 6px;font-weight:600}
+.bol{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-size:28px;font-weight:700;line-height:1.15;color:#fff}
+.mel{color:#7d90ae;font-size:14px}.plus{color:#5df2c0}.minus{color:#ff8a8a}
+ul.sp{list-style:none;margin:6px 0;padding:0}ul.sp li{display:flex;justify-content:space-between;gap:10px;
+border-top:1px solid #101b2e;padding:6px 0;font-size:15px}ul.sp li:first-child{border-top:0}
+.tabl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px;margin:0 0 18px}
+th,td{border-bottom:1px solid #1c2a45;padding:7px 8px;text-align:left;vertical-align:top}
+details{border:1px solid #2a3d61;border-radius:6px;padding:10px 14px;margin:8px 0}summary{cursor:pointer;font-weight:600}
+.monety a{display:inline-block;border:1px solid #2a3d61;border-radius:5px;padding:5px 10px;margin:0 6px 8px 0;text-decoration:none}
+</style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://liderescripto.com/ru/#org", "name": "Horizon Ventures E.I.R.L.", "url": "https://liderescripto.com/ru/", "taxID": "20612763888", "address": {"@type": "PostalAddress", "streetAddress": "Sector Murunquy", "addressLocality": "Calca", "addressRegion": "Cusco", "addressCountry": "PE"}}, {"@type": "SoftwareApplication", "@id": "https://liderescripto.com/ru/#bot", "name": "Крипто-радар", "applicationCategory": "FinanceApplication", "operatingSystem": "Telegram", "url": "https://t.me/crypto01_radar_bot", "inLanguage": "ru", "description": "Бесплатный Телеграм-бот: проверка монеты перед входом в сделку, крупные игроки, плата за плечо, ликвидации, расчёт стопа и размера позиции.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@id": "https://liderescripto.com/ru/#org"}}, {"@type": "Article", "headline": "Адрес, который похож на твой", "description": "Тебе приходит нулевой перевод с адреса, почти такого же, как тот, которым ты пользуешься. Скопируешь его из истории, и деньги уйдут мошеннику. Как не попасться.", "url": "https://liderescripto.com/ru/moshennichestvo/otravlenie-adresov-address-poisoning/", "inLanguage": "ru", "datePublished": "2026-10-10", "publisher": {"@id": "https://liderescripto.com/ru/#org"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Что такое отравление адресов?", "acceptedAnswer": {"@type": "Answer", "text": "Это развод, при котором тебе присылают перевод на ноль или на центы с адреса, почти такого же, как тот, которым ты часто пользуешься. Если потом скопируешь этот адрес из истории, деньги уйдут мошеннику."}}, {"@type": "Question", "name": "Почему мне пришёл перевод на 0 USDT?", "acceptedAnswer": {"@type": "Answer", "text": "Скорее всего, это попытка отравления адресов. Ничего страшного, если ты этим адресом не пользуешься: просто не копируй адреса из истории."}}, {"@type": "Question", "name": "Как не отправить деньги на фальшивый адрес?", "acceptedAnswer": {"@type": "Answer", "text": "Всегда копируй адрес из исходного источника, сохрани его в контакты, проверяй целиком и перед крупной суммой отправляй маленький тестовый перевод."}}]}]}
+</script>
+</head>
+<body>
+<header><div class="env">
+  <a class="lg" href="/ru/">Líderes Cripto · RU</a>
+  <span class="yaz"><a href="https://t.me/crypto01_radar">Канал</a><a href="https://t.me/crypto01_radar_bot?start=ru_shapka">Бот</a><a href="/aprende/envenenamiento-de-direcciones/">Español</a></span>
+</div></header>
+<main class="env">
+<div class="miga"><a href="/ru/">Главная</a> · <a href="/ru/moshennichestvo/">Как крадут криптовалюту</a></div><p class="razdel">Как крадут</p><h1>Адрес, который похож на твой</h1><p class="bajada">Тебе приходит нулевой перевод с адреса, почти такого же, как тот, которым ты пользуешься. Скопируешь его из истории, и деньги уйдут мошеннику. Как не попасться.</p><article><p>Смотришь историю и видишь странный перевод: ноль USDT или несколько центов, с адреса, который начинается и заканчивается так же, как адрес твоей биржи или друга. Ты не обращаешь внимания.</p>
+<p>Через несколько дней ты собираешься отправить деньги, по привычке копируешь адрес из истории, и деньги уходят мошеннику.</p>
+
+<h2>Как это работает</h2>
+<p>Все переводы в блокчейне публичные. Мошенник видит, кому ты часто отправляешь деньги, и генерирует адрес, у которого первые и последние символы совпадают с этим адресом. Кошельки показывают адреса сокращённо, вроде <code>TXy4...9fQk</code>, поэтому оба выглядят одинаково.</p>
+<p>Потом он присылает тебе перевод на ноль или на центы с этого фальшивого адреса. В этот момент он ничего не крадёт: он просто оставляет свой «отравленный» адрес в твоей истории и ждёт, когда ты его скопируешь.</p>
+<p>Ему не нужны твои ключи, и взламывать ничего не нужно. Хватит того, что ты скопируешь адрес не оттуда.</p>
+
+<h2>Насколько это часто</h2>
+<p>Исследователи из Университета Карнеги-Меллон изучили два года активности в Ethereum и BNB Chain и нашли около <b>270 миллионов попыток</b> против <b>17 миллионов кошельков</b>. Они насчитали 6 633 случая, когда люди действительно отправили деньги, с потерями минимум 83,8 миллиона долларов. Работу представили на USENIX Security 2025, одной из главных конференций по безопасности.</p>
+<p>Чаще всего это случается с USDT, потому что его переводят туда-сюда больше всего.</p>
+
+<h2>Как не попасться</h2>
+<ul>
+<li><b>Никогда не копируй адрес из истории транзакций.</b> Бери его из источника: из раздела пополнения на бирже или из исходного сообщения человека.</li>
+<li><b>Сохрани адреса, которыми пользуешься часто, в адресную книгу</b> кошелька или в белый список адресов вывода на бирже.</li>
+<li><b>Проверяй адрес целиком</b>. Начала и конца мало, сверяй и символы в середине.</li>
+<li><b>Если сумма крупная, сначала отправь маленький тестовый перевод</b> и убедись, что он пришёл куда нужно.</li>
+<li>Если в истории есть нулевые переводы, которых ты не узнаёшь, это сигнал: тебя взяли на прицел.</li>
+</ul>
+
+<h2>Если ты уже отправил</h2>
+<p>В блокчейне нет кнопки «отменить». Сохрани хеш транзакции и адрес мошенника и подай заявление в полицию. Если деньги пришли на биржу, её команда иногда может их заморозить, если быстро сообщить и приложить заявление. И не верь тем, кто предлагает вернуть деньги за предоплату.</p>
+<p class="nota">Источник: Tsuchiya, Dong, Christin и Soska, «Blockchain Address Poisoning», USENIX Security 2025, Университет Карнеги-Меллон (CyLab). Проверено 10 октября 2026 года.</p></article><div class="probar"><span class="rot">Проверь сам</span><p>Открой свою историю в обозревателе своей сети (tronscan.org или bscscan.com) и поищи переводы на ноль или на центы с незнакомых адресов. Сравни их символ за символом с адресами, которыми ты пользуешься на самом деле.</p></div><h2>Вопросы и ответы</h2><details><summary>Что такое отравление адресов?</summary><p>Это развод, при котором тебе присылают перевод на ноль или на центы с адреса, почти такого же, как тот, которым ты часто пользуешься. Если потом скопируешь этот адрес из истории, деньги уйдут мошеннику.</p></details><details><summary>Почему мне пришёл перевод на 0 USDT?</summary><p>Скорее всего, это попытка отравления адресов. Ничего страшного, если ты этим адресом не пользуешься: просто не копируй адреса из истории.</p></details><details><summary>Как не отправить деньги на фальшивый адрес?</summary><p>Всегда копируй адрес из исходного источника, сохрани его в контакты, проверяй целиком и перед крупной суммой отправляй маленький тестовый перевод.</p></details><div class="cta"><p>Проверь свою монету перед входом: крупные игроки, плата за плечо, уровни, где стоят чужие стопы. Бесплатно.</p><a class="bot" href="https://t.me/crypto01_radar_bot?start=ru_moshennichestvo">Открыть бота</a><a class="can" href="https://t.me/crypto01_radar">Канал</a></div><div class="sigue"><h2>Ещё по теме</h2><ul><li><a href="/ru/moshennichestvo/falshivyj-usdt-flash-usdt/">Фальшивый USDT: как понять, что тебе пришли настоящие</a></li><li><a href="/ru/moshennichestvo/fejkovaya-podderzhka-binance-telegram/">«Поддержка Binance», которая пишет тебе первой</a></li></ul></div></main>
+<footer><div class="env">
+  <p>Крипто-радар · бесплатный Телеграм-бот <a href="https://t.me/crypto01_radar_bot?start=ru_podval">@crypto01_radar_bot</a> и канал
+  <a href="https://t.me/crypto01_radar">@crypto01_radar</a>. Данные Bybit, OKX и Hyperliquid.</p>
+  <p>Не инвестиционная рекомендация. Показываем обстановку, решение за тобой.</p>
+  <p><a href="/ru/">Главная</a> · <a href="/ru/uchebnik/">Учебник</a> · <a href="/ru/moshennichestvo/">Как крадут</a>
+  · <a href="/ru/slovar/">Словарь</a> · <a href="/">Español</a></p>
+  <p>Horizon Ventures E.I.R.L. · RUC 20612763888 · Sector Murunquy, Calca, Cusco, Perú</p>
+</div></footer>
+<script src="/c.js" defer></script>
+</body>
+</html>

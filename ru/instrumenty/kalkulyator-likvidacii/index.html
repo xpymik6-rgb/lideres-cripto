@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Калькулятор ликвидации: на какой цене тебя ликвидируют на крипто-фьючерсах</title>
+<meta name="description" content="Введи цену входа, плечо и сторону сделки, лонг или шорт, и увидишь, на какой цене позицию закроют и сколько должен пройти рынок. Бесплатно и без регистрации.">
+<link rel="canonical" href="https://liderescripto.com/ru/instrumenty/kalkulyator-likvidacii/">
+<link rel="alternate" hreflang="ru" href="https://liderescripto.com/ru/instrumenty/kalkulyator-likvidacii/">
+<link rel="alternate" hreflang="es" href="https://liderescripto.com/herramientas/calculadora-de-liquidacion/">
+<link rel="alternate" hreflang="x-default" href="https://liderescripto.com/herramientas/calculadora-de-liquidacion/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Калькулятор ликвидации: на какой цене тебя ликвидируют на крипто-фьючерсах">
+<meta property="og:description" content="Введи цену входа, плечо и сторону сделки, лонг или шорт, и увидишь, на какой цене позицию закроют и сколько должен пройти рынок. Бесплатно и без регистрации.">
+<meta property="og:url" content="https://liderescripto.com/ru/instrumenty/kalkulyator-likvidacii/">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://liderescripto.com/og-aprende.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/aprende/estilo.css">
+<style>
+.yaz{font-size:13px;color:#7d90ae}.yaz a{color:#7d90ae;margin-left:10px}
+.setka{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:18px 0}
+.kart{border:1px solid #2a3d61;background:rgba(14,22,38,.72);border-radius:8px;padding:14px 16px}
+.kart h3{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#7d90ae;margin:0 0 6px;font-weight:600}
+.bol{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-size:28px;font-weight:700;line-height:1.15;color:#fff}
+.mel{color:#7d90ae;font-size:14px}.plus{color:#5df2c0}.minus{color:#ff8a8a}
+ul.sp{list-style:none;margin:6px 0;padding:0}ul.sp li{display:flex;justify-content:space-between;gap:10px;
+border-top:1px solid #101b2e;padding:6px 0;font-size:15px}ul.sp li:first-child{border-top:0}
+.tabl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px;margin:0 0 18px}
+th,td{border-bottom:1px solid #1c2a45;padding:7px 8px;text-align:left;vertical-align:top}
+details{border:1px solid #2a3d61;border-radius:6px;padding:10px 14px;margin:8px 0}summary{cursor:pointer;font-weight:600}
+.monety a{display:inline-block;border:1px solid #2a3d61;border-radius:5px;padding:5px 10px;margin:0 6px 8px 0;text-decoration:none}
+</style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://liderescripto.com/ru/#org", "name": "Horizon Ventures E.I.R.L.", "url": "https://liderescripto.com/ru/", "taxID": "20612763888", "address": {"@type": "PostalAddress", "streetAddress": "Sector Murunquy", "addressLocality": "Calca", "addressRegion": "Cusco", "addressCountry": "PE"}}, {"@type": "WebApplication", "name": "На какой цене тебя ликвидируют? Посчитай", "url": "https://liderescripto.com/ru/instrumenty/kalkulyator-likvidacii/", "applicationCategory": "FinanceApplication", "operatingSystem": "Любой браузер", "inLanguage": "ru", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Как считается цена ликвидации?", "acceptedAnswer": {"@type": "Answer", "text": "Примерно, для изолированной маржи: для лонга вход × (1 − 1/плечо) ÷ (1 − поддерживающая маржа); для шорта вход × (1 + 1/плечо) ÷ (1 + поддерживающая маржа). Каждая биржа делает поправку на комиссии и уровни."}}, {"@type": "Question", "name": "На сколько должна упасть цена, чтобы меня ликвидировали при плече x10?", "acceptedAnswer": {"@type": "Answer", "text": "Чуть меньше чем на 10%. При поддерживающей марже 0,5% лонг с x10 ликвидируют при падении примерно на 9,5% от входа."}}, {"@type": "Question", "name": "Почему биржа показывает другую цену ликвидации?", "acceptedAnswer": {"@type": "Answer", "text": "Потому что она берёт свою поддерживающую маржу в зависимости от размера позиции, вычитает комиссии, а при кросс-марже учитывает весь твой баланс. Этот расчёт даёт ориентир, точную цену смотри на своей бирже."}}, {"@type": "Question", "name": "Какое плечо безопасное?", "acceptedAnswer": {"@type": "Answer", "text": "Само по себе никакое. Защищает стоп, поставленный раньше цены ликвидации, и небольшая доля счёта под риском в каждой сделке."}}]}]}
+</script>
+</head>
+<body>
+<header><div class="env">
+  <a class="lg" href="/ru/">Líderes Cripto · RU</a>
+  <span class="yaz"><a href="https://t.me/crypto01_radar">Канал</a><a href="https://t.me/crypto01_radar_bot?start=ru_shapka">Бот</a><a href="/herramientas/calculadora-de-liquidacion/">Español</a></span>
+</div></header>
+<main class="env">
+<div class="miga"><a href="/ru/">Главная</a> · Инструменты</div><h1>На какой цене тебя ликвидируют? Посчитай</h1><p class="bajada">Введи цену входа, плечо и сторону сделки, лонг или шорт, и увидишь, на какой цене позицию закроют и сколько должен пройти рынок. Бесплатно и без регистрации.</p><style>
+.calc label{margin-top:12px}
+.calc input{margin-bottom:2px}
+.lado{display:flex;gap:8px;margin-bottom:6px}
+.lado button{flex:1;margin:0;background:transparent;color:#e8eff9;border:1px solid #2a3d61}
+.lado button.on{background:#5df2c0;color:#050810;border-color:#5df2c0}
+</style><article>
+<div class="verif calc">
+  <div class="lado">
+    <button type="button" id="largo" class="on">Лонг</button>
+    <button type="button" id="corto">Шорт</button>
+  </div>
+  <label for="entrada">Цена входа (USDT)</label>
+  <input id="entrada" type="text" inputmode="decimal" placeholder="Например: 65000">
+  <label for="apal">Плечо</label>
+  <input id="apal" type="text" inputmode="decimal" placeholder="Например: 10" value="10">
+  <label for="margen">Твоя маржа (USDT, необязательно)</label>
+  <input id="margen" type="text" inputmode="decimal" placeholder="Например: 100">
+  <label for="mmr">Поддерживающая маржа (%)</label>
+  <input id="mmr" type="text" inputmode="decimal" value="0,5">
+  <div id="res" role="status" aria-live="polite"></div>
+</div>
+<script>
+(function () {
+  var largo = true;
+  function num(id) { var v = document.getElementById(id).value.replace(/\s/g, '').replace(',', '.'); return parseFloat(v); }
+  function f(x) {
+    var d = x >= 1000 ? 2 : x >= 1 ? 4 : 8;
+    return x.toLocaleString('ru', { maximumFractionDigits: d });
+  }
+  function calc() {
+    var e = num('entrada'), l = num('apal'), m = num('margen'), mmr = (num('mmr') || 0) / 100;
+    var res = document.getElementById('res');
+    if (!(e > 0) || !(l >= 1)) { res.className = ''; res.innerHTML = ''; return; }
+    var liq = largo ? e * (1 - 1 / l) / (1 - mmr) : e * (1 + 1 / l) / (1 + mmr);
+    var dist = Math.abs(liq - e) / e * 100;
+    var h = '<b>Тебя ликвидируют около ' + f(liq) + ' USDT.</b><br>' +
+      'Это движение на <b>' + dist.toFixed(2).replace('.', ',') + '%</b> ' +
+      (largo ? 'вниз' : 'вверх') + ' от твоего входа.';
+    if (m > 0) {
+      h += '<br>Твоя позиция: ' + f(m * l) + ' USDT. Если цена дойдёт туда, ты потеряешь ' + f(m) + ' USDT маржи.';
+    }
+    if (dist < 5) {
+      h += '<br>⚠️ Меньше 5%: в крипте такое движение может случиться за час.';
+    }
+    res.className = dist < 5 ? 'mal' : 'ok';
+    res.innerHTML = h;
+  }
+  function lado(es_largo) {
+    largo = es_largo;
+    document.getElementById('largo').className = es_largo ? 'on' : '';
+    document.getElementById('corto').className = es_largo ? '' : 'on';
+    calc();
+  }
+  document.getElementById('largo').addEventListener('click', function () { lado(true); });
+  document.getElementById('corto').addEventListener('click', function () { lado(false); });
+  ['entrada', 'apal', 'margen', 'mmr'].forEach(function (id) {
+    document.getElementById(id).addEventListener('input', calc);
+  });
+})();
+</script>
+<style>
+.calc label{margin-top:12px}
+.calc input{margin-bottom:2px}
+.lado{display:flex;gap:8px;margin-bottom:6px}
+.lado button{flex:1;margin:0;background:transparent;color:#e8eff9;border:1px solid #2a3d61}
+.lado button.on{background:#5df2c0;color:#050810;border-color:#5df2c0}
+</style>
+<h2>Как читать результат</h2>
+<p>Цена ликвидации показывает, где биржа принудительно закроет позицию, потому что твоей маржи уже не хватает. С плечом x10 движение меньше чем на 10% против тебя оставляет тебя без внесённой маржи. С x50 хватит меньше 2%.</p>
+<p>Эта цена важнее, чем кажется: там разом копятся ордера на закрытие у многих людей, и поэтому рынок часто идёт к ней. Мы объясняем это в статье <a href="/ru/uchebnik/cena-likvidacii-kak-magnit/">цена ликвидации как магнит</a>.</p>
+
+<h2>Практическое правило</h2>
+<p>Твой стоп должен стоять <b>до</b> цены ликвидации, никогда после. Если разумный для сделки стоп оказывается дальше ликвидации, плечо слишком большое: уменьши плечо и не двигай стоп.</p>
+
+<h2>Почему биржа может показывать другое число</h2>
+<p>Этот расчёт приблизительный: изолированная маржа, контракт в USDT, без комиссий. Каждая биржа берёт свою поддерживающую маржу в зависимости от размера позиции, вычитает комиссию за закрытие, а при кросс-марже учитывает весь баланс. Точную цену видно на твоей бирже рядом с открытой позицией.</p>
+<p class="nota">Формула: лонг, вход × (1 − 1/плечо) ÷ (1 − поддерживающая маржа); шорт, вход × (1 + 1/плечо) ÷ (1 + поддерживающая маржа). Всё считается в твоём браузере.</p></article><h2>Вопросы и ответы</h2><details><summary>Как считается цена ликвидации?</summary><p>Примерно, для изолированной маржи: для лонга вход × (1 − 1/плечо) ÷ (1 − поддерживающая маржа); для шорта вход × (1 + 1/плечо) ÷ (1 + поддерживающая маржа). Каждая биржа делает поправку на комиссии и уровни.</p></details><details><summary>На сколько должна упасть цена, чтобы меня ликвидировали при плече x10?</summary><p>Чуть меньше чем на 10%. При поддерживающей марже 0,5% лонг с x10 ликвидируют при падении примерно на 9,5% от входа.</p></details><details><summary>Почему биржа показывает другую цену ликвидации?</summary><p>Потому что она берёт свою поддерживающую маржу в зависимости от размера позиции, вычитает комиссии, а при кросс-марже учитывает весь твой баланс. Этот расчёт даёт ориентир, точную цену смотри на своей бирже.</p></details><details><summary>Какое плечо безопасное?</summary><p>Само по себе никакое. Защищает стоп, поставленный раньше цены ликвидации, и небольшая доля счёта под риском в каждой сделке.</p></details><div class="sigue"><h2>Ещё по теме</h2><ul><li><a href="/ru/uchebnik/cena-likvidacii-kak-magnit/">Цена ликвидации как магнит</a></li><li><a href="/ru/uchebnik/chto-takoe-likvidaciya/">Ликвидация: когда биржа сама закрывает твою позицию</a></li><li><a href="/ru/uchebnik/skolko-riskovat-v-sdelke/">Сколько рисковать в одной сделке</a></li></ul></div><div class="cta"><p>Проверь свою монету перед входом: крупные игроки, плата за плечо, уровни, где стоят чужие стопы. Бесплатно.</p><a class="bot" href="https://t.me/crypto01_radar_bot?start=ru_instrument">Открыть бота</a><a class="can" href="https://t.me/crypto01_radar">Канал</a></div></main>
+<footer><div class="env">
+  <p>Крипто-радар · бесплатный Телеграм-бот <a href="https://t.me/crypto01_radar_bot?start=ru_podval">@crypto01_radar_bot</a> и канал
+  <a href="https://t.me/crypto01_radar">@crypto01_radar</a>. Данные Bybit, OKX и Hyperliquid.</p>
+  <p>Не инвестиционная рекомендация. Показываем обстановку, решение за тобой.</p>
+  <p><a href="/ru/">Главная</a> · <a href="/ru/uchebnik/">Учебник</a> · <a href="/ru/moshennichestvo/">Как крадут</a>
+  · <a href="/ru/slovar/">Словарь</a> · <a href="/">Español</a></p>
+  <p>Horizon Ventures E.I.R.L. · RUC 20612763888 · Sector Murunquy, Calca, Cusco, Perú</p>
+</div></footer>
+<script src="/c.js" defer></script>
+</body>
+</html>

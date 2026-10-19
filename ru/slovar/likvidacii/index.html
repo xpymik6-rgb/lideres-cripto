@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Что такое ликвидация в крипте и почему бывают каскады</title>
+<meta name="description" content="Ликвидация: биржа сама закрывает позицию, когда убыток съел залог. Почему высокое плечо опасно и откуда берутся каскады ликвидаций.">
+<link rel="canonical" href="https://liderescripto.com/ru/slovar/likvidacii/">
+<link rel="alternate" hreflang="ru" href="https://liderescripto.com/ru/slovar/likvidacii/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Что такое ликвидация в крипте и почему бывают каскады">
+<meta property="og:description" content="Ликвидация: биржа сама закрывает позицию, когда убыток съел залог. Почему высокое плечо опасно и откуда берутся каскады ликвидаций.">
+<meta property="og:url" content="https://liderescripto.com/ru/slovar/likvidacii/">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://liderescripto.com/og-aprende.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/aprende/estilo.css">
+<style>
+.yaz{font-size:13px;color:#7d90ae}.yaz a{color:#7d90ae;margin-left:10px}
+.setka{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:18px 0}
+.kart{border:1px solid #2a3d61;background:rgba(14,22,38,.72);border-radius:8px;padding:14px 16px}
+.kart h3{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#7d90ae;margin:0 0 6px;font-weight:600}
+.bol{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-size:28px;font-weight:700;line-height:1.15;color:#fff}
+.mel{color:#7d90ae;font-size:14px}.plus{color:#5df2c0}.minus{color:#ff8a8a}
+ul.sp{list-style:none;margin:6px 0;padding:0}ul.sp li{display:flex;justify-content:space-between;gap:10px;
+border-top:1px solid #101b2e;padding:6px 0;font-size:15px}ul.sp li:first-child{border-top:0}
+.tabl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px;margin:0 0 18px}
+th,td{border-bottom:1px solid #1c2a45;padding:7px 8px;text-align:left;vertical-align:top}
+details{border:1px solid #2a3d61;border-radius:6px;padding:10px 14px;margin:8px 0}summary{cursor:pointer;font-weight:600}
+.monety a{display:inline-block;border:1px solid #2a3d61;border-radius:5px;padding:5px 10px;margin:0 6px 8px 0;text-decoration:none}
+</style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://liderescripto.com/ru/#org", "name": "Horizon Ventures E.I.R.L.", "url": "https://liderescripto.com/ru/", "taxID": "20612763888", "address": {"@type": "PostalAddress", "streetAddress": "Sector Murunquy", "addressLocality": "Calca", "addressRegion": "Cusco", "addressCountry": "PE"}}, {"@type": "SoftwareApplication", "@id": "https://liderescripto.com/ru/#bot", "name": "Крипто-радар", "applicationCategory": "FinanceApplication", "operatingSystem": "Telegram", "url": "https://t.me/crypto01_radar_bot", "inLanguage": "ru", "description": "Бесплатный Телеграм-бот: проверка монеты перед входом в сделку, крупные игроки, плата за плечо, ликвидации, расчёт стопа и размера позиции.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@id": "https://liderescripto.com/ru/#org"}}, {"@type": "Article", "headline": "Что такое ликвидация в крипте и почему бывают каскады", "description": "Ликвидация: биржа сама закрывает позицию, когда убыток съел залог. Почему высокое плечо опасно и откуда берутся каскады ликвидаций.", "url": "https://liderescripto.com/ru/slovar/likvidacii/", "inLanguage": "ru", "publisher": {"@id": "https://liderescripto.com/ru/#org"}}, {"@type": "DefinedTerm", "name": "Ликвидация", "description": "Ликвидация: биржа сама закрывает позицию, когда убыток съел залог. Почему высокое плечо опасно и откуда берутся каскады ликвидаций.", "url": "https://liderescripto.com/ru/slovar/likvidacii/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Что значит «меня ликвидировали»?", "acceptedAnswer": {"@type": "Answer", "text": "Биржа принудительно закрыла позицию, потому что убыток съел залог. Маржа под эту сделку потеряна."}}, {"@type": "Question", "name": "При каком падении ликвидирует лонг с плечом 10?", "acceptedAnswer": {"@type": "Answer", "text": "Примерно при движении против позиции на 9%. Точная цифра зависит от биржи и размера сделки, терминал показывает её до входа."}}, {"@type": "Question", "name": "Спасает ли стоп-лосс от ликвидации?", "acceptedAnswer": {"@type": "Answer", "text": "Стоп, поставленный ближе цены ликвидации, закроет сделку раньше и с меньшим убытком. В резком каскаде он может исполниться хуже заявленной цены."}}, {"@type": "Question", "name": "Что такое каскад ликвидаций?", "acceptedAnswer": {"@type": "Answer", "text": "Цепная реакция: принудительные продажи двигают цену к следующим уровням ликвидации, и те срабатывают тоже. Обычно всё занимает минуты."}}]}]}
+</script>
+</head>
+<body>
+<header><div class="env">
+  <a class="lg" href="/ru/">Líderes Cripto · RU</a>
+  <span class="yaz"><a href="https://t.me/crypto01_radar">Канал</a><a href="https://t.me/crypto01_radar_bot?start=ru_shapka">Бот</a><a href="/">Español</a></span>
+</div></header>
+<main class="env">
+<div class="miga"><a href="/ru/">Главная</a> · <a href="/ru/slovar/">Словарь трейдера</a></div><article><h1>Что такое ликвидация в крипте и почему бывают каскады</h1>
+<p>Ликвидацией называют принудительное закрытие позиции биржей. Она происходит, когда убыток съел почти всю маржу, то есть залог, который трейдер внёс под сделку с плечом. Биржа закрывает позицию сама, по рынку, и трейдер теряет этот залог целиком или почти целиком.</p>
+<h3>Как это работает</h3>
+<p>Под позицию с плечом трейдер вносит маржу. При плече 10 на 100 $ маржи открывается позиция на 1000 $. Биржа требует, чтобы на счёте оставался минимальный запас (поддерживающая маржа). Когда цена идёт против позиции и запас кончается, срабатывает ликвидация. Цену ликвидации терминал биржи показывает заранее, ещё до входа.</p>
+<h3>Пример с цифрами</h3>
+<p>Лонг на 1000 $ с плечом 10, маржа 100 $. Цена падает на 5%: убыток 50 $, позиция живёт. Цена падает примерно на 9%: убыток около 90 $, остаток маржи доходит до поддерживающего уровня, и биржа закрывает сделку.</p>
+<p>С плечом 50 тот же расчёт даёт запас меньше 2%. Такое движение биткоин нередко проходит за час в обычный день.</p>
+<h3>Почему высокое плечо опасно</h3>
+<p>Плечо сокращает расстояние до ликвидации. Чем выше плечо, тем меньше случайного шума позиция способна пережить. При плече 100 хватает движения меньше 1%.</p>
+<p>Сделка может быть верной по направлению и всё равно закончиться потерей залога: цена сначала дёрнулась в другую сторону и задела уровень ликвидации. Ещё одна деталь: в режиме кросс-маржи под риском весь баланс фьючерсного счёта, в изолированном режиме только маржа конкретной позиции.</p>
+<h3>Откуда берутся каскады</h3>
+<p>Ликвидация закрывает позицию рыночным ордером. Ликвидация лонга означает продажу, ликвидация шорта означает покупку.</p>
+<p>Если много позиций с похожим плечом открыто рядом по цене, их уровни ликвидации лежат кучно. Первая волна принудительных продаж толкает цену вниз. Цена доходит до следующей кучи уровней, и закрываются уже те позиции. Так получается каскад: за минуты цена проходит расстояние, на которое обычно уходят дни. Когда продавать становится некому, движение часто быстро гаснет.</p>
+<p>Тот же механизм работает вверх, когда массово выносит шорты. Такое движение называют шорт-сквизом.</p>
+<h3>Где скапливаются стопы</h3>
+<p>Стоп-приказы и уровни ликвидации часто стоят у круглых чисел, под недавними минимумами и над недавними максимумами. Радар отмечает такие зоны по каждой монете, чтобы было видно, где цену может резко протащить.</p>
+<h3>Где это смотреть</h3>
+<p>На странице mikhailklimenko.com/radar/ цифры обновляются каждый час. В бесплатном Телеграм-боте можно ввести тикер любой монеты: карточка покажет цену, плату за плечо, крупных игроков в лонге и шорте, уровни и места, где скопились чужие стопы. Бот считает стоп и размер позиции под размер счёта, сигналов на вход не даёт: <a href="https://t.me/crypto01_radar_bot?start=slovar">https://t.me/crypto01_radar_bot?start=slovar</a></p>
+<h3>Вопросы и ответы</h3>
+<p><strong>Что значит «меня ликвидировали»?</strong><br>Биржа принудительно закрыла позицию, потому что убыток съел залог. Маржа под эту сделку потеряна.</p>
+<p><strong>При каком падении ликвидирует лонг с плечом 10?</strong><br>Примерно при движении против позиции на 9%. Точная цифра зависит от биржи и размера сделки, терминал показывает её до входа.</p>
+<p><strong>Спасает ли стоп-лосс от ликвидации?</strong><br>Стоп, поставленный ближе цены ликвидации, закроет сделку раньше и с меньшим убытком. В резком каскаде он может исполниться хуже заявленной цены.</p>
+<p><strong>Что такое каскад ликвидаций?</strong><br>Цепная реакция: принудительные продажи двигают цену к следующим уровням ликвидации, и те срабатывают тоже. Обычно всё занимает минуты.</p></article><div class="cta"><p>Проверь свою монету перед входом: крупные игроки, плата за плечо, уровни, где стоят чужие стопы. Бесплатно.</p><a class="bot" href="https://t.me/crypto01_radar_bot?start=ru_statya">Открыть бота</a><a class="can" href="https://t.me/crypto01_radar">Канал</a></div></main>
+<footer><div class="env">
+  <p>Крипто-радар · бесплатный Телеграм-бот <a href="https://t.me/crypto01_radar_bot?start=ru_podval">@crypto01_radar_bot</a> и канал
+  <a href="https://t.me/crypto01_radar">@crypto01_radar</a>. Данные Bybit, OKX и Hyperliquid.</p>
+  <p>Не инвестиционная рекомендация. Показываем обстановку, решение за тобой.</p>
+  <p><a href="/ru/">Главная</a> · <a href="/ru/uchebnik/">Учебник</a> · <a href="/ru/moshennichestvo/">Как крадут</a>
+  · <a href="/ru/slovar/">Словарь</a> · <a href="/">Español</a></p>
+  <p>Horizon Ventures E.I.R.L. · RUC 20612763888 · Sector Murunquy, Calca, Cusco, Perú</p>
+</div></footer>
+<script src="/c.js" defer></script>
+</body>
+</html>

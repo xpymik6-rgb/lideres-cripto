@@ -64,3 +64,4 @@ Allow: /
 Disallow: /v/
 
 Sitemap: https://liderescripto.com/sitemap.xml
+Sitemap: https://liderescripto.com/ru/sitemap.xml
