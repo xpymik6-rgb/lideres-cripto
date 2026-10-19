@@ -1,6 +1,20 @@
 {
- "actualizado": 1792372811.566382,
+ "actualizado": 1792376420.1934564,
  "avisos": [
+  {
+   "ts": 1792374076.9933827,
+   "tipo": "Resultados",
+   "texto": "resultados semana 18.10",
+   "monedas": [
+    "ZRO",
+    "JMDT",
+    "JET",
+    "RYO",
+    "H",
+    "XPL"
+   ],
+   "url": "https://t.me/LideresCripto/1221"
+  },
   {
    "ts": 1792369967.6810842,
    "tipo": "Noticias",
@@ -180,19 +194,6 @@
    "texto": "noticias 16.10 13:30",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1188"
-  },
-  {
-   "ts": 1792155622.370333,
-   "tipo": "Edición del radar",
-   "texto": "radar 16.10 08:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "ZEREBRO",
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/1185"
   }
  ]
 }
