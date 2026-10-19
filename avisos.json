@@ -1,6 +1,19 @@
 {
- "actualizado": 1792401621.0768723,
+ "actualizado": 1792416007.931957,
  "avisos": [
+  {
+   "ts": 1792415064.4578414,
+   "tipo": "Edición del radar",
+   "texto": "radar 19.10 08:04",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "Q",
+    "KORU"
+   ],
+   "url": "https://t.me/LideresCripto/1225"
+  },
   {
    "ts": 1792401315.671896,
    "tipo": "Señal",
@@ -181,15 +194,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1193"
-  },
-  {
-   "ts": 1792177511.5667944,
-   "tipo": "Resultados",
-   "texto": "resultado $ETH: -0,7% (sin movimiento)",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1190"
   }
  ]
 }
