@@ -1,6 +1,13 @@
 {
- "actualizado": 1792444817.0203068,
+ "actualizado": 1792459217.6449883,
  "avisos": [
+  {
+   "ts": 1792456753.2189562,
+   "tipo": "Noticias",
+   "texto": "noticias 19.10 19:39",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1237"
+  },
   {
    "ts": 1792444455.3667874,
    "tipo": "Señal",
@@ -187,17 +194,6 @@
     "TIA"
    ],
    "url": "https://t.me/LideresCripto/1201"
-  },
-  {
-   "ts": 1792198821.3914263,
-   "tipo": "Edición del radar",
-   "texto": "radar 16.10 20:00",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1199"
   }
  ]
 }
