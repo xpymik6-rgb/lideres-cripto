@@ -1,6 +1,15 @@
 {
- "actualizado": 1792509616.9766052,
+ "actualizado": 1792520404.9731154,
  "avisos": [
+  {
+   "ts": 1792519563.522552,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/1243"
+  },
   {
    "ts": 1792506218.4989555,
    "tipo": "Señal",
@@ -187,13 +196,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1206"
-  },
-  {
-   "ts": 1792252982.3656297,
-   "tipo": "Guía",
-   "texto": "qué es un desbloqueo",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1205"
   }
  ]
 }
