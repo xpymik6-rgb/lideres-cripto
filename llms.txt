@@ -148,6 +148,9 @@ del mismo lado, en menos de doce horas.
 - Herramienta gratis: Calculadora de liquidación: a qué precio te liquidan en futuros cripto
   https://liderescripto.com/herramientas/calculadora-de-liquidacion/
   Pon tu precio de entrada, el apalancamiento y si estás en largo o en corto, y ves a qué precio te cierran la posición y cuánto tiene que moverse el mercado. Gratis y sin registrarte.
+- Herramienta gratis: Terminal cripto en vivo: qué hacen las ballenas de Hyperliquid ahora
+  https://liderescripto.com/herramientas/terminal-en-vivo/
+  Qué tienen abierto ahora las cuentas más grandes de Hyperliquid, a qué precio entraron y dónde las liquidarían, más el índice de miedo y codicia y las noticias cripto en español. Se actualiza cada 10 minutos.
 
 ## Aprende (explicaciones en español, gratis)
 

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Terminal cripto en vivo: qué hacen las ballenas de Hyperliquid ahora</title>
+<meta name="description" content="Qué tienen abierto ahora las cuentas más grandes de Hyperliquid, a qué precio entraron y dónde las liquidarían, más el índice de miedo y codicia y las noticias cripto en español. Se actualiza cada 10 minutos.">
+<link rel="canonical" href="https://liderescripto.com/herramientas/terminal-en-vivo/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Terminal cripto en vivo: qué hacen las ballenas de Hyperliquid ahora">
+<meta property="og:description" content="Qué tienen abierto ahora las cuentas más grandes de Hyperliquid, a qué precio entraron y dónde las liquidarían, más el índice de miedo y codicia y las noticias cripto en español. Se actualiza cada 10 minutos.">
+<meta property="og:url" content="https://liderescripto.com/herramientas/terminal-en-vivo/">
+<meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://liderescripto.com/og-aprende.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://liderescripto.com/og-aprende.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/aprende/estilo.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebApplication",
+      "name":"Terminal en vivo: qué hacen las ballenas ahora",
+      "description":"Qué tienen abierto ahora las cuentas más grandes de Hyperliquid, a qué precio entraron y dónde las liquidarían, más el índice de miedo y codicia y las noticias cripto en español. Se actualiza cada 10 minutos.",
+      "url":"https://liderescripto.com/herramientas/terminal-en-vivo/",
+      "applicationCategory":"FinanceApplication",
+      "operatingSystem":"Any",
+      "inLanguage":"es",
+      "isAccessibleForFree":true,
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+      "publisher":{"@type":"Organization","name":"Líderes Cripto","url":"https://liderescripto.com/"}
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"¿De dónde salen los datos del terminal?","acceptedAnswer":{"@type":"Answer","text":"Las posiciones son datos públicos de Hyperliquid: cada cuenta se ve en la blockchain y las leemos cada 10 minutos. Las velas vienen de Binance, el índice de miedo y codicia de alternative.me y el volumen del mercado de CoinGecko."}},
+        {"@type":"Question","name":"¿Por qué tengo que suscribirme al canal para verlo?","acceptedAnswer":{"@type":"Answer","text":"Es gratis. El terminal es para la comunidad del canal de Telegram, donde publicamos los avisos de las ballenas. Te suscribes, abres el terminal con el bot y el acceso dura 24 horas."}},
+        {"@type":"Question","name":"¿Esto es una señal para comprar o vender?","acceptedAnswer":{"@type":"Answer","text":"No. Mostramos qué hacen las cuentas grandes, no qué tienes que hacer tú. Las ballenas también pierden: por eso el terminal muestra qué parte de ellas va en ganancia."}},
+        {"@type":"Question","name":"¿Por qué importan los precios de liquidación de las ballenas?","acceptedAnswer":{"@type":"Answer","text":"Porque el precio suele ir a buscarlos. Cuando la bolsa liquida una posición grande, su orden empuja el precio todavía más en la misma dirección y arrastra a otros."}},
+        {"@type":"Question","name":"¿Cada cuánto se actualiza?","acceptedAnswer":{"@type":"Answer","text":"Las posiciones de las ballenas y las noticias cada 10 minutos. El gráfico de precio se actualiza cada minuto."}}
+      ]
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Inicio","item":"https://liderescripto.com/"},
+        {"@type":"ListItem","position":2,"name":"Herramientas","item":"https://liderescripto.com/herramientas/"},
+        {"@type":"ListItem","position":3,"name":"Terminal en vivo: qué hacen las ballenas ahora","item":"https://liderescripto.com/herramientas/terminal-en-vivo/"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header><div class="env">
+  <a class="lg" href="/">Líderes Cripto</a>
+  <a href="https://t.me/LideresCripto">Canal en Telegram</a>
+</div></header>
+<main class="env">
+
+<nav class="miga"><a href="/">Inicio</a> › <a href="/herramientas/">Herramientas</a></nav>
+<p class="razdel" style="color:#5df2c0">Herramienta gratis</p>
+<h1>Terminal en vivo: qué hacen las ballenas ahora</h1>
+<p class="bajada">Qué tienen abierto ahora las cuentas más grandes de Hyperliquid, a qué precio entraron y dónde las liquidarían, más el índice de miedo y codicia y las noticias cripto en español. Se actualiza cada 10 minutos.</p>
+<article>
+
+<style>
+.env{max-width:1080px}
+.tm{position:relative;margin:6px 0 30px}
+.tm-cuerpo{transition:filter .4s}
+body:not(.term-on) .tm-cuerpo{filter:blur(7px) saturate(.6);pointer-events:none;user-select:none}
+.tm-puerta{position:absolute;inset:0;display:flex;align-items:flex-start;justify-content:center;
+  padding-top:70px;z-index:5}
+.tm-puerta[hidden]{display:none}
+.tm-caja{background:#0b1220;border:1px solid #2a3d61;border-radius:10px;padding:26px 26px 22px;
+  max-width:440px;width:calc(100% - 32px);box-shadow:0 20px 60px rgba(0,0,0,.55)}
+.tm-caja h2{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-size:22px;margin:0 0 8px}
+.tm-caja p{color:#9fb0cb;margin:0 0 16px;font-size:16px}
+.tm-caja .bot,.tm-caja .can{display:block;text-align:center;margin:0 0 10px}
+.tm-espera{font-family:"IBM Plex Mono",monospace;font-size:13px;color:#5df2c0;min-height:18px}
+.tm-fila{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}
+.tm-dato{background:#0b1220;border:1px solid #1c2a45;border-radius:8px;padding:12px 14px}
+.tm-et{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7d90ae}
+.tm-val{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-size:26px;font-weight:700;margin-top:4px}
+.tm-sub{font-size:13px;color:#7d90ae}
+.tm-panel{background:#0b1220;border:1px solid #1c2a45;border-radius:8px;padding:14px;margin-bottom:14px}
+.tm-panel h3{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-size:15px;letter-spacing:.1em;
+  text-transform:uppercase;color:#9fb0cb;margin:0 0 10px;font-weight:600}
+.tm-tabs button{background:#111a2e;color:#c9d6ea;border:1px solid #2a3d61;border-radius:5px;
+  padding:6px 14px;margin:0 6px 10px 0;font:600 14px "IBM Plex Sans",sans-serif;cursor:pointer}
+.tm-tabs button.on{background:#5df2c0;color:#050810;border-color:#5df2c0}
+#tm-grafico{height:360px}
+.tm-ley{font-size:13px;color:#7d90ae;margin-top:8px}
+.tm-ley b{font-weight:600}
+.tm-scroll{overflow-x:auto}
+table.tm-t{width:100%;border-collapse:collapse;font-size:14px;min-width:640px}
+.tm-t th{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:#7d90ae;text-align:right;padding:6px 8px;border-bottom:1px solid #1c2a45;font-weight:400}
+.tm-t th:first-child,.tm-t td:first-child{text-align:left}
+.tm-t td{padding:8px;border-bottom:1px solid #101b2e;text-align:right;white-space:nowrap}
+.tm-barra{height:6px;border-radius:3px;background:#ff6b6b;min-width:90px;overflow:hidden}
+.tm-barra i{display:block;height:100%;background:#5df2c0}
+.v{color:#5df2c0}.r{color:#ff6b6b}
+.tm-dos{display:grid;grid-template-columns:3fr 2fr;gap:14px}
+.tm-nov{list-style:none;margin:0;padding:0}
+.tm-nov li{padding:8px 0;border-top:1px solid #101b2e;font-size:15px;line-height:1.45}
+.tm-nov li:first-child{border-top:0}
+.tm-nov a{color:#e8eff9;text-decoration:none}
+.tm-nov a:hover{text-decoration:underline}
+.tm-tag{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+  border:1px solid #2a3d61;border-radius:3px;padding:1px 5px;margin-right:6px;color:#9fb0cb}
+.tm-tag.hackeo{border-color:#ff6b6b;color:#ff8a8a}.tm-tag.ETF{border-color:#5df2c0;color:#5df2c0}
+.tm-cuando{font-size:12px;color:#7d90ae}
+.tm-pie{font-size:13px;color:#7d90ae;margin:4px 0 0}
+@media(max-width:820px){.tm-fila{grid-template-columns:repeat(2,1fr)}.tm-dos{grid-template-columns:1fr}
+  #tm-grafico{height:300px}.tm-val{font-size:22px}}
+</style>
+
+<div class="tm" id="tm">
+  <div class="tm-puerta" id="tm-puerta">
+    <div class="tm-caja">
+      <h2>🔒 Terminal para suscriptores</h2>
+      <p>Es gratis. Suscríbete al canal de Telegram y abre el terminal con el bot.
+      El acceso dura 24 horas.</p>
+      <a class="can" href="https://t.me/LideresCripto" target="_blank" rel="noopener">1. Suscribirme al canal</a>
+      <a class="bot" id="tm-boton" href="https://t.me/LideresCriptoBot_bot" target="_blank" rel="noopener">2. Abrir el terminal con el bot</a>
+      <div class="tm-espera" id="tm-espera"></div>
+    </div>
+  </div>
+  <div class="tm-cuerpo">
+    <div class="tm-fila">
+      <div class="tm-dato"><div class="tm-et">Miedo y codicia</div><div class="tm-val" id="tm-miedo">…</div><div class="tm-sub" id="tm-miedo-s"></div></div>
+      <div class="tm-dato"><div class="tm-et">Volumen 24 h</div><div class="tm-val" id="tm-vol">…</div><div class="tm-sub">todo el mercado cripto</div></div>
+      <div class="tm-dato"><div class="tm-et">Capitalización</div><div class="tm-val" id="tm-cap">…</div><div class="tm-sub" id="tm-cap-s"></div></div>
+      <div class="tm-dato"><div class="tm-et">Dominancia BTC</div><div class="tm-val" id="tm-dom">…</div><div class="tm-sub">parte de bitcoin en el mercado</div></div>
+    </div>
+    <div class="tm-panel">
+      <h3>Dónde están las ballenas en el gráfico</h3>
+      <div class="tm-tabs" id="tm-tabs"><button class="on" data-c="BTC">BTC</button><button data-c="ETH">ETH</button><button data-c="SOL">SOL</button></div>
+      <div id="tm-grafico"></div>
+      <div class="tm-ley" id="tm-ley"></div>
+    </div>
+    <div class="tm-panel">
+      <h3>Qué tienen abierto ahora las cuentas grandes</h3>
+      <div class="tm-scroll"><table class="tm-t">
+        <thead><tr><th>Moneda</th><th>Precio</th><th>Largos</th><th></th><th>Cortos</th><th>Entrada media L / C</th><th>En ganancia L / C</th><th>Funding/año</th></tr></thead>
+        <tbody id="tm-ballenas"></tbody>
+      </table></div>
+      <p class="tm-pie" id="tm-pie"></p>
+    </div>
+    <div class="tm-dos">
+      <div class="tm-panel"><h3>Noticias cripto en español</h3><ul class="tm-nov" id="tm-noticias"></ul></div>
+      <div class="tm-panel"><h3>Peligros y estafas</h3><ul class="tm-nov" id="tm-peligros"></ul></div>
+    </div>
+  </div>
+</div>
+<script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js" defer></script>
+<script src="/herramientas/terminal-en-vivo/terminal.js?v=1" defer></script>
+
+<h2>Qué ves en este terminal</h2>
+<p>Seguimos todos los días las cuentas más grandes de Hyperliquid, la bolsa de futuros
+donde cada posición se ve en la blockchain. El terminal junta lo que tienen abiertas
+ahora mismo: cuánta plata hay en largos y en cortos en cada moneda, a qué precio
+entraron en promedio y cuántas de esas posiciones van ganando.</p>
+<p>En el gráfico dibujamos dos cosas encima del precio: la entrada media de las ballenas
+y los precios donde la bolsa las liquidaría. Esos niveles importan porque el precio
+suele ir a buscarlos: cuando una ballena se liquida, su orden empuja el precio todavía
+más en la misma dirección.</p>
+<h2>De dónde salen los datos</h2>
+<ul>
+<li>Posiciones de las ballenas: datos públicos de Hyperliquid, cada 10 minutos.</li>
+<li>Velas del gráfico: Binance, en vivo.</li>
+<li>Índice de miedo y codicia: alternative.me.</li>
+<li>Volumen, capitalización y dominancia: CoinGecko.</li>
+<li>Noticias: CriptoNoticias, BeInCrypto, DiarioBitcoin y Bitcoin.com en español.</li>
+</ul>
+<p>No es una señal de compra ni de venta. Las ballenas también pierden: por eso
+mostramos qué parte de ellas va en ganancia y qué parte no.</p>
+
+</article>
+<div class="cta">
+  <p>En el canal desarmamos una estafa nueva cada semana, con pruebas y en español.
+  El bot es gratis: escríbele un ticker y te da la ficha completa de esa moneda.</p>
+  <a class="can" href="https://t.me/LideresCripto">Ver el canal</a>
+  <a class="bot" href="https://t.me/LideresCriptoBot_bot?start=estafas">Abrir el bot</a>
+</div>
+<div class="sigue"><h2>Sigue leyendo</h2>
+  <ul>
+    <li><a href="/herramientas/calculadora-de-liquidacion/">¿A qué precio te liquidan? Calcúlalo</a></li>
+    <li><a href="/aprende/precio-de-liquidacion/">El precio de liquidación es un imán</a></li>
+    <li><a href="/aprende/que-es-una-liquidacion/">Liquidaciones: cuando la bolsa cierra tu posición</a></li>
+  </ul></div>
+</main>
+<footer><div class="env">
+  <p>Líderes Cripto · seguimos posiciones públicas de Hyperliquid y OKX y lo contamos en español.</p>
+  <p>No es asesoría financiera. Mostramos lo que hacen los líderes, la decisión es tuya.</p>
+  <p><a href="/">Inicio</a> · <a href="/aprende/">Aprende</a> · <a href="https://t.me/LideresCripto">Canal</a> · <a href="https://t.me/LideresCriptoBot_bot?start=aprende">Bot</a></p>
+</div></footer>
+<script src="/c.js" defer></script>
+</body>
+</html>
