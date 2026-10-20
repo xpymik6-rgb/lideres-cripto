@@ -40,7 +40,7 @@
     {
       "@type":"FAQPage",
       "mainEntity":[
-        {"@type":"Question","name":"¿De dónde salen los datos del terminal?","acceptedAnswer":{"@type":"Answer","text":"Las posiciones son datos públicos de Hyperliquid: cada cuenta se ve en la blockchain y las leemos cada 10 minutos. Las velas vienen de Binance, el índice de miedo y codicia de alternative.me y el volumen del mercado de CoinGecko."}},
+        {"@type":"Question","name":"¿De dónde salen los datos del terminal?","acceptedAnswer":{"@type":"Answer","text":"Las posiciones son datos públicos: billeteras de Hyperliquid, que se ven en la blockchain, y cuentas de los rankings públicos de OKX y Binance. Las leemos cada 10 minutos. Las velas vienen de Binance, el índice de miedo y codicia de alternative.me y el volumen del mercado de CoinGecko."}},
         {"@type":"Question","name":"¿Por qué tengo que suscribirme al canal para verlo?","acceptedAnswer":{"@type":"Answer","text":"Es gratis. El terminal es para la comunidad del canal de Telegram, donde publicamos los avisos de las ballenas. Te suscribes, abres el terminal con el bot y el acceso dura 24 horas."}},
         {"@type":"Question","name":"¿Esto es una señal para comprar o vender?","acceptedAnswer":{"@type":"Answer","text":"No. Mostramos qué hacen las cuentas grandes, no qué tienes que hacer tú. Las ballenas también pierden: por eso el terminal muestra qué parte de ellas va en ganancia."}},
         {"@type":"Question","name":"¿Por qué importan los precios de liquidación de las ballenas?","acceptedAnswer":{"@type":"Answer","text":"Porque el precio suele ir a buscarlos. Cuando la bolsa liquida una posición grande, su orden empuja el precio todavía más en la misma dirección y arrastra a otros."}},
@@ -163,12 +163,12 @@ table.tm-t{width:100%;border-collapse:collapse;font-size:14px;min-width:640px}
   </div>
 </div>
 <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js" defer></script>
-<script src="/herramientas/terminal-en-vivo/terminal.js?v=1" defer></script>
+<script src="/herramientas/terminal-en-vivo/terminal.js?v=2" defer></script>
 
 <h2>Qué ves en este terminal</h2>
 <p>Seguimos todos los días las cuentas más grandes de Hyperliquid, la bolsa de futuros
-donde cada posición se ve en la blockchain. El terminal junta lo que tienen abiertas
-ahora mismo: cuánta plata hay en largos y en cortos en cada moneda, a qué precio
+donde cada posición se ve en la blockchain, y además las que aparecen en los rankings
+públicos de OKX y Binance. El terminal junta lo que tienen abiertas ahora mismo: cuánta plata hay en largos y en cortos en cada moneda, a qué precio
 entraron en promedio y cuántas de esas posiciones van ganando.</p>
 <p>En el gráfico dibujamos dos cosas encima del precio: la entrada media de las ballenas
 y los precios donde la bolsa las liquidaría. Esos niveles importan porque el precio
@@ -176,7 +176,7 @@ suele ir a buscarlos: cuando una ballena se liquida, su orden empuja el precio t
 más en la misma dirección.</p>
 <h2>De dónde salen los datos</h2>
 <ul>
-<li>Posiciones de las ballenas: datos públicos de Hyperliquid, cada 10 minutos.</li>
+<li>Posiciones de las ballenas: datos públicos de Hyperliquid y rankings públicos de OKX y Binance, cada 10 minutos.</li>
 <li>Velas del gráfico: Binance, en vivo.</li>
 <li>Índice de miedo y codicia: alternative.me.</li>
 <li>Volumen, capitalización y dominancia: CoinGecko.</li>

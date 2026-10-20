@@ -12,7 +12,7 @@
   function usd(n) {
     if (n == null) return "–";
     var a = Math.abs(n);
-    if (a >= 1e12) return "$" + (n / 1e12).toLocaleString("es-ES", {maximumFractionDigits: 2}) + " B";
+    if (a >= 1e12) return "$" + (n / 1e12).toLocaleString("es-ES", {maximumFractionDigits: 2}) + " billones";
     if (a >= 1e9) return "$" + (n / 1e9).toLocaleString("es-ES", {maximumFractionDigits: 1}) + " mil M";
     if (a >= 1e6) return "$" + (n / 1e6).toLocaleString("es-ES", {maximumFractionDigits: 1}) + " M";
     if (a >= 1e3) return "$" + (n / 1e3).toLocaleString("es-ES", {maximumFractionDigits: 0}) + " mil";
@@ -115,7 +115,8 @@
       var pel = (p.noticias || []).concat((p.guias || []).map(function (g) {
         return {titulo: g.titulo, url: g.url, tema: "cómo te roban"}; }));
       pintarLista("tm-peligros", pel.slice(0, 8), "Nada nuevo.");
-      $("tm-pie").textContent = (d.cuentas ? d.cuentas + " cuentas grandes de Hyperliquid" : "Cuentas grandes de Hyperliquid") +
+      $("tm-pie").textContent = (d.cuentas ? d.cuentas + " cuentas grandes" : "Cuentas grandes") +
+        " (billeteras de Hyperliquid y rankings públicos de OKX y Binance)" +
         " · actualizado " + esc(d.snapshot || "") + " (hora de Lima) · L = largos, C = cortos, entre paréntesis cuántas posiciones";
       lineasBallenas();
     }).catch(function () { $("tm-pie").textContent = "No pude cargar los datos. Prueba en un minuto."; });
@@ -144,6 +145,16 @@
       if ((b.liquidaciones || []).length) ley.push("líneas finas: donde la bolsa liquidaría a esas ballenas y cuánto dinero hay en cada nivel");
     }
     $("tm-ley").innerHTML = ley.join(" · ");
+    // Шкала по свечам обрезала линии китов: вход шортов и уровни ликвидаций
+    // оставались за краем графика. Растягиваем шкалу так, чтобы их было видно.
+    var niveles = lineas.map(function (l) { return l.options().price; });
+    velas.applyOptions({autoscaleInfoProvider: function (orig) {
+      var r = orig();
+      if (!r || !niveles.length) return r;
+      var lo = Math.min.apply(null, niveles.concat([r.priceRange.minValue]));
+      var hi = Math.max.apply(null, niveles.concat([r.priceRange.maxValue]));
+      return {priceRange: {minValue: lo, maxValue: hi}, margins: r.margins};
+    }});
   }
   function cargarVelas() {
     if (!velas) return;
