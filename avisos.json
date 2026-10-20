@@ -1,6 +1,15 @@
 {
- "actualizado": 1792502405.7040763,
+ "actualizado": 1792509616.9766052,
  "avisos": [
+  {
+   "ts": 1792506218.4989555,
+   "tipo": "Señal",
+   "texto": "pump $JCT",
+   "monedas": [
+    "JCT"
+   ],
+   "url": "https://t.me/LideresCripto/1241"
+  },
   {
    "ts": 1792501702.4177387,
    "tipo": "Edición del radar",
@@ -185,15 +194,6 @@
    "texto": "qué es un desbloqueo",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1205"
-  },
-  {
-   "ts": 1792250264.5003443,
-   "tipo": "Señal",
-   "texto": "pump $Q",
-   "monedas": [
-    "Q"
-   ],
-   "url": "https://t.me/LideresCripto/1204"
   }
  ]
 }
