@@ -1,6 +1,22 @@
 {
- "actualizado": 1792459217.6449883,
+ "actualizado": 1792502405.7040763,
  "avisos": [
+  {
+   "ts": 1792501702.4177387,
+   "tipo": "Edición del radar",
+   "texto": "radar 20.10 08:08",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "HYPE",
+    "Q",
+    "ZEC",
+    "SAND",
+    "KORU",
+    "DOT"
+   ],
+   "url": "https://t.me/LideresCripto/1238"
+  },
   {
    "ts": 1792456753.2189562,
    "tipo": "Noticias",
@@ -178,22 +194,6 @@
     "Q"
    ],
    "url": "https://t.me/LideresCripto/1204"
-  },
-  {
-   "ts": 1792242628.5434413,
-   "tipo": "Edición del radar",
-   "texto": "radar 17.10 08:10",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "NEAR",
-    "ETC",
-    "SKY",
-    "WLFI",
-    "TIA"
-   ],
-   "url": "https://t.me/LideresCripto/1201"
   }
  ]
 }
