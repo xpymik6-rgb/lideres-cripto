@@ -137,7 +137,12 @@
         lineas.push(velas.createPriceLine({price: b.corto.entrada, color: "#ff6b6b", lineWidth: 2, lineStyle: 2, axisLabelVisible: true, title: "entrada cortos"}));
         ley.push('<b class="r">— entrada media de los cortos</b> ' + px(b.corto.entrada));
       }
-      (b.liquidaciones || []).slice(0, 5).forEach(function (q) {
+      // на графике только уровни в пределах 12% от цены: дальние сплющивали
+      // свечи в полоску, а сработать в ближайшие дни могут как раз ближние
+      var cerca = (b.liquidaciones || []).filter(function (q) {
+        return b.precio && Math.abs(q.precio / b.precio - 1) <= 0.12; });
+      b = Object.assign({}, b, {liquidaciones: cerca});
+      cerca.slice(0, 5).forEach(function (q) {
         var largo = q.lado === "LONG";
         lineas.push(velas.createPriceLine({price: q.precio, color: largo ? "rgba(93,242,192,.55)" : "rgba(255,107,107,.55)",
           lineWidth: 1, lineStyle: 0, axisLabelVisible: false, title: "liq. " + (largo ? "largos " : "cortos ") + usd(q.usd)}));
