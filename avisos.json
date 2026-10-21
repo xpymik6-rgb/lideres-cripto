@@ -1,6 +1,13 @@
 {
- "actualizado": 1792588821.9098954,
+ "actualizado": 1792599606.8641403,
  "avisos": [
+  {
+   "ts": 1792598644.477317,
+   "tipo": "Guía",
+   "texto": "cómo usar las señales",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1256"
+  },
   {
    "ts": 1792587715.2658677,
    "tipo": "Edición del radar",
@@ -190,15 +197,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/1215"
-  },
-  {
-   "ts": 1792338457.593926,
-   "tipo": "Señal",
-   "texto": "pump $Q",
-   "monedas": [
-    "Q"
-   ],
-   "url": "https://t.me/LideresCripto/1214"
   }
  ]
 }
