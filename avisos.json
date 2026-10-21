@@ -1,6 +1,15 @@
 {
- "actualizado": 1792599606.8641403,
+ "actualizado": 1792617620.9683523,
  "avisos": [
+  {
+   "ts": 1792617018.5068007,
+   "tipo": "Señal",
+   "texto": "historia NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/1261"
+  },
   {
    "ts": 1792598644.477317,
    "tipo": "Guía",
@@ -188,15 +197,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1218"
-  },
-  {
-   "ts": 1792357334.386409,
-   "tipo": "Señal",
-   "texto": "historia ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/1215"
   }
  ]
 }
