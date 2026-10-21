@@ -1,6 +1,15 @@
 {
- "actualizado": 1792567202.1484482,
+ "actualizado": 1792570809.4568024,
  "avisos": [
+  {
+   "ts": 1792567806.8069916,
+   "tipo": "Señal",
+   "texto": "pump $Q",
+   "monedas": [
+    "Q"
+   ],
+   "url": "https://t.me/LideresCripto/1251"
+  },
   {
    "ts": 1792565638.8009531,
    "tipo": "Señal",
@@ -187,15 +196,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/1212"
-  },
-  {
-   "ts": 1792300183.2481592,
-   "tipo": "Señal",
-   "texto": "pump $Q",
-   "monedas": [
-    "Q"
-   ],
-   "url": "https://t.me/LideresCripto/1211"
   }
  ]
 }
