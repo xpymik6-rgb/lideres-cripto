@@ -142,6 +142,10 @@ del mismo lado, en menos de doce horas.
   https://liderescripto.com/aprende/regalo-cripto-duplica-tu-dinero/
   ¿Elon Musk regala bitcoin o ethereum? No. Los videos y posts que prometen devolverte el doble de la cripto que envíes son estafas, muchas veces con videos editados o hechos con inteligencia artificial.
   ¿Cómo funciona la estafa de «envía cripto y recibe el doble»? Te muestran un famoso, una dirección y un contador. Envías tu cripto a esa dirección, que es de los estafadores, y no recibes nada de vuelta.
+- Me piden pagar un impuesto o comisión para retirar mis criptos: es estafa
+  https://liderescripto.com/aprende/pagar-para-retirar-estafa/
+  ¿Es normal pagar un impuesto para retirar criptomonedas? No. Ningún exchange real te pide un depósito nuevo para liberar tu saldo, y los impuestos los cobra el Estado de tu país, no la plataforma. Es la señal más clara de estafa.
+  ¿Si pago la comisión me van a dejar retirar? No. El FBI documenta que las víctimas no recuperan su dinero aunque paguen las comisiones o los impuestos que les piden. Después del primer pago aparece otro.
 - Herramienta gratis: Verificar USDT: comprueba si el USDT que recibiste es real o falso
   https://liderescripto.com/herramientas/verificar-usdt/
   Pega la dirección del contrato del token que te llegó y te decimos si es el USDT oficial en Tron, BNB Chain, Ethereum o Solana, o si es una copia. Gratis, sin registrarte y sin conectar tu billetera.
