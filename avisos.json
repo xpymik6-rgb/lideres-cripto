@@ -1,6 +1,13 @@
 {
- "actualizado": 1792617620.9683523,
+ "actualizado": 1792632014.2080767,
  "avisos": [
+  {
+   "ts": 1792629310.1327562,
+   "tipo": "Noticias",
+   "texto": "noticias 21.10 19:35",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1266"
+  },
   {
    "ts": 1792617018.5068007,
    "tipo": "Señal",
@@ -188,15 +195,6 @@
    "texto": "noticias 18.10 19:32",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1220"
-  },
-  {
-   "ts": 1792365141.3293853,
-   "tipo": "Resultados",
-   "texto": "análisis ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1218"
   }
  ]
 }
