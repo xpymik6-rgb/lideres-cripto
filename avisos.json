@@ -1,6 +1,15 @@
 {
- "actualizado": 1792689613.3815038,
+ "actualizado": 1792704002.1423538,
  "avisos": [
+  {
+   "ts": 1792703660.0920327,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1276"
+  },
   {
    "ts": 1792688830.4606836,
    "tipo": "Resultados",
@@ -187,19 +196,6 @@
    "texto": "qué es el régimen del mercado",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1229"
-  },
-  {
-   "ts": 1792415064.4578414,
-   "tipo": "Edición del radar",
-   "texto": "radar 19.10 08:04",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "Q",
-    "KORU"
-   ],
-   "url": "https://t.me/LideresCripto/1225"
   }
  ]
 }
