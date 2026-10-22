@@ -1,6 +1,18 @@
 {
- "actualizado": 1792678811.5442355,
+ "actualizado": 1792689613.3815038,
  "avisos": [
+  {
+   "ts": 1792688830.4606836,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 22.10",
+   "monedas": [
+    "Q",
+    "ETH",
+    "ZEC",
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1274"
+  },
   {
    "ts": 1792674617.4379826,
    "tipo": "Edición del radar",
@@ -188,15 +200,6 @@
     "KORU"
    ],
    "url": "https://t.me/LideresCripto/1225"
-  },
-  {
-   "ts": 1792401315.671896,
-   "tipo": "Señal",
-   "texto": "$28.3 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1224"
   }
  ]
 }
