@@ -1,6 +1,24 @@
 {
- "actualizado": 1792632014.2080767,
+ "actualizado": 1792657220.3522878,
  "avisos": [
+  {
+   "ts": 1792656386.8166406,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1268"
+  },
+  {
+   "ts": 1792654675.6695764,
+   "tipo": "Señal",
+   "texto": "$49.5 M en USDT entran en Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/1267"
+  },
   {
    "ts": 1792629310.1327562,
    "tipo": "Noticias",
@@ -174,27 +192,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1222"
-  },
-  {
-   "ts": 1792374076.9933827,
-   "tipo": "Resultados",
-   "texto": "resultados semana 18.10",
-   "monedas": [
-    "ZRO",
-    "JMDT",
-    "JET",
-    "RYO",
-    "H",
-    "XPL"
-   ],
-   "url": "https://t.me/LideresCripto/1221"
-  },
-  {
-   "ts": 1792369967.6810842,
-   "tipo": "Noticias",
-   "texto": "noticias 18.10 19:32",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1220"
   }
  ]
 }
