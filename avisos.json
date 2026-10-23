@@ -1,6 +1,13 @@
 {
- "actualizado": 1792704002.1423538,
+ "actualizado": 1792718412.5548453,
  "avisos": [
+  {
+   "ts": 1792715534.750749,
+   "tipo": "Noticias",
+   "texto": "noticias 22.10 19:32",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1279"
+  },
   {
    "ts": 1792703660.0920327,
    "tipo": "Señal",
@@ -189,13 +196,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1230"
-  },
-  {
-   "ts": 1792426389.4375758,
-   "tipo": "Guía",
-   "texto": "qué es el régimen del mercado",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1229"
   }
  ]
 }
