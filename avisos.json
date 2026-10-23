@@ -1,6 +1,22 @@
 {
- "actualizado": 1792743608.2355254,
+ "actualizado": 1792761604.6123185,
  "avisos": [
+  {
+   "ts": 1792761262.3960333,
+   "tipo": "Edición del radar",
+   "texto": "radar 23.10 08:14",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "HYPE",
+    "PUMP",
+    "IRYS",
+    "AKE",
+    "BTW",
+    "MAGMA"
+   ],
+   "url": "https://t.me/LideresCripto/1281"
+  },
   {
    "ts": 1792742752.5905101,
    "tipo": "Señal",
@@ -183,15 +199,6 @@
    "texto": "noticias 19.10 19:39",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1237"
-  },
-  {
-   "ts": 1792444455.3667874,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1231"
   }
  ]
 }
