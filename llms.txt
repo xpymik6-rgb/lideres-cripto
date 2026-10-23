@@ -155,6 +155,9 @@ del mismo lado, en menos de doce horas.
 - Herramienta gratis: Terminal cripto en vivo: qué hacen las ballenas de Hyperliquid ahora
   https://liderescripto.com/herramientas/terminal-en-vivo/
   Qué tienen abierto ahora las cuentas más grandes de Hyperliquid, a qué precio entraron y dónde las liquidarían, más el índice de miedo y codicia y las noticias cripto en español. Se actualiza cada 10 minutos.
+- Herramienta gratis: ¿Es confiable esta plataforma? Verifica si un regulador la advirtió
+  https://liderescripto.com/herramientas/verificar-plataforma/
+  Escribe el nombre o la página web de una plataforma de inversión o de cripto y te decimos si algún regulador del mundo publicó una advertencia sobre ella. Gratis y sin registrarte.
 
 ## Aprende (explicaciones en español, gratis)
 

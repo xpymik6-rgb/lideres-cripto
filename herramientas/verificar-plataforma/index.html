@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>¿Es confiable esta plataforma? Verifica si un regulador la advirtió</title>
+<meta name="description" content="Escribe el nombre o la página web de una plataforma de inversión o de cripto y te decimos si algún regulador del mundo publicó una advertencia sobre ella. Gratis y sin registrarte.">
+<link rel="canonical" href="https://liderescripto.com/herramientas/verificar-plataforma/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="¿Es confiable esta plataforma? Verifica si un regulador la advirtió">
+<meta property="og:description" content="Escribe el nombre o la página web de una plataforma de inversión o de cripto y te decimos si algún regulador del mundo publicó una advertencia sobre ella. Gratis y sin registrarte.">
+<meta property="og:url" content="https://liderescripto.com/herramientas/verificar-plataforma/">
+<meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://liderescripto.com/og-aprende.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://liderescripto.com/og-aprende.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/aprende/estilo.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebApplication",
+      "name":"¿Es confiable esta plataforma? Verifícalo aquí",
+      "description":"Escribe el nombre o la página web de una plataforma de inversión o de cripto y te decimos si algún regulador del mundo publicó una advertencia sobre ella. Gratis y sin registrarte.",
+      "url":"https://liderescripto.com/herramientas/verificar-plataforma/",
+      "applicationCategory":"FinanceApplication",
+      "operatingSystem":"Any",
+      "inLanguage":"es",
+      "isAccessibleForFree":true,
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+      "publisher":{"@type":"Organization","name":"Líderes Cripto","url":"https://liderescripto.com/"}
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"¿Cómo sé si una plataforma de inversión es confiable?","acceptedAnswer":{"@type":"Answer","text":"Busca su nombre y su página web en las listas de advertencias de los reguladores. Este verificador revisa la base I-SCAN de IOSCO, que reúne las advertencias de 74 reguladores. Si aparece, no tiene autorización para ofrecerte inversiones en ese país."}},
+        {"@type":"Question","name":"¿Si no aparece en la lista, es segura?","acceptedAnswer":{"@type":"Answer","text":"No necesariamente. Muchas estafas son nuevas y todavía no figuran en ninguna lista. Si te piden pagar un impuesto o una comisión para retirar, es la señal más clara de estafa."}},
+        {"@type":"Question","name":"¿De dónde salen los datos?","acceptedAnswer":{"@type":"Answer","text":"De la base pública I-SCAN de IOSCO, la organización internacional de reguladores de valores. Cada resultado enlaza a la alerta original del regulador."}},
+        {"@type":"Question","name":"¿El verificador guarda lo que escribo?","acceptedAnswer":{"@type":"Answer","text":"No. La búsqueda se hace en tu navegador y no enviamos lo que escribes a ningún servidor."}}
+      ]
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Inicio","item":"https://liderescripto.com/"},
+        {"@type":"ListItem","position":2,"name":"Herramientas","item":"https://liderescripto.com/herramientas/"},
+        {"@type":"ListItem","position":3,"name":"¿Es confiable esta plataforma? Verifícalo aquí","item":"https://liderescripto.com/herramientas/verificar-plataforma/"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header><div class="env">
+  <a class="lg" href="/">Líderes Cripto</a>
+  <a href="https://t.me/LideresCripto">Canal en Telegram</a>
+</div></header>
+<main class="env">
+
+<nav class="miga"><a href="/">Inicio</a> › <a href="/herramientas/">Herramientas</a></nav>
+<p class="razdel" style="color:#5df2c0">Herramienta gratis</p>
+<h1>¿Es confiable esta plataforma? Verifícalo aquí</h1>
+<p class="bajada">Escribe el nombre o la página web de una plataforma de inversión o de cripto y te decimos si algún regulador del mundo publicó una advertencia sobre ella. Gratis y sin registrarte.</p>
+<article>
+
+<div class="verif">
+  <label for="q">Nombre de la plataforma o su página web</label>
+  <input id="q" type="text" autocomplete="off" spellcheck="false" placeholder="Ej.: nombre-de-la-plataforma.com">
+  <button id="btn" type="button">Verificar</button>
+  <div id="res" role="status" aria-live="polite"></div>
+</div>
+<script>
+(function () {
+  var datos = null, inp = document.getElementById('q'), res = document.getElementById('res');
+  function n(s) { return (s || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').trim(); }
+  function dom(s) { s = n(s).replace(/^[a-z]+:\/\//, '').split(/[\/?#:]/)[0].replace(/^www\d?\./, ''); return s; }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function cargar(cb) {
+    if (datos) return cb();
+    res.className = ''; res.textContent = 'Cargando la base de advertencias...';
+    fetch('plataformas.json').then(function (r) { return r.json(); }).then(function (j) { datos = j; cb(); })
+      .catch(function () { res.className = 'mal'; res.textContent = 'No se pudo cargar la base. Prueba de nuevo.'; });
+  }
+  function buscar() {
+    var q = n(inp.value), d = dom(inp.value);
+    if (q.length < 3) { res.className = ''; res.textContent = 'Escribe al menos 3 letras.'; return; }
+    cargar(function () {
+      var hay = [];
+      for (var i = 0; i < datos.p.length && hay.length < 8; i++) {
+        var p = datos.p[i], doms = ' ' + p[1] + ' ';
+        var porDom = d.indexOf('.') > 0 && doms.indexOf(' ' + d + ' ') >= 0;
+        var porNombre = n(p[0]).indexOf(q) >= 0 || n(p[2]).indexOf(q) >= 0;
+        if (porDom || porNombre) hay.push(p);
+      }
+      if (!hay.length) {
+        res.className = 'ok';
+        res.innerHTML = '<b>No aparece en las listas de advertencias que revisamos</b> (' + datos.p.length.toLocaleString('es') +
+          ' plataformas advertidas por reguladores de todo el mundo, base del ' + datos.fecha + '). ' +
+          'Eso no la vuelve segura: muchas estafas son nuevas y todavía no figuran en ninguna lista. ' +
+          'Revisa las señales en <a href="/aprende/app-falsa-exchange-falso/">esta guía</a>, y si te piden pagar para retirar, ' +
+          '<a href="/aprende/pagar-para-retirar-estafa/">lee esto primero</a>.';
+        return;
+      }
+      var h = '<b>Encontramos advertencias de reguladores:</b>';
+      hay.forEach(function (p) {
+        h += '<div class="pl"><b>' + esc(p[0]) + '</b>' + (p[1] ? ' <span class="d">' + esc(p[1]) + '</span>' : '') + '<ul>';
+        p[4].forEach(function (a) {
+          var r = datos.regs[a[0]];
+          h += '<li>' + esc(r[0]) + ' (' + esc(r[1]) + '), ' + a[1] + ': ' + esc(datos.cats[a[2]]) +
+               '. <a href="https://www.iosco.org/i-scan/?id=' + a[3] + '" rel="nofollow noopener" target="_blank">Ver la alerta</a></li>';
+        });
+        if (p[5]) h += '</ul><p class="d">Es una empresa conocida con licencia en otros países. La advertencia significa que no está autorizada ' +
+          'en el país de ese regulador. Si te escribieron en su nombre por WhatsApp o Telegram, comprueba que la página sea la oficial.</p>';
+        else h += '</ul>';
+        h += (p[3] ? '<a href="/verificar/' + p[3] + '/">Qué significa y qué hacer</a>' : '') + '</div>';
+      });
+      h += '<p>Que un regulador la advierta significa que no tiene autorización para ofrecer inversiones en ese país. ' +
+           'Si ya depositaste, no envíes más dinero: <a href="/aprende/pagar-para-retirar-estafa/">qué hacer ahora</a>.</p>';
+      res.className = 'mal'; res.innerHTML = h;
+    });
+  }
+  document.getElementById('btn').addEventListener('click', buscar);
+  inp.addEventListener('keydown', function (e) { if (e.key === 'Enter') buscar(); });
+})();
+</script>
+<style>
+.verif{border:1px solid #2a3d61;background:rgba(14,22,38,.72);border-radius:8px;padding:18px;margin:8px 0 30px}
+.verif label{display:block;font-size:14px;color:#7d90ae;margin-bottom:8px}
+.verif input{width:100%;box-sizing:border-box;font:16px "IBM Plex Mono",ui-monospace,monospace;
+  background:#050810;color:#e8eff9;border:1px solid #2a3d61;border-radius:6px;padding:12px}
+.verif button{margin-top:12px;background:#5df2c0;color:#050810;font-weight:600;font-size:16px;
+  border:0;border-radius:5px;padding:12px 22px;cursor:pointer}
+#res{margin-top:16px;border-radius:6px;line-height:1.55;overflow-wrap:anywhere}
+#res.ok{background:rgba(93,242,192,.12);border:1px solid #5df2c0;padding:14px}
+#res.mal{background:rgba(255,107,107,.12);border:1px solid #ff6b6b;padding:14px}
+#res .pl{margin:12px 0;padding-top:10px;border-top:1px solid rgba(255,255,255,.12)}
+#res .d{color:#7d90ae;font-size:14px}
+#res b{color:#fff}
+</style>
+<h2>Qué significa que un regulador la advierta</h2>
+<p>Los reguladores financieros publican listas de empresas que ofrecen inversiones sin autorización. Si una plataforma figura ahí, no tiene permiso para captar dinero del público en ese país, y si algo sale mal no hay a quién reclamar.</p>
+<p>Una advertencia no es una sentencia: el regulador avisa que la empresa no está registrada o que recibió quejas. Pero ninguna plataforma seria opera así.</p>
+<h2>Si no aparece en la lista</h2>
+<p>Muchas estafas cambian de nombre y de página cada pocas semanas, y tardan en llegar a las listas. Las señales que nunca fallan: te contactaron por WhatsApp o Telegram, las ganancias solo existen en la pantalla, y para retirar te piden pagar algo antes.</p>
+<p class="nota">Fuente: base I-SCAN de IOSCO (iosco.org/i-scan), con información pública de los reguladores miembros. IOSCO no verifica de forma independiente toda la información que publican sus miembros. Cada resultado enlaza a la alerta original. Base descargada el 2026-10-23.</p>
+</article>
+<div class="cta">
+  <p>En el canal desarmamos una estafa nueva cada semana, con pruebas y en español.
+  El bot es gratis: escríbele un ticker y te da la ficha completa de esa moneda.</p>
+  <a class="can" href="https://t.me/LideresCripto">Ver el canal</a>
+  <a class="bot" href="https://t.me/LideresCriptoBot_bot?start=estafas">Abrir el bot</a>
+</div>
+<div class="sigue"><h2>Sigue leyendo</h2>
+  <ul>
+    <li><a href="/aprende/pagar-para-retirar-estafa/">Te piden pagar para retirar tu plata</a></li>
+    <li><a href="/aprende/app-falsa-exchange-falso/">La app que te muestra ganancias y no te deja retirar</a></li>
+    <li><a href="/aprende/estafa-recuperacion-de-fondos/">«Recuperamos tu dinero»: la segunda estafa</a></li>
+  </ul></div>
+</main>
+<footer><div class="env">
+  <p>Líderes Cripto · seguimos posiciones públicas de Hyperliquid y OKX y lo contamos en español.</p>
+  <p>No es asesoría financiera. Mostramos lo que hacen los líderes, la decisión es tuya.</p>
+  <p><a href="/">Inicio</a> · <a href="/aprende/">Aprende</a> · <a href="https://t.me/LideresCripto">Canal</a> · <a href="https://t.me/LideresCriptoBot_bot?start=aprende">Bot</a></p>
+</div></footer>
+<script src="/c.js" defer></script>
+</body>
+</html>
