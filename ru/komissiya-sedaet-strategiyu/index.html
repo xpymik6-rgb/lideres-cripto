@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Комиссия съедает стратегию: как за минуту проверить любой бэктест, где её «забыли»</title>
+<meta name="description" content="Два свежих бэктеста на BTC с прибылью без учёта комиссии. Считаем по реальной волатильности биткоина, сколько стоит каждая сделка, и даём простую проверку для любой стратегии.">
+<link rel="canonical" href="https://liderescripto.com/ru/komissiya-sedaet-strategiyu/">
+<link rel="alternate" hreflang="ru" href="https://liderescripto.com/ru/komissiya-sedaet-strategiyu/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Комиссия съедает стратегию: как за минуту проверить любой бэктест, где её «забыли»">
+<meta property="og:description" content="Два свежих бэктеста на BTC с прибылью без учёта комиссии. Считаем по реальной волатильности биткоина, сколько стоит каждая сделка, и даём простую проверку для любой стратегии.">
+<meta property="og:url" content="https://liderescripto.com/ru/komissiya-sedaet-strategiyu/">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://liderescripto.com/ru/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/aprende/estilo.css">
+<style>
+.yaz{font-size:13px;color:#7d90ae}.yaz a{color:#7d90ae;margin-left:10px}
+.setka{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:18px 0}
+.kart{border:1px solid #2a3d61;background:rgba(14,22,38,.72);border-radius:8px;padding:14px 16px}
+.kart h3{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#7d90ae;margin:0 0 6px;font-weight:600}
+.bol{font-family:"Chakra Petch","IBM Plex Sans",sans-serif;font-size:28px;font-weight:700;line-height:1.15;color:#fff}
+.mel{color:#7d90ae;font-size:14px}.plus{color:#5df2c0}.minus{color:#ff8a8a}
+ul.sp{list-style:none;margin:6px 0;padding:0}ul.sp li{display:flex;justify-content:space-between;gap:10px;
+border-top:1px solid #101b2e;padding:6px 0;font-size:15px}ul.sp li:first-child{border-top:0}
+.tabl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px;margin:0 0 18px}
+th,td{border-bottom:1px solid #1c2a45;padding:7px 8px;text-align:left;vertical-align:top}
+details{border:1px solid #2a3d61;border-radius:6px;padding:10px 14px;margin:8px 0}summary{cursor:pointer;font-weight:600}
+.monety a{display:inline-block;border:1px solid #2a3d61;border-radius:5px;padding:5px 10px;margin:0 6px 8px 0;text-decoration:none}
+</style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://liderescripto.com/ru/#org", "name": "Horizon Ventures E.I.R.L.", "url": "https://liderescripto.com/ru/", "taxID": "20612763888", "address": {"@type": "PostalAddress", "streetAddress": "Sector Murunquy", "addressLocality": "Calca", "addressRegion": "Cusco", "addressCountry": "PE"}}, {"@type": "SoftwareApplication", "@id": "https://liderescripto.com/ru/#bot", "name": "Крипто-радар", "applicationCategory": "FinanceApplication", "operatingSystem": "Telegram", "url": "https://t.me/crypto01_radar_bot", "inLanguage": "ru", "description": "Бесплатный Телеграм-бот: проверка монеты перед входом в сделку, крупные игроки, плата за плечо, ликвидации, расчёт стопа и размера позиции.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@id": "https://liderescripto.com/ru/#org"}}, {"@type": "Article", "headline": "Комиссия съедает стратегию: как за минуту проверить любой бэктест, где её «забыли»", "description": "Два свежих бэктеста на BTC с прибылью без учёта комиссии. Считаем по реальной волатильности биткоина, сколько стоит каждая сделка, и даём простую проверку для любой стратегии.", "url": "https://liderescripto.com/ru/komissiya-sedaet-strategiyu/", "inLanguage": "ru", "publisher": {"@id": "https://liderescripto.com/ru/#org"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Почему в бэктесте прибыль, а у меня в реальной торговле убыток?", "acceptedAnswer": {"@type": "Answer", "text": "Чаще всего из-за комиссий и проскальзывания, которых нет в тесте. При тысячах сделок цена каждого круга складывается в сумму больше всей прибыли стратегии."}}, {"@type": "Question", "name": "Сколько стоит одна сделка на Bybit?", "acceptedAnswer": {"@type": "Answer", "text": "По рынку 0,055% на вход и столько же на выход, 0,11% за круг от размера позиции. Лимитными заявками дешевле, но они исполняются не всегда."}}, {"@type": "Question", "name": "Как быстро понять, переживёт ли стратегия комиссию?", "acceptedAnswer": {"@type": "Answer", "text": "Поделить прибыль на число сделок и сравнить с ценой круга на ваш размер позиции. Если круг дороже средней прибыли на сделку, стратегия убыточна."}}, {"@type": "Question", "name": "Помогают ли лимитные заявки?", "acceptedAnswer": {"@type": "Answer", "text": "Снижают цену круга, но на пробоях вход нужен сразу, и лимитная заявка часто не исполняется. Тогда стратегия пропускает именно те сделки, ради которых задумана."}}]}]}
+</script>
+</head>
+<body>
+<header><div class="env">
+  <a class="lg" href="/ru/">Líderes Cripto · RU</a>
+  <span class="yaz"><a href="https://t.me/crypto01_radar">Канал</a><a href="https://t.me/crypto01_radar_bot?start=ru_shapka">Бот</a><a href="/">Español</a></span>
+</div></header>
+<main class="env">
+<div class="miga"><a href="/ru/">Главная</a> · <a href="/ru/">Статьи радара</a></div><article><h1>Комиссия съедает стратегию: как за минуту проверить любой бэктест, где её «забыли»</h1>
+<p>Коротко. На vc.ru за неделю вышли две проверки торговых стратегий на биткоине: обе в плюсе, обе с пометкой «комиссия не учитывалась». Мы посчитали, сколько стоила бы каждая сделка по реальной волатильности BTC за последний год. В обоих случаях комиссия в несколько раз больше средней прибыли на сделку, и с ней обе стратегии уходят в минус. Ниже расчёт и проверка, которую можно сделать для любого бэктеста за минуту.</p>
+<p>Часть этой арифметики перед входом делает наш бесплатный бот «Крипто-радар»: напиши ему «хочу BTC лонг 500», и он посчитает размер позиции и стоп под твой риск, покажет, когда спишется плата за плечо, и предупредит, если стакан на такую сумму тонкий. Бот: <a href="https://t.me/crypto01_radar_bot?start=statya">https://t.me/crypto01_radar_bot?start=statya</a></p>
+<h3>Почему комиссия решает исход</h3>
+<p>Большинство стратегий на часовом графике ставят риск в процентах от капитала и стоп по волатильности. Тогда размер позиции получается такой: риск делить на расстояние до стопа. При риске 1% и стопе в 1% от цены позиция равна всему капиталу. Комиссия при этом берётся со всего размера позиции.</p>
+<p>На Bybit вход и выход по рынку стоят 0,055% каждый, то есть 0,11% за круг. С позиции в $9 000 это около $10 за сделку. Если стратегия делает тысячи сделок, комиссия становится главной статьёй расходов.</p>
+<h3>Первый бэктест: откаты к скользящей средней</h3>
+<p><a href="https://vc.ru/crypto/3207376-strategiya-torgovli-na-otkatakh-k-skolzhayushchey-sredney">Проверка на vc.ru</a>: вход по тренду после отката к EMA(50), стоп 2 ATR, тейк 3 ATR, риск 1%. С августа 2017 по сентябрь 2026 года на часовом BTC: 1227 сделок, прибыль +18,8% на $10 000.</p>
+<p>Считаем на сделку: 504 сделки по $93,48 и 723 по $62,54 дают около $1,6 прибыли на сделку.</p>
+<p>Теперь цена сделки. Мы посчитали 2 ATR на часовом BTC за последний год: в среднем около 1,2% от цены. Значит, позиция примерно 0,8 капитала, около $8 000, и круг стоит около $9. Комиссия больше средней прибыли в пять с лишним раз.</p>
+<h3>Второй бэктест: пробой диапазона начала дня</h3>
+<p><a href="https://vc.ru/crypto/3209132-strategiya-proboya-diapazona-na-btc">Проверка на vc.ru</a>: диапазон первых четырёх часовых свечей дня, вход на закрытии за его границей, стоп на противоположной границе, тейк два риска. Тот же период: 3195 сделок, +27,8%.</p>
+<p>На сделку это около $0,87 прибыли.</p>
+<p>Стоп стоит на противоположной границе диапазона, а вход уже за ней, поэтому расстояние до стопа не меньше ширины диапазона. Мы посчитали её за последний год: у первых четырёх часов суток медиана 1,1% от цены. Позиция выходит около 0,9 капитала, примерно $9 000, круг около $10. Даже при стопе вдвое шире это $5 против $0,87.</p>
+<p>Автор честно сравнил стратегию с простым удержанием: за тот же период купить и держать биткоин дало +1862%. Просадка была больше, 83% против 48%, но после комиссий у стратегии не остаётся и её +27,8%.</p>
+<h3>Проверка за минуту</h3>
+<ol><li>Возьмите итоговую прибыль и поделите на число сделок. Это средняя прибыль на сделку в долларах.</li><li>Оцените размер позиции: риск на сделку делить на расстояние до стопа в процентах.</li><li>Умножьте позицию на цену круга вашей биржи (на Bybit по рынку 0,11%).</li><li>Если цена круга больше средней прибыли на сделку, стратегия в таком виде убыточна, сколько бы красивым ни был график.</li></ol>
+<p>То же самое в процентах: прибыль на сделку, делённая на размер позиции, должна быть заметно больше цены круга. В пробое диапазона это около 0,01% против 0,11%.</p>
+<h3>Что ещё не попадает в такие тесты</h3>
+<p>Проскальзывание. Тест берёт цену закрытия свечи, а реальный вход по рынку бывает хуже, особенно на резком движении, когда и срабатывают пробои.</p>
+<p>Плата за плечо. Если позиция живёт часы и дни на бессрочном контракте, раз в восемь часов списывается или начисляется плата за плечо. В спокойный рынок это доли процента в день, в перегретый больше.</p>
+<p>Подгонка. Мы проверяли 25 стратегий с разделением истории на подбор и проверку: лучшие на подборе оказались худшими на новых данных. Об этом наша отдельная статья: <a href="https://vc.ru/3204506">https://vc.ru/3204506</a></p>
+<h3>Вопросы и ответы</h3>
+<p><strong>Почему в бэктесте прибыль, а у меня в реальной торговле убыток?</strong><br>Чаще всего из-за комиссий и проскальзывания, которых нет в тесте. При тысячах сделок цена каждого круга складывается в сумму больше всей прибыли стратегии.</p>
+<p><strong>Сколько стоит одна сделка на Bybit?</strong><br>По рынку 0,055% на вход и столько же на выход, 0,11% за круг от размера позиции. Лимитными заявками дешевле, но они исполняются не всегда.</p>
+<p><strong>Как быстро понять, переживёт ли стратегия комиссию?</strong><br>Поделить прибыль на число сделок и сравнить с ценой круга на ваш размер позиции. Если круг дороже средней прибыли на сделку, стратегия убыточна.</p>
+<p><strong>Помогают ли лимитные заявки?</strong><br>Снижают цену круга, но на пробоях вход нужен сразу, и лимитная заявка часто не исполняется. Тогда стратегия пропускает именно те сделки, ради которых задумана.</p></article><div class="cta"><p>Проверь свою монету перед входом: крупные игроки, плата за плечо, уровни, где стоят чужие стопы. Бесплатно.</p><a class="bot" href="https://t.me/crypto01_radar_bot?start=ru_statya">Открыть бота</a><a class="can" href="https://t.me/crypto01_radar">Канал</a></div></main>
+<footer><div class="env">
+  <p>Крипто-радар · бесплатный Телеграм-бот <a href="https://t.me/crypto01_radar_bot?start=ru_podval">@crypto01_radar_bot</a> и канал
+  <a href="https://t.me/crypto01_radar">@crypto01_radar</a>. Данные Bybit, OKX и Hyperliquid.</p>
+  <p>Не инвестиционная рекомендация. Показываем обстановку, решение за тобой.</p>
+  <p>Радар бесплатный и живёт на поддержке читателей: <a href="https://t.me/crypto01_radar_bot?start=donate">поддержать звёздами или USDT</a> · <a href="https://www.bybit.com/invite?ref=WVORQEG&medium=referral&utm_campaign=ru_sajt" rel="sponsored">счёт на Bybit по нашей ссылке</a>.</p>
+  <p><a href="/ru/">Главная</a> · <a href="/ru/uchebnik/">Учебник</a> · <a href="/ru/moshennichestvo/">Как крадут</a>
+  · <a href="/ru/slovar/">Словарь</a> · <a href="/">Español</a></p>
+  <p>Horizon Ventures E.I.R.L. · RUC 20612763888 · Sector Murunquy, Calca, Cusco, Perú</p>
+</div></footer>
+<script src="/c.js" defer></script>
+</body>
+</html>
