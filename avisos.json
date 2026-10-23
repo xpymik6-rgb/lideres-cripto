@@ -1,6 +1,22 @@
 {
- "actualizado": 1792768808.2628798,
+ "actualizado": 1792772419.8474832,
  "avisos": [
+  {
+   "ts": 1792771544.5456362,
+   "tipo": "Señal",
+   "texto": "pump $BIRB",
+   "monedas": [
+    "BIRB"
+   ],
+   "url": "https://t.me/LideresCripto/1285"
+  },
+  {
+   "ts": 1792771336.6284833,
+   "tipo": "Guía",
+   "texto": "qué es un pump",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1284"
+  },
   {
    "ts": 1792761262.3960333,
    "tipo": "Edición del radar",
@@ -176,29 +192,6 @@
     "JCT"
    ],
    "url": "https://t.me/LideresCripto/1241"
-  },
-  {
-   "ts": 1792501702.4177387,
-   "tipo": "Edición del radar",
-   "texto": "radar 20.10 08:08",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "HYPE",
-    "Q",
-    "ZEC",
-    "SAND",
-    "KORU",
-    "DOT"
-   ],
-   "url": "https://t.me/LideresCripto/1238"
-  },
-  {
-   "ts": 1792456753.2189562,
-   "tipo": "Noticias",
-   "texto": "noticias 19.10 19:39",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1237"
   }
  ]
 }
