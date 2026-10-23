@@ -1,6 +1,15 @@
 {
- "actualizado": 1792772419.8474832,
+ "actualizado": 1792790408.0623448,
  "avisos": [
+  {
+   "ts": 1792789825.724674,
+   "tipo": "Señal",
+   "texto": "historia BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1287"
+  },
   {
    "ts": 1792771544.5456362,
    "tipo": "Señal",
@@ -183,15 +192,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/1243"
-  },
-  {
-   "ts": 1792506218.4989555,
-   "tipo": "Señal",
-   "texto": "pump $JCT",
-   "monedas": [
-    "JCT"
-   ],
-   "url": "https://t.me/LideresCripto/1241"
   }
  ]
 }
