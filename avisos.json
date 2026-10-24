@@ -1,6 +1,21 @@
 {
- "actualizado": 1792804806.550257,
+ "actualizado": 1792848007.8103566,
  "avisos": [
+  {
+   "ts": 1792847420.184507,
+   "tipo": "Edición del radar",
+   "texto": "radar 24.10 08:10",
+   "monedas": [
+    "BTC",
+    "NEAR",
+    "HYPE",
+    "JCT",
+    "ORDER",
+    "BIRB",
+    "IRYS"
+   ],
+   "url": "https://t.me/LideresCripto/1291"
+  },
   {
    "ts": 1792802122.4415033,
    "tipo": "Noticias",
@@ -181,15 +196,6 @@
    "texto": "noticias 20.10 19:41",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1248"
-  },
-  {
-   "ts": 1792530668.7305467,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1245"
   }
  ]
 }
