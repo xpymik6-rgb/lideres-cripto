@@ -1,6 +1,13 @@
 {
- "actualizado": 1792790408.0623448,
+ "actualizado": 1792804806.550257,
  "avisos": [
+  {
+   "ts": 1792802122.4415033,
+   "tipo": "Noticias",
+   "texto": "noticias 23.10 19:35",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1290"
+  },
   {
    "ts": 1792789825.724674,
    "tipo": "Señal",
@@ -183,15 +190,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1245"
-  },
-  {
-   "ts": 1792519563.522552,
-   "tipo": "Señal",
-   "texto": "tres confirmaciones $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/1243"
   }
  ]
 }
