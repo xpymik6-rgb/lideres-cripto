@@ -1,6 +1,15 @@
 {
- "actualizado": 1792855218.453863,
+ "actualizado": 1792876804.9493077,
  "avisos": [
+  {
+   "ts": 1792876402.9831748,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1298"
+  },
   {
    "ts": 1792851497.582466,
    "tipo": "Señal",
@@ -189,15 +198,6 @@
     "JCT"
    ],
    "url": "https://t.me/LideresCripto/1252"
-  },
-  {
-   "ts": 1792567806.8069916,
-   "tipo": "Señal",
-   "texto": "pump $Q",
-   "monedas": [
-    "Q"
-   ],
-   "url": "https://t.me/LideresCripto/1251"
   }
  ]
 }
