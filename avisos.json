@@ -1,6 +1,21 @@
 {
- "actualizado": 1792930812.9396124,
+ "actualizado": 1792934402.8618197,
  "avisos": [
+  {
+   "ts": 1792933319.4586873,
+   "tipo": "Edición del radar",
+   "texto": "radar 25.10 08:01",
+   "monedas": [
+    "ZEC",
+    "HYPE",
+    "SUI",
+    "JCT",
+    "IRYS",
+    "ORDER",
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1305"
+  },
   {
    "ts": 1792928097.679193,
    "tipo": "Señal",
@@ -184,13 +199,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1267"
-  },
-  {
-   "ts": 1792629310.1327562,
-   "tipo": "Noticias",
-   "texto": "noticias 21.10 19:35",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1266"
   }
  ]
 }
