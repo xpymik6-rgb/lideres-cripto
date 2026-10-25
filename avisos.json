@@ -1,6 +1,13 @@
 {
- "actualizado": 1792876804.9493077,
+ "actualizado": 1792891208.3332083,
  "avisos": [
+  {
+   "ts": 1792888905.4185758,
+   "tipo": "Noticias",
+   "texto": "noticias 24.10 19:41",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1302"
+  },
   {
    "ts": 1792876402.9831748,
    "tipo": "Señal",
@@ -182,22 +189,6 @@
    "texto": "cómo usar las señales",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1256"
-  },
-  {
-   "ts": 1792587715.2658677,
-   "tipo": "Edición del radar",
-   "texto": "radar 21.10 08:01",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "BTW",
-    "DOOD",
-    "IOST",
-    "Q",
-    "JCT"
-   ],
-   "url": "https://t.me/LideresCripto/1252"
   }
  ]
 }
