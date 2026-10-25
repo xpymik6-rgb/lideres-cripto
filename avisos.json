@@ -1,6 +1,15 @@
 {
- "actualizado": 1792963221.7240045,
+ "actualizado": 1792970411.0903592,
  "avisos": [
+  {
+   "ts": 1792969408.1684175,
+   "tipo": "Resultados",
+   "texto": "análisis BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1312"
+  },
   {
    "ts": 1792962198.9808583,
    "tipo": "Señal",
@@ -183,20 +192,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1274"
-  },
-  {
-   "ts": 1792674617.4379826,
-   "tipo": "Edición del radar",
-   "texto": "radar 22.10 08:10",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "JCT",
-    "BTW",
-    "JUP",
-    "MET"
-   ],
-   "url": "https://t.me/LideresCripto/1270"
   }
  ]
 }
