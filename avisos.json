@@ -1,6 +1,15 @@
 {
- "actualizado": 1792894805.0638049,
+ "actualizado": 1792920011.6494932,
  "avisos": [
+  {
+   "ts": 1792916924.2790082,
+   "tipo": "Señal",
+   "texto": "pump $JCT",
+   "monedas": [
+    "JCT"
+   ],
+   "url": "https://t.me/LideresCripto/1303"
+  },
   {
    "ts": 1792888905.4185758,
    "tipo": "Noticias",
@@ -182,13 +191,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/1261"
-  },
-  {
-   "ts": 1792598644.477317,
-   "tipo": "Guía",
-   "texto": "cómo usar las señales",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1256"
   }
  ]
 }
