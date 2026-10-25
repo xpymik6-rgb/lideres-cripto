@@ -150,6 +150,10 @@ del mismo lado, en menos de doce horas.
   https://liderescripto.com/aprende/como-saber-si-una-plataforma-es-confiable/
   ¿Cómo sé si una plataforma de inversión es confiable? Comprueba que esté registrada ante el regulador financiero de tu país y que ningún regulador la haya advertido. Si te contactaron por WhatsApp, te prometen ganancias garantizadas o te piden pagar para retirar, no lo es.
   ¿Si no aparece en las listas de advertencias es segura? No necesariamente. Muchas estafas son nuevas y todavía no figuran en ninguna lista. Lo que importa es que esté autorizada en tu país.
+- Préstamo preaprobado que pide pagar antes: es estafa
+  https://liderescripto.com/aprende/prestamo-preaprobado-pago-adelantado/
+  ¿Es normal pagar un seguro o una comisión antes de recibir un préstamo? No. Un prestamista real no te cobra antes de prestarte. Según la FTC, cualquier cargo que quieran cobrar antes de darte el préstamo es la señal para irte.
+  Me escribieron por WhatsApp que tengo un crédito preaprobado, ¿es real? Casi siempre es estafa. Los bancos y billeteras muestran sus créditos dentro de su app oficial. Si te piden un pago o tus datos para liberarlo, no lo es.
 - Herramienta gratis: Verificar USDT: comprueba si el USDT que recibiste es real o falso
   https://liderescripto.com/herramientas/verificar-usdt/
   Pega la dirección del contrato del token que te llegó y te decimos si es el USDT oficial en Tron, BNB Chain, Ethereum o Solana, o si es una copia. Gratis, sin registrarte y sin conectar tu billetera.
