@@ -1,6 +1,13 @@
 {
- "actualizado": 1792934402.8618197,
+ "actualizado": 1792945216.0664346,
  "avisos": [
+  {
+   "ts": 1792944733.047028,
+   "tipo": "Guía",
+   "texto": "cuánto arriesgar",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1308"
+  },
   {
    "ts": 1792933319.4586873,
    "tipo": "Edición del radar",
@@ -190,15 +197,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1268"
-  },
-  {
-   "ts": 1792654675.6695764,
-   "tipo": "Señal",
-   "texto": "$49.5 M en USDT entran en Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1267"
   }
  ]
 }
