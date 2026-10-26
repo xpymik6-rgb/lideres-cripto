@@ -1,6 +1,15 @@
 {
- "actualizado": 1793035204.7382433,
+ "actualizado": 1793049618.2429037,
  "avisos": [
+  {
+   "ts": 1793048955.4621654,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1323"
+  },
   {
    "ts": 1793034481.612523,
    "tipo": "Resultados",
@@ -188,15 +197,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1287"
-  },
-  {
-   "ts": 1792771544.5456362,
-   "tipo": "Señal",
-   "texto": "pump $BIRB",
-   "monedas": [
-    "BIRB"
-   ],
-   "url": "https://t.me/LideresCripto/1285"
   }
  ]
 }
