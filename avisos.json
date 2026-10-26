@@ -1,6 +1,13 @@
 {
- "actualizado": 1792970411.0903592,
+ "actualizado": 1792977620.646271,
  "avisos": [
+  {
+   "ts": 1792974916.0472717,
+   "tipo": "Noticias",
+   "texto": "noticias 25.10 19:35",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1314"
+  },
   {
    "ts": 1792969408.1684175,
    "tipo": "Resultados",
@@ -180,18 +187,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1276"
-  },
-  {
-   "ts": 1792688830.4606836,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 22.10",
-   "monedas": [
-    "Q",
-    "ETH",
-    "ZEC",
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1274"
   }
  ]
 }
