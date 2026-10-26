@@ -1,6 +1,19 @@
 {
- "actualizado": 1793020803.666695,
+ "actualizado": 1793035204.7382433,
  "avisos": [
+  {
+   "ts": 1793034481.612523,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 26.10",
+   "monedas": [
+    "IRYS",
+    "GRAM",
+    "BTC",
+    "SOL",
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1322"
+  },
   {
    "ts": 1793019799.3837023,
    "tipo": "Edición del radar",
@@ -184,13 +197,6 @@
     "BIRB"
    ],
    "url": "https://t.me/LideresCripto/1285"
-  },
-  {
-   "ts": 1792771336.6284833,
-   "tipo": "Guía",
-   "texto": "qué es un pump",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1284"
   }
  ]
 }
