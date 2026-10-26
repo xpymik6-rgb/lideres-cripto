@@ -1,6 +1,19 @@
 {
- "actualizado": 1793006416.0501528,
+ "actualizado": 1793020803.666695,
  "avisos": [
+  {
+   "ts": 1793019799.3837023,
+   "tipo": "Edición del radar",
+   "texto": "radar 26.10 08:03",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "HYPE",
+    "CAP",
+    "JCT"
+   ],
+   "url": "https://t.me/LideresCripto/1318"
+  },
   {
    "ts": 1793005928.9118953,
    "tipo": "Señal",
@@ -178,22 +191,6 @@
    "texto": "qué es un pump",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1284"
-  },
-  {
-   "ts": 1792761262.3960333,
-   "tipo": "Edición del radar",
-   "texto": "radar 23.10 08:14",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "HYPE",
-    "PUMP",
-    "IRYS",
-    "AKE",
-    "BTW",
-    "MAGMA"
-   ],
-   "url": "https://t.me/LideresCripto/1281"
   }
  ]
 }
