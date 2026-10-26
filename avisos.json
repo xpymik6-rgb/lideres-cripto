@@ -1,6 +1,15 @@
 {
- "actualizado": 1792981207.9500425,
+ "actualizado": 1792995609.0380359,
  "avisos": [
+  {
+   "ts": 1792994478.6336925,
+   "tipo": "Señal",
+   "texto": "$23.8 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/1316"
+  },
   {
    "ts": 1792979045.2721152,
    "tipo": "Resultados",
@@ -185,13 +194,6 @@
     "IRYS"
    ],
    "url": "https://t.me/LideresCripto/1280"
-  },
-  {
-   "ts": 1792715534.750749,
-   "tipo": "Noticias",
-   "texto": "noticias 22.10 19:32",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1279"
   }
  ]
 }
