@@ -1,6 +1,20 @@
 {
- "actualizado": 1792977620.646271,
+ "actualizado": 1792981207.9500425,
  "avisos": [
+  {
+   "ts": 1792979045.2721152,
+   "tipo": "Resultados",
+   "texto": "resultados semana 25.10",
+   "monedas": [
+    "SHOW",
+    "SUI",
+    "FF",
+    "KITE",
+    "Q",
+    "ENA"
+   ],
+   "url": "https://t.me/LideresCripto/1315"
+  },
   {
    "ts": 1792974916.0472717,
    "tipo": "Noticias",
@@ -178,15 +192,6 @@
    "texto": "noticias 22.10 19:32",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1279"
-  },
-  {
-   "ts": 1792703660.0920327,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1276"
   }
  ]
 }
