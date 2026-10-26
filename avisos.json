@@ -1,6 +1,15 @@
 {
- "actualizado": 1792995609.0380359,
+ "actualizado": 1793006416.0501528,
  "avisos": [
+  {
+   "ts": 1793005928.9118953,
+   "tipo": "Señal",
+   "texto": "$251.1 M en USDT salen de Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/1317"
+  },
   {
    "ts": 1792994478.6336925,
    "tipo": "Señal",
@@ -185,15 +194,6 @@
     "MAGMA"
    ],
    "url": "https://t.me/LideresCripto/1281"
-  },
-  {
-   "ts": 1792742752.5905101,
-   "tipo": "Señal",
-   "texto": "pump $IRYS",
-   "monedas": [
-    "IRYS"
-   ],
-   "url": "https://t.me/LideresCripto/1280"
   }
  ]
 }
