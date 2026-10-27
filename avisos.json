@@ -1,6 +1,13 @@
 {
- "actualizado": 1793107210.5804746,
+ "actualizado": 1793118016.8683093,
  "avisos": [
+  {
+   "ts": 1793116934.5808482,
+   "tipo": "Guía",
+   "texto": "dónde poner la salida",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1329"
+  },
   {
    "ts": 1793106685.267294,
    "tipo": "Edición del radar",
@@ -188,21 +195,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/1294"
-  },
-  {
-   "ts": 1792847420.184507,
-   "tipo": "Edición del radar",
-   "texto": "radar 24.10 08:10",
-   "monedas": [
-    "BTC",
-    "NEAR",
-    "HYPE",
-    "JCT",
-    "ORDER",
-    "BIRB",
-    "IRYS"
-   ],
-   "url": "https://t.me/LideresCripto/1291"
   }
  ]
 }
