@@ -1,6 +1,15 @@
 {
- "actualizado": 1793118016.8683093,
+ "actualizado": 1793136008.1496346,
  "avisos": [
+  {
+   "ts": 1793135546.0072827,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1330"
+  },
   {
    "ts": 1793116934.5808482,
    "tipo": "Guía",
@@ -186,15 +195,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1295"
-  },
-  {
-   "ts": 1792851436.4712718,
-   "tipo": "Señal",
-   "texto": "liquidaciones $SOL",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/1294"
   }
  ]
 }
