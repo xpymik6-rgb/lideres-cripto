@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<title>¿Qué es el funding en cripto y por qué te cobra cada 8 horas?</title>
-<meta name="description" content="El funding es el pago que cruzan largos y cortos cada 8 horas en futuros. Qué significa cuando es alto, quién paga a quién y cómo leerlo antes de entrar.">
+<title>¿Qué es el funding rate en cripto? Quién paga y cada cuánto</title>
+<meta name="description" content="El funding es un pago entre largos y cortos en futuros perpetuos, casi siempre cada 8 horas. Si es positivo pagan los largos; si es negativo, los cortos.">
 <link rel="canonical" href="https://liderescripto.com/aprende/que-es-el-funding/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="¿Qué es el funding en cripto y por qué te cobra cada 8 horas?">
-<meta property="og:description" content="El funding es el pago que cruzan largos y cortos cada 8 horas en futuros. Qué significa cuando es alto, quién paga a quién y cómo leerlo antes de entrar.">
+<meta property="og:title" content="¿Qué es el funding rate en cripto? Quién paga y cada cuánto">
+<meta property="og:description" content="El funding es un pago entre largos y cortos en futuros perpetuos, casi siempre cada 8 horas. Si es positivo pagan los largos; si es negativo, los cortos.">
 <meta property="og:url" content="https://liderescripto.com/aprende/que-es-el-funding/">
 <meta property="og:locale" content="es_ES">
 <meta property="og:image" content="https://liderescripto.com/og-aprende.png">
@@ -28,13 +28,32 @@
     {
       "@type":"Article",
       "headline":"¿Qué es el funding y por qué te importa?",
-      "description":"El funding es el pago que cruzan largos y cortos cada 8 horas en futuros. Qué significa cuando es alto, quién paga a quién y cómo leerlo antes de entrar.",
+      "description":"El funding es un pago entre largos y cortos en futuros perpetuos, casi siempre cada 8 horas. Si es positivo pagan los largos; si es negativo, los cortos.",
       "inLanguage":"es",
       "mainEntityOfPage":{"@type":"WebPage","@id":"https://liderescripto.com/aprende/que-es-el-funding/"},
       "datePublished":"2026-09-16",
-      "dateModified":"2026-09-16",
+      "dateModified":"2026-10-27",
       "author":{"@type":"Organization","name":"Líderes Cripto","url":"https://liderescripto.com/"},
       "publisher":{"@type":"Organization","name":"Líderes Cripto","url":"https://liderescripto.com/"}
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"¿Qué es el funding rate en cripto?",
+          "acceptedAnswer":{"@type":"Answer","text":"Es la tasa de financiación de los futuros perpetuos: un pago periódico entre los que están largos y los que están cortos. Sirve para que el precio del contrato no se aleje del precio real de la moneda. No lo cobra la bolsa: pasa de una parte de los traders a la otra."}},
+        {"@type":"Question","name":"¿Quién paga el funding, los largos o los cortos?",
+          "acceptedAnswer":{"@type":"Answer","text":"Si el funding es positivo, los largos les pagan a los cortos. Si es negativo, los cortos les pagan a los largos. Lo normal es positivo, porque la mayoría suele apostar a que el precio sube."}},
+        {"@type":"Question","name":"¿Cada cuánto se cobra el funding?",
+          "acceptedAnswer":{"@type":"Answer","text":"En Binance, Bybit y OKX casi siempre cada 8 horas: a las 00:00, 08:00 y 16:00 UTC. Algunos pares cobran cada 4 horas o cada hora, y en Hyperliquid se paga cada hora. En la mayoría de las bolsas solo pagas o cobras si tienes la posición abierta justo en ese momento."}},
+        {"@type":"Question","name":"¿Cómo se calcula cuánto pago de funding?",
+          "acceptedAnswer":{"@type":"Answer","text":"Se multiplica el tamaño total de la posición por la tasa. Ojo: cuenta el tamaño con apalancamiento, no tu margen. Si pones 100 USDT con x10, tu posición es de 1.000 USDT: con un funding de 0.01% pagas 0.10 USDT cada 8 horas, y con 0.10% pagas 1 USDT, que es el 1% de tu margen en cada cobro."}},
+        {"@type":"Question","name":"¿Qué es un funding alto?",
+          "acceptedAnswer":{"@type":"Answer","text":"La tasa base en Binance, Bybit y OKX es 0.01% cada 8 horas: es lo que ves cuando el mercado está tranquilo. Varias veces eso, como 0.05% o 0.10%, significa que mucha gente está apalancada del mismo lado y paga caro por seguir ahí."}},
+        {"@type":"Question","name":"¿Qué significa un funding negativo?",
+          "acceptedAnswer":{"@type":"Answer","text":"Que pesan más los cortos: los que apuestan a la baja pagan por mantener su posición. Si el precio deja de caer, esos cortos pueden verse obligados a cerrar, y al cerrar compran, lo que empuja el precio hacia arriba."}},
+        {"@type":"Question","name":"¿Se paga funding en spot?",
+          "acceptedAnswer":{"@type":"Answer","text":"No. El funding existe solo en futuros perpetuos. Si compras la moneda en spot, es tuya y no pagas nada por tenerla. Los futuros con fecha de vencimiento tampoco tienen funding."}}
+      ]
     },
     {
       "@type":"BreadcrumbList",
@@ -57,12 +76,27 @@
 
 <nav class="miga"><a href="/">Inicio</a> › <a href="/aprende/">Aprende</a></nav>
 <h1>¿Qué es el funding y por qué te importa?</h1>
-<p class="bajada">El funding es el pago que cruzan largos y cortos cada 8 horas en futuros. Qué significa cuando es alto, quién paga a quién y cómo leerlo antes de entrar.</p>
+<p class="bajada">El funding es un pago entre largos y cortos en futuros perpetuos, casi siempre cada 8 horas. Si es positivo pagan los largos; si es negativo, los cortos.</p>
 <article>
 <p>Cuando abres una posición con apalancamiento, cada 8 horas alguien paga y alguien cobra. Si hay más largos que cortos, los largos pagan a los cortos. Y al revés.</p>
 <p>Un funding de +0.10% por período parece poco. Son 0.30% por día, casi 10% por mes. Si tu posición no se mueve, el funding se la come.</p>
 <p>Por eso en el radar decimos «caro estar largo»: cuando la mayoría ya está comprada y paga por seguir, el mercado suele castigarlos con una sacudida.</p>
 <p>Regla simple: funding alto y precio que no sube es señal de salida, no de entrada.</p>
+<h2>Preguntas frecuentes</h2>
+<p><b>¿Qué es el funding rate en cripto?</b><br>
+Es la tasa de financiación de los futuros perpetuos: un pago periódico entre los que están largos y los que están cortos. Sirve para que el precio del contrato no se aleje del precio real de la moneda. No lo cobra la bolsa: pasa de una parte de los traders a la otra.</p>
+<p><b>¿Quién paga el funding, los largos o los cortos?</b><br>
+Si el funding es positivo, los largos les pagan a los cortos. Si es negativo, los cortos les pagan a los largos. Lo normal es positivo, porque la mayoría suele apostar a que el precio sube.</p>
+<p><b>¿Cada cuánto se cobra el funding?</b><br>
+En Binance, Bybit y OKX casi siempre cada 8 horas: a las 00:00, 08:00 y 16:00 UTC. Algunos pares cobran cada 4 horas o cada hora, y en Hyperliquid se paga cada hora. En la mayoría de las bolsas solo pagas o cobras si tienes la posición abierta justo en ese momento.</p>
+<p><b>¿Cómo se calcula cuánto pago de funding?</b><br>
+Se multiplica el tamaño total de la posición por la tasa. Ojo: cuenta el tamaño con apalancamiento, no tu margen. Si pones 100 USDT con x10, tu posición es de 1.000 USDT: con un funding de 0.01% pagas 0.10 USDT cada 8 horas, y con 0.10% pagas 1 USDT, que es el 1% de tu margen en cada cobro.</p>
+<p><b>¿Qué es un funding alto?</b><br>
+La tasa base en Binance, Bybit y OKX es 0.01% cada 8 horas: es lo que ves cuando el mercado está tranquilo. Varias veces eso, como 0.05% o 0.10%, significa que mucha gente está apalancada del mismo lado y paga caro por seguir ahí.</p>
+<p><b>¿Qué significa un funding negativo?</b><br>
+Que pesan más los cortos: los que apuestan a la baja pagan por mantener su posición. Si el precio deja de caer, esos cortos pueden verse obligados a cerrar, y al cerrar compran, lo que empuja el precio hacia arriba.</p>
+<p><b>¿Se paga funding en spot?</b><br>
+No. El funding existe solo en futuros perpetuos. Si compras la moneda en spot, es tuya y no pagas nada por tenerla. Los futuros con fecha de vencimiento tampoco tienen funding.</p>
 </article>
 <div class="probar"><span class="rot">Compruébalo tú mismo</span><p>Escríbele <b>BTC</b> al bot: en la ficha aparece el funding actual de esa moneda.</p></div>
 <div class="cta">
