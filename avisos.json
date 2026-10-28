@@ -1,6 +1,21 @@
 {
- "actualizado": 1793172012.7657638,
+ "actualizado": 1793193615.9275398,
  "avisos": [
+  {
+   "ts": 1793192952.423174,
+   "tipo": "Edición del radar",
+   "texto": "radar 28.10 08:09",
+   "monedas": [
+    "BTC",
+    "HYPE",
+    "ZEC",
+    "EVAA",
+    "Q",
+    "W",
+    "CHIP"
+   ],
+   "url": "https://t.me/LideresCripto/1335"
+  },
   {
    "ts": 1793171167.759239,
    "tipo": "Señal",
@@ -186,15 +201,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1305"
-  },
-  {
-   "ts": 1792928097.679193,
-   "tipo": "Señal",
-   "texto": "$386.1 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1304"
   }
  ]
 }
