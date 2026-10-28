@@ -1,6 +1,15 @@
 {
- "actualizado": 1793204403.1062098,
+ "actualizado": 1793222418.532681,
  "avisos": [
+  {
+   "ts": 1793221455.627491,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1344"
+  },
   {
    "ts": 1793192952.423174,
    "tipo": "Edición del radar",
@@ -186,21 +195,6 @@
    "texto": "cuánto arriesgar",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1308"
-  },
-  {
-   "ts": 1792933319.4586873,
-   "tipo": "Edición del radar",
-   "texto": "radar 25.10 08:01",
-   "monedas": [
-    "ZEC",
-    "HYPE",
-    "SUI",
-    "JCT",
-    "IRYS",
-    "ORDER",
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1305"
   }
  ]
 }
