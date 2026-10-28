@@ -1,6 +1,15 @@
 {
- "actualizado": 1793168405.0254745,
+ "actualizado": 1793172012.7657638,
  "avisos": [
+  {
+   "ts": 1793171167.759239,
+   "tipo": "Señal",
+   "texto": "$20.0 M en USDT entran en Binance",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/1334"
+  },
   {
    "ts": 1793167148.4754424,
    "tipo": "Señal",
@@ -186,15 +195,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1304"
-  },
-  {
-   "ts": 1792916924.2790082,
-   "tipo": "Señal",
-   "texto": "pump $JCT",
-   "monedas": [
-    "JCT"
-   ],
-   "url": "https://t.me/LideresCripto/1303"
   }
  ]
 }
