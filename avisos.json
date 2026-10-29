@@ -1,6 +1,17 @@
 {
- "actualizado": 1793290817.947022,
+ "actualizado": 1793294418.160181,
  "avisos": [
+  {
+   "ts": 1793293815.058652,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 29.10",
+   "monedas": [
+    "HYPE",
+    "BTC",
+    "LIT"
+   ],
+   "url": "https://t.me/LideresCripto/1355"
+  },
   {
    "ts": 1793289734.986439,
    "tipo": "Guía",
@@ -185,15 +196,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1317"
-  },
-  {
-   "ts": 1792994478.6336925,
-   "tipo": "Señal",
-   "texto": "$23.8 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1316"
   }
  ]
 }
