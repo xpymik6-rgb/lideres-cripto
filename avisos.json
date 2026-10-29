@@ -1,6 +1,19 @@
 {
- "actualizado": 1793251212.2057526,
+ "actualizado": 1793280012.2129009,
  "avisos": [
+  {
+   "ts": 1793279241.7159064,
+   "tipo": "Edición del radar",
+   "texto": "radar 29.10 08:07",
+   "monedas": [
+    "ETH",
+    "HYPE",
+    "BTC",
+    "EVAA",
+    "Q"
+   ],
+   "url": "https://t.me/LideresCripto/1351"
+  },
   {
    "ts": 1793250409.0127761,
    "tipo": "Señal",
@@ -188,13 +201,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/1315"
-  },
-  {
-   "ts": 1792974916.0472717,
-   "tipo": "Noticias",
-   "texto": "noticias 25.10 19:35",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1314"
   }
  ]
 }
