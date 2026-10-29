@@ -1,6 +1,15 @@
 {
- "actualizado": 1793294418.160181,
+ "actualizado": 1793308821.3232205,
  "avisos": [
+  {
+   "ts": 1793307858.9714248,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1356"
+  },
   {
    "ts": 1793293815.058652,
    "tipo": "Resultados",
@@ -187,15 +196,6 @@
     "JCT"
    ],
    "url": "https://t.me/LideresCripto/1318"
-  },
-  {
-   "ts": 1793005928.9118953,
-   "tipo": "Señal",
-   "texto": "$251.1 M en USDT salen de Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1317"
   }
  ]
 }
