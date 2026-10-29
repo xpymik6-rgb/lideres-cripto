@@ -1,6 +1,24 @@
 {
- "actualizado": 1793236817.8084848,
+ "actualizado": 1793251212.2057526,
  "avisos": [
+  {
+   "ts": 1793250409.0127761,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1350"
+  },
+  {
+   "ts": 1793250407.6274378,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1348"
+  },
   {
    "ts": 1793234534.9838784,
    "tipo": "Noticias",
@@ -177,24 +195,6 @@
    "texto": "noticias 25.10 19:35",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1314"
-  },
-  {
-   "ts": 1792969408.1684175,
-   "tipo": "Resultados",
-   "texto": "análisis BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1312"
-  },
-  {
-   "ts": 1792962198.9808583,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1310"
   }
  ]
 }
