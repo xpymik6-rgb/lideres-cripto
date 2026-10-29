@@ -1,6 +1,13 @@
 {
- "actualizado": 1793287209.7096097,
+ "actualizado": 1793290817.947022,
  "avisos": [
+  {
+   "ts": 1793289734.986439,
+   "tipo": "Guía",
+   "texto": "spot o apalancamiento",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1354"
+  },
   {
    "ts": 1793279241.7159064,
    "tipo": "Edición del radar",
@@ -187,20 +194,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1316"
-  },
-  {
-   "ts": 1792979045.2721152,
-   "tipo": "Resultados",
-   "texto": "resultados semana 25.10",
-   "monedas": [
-    "SHOW",
-    "SUI",
-    "FF",
-    "KITE",
-    "Q",
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/1315"
   }
  ]
 }
