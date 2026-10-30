@@ -1,6 +1,15 @@
 {
- "actualizado": 1793384413.5820274,
+ "actualizado": 1793395220.2148263,
  "avisos": [
+  {
+   "ts": 1793394197.4589844,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1370"
+  },
   {
    "ts": 1793365471.5146327,
    "tipo": "Edición del radar",
@@ -180,21 +189,6 @@
    "texto": "dónde poner la salida",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1329"
-  },
-  {
-   "ts": 1793106685.267294,
-   "tipo": "Edición del radar",
-   "texto": "radar 27.10 08:11",
-   "monedas": [
-    "HYPE",
-    "BTC",
-    "PUMP",
-    "Q",
-    "JCT",
-    "IRYS",
-    "BTW"
-   ],
-   "url": "https://t.me/LideresCripto/1326"
   }
  ]
 }
