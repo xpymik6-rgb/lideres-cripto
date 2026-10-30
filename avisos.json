@@ -1,6 +1,24 @@
 {
- "actualizado": 1793323216.950214,
+ "actualizado": 1793337603.2413468,
  "avisos": [
+  {
+   "ts": 1793336801.257131,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $NEAR",
+   "monedas": [
+    "NEAR"
+   ],
+   "url": "https://t.me/LideresCripto/1364"
+  },
+  {
+   "ts": 1793336796.3806438,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1362"
+  },
   {
    "ts": 1793320460.4541695,
    "tipo": "Noticias",
@@ -168,28 +186,6 @@
    "texto": "noticias 26.10 19:31",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1325"
-  },
-  {
-   "ts": 1793048955.4621654,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1323"
-  },
-  {
-   "ts": 1793034481.612523,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 26.10",
-   "monedas": [
-    "IRYS",
-    "GRAM",
-    "BTC",
-    "SOL",
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1322"
   }
  ]
 }
