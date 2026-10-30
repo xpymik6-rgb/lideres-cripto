@@ -1,6 +1,22 @@
 {
- "actualizado": 1793359207.6649306,
+ "actualizado": 1793366402.1142323,
  "avisos": [
+  {
+   "ts": 1793365471.5146327,
+   "tipo": "Edición del radar",
+   "texto": "radar 30.10 08:04",
+   "monedas": [
+    "ETH",
+    "HYPE",
+    "BTC",
+    "ZRO",
+    "XPL",
+    "AAVE",
+    "Q",
+    "LIT"
+   ],
+   "url": "https://t.me/LideresCripto/1366"
+  },
   {
    "ts": 1793336801.257131,
    "tipo": "Señal",
@@ -179,13 +195,6 @@
     "BTW"
    ],
    "url": "https://t.me/LideresCripto/1326"
-  },
-  {
-   "ts": 1793061077.6453094,
-   "tipo": "Noticias",
-   "texto": "noticias 26.10 19:31",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1325"
   }
  ]
 }
