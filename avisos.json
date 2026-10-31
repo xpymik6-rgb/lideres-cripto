@@ -1,6 +1,13 @@
 {
- "actualizado": 1793452802.809213,
+ "actualizado": 1793463613.3950274,
  "avisos": [
+  {
+   "ts": 1793463070.442688,
+   "tipo": "Guía",
+   "texto": "por qué el precio de liquidación importa",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1379"
+  },
   {
    "ts": 1793452160.8998654,
    "tipo": "Edición del radar",
@@ -189,15 +196,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1334"
-  },
-  {
-   "ts": 1793167148.4754424,
-   "tipo": "Señal",
-   "texto": "pump $Q",
-   "monedas": [
-    "Q"
-   ],
-   "url": "https://t.me/LideresCripto/1333"
   }
  ]
 }
