@@ -1,6 +1,15 @@
 {
- "actualizado": 1793409608.4338179,
+ "actualizado": 1793431206.4899356,
  "avisos": [
+  {
+   "ts": 1793430362.3467724,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZRO",
+   "monedas": [
+    "ZRO"
+   ],
+   "url": "https://t.me/LideresCripto/1372"
+  },
   {
    "ts": 1793407223.0821748,
    "tipo": "Noticias",
@@ -180,15 +189,6 @@
    "texto": "noticias 27.10 19:39",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1331"
-  },
-  {
-   "ts": 1793135546.0072827,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1330"
   }
  ]
 }
