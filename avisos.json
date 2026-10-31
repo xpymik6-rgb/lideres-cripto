@@ -1,6 +1,22 @@
 {
- "actualizado": 1793442010.9010174,
+ "actualizado": 1793452802.809213,
  "avisos": [
+  {
+   "ts": 1793452160.8998654,
+   "tipo": "Edición del radar",
+   "texto": "radar 31.10 08:09",
+   "monedas": [
+    "HYPE",
+    "BTC",
+    "ETH",
+    "ZRO",
+    "LSK",
+    "Q",
+    "ENA",
+    "TRX"
+   ],
+   "url": "https://t.me/LideresCripto/1375"
+  },
   {
    "ts": 1793439996.4071653,
    "tipo": "Señal",
@@ -182,15 +198,6 @@
     "Q"
    ],
    "url": "https://t.me/LideresCripto/1333"
-  },
-  {
-   "ts": 1793157300.028179,
-   "tipo": "Señal",
-   "texto": "$20.0 M en USDT entran en Binance",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1332"
   }
  ]
 }
