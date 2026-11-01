@@ -1,6 +1,15 @@
 {
- "actualizado": 1793568020.29676,
+ "actualizado": 1793575221.5945115,
  "avisos": [
+  {
+   "ts": 1793574679.0079849,
+   "tipo": "Resultados",
+   "texto": "análisis HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1390"
+  },
   {
    "ts": 1793567377.073661,
    "tipo": "Señal",
@@ -184,19 +193,6 @@
    "texto": "spot o apalancamiento",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1354"
-  },
-  {
-   "ts": 1793279241.7159064,
-   "tipo": "Edición del radar",
-   "texto": "radar 29.10 08:07",
-   "monedas": [
-    "ETH",
-    "HYPE",
-    "BTC",
-    "EVAA",
-    "Q"
-   ],
-   "url": "https://t.me/LideresCripto/1351"
   }
  ]
 }
