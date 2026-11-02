@@ -1,6 +1,13 @@
 {
- "actualizado": 1793575221.5945115,
+ "actualizado": 1793582404.3702302,
  "avisos": [
+  {
+   "ts": 1793580015.842145,
+   "tipo": "Noticias",
+   "texto": "noticias 01.11 19:40",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1392"
+  },
   {
    "ts": 1793574679.0079849,
    "tipo": "Resultados",
@@ -186,13 +193,6 @@
     "LIT"
    ],
    "url": "https://t.me/LideresCripto/1355"
-  },
-  {
-   "ts": 1793289734.986439,
-   "tipo": "Guía",
-   "texto": "spot o apalancamiento",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1354"
   }
  ]
 }
