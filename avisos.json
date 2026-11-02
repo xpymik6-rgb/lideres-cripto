@@ -1,6 +1,13 @@
 {
- "actualizado": 1793625612.4341125,
+ "actualizado": 1793636419.4309237,
  "avisos": [
+  {
+   "ts": 1793635937.113996,
+   "tipo": "Guía",
+   "texto": "cómo guardar tus criptos",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1401"
+  },
   {
    "ts": 1793625088.7449644,
    "tipo": "Edición del radar",
@@ -191,15 +198,6 @@
     "LIT"
    ],
    "url": "https://t.me/LideresCripto/1366"
-  },
-  {
-   "ts": 1793336801.257131,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1364"
   }
  ]
 }
