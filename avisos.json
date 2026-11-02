@@ -1,6 +1,18 @@
 {
- "actualizado": 1793582404.3702302,
+ "actualizado": 1793586002.6488373,
  "avisos": [
+  {
+   "ts": 1793583879.2370803,
+   "tipo": "Resultados",
+   "texto": "resultados semana 01.11",
+   "monedas": [
+    "BTW",
+    "DHN",
+    "AVAX",
+    "BFT"
+   ],
+   "url": "https://t.me/LideresCripto/1393"
+  },
   {
    "ts": 1793580015.842145,
    "tipo": "Noticias",
@@ -182,17 +194,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1356"
-  },
-  {
-   "ts": 1793293815.058652,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 29.10",
-   "monedas": [
-    "HYPE",
-    "BTC",
-    "LIT"
-   ],
-   "url": "https://t.me/LideresCripto/1355"
   }
  ]
 }
