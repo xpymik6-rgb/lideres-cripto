@@ -1,6 +1,19 @@
 {
- "actualizado": 1793607620.278543,
+ "actualizado": 1793625612.4341125,
  "avisos": [
+  {
+   "ts": 1793625088.7449644,
+   "tipo": "Edición del radar",
+   "texto": "radar 02.11 08:11",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "HYPE",
+    "ESPORTS",
+    "TRUMP"
+   ],
+   "url": "https://t.me/LideresCripto/1397"
+  },
   {
    "ts": 1793606022.1834168,
    "tipo": "Señal",
@@ -187,15 +200,6 @@
     "NEAR"
    ],
    "url": "https://t.me/LideresCripto/1364"
-  },
-  {
-   "ts": 1793336796.3806438,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1362"
   }
  ]
 }
