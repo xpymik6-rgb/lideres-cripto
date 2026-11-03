@@ -1,6 +1,15 @@
 {
- "actualizado": 1793683206.5650268,
+ "actualizado": 1793697604.1048589,
  "avisos": [
+  {
+   "ts": 1793696749.2741122,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1407"
+  },
   {
    "ts": 1793682366.078112,
    "tipo": "Señal",
@@ -186,15 +195,6 @@
     "TRX"
    ],
    "url": "https://t.me/LideresCripto/1375"
-  },
-  {
-   "ts": 1793439996.4071653,
-   "tipo": "Señal",
-   "texto": "$26.0 M en USDT entran en Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1374"
   }
  ]
 }
