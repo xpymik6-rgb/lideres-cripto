@@ -1,6 +1,15 @@
 {
- "actualizado": 1793668812.5768507,
+ "actualizado": 1793683206.5650268,
  "avisos": [
+  {
+   "ts": 1793682366.078112,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1405"
+  },
   {
    "ts": 1793666307.068153,
    "tipo": "Noticias",
@@ -186,15 +195,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1374"
-  },
-  {
-   "ts": 1793430362.3467724,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZRO",
-   "monedas": [
-    "ZRO"
-   ],
-   "url": "https://t.me/LideresCripto/1372"
   }
  ]
 }
