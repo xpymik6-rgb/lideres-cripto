@@ -1,6 +1,15 @@
 {
- "actualizado": 1793712009.263923,
+ "actualizado": 1793740815.9828725,
  "avisos": [
+  {
+   "ts": 1793740452.6189117,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1413"
+  },
   {
    "ts": 1793711503.9182703,
    "tipo": "Edición del radar",
@@ -187,13 +196,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1381"
-  },
-  {
-   "ts": 1793463070.442688,
-   "tipo": "Guía",
-   "texto": "por qué el precio de liquidación importa",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1379"
   }
  ]
 }
