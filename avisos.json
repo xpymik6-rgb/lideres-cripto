@@ -1,6 +1,13 @@
 {
- "actualizado": 1793654411.567144,
+ "actualizado": 1793668812.5768507,
  "avisos": [
+  {
+   "ts": 1793666307.068153,
+   "tipo": "Noticias",
+   "texto": "noticias 02.11 19:38",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1404"
+  },
   {
    "ts": 1793653768.4354382,
    "tipo": "Señal",
@@ -188,13 +195,6 @@
     "ZRO"
    ],
    "url": "https://t.me/LideresCripto/1372"
-  },
-  {
-   "ts": 1793407223.0821748,
-   "tipo": "Noticias",
-   "texto": "noticias 30.10 19:40",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1371"
   }
  ]
 }
