@@ -1,6 +1,13 @@
 {
- "actualizado": 1793798414.9538078,
+ "actualizado": 1793809218.8139338,
  "avisos": [
+  {
+   "ts": 1793808376.6817636,
+   "tipo": "Guía",
+   "texto": "por qué solo te muestran las ganadas",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1424"
+  },
   {
    "ts": 1793797331.5144324,
    "tipo": "Edición del radar",
@@ -184,15 +191,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1389"
-  },
-  {
-   "ts": 1793539298.2276998,
-   "tipo": "Señal",
-   "texto": "pump $ESPORTS",
-   "monedas": [
-    "ESPORTS"
-   ],
-   "url": "https://t.me/LideresCripto/1387"
   }
  ]
 }
