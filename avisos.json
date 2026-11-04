@@ -1,6 +1,15 @@
 {
- "actualizado": 1793769608.1499197,
+ "actualizado": 1793780409.316158,
  "avisos": [
+  {
+   "ts": 1793779552.256749,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1417"
+  },
   {
    "ts": 1793768790.3783894,
    "tipo": "Señal",
@@ -187,15 +196,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1384"
-  },
-  {
-   "ts": 1793526794.81176,
-   "tipo": "Señal",
-   "texto": "$25.0 M en USDT salen de Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1383"
   }
  ]
 }
