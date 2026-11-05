@@ -1,6 +1,15 @@
 {
- "actualizado": 1793899212.726457,
+ "actualizado": 1793913616.4734898,
  "avisos": [
+  {
+   "ts": 1793912954.0451536,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1435"
+  },
   {
    "ts": 1793898730.659522,
    "tipo": "Resultados",
@@ -184,19 +193,6 @@
    "texto": "cómo guardar tus criptos",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1401"
-  },
-  {
-   "ts": 1793625088.7449644,
-   "tipo": "Edición del radar",
-   "texto": "radar 02.11 08:11",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "HYPE",
-    "ESPORTS",
-    "TRUMP"
-   ],
-   "url": "https://t.me/LideresCripto/1397"
   }
  ]
 }
