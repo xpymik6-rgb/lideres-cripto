@@ -1,6 +1,15 @@
 {
- "actualizado": 1793884821.2310462,
+ "actualizado": 1793892002.3792086,
  "avisos": [
+  {
+   "ts": 1793889602.3580968,
+   "tipo": "Señal",
+   "texto": "liquidaciones $SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/1433"
+  },
   {
    "ts": 1793883968.447406,
    "tipo": "Edición del radar",
@@ -184,15 +193,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1396"
-  },
-  {
-   "ts": 1793599562.0256588,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1394"
   }
  ]
 }
