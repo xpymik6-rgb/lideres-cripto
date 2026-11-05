@@ -1,6 +1,19 @@
 {
- "actualizado": 1793892002.3792086,
+ "actualizado": 1793899212.726457,
  "avisos": [
+  {
+   "ts": 1793898730.659522,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 05.11",
+   "monedas": [
+    "ETH",
+    "HYPE",
+    "SOL",
+    "NEAR",
+    "AAVE"
+   ],
+   "url": "https://t.me/LideresCripto/1434"
+  },
   {
    "ts": 1793889602.3580968,
    "tipo": "Señal",
@@ -184,15 +197,6 @@
     "TRUMP"
    ],
    "url": "https://t.me/LideresCripto/1397"
-  },
-  {
-   "ts": 1793606022.1834168,
-   "tipo": "Señal",
-   "texto": "$25.0 M en USDT salen de Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1396"
   }
  ]
 }
