@@ -1,6 +1,20 @@
 {
- "actualizado": 1793877612.7382998,
+ "actualizado": 1793884821.2310462,
  "avisos": [
+  {
+   "ts": 1793883968.447406,
+   "tipo": "Edición del radar",
+   "texto": "radar 05.11 08:06",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "ZEC",
+    "AKE",
+    "JCT",
+    "KORU"
+   ],
+   "url": "https://t.me/LideresCripto/1430"
+  },
   {
    "ts": 1793875308.9987905,
    "tipo": "Señal",
@@ -179,18 +193,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1394"
-  },
-  {
-   "ts": 1793583879.2370803,
-   "tipo": "Resultados",
-   "texto": "resultados semana 01.11",
-   "monedas": [
-    "BTW",
-    "DHN",
-    "AVAX",
-    "BFT"
-   ],
-   "url": "https://t.me/LideresCripto/1393"
   }
  ]
 }
