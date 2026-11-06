@@ -1,6 +1,15 @@
 {
- "actualizado": 1793928010.7182424,
+ "actualizado": 1793942413.5799217,
  "avisos": [
+  {
+   "ts": 1793941574.2788682,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1437"
+  },
   {
    "ts": 1793925737.8534503,
    "tipo": "Noticias",
@@ -180,19 +189,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1403"
-  },
-  {
-   "ts": 1793638937.5653226,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 02.11",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "NEAR",
-    "HYPE",
-    "ENA"
-   ],
-   "url": "https://t.me/LideresCripto/1402"
   }
  ]
 }
