@@ -1,6 +1,13 @@
 {
- "actualizado": 1793971214.374381,
+ "actualizado": 1793982002.7928174,
  "avisos": [
+  {
+   "ts": 1793980860.5792642,
+   "tipo": "Guía",
+   "texto": "qué mira el radar y qué no",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1443"
+  },
   {
    "ts": 1793970311.4925585,
    "tipo": "Edición del radar",
@@ -186,15 +193,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1407"
-  },
-  {
-   "ts": 1793682366.078112,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1405"
   }
  ]
 }
