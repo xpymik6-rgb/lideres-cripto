@@ -1,6 +1,13 @@
 {
- "actualizado": 1793913616.4734898,
+ "actualizado": 1793928010.7182424,
  "avisos": [
+  {
+   "ts": 1793925737.8534503,
+   "tipo": "Noticias",
+   "texto": "noticias 05.11 19:42",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1436"
+  },
   {
    "ts": 1793912954.0451536,
    "tipo": "Señal",
@@ -186,13 +193,6 @@
     "ENA"
    ],
    "url": "https://t.me/LideresCripto/1402"
-  },
-  {
-   "ts": 1793635937.113996,
-   "tipo": "Guía",
-   "texto": "cómo guardar tus criptos",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1401"
   }
  ]
 }
