@@ -1,6 +1,13 @@
 {
- "actualizado": 1794000009.656656,
+ "actualizado": 1794014417.0918086,
  "avisos": [
+  {
+   "ts": 1794011653.2072313,
+   "tipo": "Noticias",
+   "texto": "noticias 06.11 19:34",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1445"
+  },
   {
    "ts": 1793999347.5550473,
    "tipo": "Señal",
@@ -178,21 +185,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1413"
-  },
-  {
-   "ts": 1793711503.9182703,
-   "tipo": "Edición del radar",
-   "texto": "radar 03.11 08:11",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "ZEC",
-    "HYPE",
-    "AKE",
-    "AAVE",
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1409"
   }
  ]
 }
