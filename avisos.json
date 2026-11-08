@@ -1,6 +1,15 @@
 {
- "actualizado": 1794100808.4371333,
+ "actualizado": 1794126012.6762714,
  "avisos": [
+  {
+   "ts": 1794124172.6003277,
+   "tipo": "Señal",
+   "texto": "pump $ICNT",
+   "monedas": [
+    "ICNT"
+   ],
+   "url": "https://t.me/LideresCripto/1451"
+  },
   {
    "ts": 1794097994.9371192,
    "tipo": "Noticias",
@@ -180,15 +189,6 @@
     "KORU"
    ],
    "url": "https://t.me/LideresCripto/1419"
-  },
-  {
-   "ts": 1793779552.256749,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1417"
   }
  ]
 }
