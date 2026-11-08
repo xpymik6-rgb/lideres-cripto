@@ -1,6 +1,15 @@
 {
- "actualizado": 1794172806.4439754,
+ "actualizado": 1794180016.3254247,
  "avisos": [
+  {
+   "ts": 1794178934.1587687,
+   "tipo": "Resultados",
+   "texto": "análisis BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1457"
+  },
   {
    "ts": 1794172083.789678,
    "tipo": "Señal",
@@ -185,15 +194,6 @@
     "KORU"
    ],
    "url": "https://t.me/LideresCripto/1430"
-  },
-  {
-   "ts": 1793875308.9987905,
-   "tipo": "Señal",
-   "texto": "$49.5 M en USDT entran en Bybit",
-   "monedas": [
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1429"
   }
  ]
 }
