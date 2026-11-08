@@ -1,6 +1,15 @@
 {
- "actualizado": 1794126012.6762714,
+ "actualizado": 1794136806.3995564,
  "avisos": [
+  {
+   "ts": 1794135105.2697687,
+   "tipo": "Señal",
+   "texto": "pump $JCT",
+   "monedas": [
+    "JCT"
+   ],
+   "url": "https://t.me/LideresCripto/1452"
+  },
   {
    "ts": 1794124172.6003277,
    "tipo": "Señal",
@@ -176,19 +185,6 @@
    "texto": "por qué solo te muestran las ganadas",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1424"
-  },
-  {
-   "ts": 1793797331.5144324,
-   "tipo": "Edición del radar",
-   "texto": "radar 04.11 08:02",
-   "monedas": [
-    "HYPE",
-    "BTC",
-    "ZEC",
-    "ETH",
-    "KORU"
-   ],
-   "url": "https://t.me/LideresCripto/1419"
   }
  ]
 }
