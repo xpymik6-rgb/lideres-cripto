@@ -1,6 +1,15 @@
 {
- "actualizado": 1794154813.235672,
+ "actualizado": 1794172806.4439754,
  "avisos": [
+  {
+   "ts": 1794172083.789678,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1456"
+  },
   {
    "ts": 1794154090.5990472,
    "tipo": "Guía",
@@ -185,13 +194,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1429"
-  },
-  {
-   "ts": 1793838886.5249279,
-   "tipo": "Noticias",
-   "texto": "noticias 04.11 19:34",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1428"
   }
  ]
 }
