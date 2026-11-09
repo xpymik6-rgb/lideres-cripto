@@ -1,6 +1,19 @@
 {
- "actualizado": 1794230402.870368,
+ "actualizado": 1794244805.6319683,
  "avisos": [
+  {
+   "ts": 1794243722.89779,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 09.11",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "JCT",
+    "XRP",
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/1467"
+  },
   {
    "ts": 1794229660.151243,
    "tipo": "Edición del radar",
@@ -186,15 +199,6 @@
     "AKE"
    ],
    "url": "https://t.me/LideresCripto/1438"
-  },
-  {
-   "ts": 1793941574.2788682,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1437"
   }
  ]
 }
