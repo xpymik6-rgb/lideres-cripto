@@ -1,6 +1,15 @@
 {
- "actualizado": 1794244805.6319683,
+ "actualizado": 1794259209.676109,
  "avisos": [
+  {
+   "ts": 1794258367.222928,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1468"
+  },
   {
    "ts": 1794243722.89779,
    "tipo": "Resultados",
@@ -190,15 +199,6 @@
     "AKE"
    ],
    "url": "https://t.me/LideresCripto/1439"
-  },
-  {
-   "ts": 1793945300.327502,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/1438"
   }
  ]
 }
