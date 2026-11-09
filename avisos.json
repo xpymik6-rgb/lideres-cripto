@@ -1,6 +1,20 @@
 {
- "actualizado": 1794187212.7931483,
+ "actualizado": 1794190820.5480537,
  "avisos": [
+  {
+   "ts": 1794188478.140317,
+   "tipo": "Resultados",
+   "texto": "resultados semana 08.11",
+   "monedas": [
+    "ADI",
+    "RYO",
+    "JCT",
+    "ALLO",
+    "RAIN",
+    "UB"
+   ],
+   "url": "https://t.me/LideresCripto/1460"
+  },
   {
    "ts": 1794184327.814944,
    "tipo": "Noticias",
@@ -178,15 +192,6 @@
     "AAVE"
    ],
    "url": "https://t.me/LideresCripto/1434"
-  },
-  {
-   "ts": 1793889602.3580968,
-   "tipo": "Señal",
-   "texto": "liquidaciones $SOL",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/1433"
   }
  ]
 }
