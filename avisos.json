@@ -1,6 +1,13 @@
 {
- "actualizado": 1794180016.3254247,
+ "actualizado": 1794187212.7931483,
  "avisos": [
+  {
+   "ts": 1794184327.814944,
+   "tipo": "Noticias",
+   "texto": "noticias 08.11 19:32",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1459"
+  },
   {
    "ts": 1794178934.1587687,
    "tipo": "Resultados",
@@ -180,20 +187,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/1433"
-  },
-  {
-   "ts": 1793883968.447406,
-   "tipo": "Edición del radar",
-   "texto": "radar 05.11 08:06",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "ZEC",
-    "AKE",
-    "JCT",
-    "KORU"
-   ],
-   "url": "https://t.me/LideresCripto/1430"
   }
  ]
 }
