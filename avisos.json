@@ -1,6 +1,13 @@
 {
- "actualizado": 1794259209.676109,
+ "actualizado": 1794273617.3635437,
  "avisos": [
+  {
+   "ts": 1794271093.3256857,
+   "tipo": "Noticias",
+   "texto": "noticias 09.11 19:38",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1469"
+  },
   {
    "ts": 1794258367.222928,
    "tipo": "Señal",
@@ -186,19 +193,6 @@
    "texto": "qué mira el radar y qué no",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1443"
-  },
-  {
-   "ts": 1793970311.4925585,
-   "tipo": "Edición del radar",
-   "texto": "radar 06.11 08:05",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "ETH",
-    "JCT",
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/1439"
   }
  ]
 }
