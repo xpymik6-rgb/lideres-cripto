@@ -1,6 +1,15 @@
 {
- "actualizado": 1794327611.3909616,
+ "actualizado": 1794345608.4095993,
  "avisos": [
+  {
+   "ts": 1794344945.7961068,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1477"
+  },
   {
    "ts": 1794326648.521783,
    "tipo": "Guía",
@@ -185,15 +194,6 @@
    "texto": "noticias 07.11 19:33",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1450"
-  },
-  {
-   "ts": 1794085987.3003793,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1449"
   }
  ]
 }
