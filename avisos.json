@@ -1,6 +1,15 @@
 {
- "actualizado": 1794316802.3407857,
+ "actualizado": 1794320410.1243234,
  "avisos": [
+  {
+   "ts": 1794317444.3954391,
+   "tipo": "Señal",
+   "texto": "liquidaciones $XRP",
+   "monedas": [
+    "XRP"
+   ],
+   "url": "https://t.me/LideresCripto/1473"
+  },
   {
    "ts": 1794316458.643387,
    "tipo": "Edición del radar",
@@ -191,13 +200,6 @@
     "TRUMP"
    ],
    "url": "https://t.me/LideresCripto/1446"
-  },
-  {
-   "ts": 1794011653.2072313,
-   "tipo": "Noticias",
-   "texto": "noticias 06.11 19:34",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1445"
   }
  ]
 }
