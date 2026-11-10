@@ -1,6 +1,27 @@
 {
- "actualizado": 1794273617.3635437,
+ "actualizado": 1794316802.3407857,
  "avisos": [
+  {
+   "ts": 1794316458.643387,
+   "tipo": "Edición del radar",
+   "texto": "radar 10.11 08:14",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "INIT",
+    "JCT"
+   ],
+   "url": "https://t.me/LideresCripto/1471"
+  },
+  {
+   "ts": 1794316361.1443033,
+   "tipo": "Señal",
+   "texto": "pump $INIT",
+   "monedas": [
+    "INIT"
+   ],
+   "url": "https://t.me/LideresCripto/1470"
+  },
   {
    "ts": 1794271093.3256857,
    "tipo": "Noticias",
@@ -177,22 +198,6 @@
    "texto": "noticias 06.11 19:34",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1445"
-  },
-  {
-   "ts": 1793999347.5550473,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1444"
-  },
-  {
-   "ts": 1793980860.5792642,
-   "tipo": "Guía",
-   "texto": "qué mira el radar y qué no",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1443"
   }
  ]
 }
