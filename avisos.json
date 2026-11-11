@@ -1,6 +1,20 @@
 {
- "actualizado": 1794388821.0226977,
+ "actualizado": 1794403209.3544035,
  "avisos": [
+  {
+   "ts": 1794402807.5885472,
+   "tipo": "Edición del radar",
+   "texto": "radar 11.11 08:13",
+   "monedas": [
+    "BTC",
+    "XRP",
+    "ZEC",
+    "JCT",
+    "INIT",
+    "ARIA"
+   ],
+   "url": "https://t.me/LideresCripto/1482"
+  },
   {
    "ts": 1794387922.4809856,
    "tipo": "Señal",
@@ -178,22 +192,6 @@
    "texto": "cuándo no operar",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1455"
-  },
-  {
-   "ts": 1794143182.9627,
-   "tipo": "Edición del radar",
-   "texto": "radar 08.11 08:06",
-   "monedas": [
-    "ZEC",
-    "PUMP",
-    "ETH",
-    "JCT",
-    "ICNT",
-    "GRAM",
-    "KAS",
-    "CC"
-   ],
-   "url": "https://t.me/LideresCripto/1453"
   }
  ]
 }
