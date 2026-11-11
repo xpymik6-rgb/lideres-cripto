@@ -1,6 +1,13 @@
 {
- "actualizado": 1794345608.4095993,
+ "actualizado": 1794360019.2035549,
  "avisos": [
+  {
+   "ts": 1794357615.1526308,
+   "tipo": "Noticias",
+   "texto": "noticias 10.11 19:40",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1478"
+  },
   {
    "ts": 1794344945.7961068,
    "tipo": "Señal",
@@ -187,13 +194,6 @@
     "ICNT"
    ],
    "url": "https://t.me/LideresCripto/1451"
-  },
-  {
-   "ts": 1794097994.9371192,
-   "tipo": "Noticias",
-   "texto": "noticias 07.11 19:33",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1450"
   }
  ]
 }
