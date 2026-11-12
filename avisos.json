@@ -1,6 +1,15 @@
 {
- "actualizado": 1794504017.6905508,
+ "actualizado": 1794518402.0179145,
  "avisos": [
+  {
+   "ts": 1794517459.5661035,
+   "tipo": "Señal",
+   "texto": "historia ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/1495"
+  },
   {
    "ts": 1794503015.5281672,
    "tipo": "Resultados",
@@ -183,20 +192,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/1467"
-  },
-  {
-   "ts": 1794229660.151243,
-   "tipo": "Edición del radar",
-   "texto": "radar 09.11 08:07",
-   "monedas": [
-    "ETH",
-    "BTC",
-    "HYPE",
-    "AVAX",
-    "NEAR",
-    "JCT"
-   ],
-   "url": "https://t.me/LideresCripto/1464"
   }
  ]
 }
