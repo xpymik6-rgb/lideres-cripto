@@ -1,6 +1,15 @@
 {
- "actualizado": 1794446419.0452936,
+ "actualizado": 1794471616.4255524,
  "avisos": [
+  {
+   "ts": 1794470763.417396,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $XMR",
+   "monedas": [
+    "XMR"
+   ],
+   "url": "https://t.me/LideresCripto/1488"
+  },
   {
    "ts": 1794444156.7645416,
    "tipo": "Noticias",
@@ -183,15 +192,6 @@
    "texto": "noticias 08.11 19:32",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1459"
-  },
-  {
-   "ts": 1794178934.1587687,
-   "tipo": "Resultados",
-   "texto": "análisis BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1457"
   }
  ]
 }
