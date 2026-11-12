@@ -1,6 +1,19 @@
 {
- "actualizado": 1794500420.5831282,
+ "actualizado": 1794504017.6905508,
  "avisos": [
+  {
+   "ts": 1794503015.5281672,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 12.11",
+   "monedas": [
+    "BTC",
+    "NEAR",
+    "ETH",
+    "ZEC",
+    "XRP"
+   ],
+   "url": "https://t.me/LideresCripto/1494"
+  },
   {
    "ts": 1794499638.0345135,
    "tipo": "Guía",
@@ -184,15 +197,6 @@
     "JCT"
    ],
    "url": "https://t.me/LideresCripto/1464"
-  },
-  {
-   "ts": 1794211525.2916195,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $NEAR",
-   "monedas": [
-    "NEAR"
-   ],
-   "url": "https://t.me/LideresCripto/1463"
   }
  ]
 }
