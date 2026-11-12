@@ -1,6 +1,30 @@
 {
- "actualizado": 1794471616.4255524,
+ "actualizado": 1794489626.6912777,
  "avisos": [
+  {
+   "ts": 1794489193.2454221,
+   "tipo": "Edición del radar",
+   "texto": "radar 12.11 08:13",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "XRP",
+    "SOL",
+    "XMR",
+    "INIT",
+    "DOGE"
+   ],
+   "url": "https://t.me/LideresCripto/1491"
+  },
+  {
+   "ts": 1794489026.6220345,
+   "tipo": "Señal",
+   "texto": "liquidaciones $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1490"
+  },
   {
    "ts": 1794470763.417396,
    "tipo": "Señal",
@@ -171,27 +195,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1461"
-  },
-  {
-   "ts": 1794188478.140317,
-   "tipo": "Resultados",
-   "texto": "resultados semana 08.11",
-   "monedas": [
-    "ADI",
-    "RYO",
-    "JCT",
-    "ALLO",
-    "RAIN",
-    "UB"
-   ],
-   "url": "https://t.me/LideresCripto/1460"
-  },
-  {
-   "ts": 1794184327.814944,
-   "tipo": "Noticias",
-   "texto": "noticias 08.11 19:32",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1459"
   }
  ]
 }
