@@ -1,6 +1,19 @@
 {
- "actualizado": 1794550814.8788466,
+ "actualizado": 1794576003.7486165,
  "avisos": [
+  {
+   "ts": 1794575234.5319614,
+   "tipo": "Edición del radar",
+   "texto": "radar 13.11 08:07",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "XMR",
+    "BARD",
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/1500"
+  },
   {
    "ts": 1794549961.4306276,
    "tipo": "Señal",
@@ -179,15 +192,6 @@
     "JCT"
    ],
    "url": "https://t.me/LideresCripto/1471"
-  },
-  {
-   "ts": 1794316361.1443033,
-   "tipo": "Señal",
-   "texto": "pump $INIT",
-   "monedas": [
-    "INIT"
-   ],
-   "url": "https://t.me/LideresCripto/1470"
   }
  ]
 }
