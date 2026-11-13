@@ -1,6 +1,24 @@
 {
- "actualizado": 1794532809.3095393,
+ "actualizado": 1794550814.8788466,
  "avisos": [
+  {
+   "ts": 1794549961.4306276,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1498"
+  },
+  {
+   "ts": 1794548816.7796788,
+   "tipo": "Señal",
+   "texto": "pump $AKE",
+   "monedas": [
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/1497"
+  },
   {
    "ts": 1794530233.5761404,
    "tipo": "Noticias",
@@ -170,22 +188,6 @@
     "INIT"
    ],
    "url": "https://t.me/LideresCripto/1470"
-  },
-  {
-   "ts": 1794271093.3256857,
-   "tipo": "Noticias",
-   "texto": "noticias 09.11 19:38",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1469"
-  },
-  {
-   "ts": 1794258367.222928,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1468"
   }
  ]
 }
