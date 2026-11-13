@@ -1,6 +1,13 @@
 {
- "actualizado": 1794518402.0179145,
+ "actualizado": 1794532809.3095393,
  "avisos": [
+  {
+   "ts": 1794530233.5761404,
+   "tipo": "Noticias",
+   "texto": "noticias 12.11 19:37",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1496"
+  },
   {
    "ts": 1794517459.5661035,
    "tipo": "Señal",
@@ -179,19 +186,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1468"
-  },
-  {
-   "ts": 1794243722.89779,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 09.11",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "JCT",
-    "XRP",
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/1467"
   }
  ]
 }
