@@ -1,6 +1,15 @@
 {
- "actualizado": 1794673205.9543324,
+ "actualizado": 1794691202.4882882,
  "avisos": [
+  {
+   "ts": 1794690320.456485,
+   "tipo": "Señal",
+   "texto": "historia BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1511"
+  },
   {
    "ts": 1794672603.003518,
    "tipo": "Guía",
@@ -183,15 +192,6 @@
     "ARIA"
    ],
    "url": "https://t.me/LideresCripto/1482"
-  },
-  {
-   "ts": 1794387922.4809856,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/1480"
   }
  ]
 }
