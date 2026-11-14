@@ -1,6 +1,13 @@
 {
- "actualizado": 1794666005.0882552,
+ "actualizado": 1794673205.9543324,
  "avisos": [
+  {
+   "ts": 1794672603.003518,
+   "tipo": "Guía",
+   "texto": "cuánto te cuesta entrar",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1510"
+  },
   {
    "ts": 1794665141.066783,
    "tipo": "Señal",
@@ -185,15 +192,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/1480"
-  },
-  {
-   "ts": 1794378544.708227,
-   "tipo": "Señal",
-   "texto": "pump $JCT",
-   "monedas": [
-    "JCT"
-   ],
-   "url": "https://t.me/LideresCripto/1479"
   }
  ]
 }
