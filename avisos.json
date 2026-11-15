@@ -1,6 +1,15 @@
 {
- "actualizado": 1794777615.918841,
+ "actualizado": 1794784818.7320378,
  "avisos": [
+  {
+   "ts": 1794784096.5809548,
+   "tipo": "Resultados",
+   "texto": "análisis BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1520"
+  },
   {
    "ts": 1794776832.8610356,
    "tipo": "Señal",
@@ -175,21 +184,6 @@
    "texto": "revisar el contrato",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1493"
-  },
-  {
-   "ts": 1794489193.2454221,
-   "tipo": "Edición del radar",
-   "texto": "radar 12.11 08:13",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "XRP",
-    "SOL",
-    "XMR",
-    "INIT",
-    "DOGE"
-   ],
-   "url": "https://t.me/LideresCripto/1491"
   }
  ]
 }
