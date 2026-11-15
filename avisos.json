@@ -1,6 +1,15 @@
 {
- "actualizado": 1794748815.0309365,
+ "actualizado": 1794777615.918841,
  "avisos": [
+  {
+   "ts": 1794776832.8610356,
+   "tipo": "Señal",
+   "texto": "historia BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1519"
+  },
   {
    "ts": 1794748392.7780964,
    "tipo": "Edición del radar",
@@ -181,15 +190,6 @@
     "DOGE"
    ],
    "url": "https://t.me/LideresCripto/1491"
-  },
-  {
-   "ts": 1794489026.6220345,
-   "tipo": "Señal",
-   "texto": "liquidaciones $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1490"
   }
  ]
 }
