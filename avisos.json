@@ -1,6 +1,24 @@
 {
- "actualizado": 1794705606.527101,
+ "actualizado": 1794734417.1974466,
  "avisos": [
+  {
+   "ts": 1794733961.1804857,
+   "tipo": "Señal",
+   "texto": "empujón de BTC $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1516"
+  },
+  {
+   "ts": 1794731249.727869,
+   "tipo": "Señal",
+   "texto": "pump $EVAA",
+   "monedas": [
+    "EVAA"
+   ],
+   "url": "https://t.me/LideresCripto/1515"
+  },
   {
    "ts": 1794702681.3963635,
    "tipo": "Noticias",
@@ -169,22 +187,6 @@
     "XMR"
    ],
    "url": "https://t.me/LideresCripto/1488"
-  },
-  {
-   "ts": 1794444156.7645416,
-   "tipo": "Noticias",
-   "texto": "noticias 11.11 19:42",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1487"
-  },
-  {
-   "ts": 1794431352.9665263,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1484"
   }
  ]
 }
