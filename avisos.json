@@ -1,6 +1,19 @@
 {
- "actualizado": 1794846019.6395721,
+ "actualizado": 1794849607.717662,
  "avisos": [
+  {
+   "ts": 1794848765.392717,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 16.11",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "ZEC",
+    "SOL",
+    "XRP"
+   ],
+   "url": "https://t.me/LideresCripto/1531"
+  },
   {
    "ts": 1794845537.5395632,
    "tipo": "Guía",
@@ -176,19 +189,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1502"
-  },
-  {
-   "ts": 1794575234.5319614,
-   "tipo": "Edición del radar",
-   "texto": "radar 13.11 08:07",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "XMR",
-    "BARD",
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/1500"
   }
  ]
 }
