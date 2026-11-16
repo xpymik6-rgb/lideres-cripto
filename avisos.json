@@ -1,6 +1,13 @@
 {
- "actualizado": 1794835208.2826214,
+ "actualizado": 1794846019.6395721,
  "avisos": [
+  {
+   "ts": 1794845537.5395632,
+   "tipo": "Guía",
+   "texto": "volumen sin movimiento",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1530"
+  },
   {
    "ts": 1794834565.5112162,
    "tipo": "Edición del radar",
@@ -182,15 +189,6 @@
     "AKE"
    ],
    "url": "https://t.me/LideresCripto/1500"
-  },
-  {
-   "ts": 1794549961.4306276,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1498"
   }
  ]
 }
