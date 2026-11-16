@@ -1,6 +1,15 @@
 {
- "actualizado": 1794795611.6291635,
+ "actualizado": 1794806413.3917058,
  "avisos": [
+  {
+   "ts": 1794805566.8006587,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/1524"
+  },
   {
    "ts": 1794792786.5543866,
    "tipo": "Resultados",
@@ -175,15 +184,6 @@
    "texto": "noticias 12.11 19:37",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1496"
-  },
-  {
-   "ts": 1794517459.5661035,
-   "tipo": "Señal",
-   "texto": "historia ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/1495"
   }
  ]
 }
