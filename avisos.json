@@ -1,6 +1,15 @@
 {
- "actualizado": 1794849607.717662,
+ "actualizado": 1794864012.3783846,
  "avisos": [
+  {
+   "ts": 1794863349.3983917,
+   "tipo": "Señal",
+   "texto": "historia BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1532"
+  },
   {
    "ts": 1794848765.392717,
    "tipo": "Resultados",
@@ -180,15 +189,6 @@
    "texto": "noticias 13.11 19:41",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1503"
-  },
-  {
-   "ts": 1794603674.1517863,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1502"
   }
  ]
 }
