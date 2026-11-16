@@ -1,6 +1,20 @@
 {
- "actualizado": 1794813609.9694445,
+ "actualizado": 1794835208.2826214,
  "avisos": [
+  {
+   "ts": 1794834565.5112162,
+   "tipo": "Edición del radar",
+   "texto": "radar 16.11 08:09",
+   "monedas": [
+    "BTC",
+    "SOL",
+    "HYPE",
+    "EVAA",
+    "LIT",
+    "AKE"
+   ],
+   "url": "https://t.me/LideresCripto/1527"
+  },
   {
    "ts": 1794810253.0121057,
    "tipo": "Señal",
@@ -177,15 +191,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1498"
-  },
-  {
-   "ts": 1794548816.7796788,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/1497"
   }
  ]
 }
