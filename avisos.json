@@ -1,6 +1,19 @@
 {
- "actualizado": 1794792004.0349624,
+ "actualizado": 1794795611.6291635,
  "avisos": [
+  {
+   "ts": 1794792786.5543866,
+   "tipo": "Resultados",
+   "texto": "resultados semana 15.11",
+   "monedas": [
+    "CRO",
+    "ZRO",
+    "ELSA",
+    "JMDT",
+    "RYO"
+   ],
+   "url": "https://t.me/LideresCripto/1523"
+  },
   {
    "ts": 1794789339.8817925,
    "tipo": "Noticias",
@@ -171,19 +184,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/1495"
-  },
-  {
-   "ts": 1794503015.5281672,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 12.11",
-   "monedas": [
-    "BTC",
-    "NEAR",
-    "ETH",
-    "ZEC",
-    "XRP"
-   ],
-   "url": "https://t.me/LideresCripto/1494"
   }
  ]
 }
