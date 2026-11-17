@@ -1,6 +1,21 @@
 {
- "actualizado": 1794878405.2416408,
+ "actualizado": 1794921608.386276,
  "avisos": [
+  {
+   "ts": 1794920474.380071,
+   "tipo": "Edición del radar",
+   "texto": "radar 17.11 08:01",
+   "monedas": [
+    "ETH",
+    "HYPE",
+    "BTC",
+    "ZEC",
+    "EVAA",
+    "CASHCAT",
+    "KORU"
+   ],
+   "url": "https://t.me/LideresCripto/1535"
+  },
   {
    "ts": 1794876132.6638553,
    "tipo": "Noticias",
@@ -180,15 +195,6 @@
     "AKE"
    ],
    "url": "https://t.me/LideresCripto/1506"
-  },
-  {
-   "ts": 1794647174.4744518,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1504"
   }
  ]
 }
