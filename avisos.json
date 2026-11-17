@@ -1,6 +1,24 @@
 {
- "actualizado": 1794921608.386276,
+ "actualizado": 1794932413.7025778,
  "avisos": [
+  {
+   "ts": 1794930654.4110012,
+   "tipo": "Señal",
+   "texto": "empujón de BTC $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1539"
+  },
+  {
+   "ts": 1794930480.7952294,
+   "tipo": "Señal",
+   "texto": "pump $BREV",
+   "monedas": [
+    "BREV"
+   ],
+   "url": "https://t.me/LideresCripto/1538"
+  },
   {
    "ts": 1794920474.380071,
    "tipo": "Edición del radar",
@@ -174,27 +192,6 @@
    "texto": "cuánto te cuesta entrar",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1510"
-  },
-  {
-   "ts": 1794665141.066783,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1508"
-  },
-  {
-   "ts": 1794662054.89357,
-   "tipo": "Edición del radar",
-   "texto": "radar 14.11 08:14",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/1506"
   }
  ]
 }
