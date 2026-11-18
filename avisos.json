@@ -1,6 +1,22 @@
 {
- "actualizado": 1794982808.8515298,
+ "actualizado": 1795008041.7462416,
  "avisos": [
+  {
+   "ts": 1795007603.6386173,
+   "tipo": "Edición del radar",
+   "texto": "radar 18.11 08:13",
+   "monedas": [
+    "WLD",
+    "DOGE",
+    "BTC",
+    "HYPE",
+    "BREV",
+    "MMT",
+    "ZEC",
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1543"
+  },
   {
    "ts": 1794981959.077391,
    "tipo": "Señal",
@@ -185,15 +201,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1516"
-  },
-  {
-   "ts": 1794731249.727869,
-   "tipo": "Señal",
-   "texto": "pump $EVAA",
-   "monedas": [
-    "EVAA"
-   ],
-   "url": "https://t.me/LideresCripto/1515"
   }
  ]
 }
