@@ -1,6 +1,13 @@
 {
- "actualizado": 1795008041.7462416,
+ "actualizado": 1795018805.246322,
  "avisos": [
+  {
+   "ts": 1795018383.2645254,
+   "tipo": "Guía",
+   "texto": "qué es el funding",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1545"
+  },
   {
    "ts": 1795007603.6386173,
    "tipo": "Edición del radar",
@@ -192,15 +199,6 @@
     "EVAA"
    ],
    "url": "https://t.me/LideresCripto/1517"
-  },
-  {
-   "ts": 1794733961.1804857,
-   "tipo": "Señal",
-   "texto": "empujón de BTC $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1516"
   }
  ]
 }
