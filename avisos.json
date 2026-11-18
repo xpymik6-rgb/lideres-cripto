@@ -1,6 +1,15 @@
 {
- "actualizado": 1795018805.246322,
+ "actualizado": 1795022412.9080505,
  "avisos": [
+  {
+   "ts": 1795018843.7433474,
+   "tipo": "Señal",
+   "texto": "liquidaciones $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1546"
+  },
   {
    "ts": 1795018383.2645254,
    "tipo": "Guía",
@@ -187,18 +196,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1519"
-  },
-  {
-   "ts": 1794748392.7780964,
-   "tipo": "Edición del radar",
-   "texto": "radar 15.11 08:13",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "EVAA"
-   ],
-   "url": "https://t.me/LideresCripto/1517"
   }
  ]
 }
