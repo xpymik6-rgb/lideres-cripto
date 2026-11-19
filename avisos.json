@@ -1,6 +1,19 @@
 {
- "actualizado": 1795105215.2311318,
+ "actualizado": 1795108817.0717235,
  "avisos": [
+  {
+   "ts": 1795107914.650655,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 19.11",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "ETH",
+    "ANT",
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1554"
+  },
   {
    "ts": 1795103113.8950849,
    "tipo": "Señal",
@@ -187,15 +200,6 @@
     "AKE"
    ],
    "url": "https://t.me/LideresCripto/1526"
-  },
-  {
-   "ts": 1794805566.8006587,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $ZEC",
-   "monedas": [
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/1524"
   }
  ]
 }
