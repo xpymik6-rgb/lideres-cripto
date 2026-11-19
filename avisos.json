@@ -1,6 +1,19 @@
 {
- "actualizado": 1795051210.5639849,
+ "actualizado": 1795094402.804016,
  "avisos": [
+  {
+   "ts": 1795093637.130813,
+   "tipo": "Edición del radar",
+   "texto": "radar 19.11 08:07",
+   "monedas": [
+    "BTC",
+    "KORU",
+    "ETH",
+    "PIEVERSE",
+    "MMT"
+   ],
+   "url": "https://t.me/LideresCripto/1551"
+  },
   {
    "ts": 1795048326.8814502,
    "tipo": "Noticias",
@@ -187,13 +200,6 @@
     "RYO"
    ],
    "url": "https://t.me/LideresCripto/1523"
-  },
-  {
-   "ts": 1794789339.8817925,
-   "tipo": "Noticias",
-   "texto": "noticias 15.11 19:35",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1522"
   }
  ]
 }
