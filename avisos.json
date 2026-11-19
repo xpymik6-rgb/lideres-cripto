@@ -1,6 +1,15 @@
 {
- "actualizado": 1795094402.804016,
+ "actualizado": 1795105215.2311318,
  "avisos": [
+  {
+   "ts": 1795103113.8950849,
+   "tipo": "Señal",
+   "texto": "$20.0 M en USDT salen de Bybit",
+   "monedas": [
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/1553"
+  },
   {
    "ts": 1795093637.130813,
    "tipo": "Edición del radar",
@@ -187,19 +196,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/1524"
-  },
-  {
-   "ts": 1794792786.5543866,
-   "tipo": "Resultados",
-   "texto": "resultados semana 15.11",
-   "monedas": [
-    "CRO",
-    "ZRO",
-    "ELSA",
-    "JMDT",
-    "RYO"
-   ],
-   "url": "https://t.me/LideresCripto/1523"
   }
  ]
 }
