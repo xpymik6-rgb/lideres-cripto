@@ -1,6 +1,24 @@
 {
- "actualizado": 1795108817.0717235,
+ "actualizado": 1795123211.8342743,
  "avisos": [
+  {
+   "ts": 1795122790.1624522,
+   "tipo": "Señal",
+   "texto": "historia BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1557"
+  },
+  {
+   "ts": 1795122351.4803703,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1555"
+  },
   {
    "ts": 1795107914.650655,
    "tipo": "Resultados",
@@ -177,29 +195,6 @@
    "texto": "volumen sin movimiento",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1530"
-  },
-  {
-   "ts": 1794834565.5112162,
-   "tipo": "Edición del radar",
-   "texto": "radar 16.11 08:09",
-   "monedas": [
-    "BTC",
-    "SOL",
-    "HYPE",
-    "EVAA",
-    "LIT",
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/1527"
-  },
-  {
-   "ts": 1794810253.0121057,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/1526"
   }
  ]
 }
