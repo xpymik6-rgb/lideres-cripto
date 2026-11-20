@@ -1,6 +1,13 @@
 {
- "actualizado": 1795180818.1464212,
+ "actualizado": 1795191618.6148307,
  "avisos": [
+  {
+   "ts": 1795191095.568275,
+   "tipo": "Guía",
+   "texto": "qué es el interés abierto",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1563"
+  },
   {
    "ts": 1795180165.4398549,
    "tipo": "Edición del radar",
@@ -182,21 +189,6 @@
     "BREV"
    ],
    "url": "https://t.me/LideresCripto/1538"
-  },
-  {
-   "ts": 1794920474.380071,
-   "tipo": "Edición del radar",
-   "texto": "radar 17.11 08:01",
-   "monedas": [
-    "ETH",
-    "HYPE",
-    "BTC",
-    "ZEC",
-    "EVAA",
-    "CASHCAT",
-    "KORU"
-   ],
-   "url": "https://t.me/LideresCripto/1535"
   }
  ]
 }
