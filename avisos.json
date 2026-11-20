@@ -1,6 +1,19 @@
 {
- "actualizado": 1795170006.0794086,
+ "actualizado": 1795180818.1464212,
  "avisos": [
+  {
+   "ts": 1795180165.4398549,
+   "tipo": "Edición del radar",
+   "texto": "radar 20.11 08:09",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "AKE",
+    "IRYS",
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/1561"
+  },
   {
    "ts": 1795168437.8704631,
    "tipo": "Señal",
@@ -184,13 +197,6 @@
     "KORU"
    ],
    "url": "https://t.me/LideresCripto/1535"
-  },
-  {
-   "ts": 1794876132.6638553,
-   "tipo": "Noticias",
-   "texto": "noticias 16.11 19:42",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1534"
   }
  ]
 }
