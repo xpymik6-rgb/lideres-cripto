@@ -1,6 +1,13 @@
 {
- "actualizado": 1795123211.8342743,
+ "actualizado": 1795137616.9106696,
  "avisos": [
+  {
+   "ts": 1795135044.734782,
+   "tipo": "Noticias",
+   "texto": "noticias 19.11 19:37",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1558"
+  },
   {
    "ts": 1795122790.1624522,
    "tipo": "Señal",
@@ -188,13 +195,6 @@
     "XRP"
    ],
    "url": "https://t.me/LideresCripto/1531"
-  },
-  {
-   "ts": 1794845537.5395632,
-   "tipo": "Guía",
-   "texto": "volumen sin movimiento",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1530"
   }
  ]
 }
