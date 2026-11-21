@@ -1,6 +1,13 @@
 {
- "actualizado": 1795209619.8276536,
+ "actualizado": 1795224017.0849423,
  "avisos": [
+  {
+   "ts": 1795221794.6556823,
+   "tipo": "Noticias",
+   "texto": "noticias 20.11 19:43",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1565"
+  },
   {
    "ts": 1795208896.7876368,
    "tipo": "Señal",
@@ -180,15 +187,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1540"
-  },
-  {
-   "ts": 1794930654.4110012,
-   "tipo": "Señal",
-   "texto": "empujón de BTC $ETH",
-   "monedas": [
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1539"
   }
  ]
 }
