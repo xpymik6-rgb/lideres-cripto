@@ -1,6 +1,15 @@
 {
- "actualizado": 1795267213.5375545,
+ "actualizado": 1795296018.950234,
  "avisos": [
+  {
+   "ts": 1795294996.5251958,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1573"
+  },
   {
    "ts": 1795266450.4516876,
    "tipo": "Edición del radar",
@@ -177,22 +186,6 @@
    "texto": "qué es el funding",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1545"
-  },
-  {
-   "ts": 1795007603.6386173,
-   "tipo": "Edición del radar",
-   "texto": "radar 18.11 08:13",
-   "monedas": [
-    "WLD",
-    "DOGE",
-    "BTC",
-    "HYPE",
-    "BREV",
-    "MMT",
-    "ZEC",
-    "ETH"
-   ],
-   "url": "https://t.me/LideresCripto/1543"
   }
  ]
 }
