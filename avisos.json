@@ -1,6 +1,15 @@
 {
- "actualizado": 1795382404.9740696,
+ "actualizado": 1795389610.6453307,
  "avisos": [
+  {
+   "ts": 1795388768.4861913,
+   "tipo": "Resultados",
+   "texto": "análisis SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/1581"
+  },
   {
    "ts": 1795381262.386392,
    "tipo": "Señal",
@@ -173,19 +182,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1555"
-  },
-  {
-   "ts": 1795107914.650655,
-   "tipo": "Resultados",
-   "texto": "vitrina Pro 19.11",
-   "monedas": [
-    "BTC",
-    "ZEC",
-    "ETH",
-    "ANT",
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1554"
   }
  ]
 }
