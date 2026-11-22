@@ -1,6 +1,13 @@
 {
- "actualizado": 1795296018.950234,
+ "actualizado": 1795310404.160277,
  "avisos": [
+  {
+   "ts": 1795307959.8381364,
+   "tipo": "Noticias",
+   "texto": "noticias 21.11 19:39",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1574"
+  },
   {
    "ts": 1795294996.5251958,
    "tipo": "Señal",
@@ -179,13 +186,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1546"
-  },
-  {
-   "ts": 1795018383.2645254,
-   "tipo": "Guía",
-   "texto": "qué es el funding",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1545"
   }
  ]
 }
