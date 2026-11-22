@@ -1,6 +1,13 @@
 {
- "actualizado": 1795353621.7336683,
+ "actualizado": 1795364419.40708,
  "avisos": [
+  {
+   "ts": 1795363816.8006184,
+   "tipo": "Guía",
+   "texto": "qué son las liquidaciones",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1579"
+  },
   {
    "ts": 1795352838.2718303,
    "tipo": "Edición del radar",
@@ -179,19 +186,6 @@
     "USDT"
    ],
    "url": "https://t.me/LideresCripto/1553"
-  },
-  {
-   "ts": 1795093637.130813,
-   "tipo": "Edición del radar",
-   "texto": "radar 19.11 08:07",
-   "monedas": [
-    "BTC",
-    "KORU",
-    "ETH",
-    "PIEVERSE",
-    "MMT"
-   ],
-   "url": "https://t.me/LideresCripto/1551"
   }
  ]
 }
