@@ -1,6 +1,15 @@
 {
- "actualizado": 1795310404.160277,
+ "actualizado": 1795339204.9231431,
  "avisos": [
+  {
+   "ts": 1795336706.8872619,
+   "tipo": "Señal",
+   "texto": "pump $PIEVERSE",
+   "monedas": [
+    "PIEVERSE"
+   ],
+   "url": "https://t.me/LideresCripto/1575"
+  },
   {
    "ts": 1795307959.8381364,
    "tipo": "Noticias",
@@ -177,15 +186,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1547"
-  },
-  {
-   "ts": 1795018843.7433474,
-   "tipo": "Señal",
-   "texto": "liquidaciones $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1546"
   }
  ]
 }
