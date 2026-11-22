@@ -1,6 +1,15 @@
 {
- "actualizado": 1795339204.9231431,
+ "actualizado": 1795346403.7536922,
  "avisos": [
+  {
+   "ts": 1795342835.3939118,
+   "tipo": "Señal",
+   "texto": "pump $EVAA",
+   "monedas": [
+    "EVAA"
+   ],
+   "url": "https://t.me/LideresCripto/1576"
+  },
   {
    "ts": 1795336706.8872619,
    "tipo": "Señal",
@@ -177,15 +186,6 @@
    "texto": "noticias 18.11 19:32",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1550"
-  },
-  {
-   "ts": 1795036092.5451117,
-   "tipo": "Señal",
-   "texto": "historia HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1547"
   }
  ]
 }
