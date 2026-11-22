@@ -1,6 +1,19 @@
 {
- "actualizado": 1795346403.7536922,
+ "actualizado": 1795353621.7336683,
  "avisos": [
+  {
+   "ts": 1795352838.2718303,
+   "tipo": "Edición del radar",
+   "texto": "radar 22.11 08:07",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "PIEVERSE",
+    "EVAA"
+   ],
+   "url": "https://t.me/LideresCripto/1577"
+  },
   {
    "ts": 1795342835.3939118,
    "tipo": "Señal",
@@ -179,13 +192,6 @@
     "MMT"
    ],
    "url": "https://t.me/LideresCripto/1551"
-  },
-  {
-   "ts": 1795048326.8814502,
-   "tipo": "Noticias",
-   "texto": "noticias 18.11 19:32",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1550"
   }
  ]
 }
