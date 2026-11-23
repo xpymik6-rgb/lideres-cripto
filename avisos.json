@@ -1,6 +1,18 @@
 {
- "actualizado": 1795396812.7042816,
+ "actualizado": 1795400420.7754302,
  "avisos": [
+  {
+   "ts": 1795397596.270623,
+   "tipo": "Resultados",
+   "texto": "resultados semana 22.11",
+   "monedas": [
+    "MON",
+    "XPL",
+    "GT",
+    "GRVT"
+   ],
+   "url": "https://t.me/LideresCripto/1584"
+  },
   {
    "ts": 1795393946.7380788,
    "tipo": "Noticias",
@@ -171,15 +183,6 @@
    "texto": "noticias 19.11 19:37",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1558"
-  },
-  {
-   "ts": 1795122790.1624522,
-   "tipo": "Señal",
-   "texto": "historia BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1557"
   }
  ]
 }
