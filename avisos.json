@@ -1,6 +1,20 @@
 {
- "actualizado": 1795436405.4890854,
+ "actualizado": 1795440007.982249,
  "avisos": [
+  {
+   "ts": 1795438965.2678525,
+   "tipo": "Edición del radar",
+   "texto": "radar 23.11 08:02",
+   "monedas": [
+    "BTC",
+    "ETH",
+    "HYPE",
+    "EVAA",
+    "BLESS",
+    "USDT"
+   ],
+   "url": "https://t.me/LideresCripto/1587"
+  },
   {
    "ts": 1795435577.2616296,
    "tipo": "Señal",
@@ -176,15 +190,6 @@
     "AKE"
    ],
    "url": "https://t.me/LideresCripto/1560"
-  },
-  {
-   "ts": 1795160301.0348501,
-   "tipo": "Señal",
-   "texto": "$91.1 M en USDC entran en Gate.io",
-   "monedas": [
-    "USDC"
-   ],
-   "url": "https://t.me/LideresCripto/1559"
   }
  ]
 }
