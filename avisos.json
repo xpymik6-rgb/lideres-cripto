@@ -1,6 +1,15 @@
 {
- "actualizado": 1795440007.982249,
+ "actualizado": 1795443615.603485,
  "avisos": [
+  {
+   "ts": 1795442247.0435538,
+   "tipo": "Señal",
+   "texto": "liquidaciones $SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/1589"
+  },
   {
    "ts": 1795438965.2678525,
    "tipo": "Edición del radar",
@@ -181,15 +190,6 @@
     "ZEC"
    ],
    "url": "https://t.me/LideresCripto/1561"
-  },
-  {
-   "ts": 1795168437.8704631,
-   "tipo": "Señal",
-   "texto": "pump $AKE",
-   "monedas": [
-    "AKE"
-   ],
-   "url": "https://t.me/LideresCripto/1560"
   }
  ]
 }
