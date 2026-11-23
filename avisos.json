@@ -1,6 +1,19 @@
 {
- "actualizado": 1795443615.603485,
+ "actualizado": 1795454419.5749242,
  "avisos": [
+  {
+   "ts": 1795453697.471724,
+   "tipo": "Resultados",
+   "texto": "vitrina Pro 23.11",
+   "monedas": [
+    "ZEC",
+    "BTC",
+    "SOL",
+    "ETH",
+    "XRP"
+   ],
+   "url": "https://t.me/LideresCripto/1594"
+  },
   {
    "ts": 1795442247.0435538,
    "tipo": "Señal",
@@ -177,19 +190,6 @@
    "texto": "qué es el interés abierto",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1563"
-  },
-  {
-   "ts": 1795180165.4398549,
-   "tipo": "Edición del radar",
-   "texto": "radar 20.11 08:09",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "AKE",
-    "IRYS",
-    "ZEC"
-   ],
-   "url": "https://t.me/LideresCripto/1561"
   }
  ]
 }
