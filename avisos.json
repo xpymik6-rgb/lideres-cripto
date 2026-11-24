@@ -1,6 +1,19 @@
 {
- "actualizado": 1795497621.3649094,
+ "actualizado": 1795526415.0979123,
  "avisos": [
+  {
+   "ts": 1795525572.2063768,
+   "tipo": "Edición del radar",
+   "texto": "radar 24.11 08:06",
+   "monedas": [
+    "ETH",
+    "BTC",
+    "HYPE",
+    "SOL",
+    "BLESS"
+   ],
+   "url": "https://t.me/LideresCripto/1600"
+  },
   {
    "ts": 1795496842.3488655,
    "tipo": "Señal",
@@ -183,15 +196,6 @@
     "XRP"
    ],
    "url": "https://t.me/LideresCripto/1569"
-  },
-  {
-   "ts": 1795241799.8815913,
-   "tipo": "Señal",
-   "texto": "liquidaciones $XRP",
-   "monedas": [
-    "XRP"
-   ],
-   "url": "https://t.me/LideresCripto/1568"
   }
  ]
 }
