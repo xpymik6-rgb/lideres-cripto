@@ -1,6 +1,24 @@
 {
- "actualizado": 1795483218.761656,
+ "actualizado": 1795497621.3649094,
  "avisos": [
+  {
+   "ts": 1795496842.3488655,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1598"
+  },
+  {
+   "ts": 1795496840.6523044,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1597"
+  },
   {
    "ts": 1795480574.7345104,
    "tipo": "Noticias",
@@ -174,22 +192,6 @@
     "XRP"
    ],
    "url": "https://t.me/LideresCripto/1568"
-  },
-  {
-   "ts": 1795237532.7222507,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $BTC",
-   "monedas": [
-    "BTC"
-   ],
-   "url": "https://t.me/LideresCripto/1566"
-  },
-  {
-   "ts": 1795221794.6556823,
-   "tipo": "Noticias",
-   "texto": "noticias 20.11 19:43",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1565"
   }
  ]
 }
