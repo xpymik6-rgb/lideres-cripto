@@ -1,6 +1,15 @@
 {
- "actualizado": 1795638008.560007,
+ "actualizado": 1795641618.5024574,
  "avisos": [
+  {
+   "ts": 1795641136.392327,
+   "tipo": "Señal",
+   "texto": "historia ETH",
+   "monedas": [
+    "ETH"
+   ],
+   "url": "https://t.me/LideresCripto/1613"
+  },
   {
    "ts": 1795634579.7033563,
    "tipo": "Señal",
@@ -185,13 +194,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1580"
-  },
-  {
-   "ts": 1795363816.8006184,
-   "tipo": "Guía",
-   "texto": "qué son las liquidaciones",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1579"
   }
  ]
 }
