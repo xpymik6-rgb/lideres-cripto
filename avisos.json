@@ -1,6 +1,15 @@
 {
- "actualizado": 1795612803.1115825,
+ "actualizado": 1795627217.570333,
  "avisos": [
+  {
+   "ts": 1795626347.6445286,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $BTC",
+   "monedas": [
+    "BTC"
+   ],
+   "url": "https://t.me/LideresCripto/1610"
+  },
   {
    "ts": 1795612460.7374704,
    "tipo": "Edición del radar",
@@ -187,15 +196,6 @@
     "EVAA"
    ],
    "url": "https://t.me/LideresCripto/1577"
-  },
-  {
-   "ts": 1795342835.3939118,
-   "tipo": "Señal",
-   "texto": "pump $EVAA",
-   "monedas": [
-    "EVAA"
-   ],
-   "url": "https://t.me/LideresCripto/1576"
   }
  ]
 }
