@@ -1,6 +1,15 @@
 {
- "actualizado": 1795627217.570333,
+ "actualizado": 1795638008.560007,
  "avisos": [
+  {
+   "ts": 1795634579.7033563,
+   "tipo": "Señal",
+   "texto": "liquidaciones $SOL",
+   "monedas": [
+    "SOL"
+   ],
+   "url": "https://t.me/LideresCripto/1612"
+  },
   {
    "ts": 1795626347.6445286,
    "tipo": "Señal",
@@ -183,19 +192,6 @@
    "texto": "qué son las liquidaciones",
    "monedas": [],
    "url": "https://t.me/LideresCripto/1579"
-  },
-  {
-   "ts": 1795352838.2718303,
-   "tipo": "Edición del radar",
-   "texto": "radar 22.11 08:07",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "PIEVERSE",
-    "EVAA"
-   ],
-   "url": "https://t.me/LideresCripto/1577"
   }
  ]
 }
