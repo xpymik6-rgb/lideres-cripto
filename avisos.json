@@ -1,6 +1,13 @@
 {
- "actualizado": 1795555213.1847498,
+ "actualizado": 1795569614.259264,
  "avisos": [
+  {
+   "ts": 1795567451.4370732,
+   "tipo": "Noticias",
+   "texto": "noticias 24.11 19:44",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1604"
+  },
   {
    "ts": 1795554490.8229606,
    "tipo": "Señal",
@@ -183,13 +190,6 @@
     "PIEVERSE"
    ],
    "url": "https://t.me/LideresCripto/1575"
-  },
-  {
-   "ts": 1795307959.8381364,
-   "tipo": "Noticias",
-   "texto": "noticias 21.11 19:39",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1574"
   }
  ]
 }
