@@ -1,6 +1,21 @@
 {
- "actualizado": 1795569614.259264,
+ "actualizado": 1795612803.1115825,
  "avisos": [
+  {
+   "ts": 1795612460.7374704,
+   "tipo": "Edición del radar",
+   "texto": "radar 25.11 08:14",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "ETH",
+    "VVV",
+    "SNXX",
+    "MON",
+    "BLESS"
+   ],
+   "url": "https://t.me/LideresCripto/1605"
+  },
   {
    "ts": 1795567451.4370732,
    "tipo": "Noticias",
@@ -181,15 +196,6 @@
     "EVAA"
    ],
    "url": "https://t.me/LideresCripto/1576"
-  },
-  {
-   "ts": 1795336706.8872619,
-   "tipo": "Señal",
-   "texto": "pump $PIEVERSE",
-   "monedas": [
-    "PIEVERSE"
-   ],
-   "url": "https://t.me/LideresCripto/1575"
   }
  ]
 }
