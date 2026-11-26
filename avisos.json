@@ -1,6 +1,15 @@
 {
- "actualizado": 1795713606.7309268,
+ "actualizado": 1795717214.4738615,
  "avisos": [
+  {
+   "ts": 1795717206.401752,
+   "tipo": "Señal",
+   "texto": "pump $MMT",
+   "monedas": [
+    "MMT"
+   ],
+   "url": "https://t.me/LideresCripto/1623"
+  },
   {
    "ts": 1795712583.8956888,
    "tipo": "Resultados",
@@ -184,20 +193,6 @@
     "SOL"
    ],
    "url": "https://t.me/LideresCripto/1589"
-  },
-  {
-   "ts": 1795438965.2678525,
-   "tipo": "Edición del radar",
-   "texto": "radar 23.11 08:02",
-   "monedas": [
-    "BTC",
-    "ETH",
-    "HYPE",
-    "EVAA",
-    "BLESS",
-    "USDT"
-   ],
-   "url": "https://t.me/LideresCripto/1587"
   }
  ]
 }
