@@ -1,6 +1,22 @@
 {
- "actualizado": 1795699209.6535614,
+ "actualizado": 1795710019.1127932,
  "avisos": [
+  {
+   "ts": 1795709475.8822162,
+   "tipo": "Guía",
+   "texto": "qué es un desbloqueo",
+   "monedas": [],
+   "url": "https://t.me/LideresCripto/1621"
+  },
+  {
+   "ts": 1795709121.8002436,
+   "tipo": "Señal",
+   "texto": "acuerdo de líderes $ZEC",
+   "monedas": [
+    "ZEC"
+   ],
+   "url": "https://t.me/LideresCripto/1619"
+  },
   {
    "ts": 1795698486.9257624,
    "tipo": "Edición del radar",
@@ -178,25 +194,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1585"
-  },
-  {
-   "ts": 1795397596.270623,
-   "tipo": "Resultados",
-   "texto": "resultados semana 22.11",
-   "monedas": [
-    "MON",
-    "XPL",
-    "GT",
-    "GRVT"
-   ],
-   "url": "https://t.me/LideresCripto/1584"
-  },
-  {
-   "ts": 1795393946.7380788,
-   "tipo": "Noticias",
-   "texto": "noticias 22.11 19:32",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1583"
   }
  ]
 }
