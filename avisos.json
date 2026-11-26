@@ -1,6 +1,15 @@
 {
- "actualizado": 1795717214.4738615,
+ "actualizado": 1795728015.1329134,
  "avisos": [
+  {
+   "ts": 1795727052.4516084,
+   "tipo": "Señal",
+   "texto": "historia HYPE",
+   "monedas": [
+    "HYPE"
+   ],
+   "url": "https://t.me/LideresCripto/1624"
+  },
   {
    "ts": 1795717206.401752,
    "tipo": "Señal",
@@ -184,15 +193,6 @@
     "XRP"
    ],
    "url": "https://t.me/LideresCripto/1594"
-  },
-  {
-   "ts": 1795442247.0435538,
-   "tipo": "Señal",
-   "texto": "liquidaciones $SOL",
-   "monedas": [
-    "SOL"
-   ],
-   "url": "https://t.me/LideresCripto/1589"
   }
  ]
 }
