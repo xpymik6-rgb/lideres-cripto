@@ -1,6 +1,21 @@
 {
- "actualizado": 1795764008.4867668,
+ "actualizado": 1795785613.79806,
  "avisos": [
+  {
+   "ts": 1795784830.813877,
+   "tipo": "Edición del radar",
+   "texto": "radar 27.11 08:07",
+   "monedas": [
+    "BTC",
+    "ZEC",
+    "HYPE",
+    "INIT",
+    "XMR",
+    "ETH",
+    "MMT"
+   ],
+   "url": "https://t.me/LideresCripto/1629"
+  },
   {
    "ts": 1795763317.725052,
    "tipo": "Señal",
@@ -180,15 +195,6 @@
     "ETH"
    ],
    "url": "https://t.me/LideresCripto/1598"
-  },
-  {
-   "ts": 1795496840.6523044,
-   "tipo": "Señal",
-   "texto": "acuerdo de líderes $HYPE",
-   "monedas": [
-    "HYPE"
-   ],
-   "url": "https://t.me/LideresCripto/1597"
   }
  ]
 }
