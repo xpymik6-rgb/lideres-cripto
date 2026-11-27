@@ -1,6 +1,15 @@
 {
- "actualizado": 1795756802.3125145,
+ "actualizado": 1795764008.4867668,
  "avisos": [
+  {
+   "ts": 1795763317.725052,
+   "tipo": "Señal",
+   "texto": "tres confirmaciones $XMR",
+   "monedas": [
+    "XMR"
+   ],
+   "url": "https://t.me/LideresCripto/1628"
+  },
   {
    "ts": 1795755920.9788823,
    "tipo": "Señal",
@@ -180,13 +189,6 @@
     "HYPE"
    ],
    "url": "https://t.me/LideresCripto/1597"
-  },
-  {
-   "ts": 1795480574.7345104,
-   "tipo": "Noticias",
-   "texto": "noticias 23.11 19:36",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1596"
   }
  ]
 }
