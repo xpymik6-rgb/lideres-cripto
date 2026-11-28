@@ -1,6 +1,15 @@
 {
- "actualizado": 1795828804.6758814,
+ "actualizado": 1795861208.5963495,
  "avisos": [
+  {
+   "ts": 1795858328.11967,
+   "tipo": "Señal",
+   "texto": "pump $EVAA",
+   "monedas": [
+    "EVAA"
+   ],
+   "url": "https://t.me/LideresCripto/1635"
+  },
   {
    "ts": 1795826181.1069798,
    "tipo": "Noticias",
@@ -182,13 +191,6 @@
     "BTC"
    ],
    "url": "https://t.me/LideresCripto/1603"
-  },
-  {
-   "ts": 1795536549.4593804,
-   "tipo": "Guía",
-   "texto": "cómo leemos a los líderes",
-   "monedas": [],
-   "url": "https://t.me/LideresCripto/1602"
   }
  ]
 }
